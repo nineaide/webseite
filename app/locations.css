@@ -1,0 +1,138 @@
+.locations-area {
+  margin-top: 44px;
+  color: var(--ink);
+}
+.locations-card {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) 260px;
+  grid-template-areas:
+    'heading map'
+    'copy map';
+  gap: 14px 40px;
+  padding: 18px 44px;
+  border-radius: 28px;
+  background: #fff;
+}
+.work-area .locations-card {
+  background: var(--ice);
+}
+.locations-heading {
+  grid-area: heading;
+  min-width: 0;
+  align-self: end;
+  overflow-wrap: anywhere;
+}
+.figma-site .locations-heading .eyebrow {
+  margin: 0 0 14px;
+  color: var(--blue);
+  font-size: 0.875rem;
+}
+.figma-site .locations-heading h2 {
+  margin: 0;
+  font-size: clamp(1.75rem, 3.1vw, 2.5rem);
+  line-height: 1.1;
+}
+.locations-heading h2 span {
+  display: inline-block;
+}
+.figma-site .locations-copy {
+  grid-area: copy;
+  align-self: start;
+  max-width: 40ch;
+  margin: 0;
+  color: var(--muted);
+  font-size: 1rem;
+  line-height: 1.55;
+}
+.locations-map {
+  grid-area: map;
+  position: relative;
+  align-self: center;
+  width: 100%;
+  aspect-ratio: 1;
+  pointer-events: none;
+}
+.locations-map img {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+.locations-marker {
+  position: absolute;
+  left: var(--location-x);
+  top: var(--location-y);
+  width: 0;
+  height: 0;
+}
+.locations-dot {
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background: var(--blue);
+  box-shadow:
+    0 0 0 4px #fff,
+    0 0 0 9px #0a4fd81a;
+  transform: translate(-50%, -50%);
+}
+.locations-label {
+  position: absolute;
+  top: 0;
+  left: 15px;
+  padding: 5px 9px;
+  border-radius: 8px;
+  background: #fff;
+  box-shadow: 0 4px 14px #0a338e12;
+  color: var(--ink);
+  font-size: 0.875rem;
+  font-weight: 700;
+  line-height: 1.2;
+  white-space: nowrap;
+  transform: translateY(-50%);
+}
+@media (max-width: 900px) {
+  .locations-card {
+    grid-template-columns: minmax(0, 1fr) 220px;
+    column-gap: 24px;
+    padding-inline: 28px;
+  }
+}
+@media (max-width: 640px) {
+  .locations-area {
+    margin-top: 32px;
+  }
+  .locations-card {
+    grid-template-columns: minmax(0, 1fr) minmax(0, 40%);
+    grid-template-areas:
+      'heading map'
+      'copy copy';
+    gap: 18px 12px;
+    padding: 24px;
+    border-radius: 22px;
+  }
+  .locations-heading {
+    align-self: center;
+  }
+  .figma-site .locations-heading .eyebrow {
+    font-size: 0.875rem;
+    letter-spacing: 0.06em;
+    margin-bottom: 12px;
+  }
+  .figma-site .locations-heading h2 {
+    font-size: clamp(1.5rem, 6.3vw, 2rem);
+    line-height: 1.15;
+  }
+  .locations-heading h2 span {
+    display: block;
+  }
+  .locations-label {
+    display: none;
+  }
+  .locations-dot {
+    width: 7px;
+    height: 7px;
+    box-shadow:
+      0 0 0 3px #fff,
+      0 0 0 6px #0a4fd81a;
+  }
+}

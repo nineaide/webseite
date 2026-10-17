@@ -1,0 +1,272 @@
+[
+  {
+    "width": 320,
+    "path": "/",
+    "fonts": [
+      "\"Cabinet Grotesk\", Arial, sans-serif"
+    ],
+    "overflow": [],
+    "scroll": 320
+  },
+  {
+    "width": 320,
+    "path": "/projekte",
+    "fonts": [
+      "\"Cabinet Grotesk\", Arial, sans-serif"
+    ],
+    "overflow": [],
+    "scroll": 320
+  },
+  {
+    "width": 320,
+    "path": "/pakete",
+    "fonts": [
+      "\"Cabinet Grotesk\", Arial, sans-serif"
+    ],
+    "overflow": [],
+    "scroll": 320
+  },
+  {
+    "width": 320,
+    "path": "/checkout/nine-launch",
+    "fonts": [
+      "\"Cabinet Grotesk\", Arial, sans-serif"
+    ],
+    "overflow": [],
+    "scroll": 320
+  },
+  {
+    "width": 320,
+    "path": "/projekt-starten",
+    "fonts": [
+      "\"Cabinet Grotesk\", Arial, sans-serif"
+    ],
+    "overflow": [],
+    "scroll": 320
+  },
+  {
+    "width": 320,
+    "path": "/loesungen",
+    "fonts": [
+      "\"Cabinet Grotesk\", Arial, sans-serif"
+    ],
+    "overflow": [],
+    "scroll": 320
+  },
+  {
+    "width": 390,
+    "path": "/",
+    "fonts": [
+      "\"Cabinet Grotesk\", Arial, sans-serif"
+    ],
+    "overflow": [],
+    "scroll": 390
+  },
+  {
+    "width": 390,
+    "path": "/projekte",
+    "fonts": [
+      "\"Cabinet Grotesk\", Arial, sans-serif"
+    ],
+    "overflow": [],
+    "scroll": 390
+  },
+  {
+    "width": 390,
+    "path": "/pakete",
+    "fonts": [
+      "\"Cabinet Grotesk\", Arial, sans-serif"
+    ],
+    "overflow": [],
+    "scroll": 390
+  },
+  {
+    "width": 390,
+    "path": "/checkout/nine-launch",
+    "fonts": [
+      "\"Cabinet Grotesk\", Arial, sans-serif"
+    ],
+    "overflow": [],
+    "scroll": 390
+  },
+  {
+    "width": 390,
+    "path": "/projekt-starten",
+    "fonts": [
+      "\"Cabinet Grotesk\", Arial, sans-serif"
+    ],
+    "overflow": [],
+    "scroll": 390
+  },
+  {
+    "width": 390,
+    "path": "/loesungen",
+    "fonts": [
+      "\"Cabinet Grotesk\", Arial, sans-serif"
+    ],
+    "overflow": [],
+    "scroll": 390
+  },
+  {
+    "width": 768,
+    "path": "/",
+    "fonts": [
+      "\"Cabinet Grotesk\", Arial, sans-serif"
+    ],
+    "overflow": [],
+    "scroll": 768
+  },
+  {
+    "width": 768,
+    "path": "/projekte",
+    "fonts": [
+      "\"Cabinet Grotesk\", Arial, sans-serif"
+    ],
+    "overflow": [],
+    "scroll": 768
+  },
+  {
+    "width": 768,
+    "path": "/pakete",
+    "fonts": [
+      "\"Cabinet Grotesk\", Arial, sans-serif"
+    ],
+    "overflow": [],
+    "scroll": 768
+  },
+  {
+    "width": 768,
+    "path": "/checkout/nine-launch",
+    "fonts": [
+      "\"Cabinet Grotesk\", Arial, sans-serif"
+    ],
+    "overflow": [],
+    "scroll": 768
+  },
+  {
+    "width": 768,
+    "path": "/projekt-starten",
+    "fonts": [
+      "\"Cabinet Grotesk\", Arial, sans-serif"
+    ],
+    "overflow": [],
+    "scroll": 768
+  },
+  {
+    "width": 768,
+    "path": "/loesungen",
+    "fonts": [
+      "\"Cabinet Grotesk\", Arial, sans-serif"
+    ],
+    "overflow": [],
+    "scroll": 768
+  },
+  {
+    "width": 1024,
+    "path": "/",
+    "fonts": [
+      "\"Cabinet Grotesk\", Arial, sans-serif"
+    ],
+    "overflow": [],
+    "scroll": 1024
+  },
+  {
+    "width": 1024,
+    "path": "/projekte",
+    "fonts": [
+      "\"Cabinet Grotesk\", Arial, sans-serif"
+    ],
+    "overflow": [],
+    "scroll": 1024
+  },
+  {
+    "width": 1024,
+    "path": "/pakete",
+    "fonts": [
+      "\"Cabinet Grotesk\", Arial, sans-serif"
+    ],
+    "overflow": [],
+    "scroll": 1024
+  },
+  {
+    "width": 1024,
+    "path": "/checkout/nine-launch",
+    "fonts": [
+      "\"Cabinet Grotesk\", Arial, sans-serif"
+    ],
+    "overflow": [],
+    "scroll": 1024
+  },
+  {
+    "width": 1024,
+    "path": "/projekt-starten",
+    "fonts": [
+      "\"Cabinet Grotesk\", Arial, sans-serif"
+    ],
+    "overflow": [],
+    "scroll": 1024
+  },
+  {
+    "width": 1024,
+    "path": "/loesungen",
+    "fonts": [
+      "\"Cabinet Grotesk\", Arial, sans-serif"
+    ],
+    "overflow": [],
+    "scroll": 1024
+  },
+  {
+    "width": 1440,
+    "path": "/",
+    "fonts": [
+      "\"Cabinet Grotesk\", Arial, sans-serif"
+    ],
+    "overflow": [],
+    "scroll": 1440
+  },
+  {
+    "width": 1440,
+    "path": "/projekte",
+    "fonts": [
+      "\"Cabinet Grotesk\", Arial, sans-serif"
+    ],
+    "overflow": [],
+    "scroll": 1440
+  },
+  {
+    "width": 1440,
+    "path": "/pakete",
+    "fonts": [
+      "\"Cabinet Grotesk\", Arial, sans-serif"
+    ],
+    "overflow": [],
+    "scroll": 1440
+  },
+  {
+    "width": 1440,
+    "path": "/checkout/nine-launch",
+    "fonts": [
+      "\"Cabinet Grotesk\", Arial, sans-serif"
+    ],
+    "overflow": [],
+    "scroll": 1440
+  },
+  {
+    "width": 1440,
+    "path": "/projekt-starten",
+    "fonts": [
+      "\"Cabinet Grotesk\", Arial, sans-serif"
+    ],
+    "overflow": [],
+    "scroll": 1440
+  },
+  {
+    "width": 1440,
+    "path": "/loesungen",
+    "fonts": [
+      "\"Cabinet Grotesk\", Arial, sans-serif"
+    ],
+    "overflow": [],
+    "scroll": 1440
+  }
+]

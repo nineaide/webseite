@@ -1,0 +1,250 @@
+{
+  "checkedAt": "2026-09-08T01:40:40.356Z",
+  "sample": [
+    "/",
+    "/website-erstellen-lassen",
+    "/google-ads-growth",
+    "/projekte/parkesicher",
+    "/wissen/was-kostet-eine-website"
+  ],
+  "records": [
+    {
+      "path": "/_next/static/css/index.DC2iexbI.css",
+      "status": 200,
+      "type": "text/css",
+      "cache": "public, max-age=0, must-revalidate",
+      "valid": true
+    },
+    {
+      "path": "/_next/static/css/team-intro.ClkbbI8t.css",
+      "status": 200,
+      "type": "text/css",
+      "cache": "public, max-age=0, must-revalidate",
+      "valid": true
+    },
+    {
+      "path": "/_next/static/css/project-showcase.BnnA7_fP.css",
+      "status": 200,
+      "type": "text/css",
+      "cache": "public, max-age=0, must-revalidate",
+      "valid": true
+    },
+    {
+      "path": "/_next/static/css/site-footer.KokFvl0w.css",
+      "status": 200,
+      "type": "text/css",
+      "cache": "public, max-age=0, must-revalidate",
+      "valid": true
+    },
+    {
+      "path": "/_next/static/chunks/index-aY7c4Sib.js",
+      "status": 200,
+      "type": "text/javascript",
+      "cache": "public, max-age=0, must-revalidate",
+      "valid": true
+    },
+    {
+      "path": "/_next/static/chunks/rolldown-runtime-C60lm6uB.js",
+      "status": 200,
+      "type": "text/javascript",
+      "cache": "public, max-age=0, must-revalidate",
+      "valid": true
+    },
+    {
+      "path": "/_next/static/chunks/framework-D_rUT4EX.js",
+      "status": 200,
+      "type": "text/javascript",
+      "cache": "public, max-age=0, must-revalidate",
+      "valid": true
+    },
+    {
+      "path": "/_next/static/chunks/navigation-errors-By4dF-Cc.js",
+      "status": 200,
+      "type": "text/javascript",
+      "cache": "public, max-age=0, must-revalidate",
+      "valid": true
+    },
+    {
+      "path": "/_next/static/chunks/layout-segment-context-CV73saYL.js",
+      "status": 200,
+      "type": "text/javascript",
+      "cache": "public, max-age=0, must-revalidate",
+      "valid": true
+    },
+    {
+      "path": "/_next/static/chunks/motion-CXX6ok1g.js",
+      "status": 200,
+      "type": "text/javascript",
+      "cache": "public, max-age=0, must-revalidate",
+      "valid": true
+    },
+    {
+      "path": "/_next/static/chunks/site-chrome-CLt1sa4G.js",
+      "status": 200,
+      "type": "text/javascript",
+      "cache": "public, max-age=0, must-revalidate",
+      "valid": true
+    },
+    {
+      "path": "/_next/static/chunks/project-showcase-C5eDLtjF.js",
+      "status": 200,
+      "type": "text/javascript",
+      "cache": "public, max-age=0, must-revalidate",
+      "valid": true
+    },
+    {
+      "path": "/_next/static/chunks/utils-BfF9hTxu.js",
+      "status": 200,
+      "type": "text/javascript",
+      "cache": "public, max-age=0, must-revalidate",
+      "valid": true
+    },
+    {
+      "path": "/_next/static/chunks/useOpenChangeComplete-BJDp862B.js",
+      "status": 200,
+      "type": "text/javascript",
+      "cache": "public, max-age=0, must-revalidate",
+      "valid": true
+    },
+    {
+      "path": "/_next/static/chunks/createLucideIcon-drK5nuEz.js",
+      "status": 200,
+      "type": "text/javascript",
+      "cache": "public, max-age=0, must-revalidate",
+      "valid": true
+    },
+    {
+      "path": "/_next/static/chunks/Icon-COpRllaJ.js",
+      "status": 200,
+      "type": "text/javascript",
+      "cache": "public, max-age=0, must-revalidate",
+      "valid": true
+    },
+    {
+      "path": "/_next/static/chunks/arrow-up-right-BJ90LQ0c.js",
+      "status": 200,
+      "type": "text/javascript",
+      "cache": "public, max-age=0, must-revalidate",
+      "valid": true
+    },
+    {
+      "path": "/_next/static/chunks/layers-C5sEgVNt.js",
+      "status": 200,
+      "type": "text/javascript",
+      "cache": "public, max-age=0, must-revalidate",
+      "valid": true
+    },
+    {
+      "path": "/_next/static/chunks/site-footer-D0QUa6L7.js",
+      "status": 200,
+      "type": "text/javascript",
+      "cache": "public, max-age=0, must-revalidate",
+      "valid": true
+    },
+    {
+      "path": "/_next/static/chunks/use-inquiry-status-BWO09kHG.js",
+      "status": 200,
+      "type": "text/javascript",
+      "cache": "public, max-age=0, must-revalidate",
+      "valid": true
+    },
+    {
+      "path": "/_next/static/chunks/chevron-down-1hvvp3c1.js",
+      "status": 200,
+      "type": "text/javascript",
+      "cache": "public, max-age=0, must-revalidate",
+      "valid": true
+    },
+    {
+      "path": "/_next/static/chunks/earth-Dhe4D6Ok.js",
+      "status": 200,
+      "type": "text/javascript",
+      "cache": "public, max-age=0, must-revalidate",
+      "valid": true
+    },
+    {
+      "path": "/_next/static/chunks/trending-up-BDysMUDp.js",
+      "status": 200,
+      "type": "text/javascript",
+      "cache": "public, max-age=0, must-revalidate",
+      "valid": true
+    },
+    {
+      "path": "/_next/static/chunks/faq-answers-CZ01yA8y.js",
+      "status": 200,
+      "type": "text/javascript",
+      "cache": "public, max-age=0, must-revalidate",
+      "valid": true
+    },
+    {
+      "path": "/fonts/cabinet-400.CsLkCdiI.woff2",
+      "status": 200,
+      "type": "font/woff2",
+      "cache": "public, max-age=31536000, immutable",
+      "valid": true
+    },
+    {
+      "path": "/fonts/cabinet-500.pUr7ULKA.woff2",
+      "status": 200,
+      "type": "font/woff2",
+      "cache": "public, max-age=31536000, immutable",
+      "valid": true
+    },
+    {
+      "path": "/fonts/cabinet-700.yJmHbigL.woff2",
+      "status": 200,
+      "type": "font/woff2",
+      "cache": "public, max-age=31536000, immutable",
+      "valid": true
+    },
+    {
+      "path": "/fonts/cabinet-800.oMN7HQ6L.woff2",
+      "status": 200,
+      "type": "font/woff2",
+      "cache": "public, max-age=31536000, immutable",
+      "valid": true
+    },
+    {
+      "path": "/_next/static/css/page.CgzPg4rh.css",
+      "status": 200,
+      "type": "text/css",
+      "cache": "public, max-age=0, must-revalidate",
+      "valid": true
+    },
+    {
+      "path": "/_next/static/chunks/website-lead-CYUE-vs9.js",
+      "status": 200,
+      "type": "text/javascript",
+      "cache": "public, max-age=0, must-revalidate",
+      "valid": true
+    },
+    {
+      "path": "/_next/static/chunks/site-data-BIm7Lzi9.js",
+      "status": 200,
+      "type": "text/javascript",
+      "cache": "public, max-age=0, must-revalidate",
+      "valid": true
+    },
+    {
+      "path": "/_next/static/chunks/website-offers-itfIu_BY.js",
+      "status": 200,
+      "type": "text/javascript",
+      "cache": "public, max-age=0, must-revalidate",
+      "valid": true
+    },
+    {
+      "path": "/_next/static/chunks/liquid-mark-BWfFfvhy.js",
+      "status": 200,
+      "type": "text/javascript",
+      "cache": "public, max-age=0, must-revalidate",
+      "valid": true
+    },
+    {
+      "path": "/_next/static/css/page.DY0w3mjL.css",
+      "status": 200,
+      "type": "text/css",
+      "cache": "public, max-age=0, must-revalidate",
+      "valid": true
+    }
+  ]
+}

@@ -1,0 +1,145 @@
+{
+  "date": "2026-09-08T00:13:09.151Z",
+  "reports": [
+    {
+      "path": "/",
+      "intended": "public-index",
+      "status": 200,
+      "robots": "index, follow, max-image-preview:large",
+      "jsonLdBlocks": 2
+    },
+    {
+      "path": "/loesungen",
+      "intended": "public-index",
+      "status": 200,
+      "robots": "index, follow, max-image-preview:large",
+      "jsonLdBlocks": 2
+    },
+    {
+      "path": "/plattformen-web-apps",
+      "intended": "public-index",
+      "status": 200,
+      "robots": "index, follow, max-image-preview:large",
+      "jsonLdBlocks": 2
+    },
+    {
+      "path": "/websites",
+      "intended": "public-index",
+      "status": 200,
+      "robots": "index, follow, max-image-preview:large",
+      "jsonLdBlocks": 2
+    },
+    {
+      "path": "/website-erstellen-lassen",
+      "intended": "public-index",
+      "status": 200,
+      "robots": "index, follow, max-image-preview:large",
+      "jsonLdBlocks": 2
+    },
+    {
+      "path": "/ki-automation",
+      "intended": "public-index",
+      "status": 200,
+      "robots": "index, follow, max-image-preview:large",
+      "jsonLdBlocks": 2
+    },
+    {
+      "path": "/google-ads-growth",
+      "intended": "public-index",
+      "status": 200,
+      "robots": "index, follow, max-image-preview:large",
+      "jsonLdBlocks": 2
+    },
+    {
+      "path": "/projekte",
+      "intended": "public-index",
+      "status": 200,
+      "robots": "index, follow, max-image-preview:large",
+      "jsonLdBlocks": 2
+    },
+    {
+      "path": "/projekte/parkesicher",
+      "intended": "public-index",
+      "status": 200,
+      "robots": "index, follow, max-image-preview:large",
+      "jsonLdBlocks": 2
+    },
+    {
+      "path": "/pakete",
+      "intended": "public-index",
+      "status": 200,
+      "robots": "index, follow, max-image-preview:large",
+      "jsonLdBlocks": 2
+    },
+    {
+      "path": "/ueber-nine",
+      "intended": "public-index",
+      "status": 200,
+      "robots": "index, follow, max-image-preview:large",
+      "jsonLdBlocks": 2
+    },
+    {
+      "path": "/projekt-starten",
+      "intended": "public-noindex",
+      "status": 200,
+      "robots": "noindex, follow",
+      "jsonLdBlocks": 1
+    },
+    {
+      "path": "/checkout/nine-launch",
+      "intended": "public-noindex",
+      "status": 200,
+      "robots": "noindex, follow",
+      "jsonLdBlocks": 1
+    },
+    {
+      "path": "/checkout/nine-growth",
+      "intended": "public-noindex",
+      "status": 200,
+      "robots": "noindex, follow",
+      "jsonLdBlocks": 1
+    },
+    {
+      "path": "/checkout/platform-discovery",
+      "intended": "public-noindex",
+      "status": 200,
+      "robots": "noindex, follow",
+      "jsonLdBlocks": 1
+    },
+    {
+      "path": "/checkout/custom-platform",
+      "intended": "public-noindex",
+      "status": 200,
+      "robots": "noindex, follow",
+      "jsonLdBlocks": 1
+    },
+    {
+      "path": "/checkout/nine-scale",
+      "intended": "public-noindex",
+      "status": 200,
+      "robots": "noindex, follow",
+      "jsonLdBlocks": 1
+    },
+    {
+      "path": "/impressum",
+      "intended": "public-noindex",
+      "status": 200,
+      "robots": "noindex, follow",
+      "jsonLdBlocks": 1
+    },
+    {
+      "path": "/datenschutz",
+      "intended": "public-noindex",
+      "status": 200,
+      "robots": "noindex, follow",
+      "jsonLdBlocks": 1
+    },
+    {
+      "path": "/agb",
+      "intended": "public-noindex",
+      "status": 200,
+      "robots": "noindex, follow",
+      "jsonLdBlocks": 1
+    }
+  ]
+}

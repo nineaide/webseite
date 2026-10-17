@@ -1,0 +1,1291 @@
+const imgCode02 = "https://www.figma.com/api/mcp/asset/447de272-2830-4e14-97b1-3d0a75707df6.svg";
+const imgLogoWhite1 = "https://www.figma.com/api/mcp/asset/bca73829-a6b4-45dc-9e96-4f82adc93368.png";
+const imgUnsplashEveI7MOcSmw = "https://www.figma.com/api/mcp/asset/2c34ae8d-bb53-42a7-afec-ba027217aa72.png";
+const imgUnsplashQwtCeJ5CLYs = "https://www.figma.com/api/mcp/asset/03f7eccb-b6d4-4972-af3d-956fb16c6b9a.png";
+const imgUnsplashShrXn8S8Qu = "https://www.figma.com/api/mcp/asset/79987953-4326-4571-9ea9-5e6171eb6687.png";
+const imgUnsplashL5If0IQfV4C = "https://www.figma.com/api/mcp/asset/53d94b09-5c6e-495b-abec-dc50bc9df395.png";
+const imgEllipse1 = "https://www.figma.com/api/mcp/asset/76c5f79f-9639-434e-83ac-d09c99eb582d.png";
+const imgEllipse2 = "https://www.figma.com/api/mcp/asset/30426b4b-3c92-4756-8ccf-17816ccb7336.png";
+const imgEllipse6 = "https://www.figma.com/api/mcp/asset/e44b3563-7006-43e5-955f-b48aa3b6bc35.png";
+const imgUnsplashHnPrWoh2Z8U = "https://www.figma.com/api/mcp/asset/f12c0a8a-8d42-463f-9971-ec0d11c73344.png";
+const imgUnsplashUYsBCu9Rp3Y = "https://www.figma.com/api/mcp/asset/c13513c8-619c-4c64-a452-7692cf9b7fd1.png";
+const imgUnsplashWPrNem6Dg = "https://www.figma.com/api/mcp/asset/daec295b-1668-4b99-b57a-97ba7413dabb.png";
+const imgImage = "https://www.figma.com/api/mcp/asset/3c18fa9c-790e-40f9-9ed0-1e81d4df38db.png";
+const imgImage1 = "https://www.figma.com/api/mcp/asset/c9197d22-adaf-4447-bbc0-d5c73fbe8ad0.png";
+const imgImage2 = "https://www.figma.com/api/mcp/asset/01aa3d5b-235e-49f2-b142-307dae2fbcfd.png";
+const imgFacebookNegative = "https://www.figma.com/api/mcp/asset/60faf7f7-987a-4686-afa8-959a19736950.svg";
+const imgGroup = "https://www.figma.com/api/mcp/asset/43da25bb-3d2c-434a-8ff3-5b4e649c00f4.svg";
+const imgDribbbleNegative = "https://www.figma.com/api/mcp/asset/856cb411-2af9-4dac-98d8-2d6a29e80afa.svg";
+const imgTwitterNegative = "https://www.figma.com/api/mcp/asset/299beceb-17d1-40f6-8690-9d579e8aa944.svg";
+const imgGroup1 = "https://www.figma.com/api/mcp/asset/729cc552-2f86-4444-b75c-7298fda1939b.svg";
+const imgGroup2 = "https://www.figma.com/api/mcp/asset/214cb980-cc36-4f97-a166-cbb84142fdf4.svg";
+const imgArrowNarrowRight = "https://www.figma.com/api/mcp/asset/3436caf7-0667-4b75-9866-9a62f352b1c5.svg";
+const imgVector = "https://www.figma.com/api/mcp/asset/3ce11723-1d7a-4072-b7b4-23490e1c1cc0.svg";
+const imgEllipse = "https://www.figma.com/api/mcp/asset/7e86d229-0f76-47a2-b62a-f30f49db963a.svg";
+const imgEllipse3 = "https://www.figma.com/api/mcp/asset/5c4a1832-db50-4256-890c-3db0fe59ebd7.svg";
+const imgEllipse4 = "https://www.figma.com/api/mcp/asset/e305d8df-1026-493d-aa11-642cc93bd6de.svg";
+const imgEllipse5 = "https://www.figma.com/api/mcp/asset/42128b3a-8909-41bc-a75d-5d9246459246.svg";
+const imgEllipse7 = "https://www.figma.com/api/mcp/asset/79e392f8-9db0-4751-9a1c-a18eb042a795.svg";
+const imgVector1 = "https://www.figma.com/api/mcp/asset/e04208a1-4440-4ec3-8f75-4e3e7a3183b2.svg";
+const imgAutoLayoutHorizontal = "https://www.figma.com/api/mcp/asset/89b61f6c-9fbd-499e-a8f4-295358d76ba4.svg";
+const imgEllipse8 = "https://www.figma.com/api/mcp/asset/e8ccb42a-d41a-4321-b334-244a575b499b.svg";
+const imgArrowUp = "https://www.figma.com/api/mcp/asset/d9e13be7-5ef2-4f56-a3d0-d9d511a02e9d.svg";
+const imgEllipse9 = "https://www.figma.com/api/mcp/asset/25dc81e9-0e2a-4891-8f72-bbafaf9869ad.svg";
+const imgArrowUp1 = "https://www.figma.com/api/mcp/asset/d32021be-23e8-4e4d-ba4e-a37c06065c77.svg";
+const imgGroup3 = "https://www.figma.com/api/mcp/asset/9550ef96-9440-4de3-8636-9041cb4c3f14.svg";
+const imgGroup4 = "https://www.figma.com/api/mcp/asset/b6ce314b-785e-45b3-937c-83e7d5899053.svg";
+const imgProperty1Wordmark = "https://www.figma.com/api/mcp/asset/ecd008fd-268a-4575-928e-3d5290a4f089.svg";
+const imgFormatWordmark = "https://www.figma.com/api/mcp/asset/4f24c1d8-4030-4912-9aa2-883362db72ad.svg";
+const imgFormatWordmark1 = "https://www.figma.com/api/mcp/asset/b704c13a-bcfb-40ca-814d-67deeb8283c6.svg";
+const imgFormatWordmark2 = "https://www.figma.com/api/mcp/asset/571b96a1-3230-492c-be4f-3ccc8c0bbe76.svg";
+const imgFormatWordmark3 = "https://www.figma.com/api/mcp/asset/b3f76bc8-25bd-49bf-a3d8-f3454edb142d.svg";
+const imgFormatFrame = "https://www.figma.com/api/mcp/asset/970ef0c0-4663-4035-ac1d-c528a1a9d8e3.svg";
+const imgFormatFrame1 = "https://www.figma.com/api/mcp/asset/f7707dee-f6ee-4887-92d0-7f7f305b8644.svg";
+const imgFormatWordmark4 = "https://www.figma.com/api/mcp/asset/ef9af1a7-7323-4706-8e7c-712d93ba8330.svg";
+const imgFormatWordmark5 = "https://www.figma.com/api/mcp/asset/7f88c217-8f46-453a-96bd-137d01e9f333.svg";
+const imgFormatWordmark6 = "https://www.figma.com/api/mcp/asset/92893dac-2318-491d-a9d3-e4d1224676de.svg";
+const imgFormatWordmark7 = "https://www.figma.com/api/mcp/asset/cf2c3508-daac-4d02-bdda-75685ceedcaf.svg";
+const imgFormatWordmark8 = "https://www.figma.com/api/mcp/asset/2fe8dda1-c2b2-4bb2-b23c-ab95d2e357dd.svg";
+const imgLine = "https://www.figma.com/api/mcp/asset/e9f88078-ee56-4836-b35c-41b8ae863e4a.svg";
+const imgGroup5 = "https://www.figma.com/api/mcp/asset/69ce7700-36a8-43df-a788-a70408c95675.svg";
+const imgLine1 = "https://www.figma.com/api/mcp/asset/700900c7-70f5-4a2b-b3dd-0fa05d395811.svg";
+const imgGroup6 = "https://www.figma.com/api/mcp/asset/5a41cc73-5503-4048-b597-cb066caf9a39.svg";
+const imgEllipse10 = "https://www.figma.com/api/mcp/asset/99556a9c-47ec-4170-a3f3-9410ab270073.svg";
+const imgEllipse11 = "https://www.figma.com/api/mcp/asset/b517e134-ccfa-45c8-9849-c8ed8d935a22.svg";
+const imgCode3 = "https://www.figma.com/api/mcp/asset/f281f455-2e03-47a2-93dc-034ad8383e48.svg";
+const imgGroup7 = "https://www.figma.com/api/mcp/asset/800baaf3-352c-4fd6-8cb8-cab15c69e4b0.svg";
+const imgGroup8 = "https://www.figma.com/api/mcp/asset/fca5bbb4-a6ad-4b15-8d1d-52d139da581d.svg";
+const imgGroup9 = "https://www.figma.com/api/mcp/asset/d6955e78-7717-42b5-beaf-278600f3e61c.svg";
+const imgGroup10 = "https://www.figma.com/api/mcp/asset/69ff494a-3fc9-4b40-8569-e3ae3f6bbe0a.svg";
+const imgGroup11 = "https://www.figma.com/api/mcp/asset/fad1f95a-2e9f-4f79-a049-6a4b298f81f1.svg";
+const imgGroup12 = "https://www.figma.com/api/mcp/asset/37a3d023-d06e-4ee3-b5cf-0ddae351ec2a.svg";
+const imgGroup13 = "https://www.figma.com/api/mcp/asset/7f1f44b7-0391-484b-8fc2-bfda7dd79a5f.svg";
+const imgGroup14 = "https://www.figma.com/api/mcp/asset/2c290420-70d1-4f84-b4b9-7000f52b3454.svg";
+const imgGroup15 = "https://www.figma.com/api/mcp/asset/690d7570-bef1-4680-9d13-b26e2b0d32d1.svg";
+const imgGroup16 = "https://www.figma.com/api/mcp/asset/ee57d169-5f22-4eb5-9f1c-b5d339a71fc1.svg";
+const imgGroup17 = "https://www.figma.com/api/mcp/asset/e8acf3d0-f3ab-4cb3-8fd6-74146ab4cf9f.svg";
+const imgGroup18 = "https://www.figma.com/api/mcp/asset/97a5262f-2581-44db-b6e9-d7ebb7b7b736.svg";
+const imgGroup19 = "https://www.figma.com/api/mcp/asset/8c99e91f-a031-439a-b154-e476d2b44691.svg";
+const imgGroup20 = "https://www.figma.com/api/mcp/asset/9daf205f-735e-45b7-ad9e-1125419b0955.svg";
+const imgStar = "https://www.figma.com/api/mcp/asset/9985caa1-6764-41ec-b0c0-3974d47b46a6.svg";
+const imgVector2 = "https://www.figma.com/api/mcp/asset/5cda480f-ca17-4ca9-acc0-aa36b2d68b82.svg";
+
+function Code02({ className }: { className?: string }) {
+  return (
+    <div className={className || "relative size-[24px]"} data-node-id="20:266" data-name="code-02">
+      <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgCode02} />
+    </div>
+  );
+}
+
+export default function MobileVarient() {
+  return (
+    <div className="bg-[#151515] relative size-full" data-node-id="27:187" data-name="Mobile Varient">
+      <div className="absolute contents left-0 top-[9489px]" data-node-id="28:905" data-name="Group">
+        <div className="-translate-x-1/2 -translate-y-1/2 absolute bg-[#1b1b1b] h-[407px] left-1/2 top-[calc(50%+4744.5px)] w-[390px]" data-node-id="28:871" data-name="Rectangle" />
+        <div className="-translate-x-1/2 -translate-y-1/2 [word-break:break-word] absolute contents font-['Cabinet_Grotesk:Medium'] leading-[0] left-[calc(25%+5px)] not-italic text-[14px] text-white top-[calc(50%+4758px)] tracking-[0.2px] whitespace-nowrap" data-node-id="28:900" data-name="Group">
+          <div className="-translate-y-1/2 absolute flex flex-col justify-center left-[calc(12.5%-7.75px)] top-[calc(50%+4690.5px)]" data-node-id="28:873">
+            <p className="leading-[1.5]">Privacy Policy</p>
+          </div>
+          <div className="-translate-y-1/2 absolute flex flex-col justify-center left-[calc(25%-56.5px)] top-[calc(50%+4735.5px)]" data-node-id="28:875">
+            <p className="leading-[1.5]">{`Terms & Conditions`}</p>
+          </div>
+          <div className="-translate-y-1/2 absolute flex flex-col justify-center left-[calc(12.5%-7.75px)] top-[calc(50%+4780.5px)]" data-node-id="28:876">
+            <p className="leading-[1.5]">Contact</p>
+          </div>
+          <div className="-translate-y-1/2 absolute flex flex-col justify-center left-[calc(12.5%-7.75px)] top-[calc(50%+4825.5px)]" data-node-id="28:877">
+            <p className="leading-[1.5]">License</p>
+          </div>
+        </div>
+        <div className="-translate-x-full -translate-y-1/2 [word-break:break-word] absolute flex flex-col font-['Cabinet_Grotesk:Medium'] justify-center leading-[0] left-[calc(50%+93px)] not-italic text-[14px] text-right text-white top-[calc(50%+4904.5px)] tracking-[0.2px] whitespace-nowrap" data-node-id="28:878">
+          <p className="leading-[1.5]">Copyright 2022 | wpcone.com</p>
+        </div>
+        <div className="absolute contents left-[calc(75%-10.5px)] top-[9628px]" data-node-id="28:903" data-name="Group">
+          <div className="absolute contents left-[calc(75%-10.5px)] top-[9628px]" data-node-id="28:902" data-name="Group">
+            <div className="absolute left-[calc(75%-10.5px)] size-[16px] top-[9628px]" data-node-id="28:880" data-name="Facebook - Negative">
+              <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgFacebookNegative} />
+            </div>
+            <div className="absolute left-[calc(75%-10.5px)] overflow-clip size-[16px] top-[9668px]" data-node-id="28:882" data-name="Instagram - Negative">
+              <div className="absolute inset-[0_0.04%_0.02%_0.02%]" data-node-id="I28:882;12:12455" data-name="Group">
+                <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgGroup} />
+              </div>
+            </div>
+            <div className="absolute left-[calc(75%-10.5px)] size-[16px] top-[9708px]" data-node-id="28:884" data-name="Dribbble - Negative">
+              <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgDribbbleNegative} />
+            </div>
+          </div>
+          <div className="absolute contents left-[calc(75%+29.5px)] top-[9628px]" data-node-id="28:901" data-name="Group">
+            <div className="absolute left-[calc(75%+29.5px)] size-[16px] top-[9628px]" data-node-id="28:881" data-name="Twitter - Negative">
+              <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgTwitterNegative} />
+            </div>
+            <div className="absolute left-[calc(75%+29.5px)] overflow-clip size-[16px] top-[9668px]" data-node-id="28:883" data-name="LinkedIn - Negative">
+              <div className="absolute inset-[0_-0.01%_0_0.01%]" data-node-id="I28:883;12:12460" data-name="Group">
+                <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgGroup1} />
+              </div>
+            </div>
+            <div className="absolute left-[calc(75%+29.5px)] overflow-clip size-[16px] top-[9708px]" data-node-id="28:885" data-name="Pinterest - Negative">
+              <div className="absolute inset-[0_-0.01%_0_0.01%]" data-node-id="I28:885;12:12465" data-name="Group">
+                <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgGroup2} />
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className="absolute h-[25px] left-[calc(25%+46.5px)] top-[9529px] w-[102px]" data-node-id="33:196" data-name="logo-white 1">
+          <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none size-full" src={imgLogoWhite1} />
+        </div>
+      </div>
+      <div className="absolute contents left-[16px] top-[7795px]" data-node-id="28:868" data-name="Group">
+        <p className="-translate-x-1/2 [word-break:break-word] absolute font-['Cabinet_Grotesk:Black'] leading-[0] left-1/2 not-italic text-[32px] text-center text-white top-[7795px] uppercase w-[358px]" data-node-id="27:803">
+          <span className="leading-[40px]">{`our latest blog `}</span>
+          <span className="leading-[40px] text-[#ffdf00]">posts</span>
+        </p>
+        <div className="absolute content-stretch flex gap-[6px] items-start left-[18px] top-[7907px]" data-node-id="38:886">
+          <div className="border-[#ffdf00] border-b-2 border-solid content-stretch flex items-start p-[12px] relative shrink-0" data-node-id="27:805" data-name="Auto Layout Horizontal">
+            <p className="[word-break:break-word] capitalize font-['Cabinet_Grotesk:Bold'] leading-[20px] not-italic relative shrink-0 text-[#ffdf00] text-[14px] whitespace-nowrap" data-node-id="27:806">
+              sEO
+            </p>
+          </div>
+          <div className="content-stretch flex items-start p-[12px] relative shrink-0" data-node-id="27:807" data-name="Auto Layout Horizontal">
+            <p className="[word-break:break-word] capitalize font-['Cabinet_Grotesk:Bold'] leading-[20px] not-italic relative shrink-0 text-[14px] text-white whitespace-nowrap" data-node-id="27:808">
+              development
+            </p>
+          </div>
+          <div className="content-stretch flex items-start p-[12px] relative shrink-0" data-node-id="27:809" data-name="Auto Layout Horizontal">
+            <p className="[word-break:break-word] capitalize font-['Cabinet_Grotesk:Bold'] leading-[20px] not-italic relative shrink-0 text-[14px] text-white whitespace-nowrap" data-node-id="27:810">
+              designing
+            </p>
+          </div>
+          <div className="content-stretch flex items-start p-[12px] relative shrink-0" data-node-id="27:811" data-name="Auto Layout Horizontal">
+            <p className="[word-break:break-word] capitalize font-['Cabinet_Grotesk:Bold'] leading-[20px] not-italic relative shrink-0 text-[14px] text-white whitespace-nowrap" data-node-id="27:812">
+              freelancing
+            </p>
+          </div>
+        </div>
+        <div className="absolute contents left-[16px] top-[7983px]" data-node-id="28:867" data-name="Group">
+          <div className="absolute contents left-[16px] top-[7983px]" data-node-id="27:813" data-name="Group">
+            <div className="-translate-x-1/2 -translate-y-1/2 absolute contents left-1/2 top-[calc(50%+3314.5px)]" data-node-id="27:814" data-name="Group">
+              <div className="-translate-x-1/2 -translate-y-1/2 absolute bg-white h-[77px] left-1/2 rounded-bl-[16px] rounded-br-[16px] top-[calc(50%+3314.5px)] w-[358px]" data-node-id="27:815" data-name="Rectangle" />
+              <div className="-translate-x-1/2 -translate-y-1/2 absolute contents left-[calc(87.5%-15.25px)] top-[calc(50%+3315px)]" data-node-id="27:816" data-name="Group">
+                <div className="-translate-x-1/2 -translate-y-1/2 absolute bg-[#ffdf00] h-[30px] left-[calc(87.5%-15.25px)] rounded-[50px] top-[calc(50%+3315px)] w-[64px]" data-node-id="27:817" data-name="Rectangle" />
+                <p className="[word-break:break-word] absolute capitalize font-['Cabinet_Grotesk:Medium'] h-[18px] leading-[20px] left-[calc(87.5%-29.25px)] not-italic text-[#151515] text-[14px] top-[calc(50%+3306px)] w-[29px]" data-node-id="27:818">
+                  view
+                </p>
+              </div>
+              <div className="-translate-x-1/2 -translate-y-1/2 [word-break:break-word] absolute capitalize contents leading-[20px] left-[calc(25%+11.5px)] not-italic top-[calc(50%+3314px)]" data-node-id="27:819" data-name="Group">
+                <p className="absolute font-['Cabinet_Grotesk:Bold'] left-[calc(25%-65.5px)] text-[#151515] text-[16px] top-[calc(50%+3292px)] whitespace-nowrap" data-node-id="27:820">
+                  how to improve SEO?
+                </p>
+                <p className="absolute font-['Cabinet_Grotesk:Medium'] h-[20px] left-[calc(12.5%-16.75px)] text-[#818181] text-[14px] top-[calc(50%+3316px)] w-[43px]" data-node-id="27:821">
+                  blog
+                </p>
+              </div>
+            </div>
+            <div className="-translate-x-1/2 -translate-y-1/2 absolute bg-[#ffdf00] h-[241px] left-1/2 rounded-tl-[16px] rounded-tr-[16px] top-[calc(50%+3155.5px)] w-[358px]" data-node-id="27:822" data-name="Frame 1 (2) 9" />
+            <div className="absolute h-[241px] left-[16px] rounded-tl-[16px] rounded-tr-[16px] top-[7983px] w-[358px]" data-node-id="38:911" data-name="unsplash:eveI7MOcSmw">
+              <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none rounded-tl-[16px] rounded-tr-[16px] size-full" src={imgUnsplashEveI7MOcSmw} />
+            </div>
+          </div>
+          <div className="absolute contents left-[16px] top-[8325px]" data-node-id="27:823" data-name="Group">
+            <div className="-translate-x-1/2 -translate-y-1/2 absolute contents left-1/2 top-[calc(50%+3656.5px)]" data-node-id="27:824" data-name="Group">
+              <div className="-translate-x-1/2 -translate-y-1/2 absolute bg-white h-[77px] left-1/2 rounded-bl-[16px] rounded-br-[16px] top-[calc(50%+3656.5px)] w-[358px]" data-node-id="27:825" data-name="Rectangle" />
+              <div className="-translate-x-1/2 -translate-y-1/2 absolute contents left-[calc(87.5%-15.25px)] top-[calc(50%+3657px)]" data-node-id="27:826" data-name="Group">
+                <div className="-translate-x-1/2 -translate-y-1/2 absolute bg-[#ffdf00] h-[30px] left-[calc(87.5%-15.25px)] rounded-[50px] top-[calc(50%+3657px)] w-[64px]" data-node-id="27:827" data-name="Rectangle" />
+                <p className="[word-break:break-word] absolute capitalize font-['Cabinet_Grotesk:Medium'] h-[18px] leading-[20px] left-[calc(87.5%-29.25px)] not-italic text-[#151515] text-[14px] top-[calc(50%+3648px)] w-[29px]" data-node-id="27:828">
+                  view
+                </p>
+              </div>
+              <div className="-translate-x-1/2 -translate-y-1/2 [word-break:break-word] absolute capitalize contents leading-[20px] left-[calc(25%+11px)] not-italic top-[calc(50%+3656px)]" data-node-id="27:829" data-name="Group">
+                <p className="absolute font-['Cabinet_Grotesk:Bold'] h-[20px] left-[calc(25%-65.5px)] text-[#151515] text-[16px] top-[calc(50%+3634px)] w-[153px]" data-node-id="27:830">
+                  best seo plugin
+                </p>
+                <p className="absolute font-['Cabinet_Grotesk:Medium'] h-[20px] left-[calc(12.5%-16.75px)] text-[#818181] text-[14px] top-[calc(50%+3658px)] w-[43px]" data-node-id="27:831">
+                  blog
+                </p>
+              </div>
+            </div>
+            <div className="-translate-x-1/2 -translate-y-1/2 absolute bg-[#ffdf00] h-[241px] left-1/2 rounded-tl-[16px] rounded-tr-[16px] top-[calc(50%+3497.5px)] w-[358px]" data-node-id="27:832" data-name="Frame 1 (2) 9" />
+            <div className="absolute h-[241px] left-[16px] rounded-tl-[16px] rounded-tr-[16px] top-[8325px] w-[358px]" data-node-id="38:912" data-name="unsplash:qwtCeJ5cLYs">
+              <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none rounded-tl-[16px] rounded-tr-[16px] size-full" src={imgUnsplashQwtCeJ5CLYs} />
+            </div>
+          </div>
+          <div className="absolute contents left-[16px] top-[8667px]" data-node-id="27:833" data-name="Group">
+            <div className="-translate-x-1/2 -translate-y-1/2 absolute contents left-1/2 top-[calc(50%+3998.5px)]" data-node-id="27:834" data-name="Group">
+              <div className="-translate-x-1/2 -translate-y-1/2 absolute bg-white h-[77px] left-1/2 rounded-bl-[16px] rounded-br-[16px] top-[calc(50%+3998.5px)] w-[358px]" data-node-id="27:835" data-name="Rectangle" />
+              <div className="-translate-x-1/2 -translate-y-1/2 absolute contents left-[calc(87.5%-15.25px)] top-[calc(50%+3999px)]" data-node-id="27:836" data-name="Group">
+                <div className="-translate-x-1/2 -translate-y-1/2 absolute bg-[#ffdf00] h-[30px] left-[calc(87.5%-15.25px)] rounded-[50px] top-[calc(50%+3999px)] w-[64px]" data-node-id="27:837" data-name="Rectangle" />
+                <p className="[word-break:break-word] absolute capitalize font-['Cabinet_Grotesk:Medium'] h-[18px] leading-[20px] left-[calc(87.5%-29.25px)] not-italic text-[#151515] text-[14px] top-[calc(50%+3990px)] w-[29px]" data-node-id="27:838">
+                  view
+                </p>
+              </div>
+              <div className="-translate-x-1/2 -translate-y-1/2 [word-break:break-word] absolute capitalize contents leading-[20px] left-[calc(25%+11px)] not-italic top-[calc(50%+3998px)]" data-node-id="27:839" data-name="Group">
+                <p className="absolute font-['Cabinet_Grotesk:Bold'] h-[20px] left-[calc(25%-65.5px)] text-[#151515] text-[16px] top-[calc(50%+3976px)] w-[153px]" data-node-id="27:840">
+                  seo for beginners
+                </p>
+                <p className="absolute font-['Cabinet_Grotesk:Medium'] h-[20px] left-[calc(12.5%-16.75px)] text-[#818181] text-[14px] top-[calc(50%+4000px)] w-[43px]" data-node-id="27:841">
+                  blog
+                </p>
+              </div>
+            </div>
+            <div className="-translate-x-1/2 -translate-y-1/2 absolute bg-[#ffdf00] h-[241px] left-1/2 rounded-tl-[16px] rounded-tr-[16px] top-[calc(50%+3839.5px)] w-[358px]" data-node-id="27:842" data-name="Frame 1 (2) 9" />
+            <div className="absolute h-[241px] left-[16px] rounded-tl-[16px] rounded-tr-[16px] top-[8667px] w-[358px]" data-node-id="38:913" data-name="unsplash:shr_Xn8S8QU">
+              <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none rounded-tl-[16px] rounded-tr-[16px] size-full" src={imgUnsplashShrXn8S8Qu} />
+            </div>
+          </div>
+          <div className="absolute contents left-[16px] top-[9009px]" data-node-id="27:843" data-name="Group">
+            <div className="-translate-x-1/2 -translate-y-1/2 absolute contents left-1/2 top-[calc(50%+4340.5px)]" data-node-id="27:844" data-name="Group">
+              <div className="-translate-x-1/2 -translate-y-1/2 absolute bg-white h-[77px] left-1/2 rounded-bl-[16px] rounded-br-[16px] top-[calc(50%+4340.5px)] w-[358px]" data-node-id="27:845" data-name="Rectangle" />
+              <div className="-translate-x-1/2 -translate-y-1/2 absolute contents left-[calc(87.5%-15.25px)] top-[calc(50%+4341px)]" data-node-id="27:846" data-name="Group">
+                <div className="-translate-x-1/2 -translate-y-1/2 absolute bg-[#ffdf00] h-[30px] left-[calc(87.5%-15.25px)] rounded-[50px] top-[calc(50%+4341px)] w-[64px]" data-node-id="27:847" data-name="Rectangle" />
+                <p className="[word-break:break-word] absolute capitalize font-['Cabinet_Grotesk:Medium'] h-[18px] leading-[20px] left-[calc(87.5%-29.25px)] not-italic text-[#151515] text-[14px] top-[calc(50%+4332px)] w-[29px]" data-node-id="27:848">
+                  view
+                </p>
+              </div>
+              <div className="-translate-x-1/2 -translate-y-1/2 [word-break:break-word] absolute capitalize contents leading-[20px] left-[calc(25%+11px)] not-italic top-[calc(50%+4340px)]" data-node-id="27:849" data-name="Group">
+                <p className="absolute font-['Cabinet_Grotesk:Bold'] h-[20px] left-[calc(25%-65.5px)] text-[#151515] text-[16px] top-[calc(50%+4318px)] w-[153px]" data-node-id="27:850">
+                  is seo worth it?
+                </p>
+                <p className="absolute font-['Cabinet_Grotesk:Medium'] h-[20px] left-[calc(12.5%-16.75px)] text-[#818181] text-[14px] top-[calc(50%+4342px)] w-[43px]" data-node-id="27:851">
+                  blog
+                </p>
+              </div>
+            </div>
+            <div className="-translate-x-1/2 -translate-y-1/2 absolute bg-[#ffdf00] h-[241px] left-1/2 rounded-tl-[16px] rounded-tr-[16px] top-[calc(50%+4181.5px)] w-[358px]" data-node-id="27:852" data-name="Frame 1 (2) 9" />
+            <div className="absolute h-[241px] left-[16px] rounded-tl-[16px] rounded-tr-[16px] top-[9009px] w-[358px]" data-node-id="38:914" data-name="unsplash:l5if0iQfV4c">
+              <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none rounded-tl-[16px] rounded-tr-[16px] size-full" src={imgUnsplashL5If0IQfV4C} />
+            </div>
+          </div>
+        </div>
+        <div className="-translate-x-1/2 -translate-y-1/2 absolute contents left-1/2 top-[calc(50%+4426px)]" data-node-id="27:853" data-name="Group">
+          <p className="[text-decoration-skip-ink:none] [text-underline-position:from-font] [word-break:break-word] absolute capitalize decoration-from-font decoration-solid font-['Cabinet_Grotesk:Bold'] leading-[30px] left-[calc(37.5%-4.25px)] not-italic text-[#ffdf00] text-[20px] top-[calc(50%+4411px)] underline whitespace-nowrap" data-node-id="27:854">
+            view all
+          </p>
+          <div className="-translate-x-1/2 -translate-y-1/2 absolute left-[calc(62.5%-7.75px)] size-[24px] top-[calc(50%+4426px)]" data-node-id="27:855" data-name="arrow-narrow-right">
+            <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgArrowNarrowRight} />
+          </div>
+        </div>
+      </div>
+      <div className="-translate-x-1/2 absolute contents left-1/2 top-[6930px]" data-node-id="28:866" data-name="Group">
+        <div className="-translate-x-1/2 absolute contents left-1/2 top-[6930px]" data-node-id="28:865" data-name="Group">
+          <div className="-translate-x-1/2 absolute contents left-[calc(50%+0.5px)] top-[6930px]" data-node-id="27:731" data-name="Group">
+            <div className="-translate-x-1/2 absolute bg-[#ffdf00] h-[42px] left-[calc(50%+0.5px)] opacity-8 rounded-[50px] top-[6930px] w-[129px]" data-node-id="27:732" data-name="Rectangle" />
+            <div className="-translate-x-1/2 absolute contents left-[calc(50%+0.5px)] top-[6941px]" data-node-id="27:733" data-name="Group">
+              <p className="[word-break:break-word] absolute capitalize font-['Cabinet_Grotesk:Medium'] leading-[20px] left-[calc(62.5%-72.75px)] not-italic text-[#ffdf00] text-[14px] top-[6941px] whitespace-nowrap" data-node-id="27:734">
+                testimonials
+              </p>
+              <div className="-translate-x-1/2 absolute left-[calc(37.5%+5.75px)] size-[14px] top-[6943.93px]" data-node-id="27:735" data-name="Vector">
+                <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgVector} />
+              </div>
+            </div>
+          </div>
+          <p className="-translate-x-1/2 [word-break:break-word] absolute font-['Cabinet_Grotesk:Black'] leading-[0] left-1/2 not-italic text-[32px] text-center text-white top-[6984px] uppercase w-[358px]" data-node-id="27:736">
+            <span className="leading-[40px]">{`what our clients `}</span>
+            <span className="leading-[40px] text-[#ffdf00]">say</span>
+            <span className="leading-[40px]">?</span>
+          </p>
+        </div>
+        <div className="-translate-x-1/2 -translate-y-1/2 absolute contents left-1/2 top-[calc(50%+2326px)]" data-node-id="27:737" data-name="Group">
+          <div className="-translate-x-1/2 -translate-y-1/2 absolute left-[calc(50%-3.5px)] size-[349px] top-[calc(50%+2322.5px)]" data-node-id="27:738" data-name="Ellipse">
+            <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgEllipse} />
+          </div>
+          <div className="-translate-x-1/2 -translate-y-1/2 absolute left-[calc(50%+4.5px)] size-[349px] top-[calc(50%+2329.5px)]" data-node-id="27:739" data-name="Ellipse">
+            <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgEllipse} />
+          </div>
+          <div className="-translate-x-1/2 -translate-y-1/2 absolute left-[calc(50%+4.5px)] size-[163px] top-[calc(50%+2330.5px)]" data-node-id="27:740" data-name="Ellipse">
+            <img alt="" className="absolute block inset-0 max-w-none size-full" height="163" src={imgEllipse1} width="163" />
+          </div>
+          <div className="-translate-x-1/2 -translate-y-1/2 absolute left-[calc(87.5%-30.75px)] size-[79px] top-[calc(50%+2206.5px)]" data-node-id="27:741" data-name="Ellipse">
+            <img alt="" className="absolute block inset-0 max-w-none size-full" height="79" src={imgEllipse2} width="79" />
+          </div>
+          <div className="-translate-x-1/2 -translate-y-1/2 absolute left-[calc(87.5%-23.25px)] size-[54px] top-[calc(50%+2445px)]" data-node-id="27:742" data-name="Ellipse">
+            <div className="absolute inset-[-64.2%_-123.93%_-123.93%_-64.2%]">
+              <img alt="" className="block max-w-none size-full" src={imgEllipse3} />
+            </div>
+          </div>
+          <div className="-translate-x-1/2 -translate-y-1/2 absolute left-[calc(12.5%+33.75px)] size-[63px] top-[calc(50%+2200.5px)]" data-node-id="27:743" data-name="Ellipse">
+            <div className="absolute inset-[-55.03%_-106.22%_-106.22%_-55.03%]">
+              <img alt="" className="block max-w-none size-full" src={imgEllipse4} />
+            </div>
+          </div>
+          <div className="-translate-x-1/2 -translate-y-1/2 absolute left-[calc(12.5%+6.75px)] size-[67px] top-[calc(50%+2424.5px)]" data-node-id="27:744" data-name="Ellipse">
+            <div className="absolute inset-[-51.75%_-99.88%_-99.88%_-51.75%]">
+              <img alt="" className="block max-w-none size-full" src={imgEllipse5} />
+            </div>
+          </div>
+          <div className="-translate-x-1/2 -translate-y-1/2 absolute left-[calc(12.5%+6.75px)] size-[79px] top-[calc(50%+2424.5px)]" data-node-id="27:745" data-name="Ellipse">
+            <img alt="" className="absolute block inset-0 max-w-none size-full" height="79" src={imgEllipse6} width="79" />
+          </div>
+          <div className="-translate-x-1/2 -translate-y-1/2 absolute left-[calc(12.5%+28.75px)] size-[79px] top-[calc(50%+2198.5px)]" data-node-id="27:746" data-name="Ellipse">
+            <img alt="" className="absolute block inset-0 max-w-none size-full" height="79" src={imgEllipse6} width="79" />
+          </div>
+          <div className="-translate-x-1/2 -translate-y-1/2 absolute left-[calc(62.5%+30.75px)] size-[57px] top-[calc(50%+2329.5px)]" data-node-id="27:747" data-name="Ellipse">
+            <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgEllipse7} />
+          </div>
+          <div className="-translate-x-1/2 -translate-y-1/2 absolute h-[19.35px] left-[calc(62.5%+31.15px)] top-[calc(50%+2328.54px)] w-[24.994px]" data-node-id="27:748" data-name="Vector">
+            <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgVector1} />
+          </div>
+          <div className="-translate-x-1/2 -translate-y-1/2 absolute left-[calc(87.5%-22.75px)] size-[79px] top-[calc(50%+2441.5px)]" data-node-id="27:749" data-name="Ellipse">
+            <img alt="" className="absolute block inset-0 max-w-none size-full" height="79" src={imgEllipse2} width="79" />
+          </div>
+        </div>
+        <div className="-translate-x-1/2 -translate-y-1/2 absolute contents left-1/2 top-[calc(50%+2641.5px)]" data-node-id="27:802" data-name="Group">
+          <div className="-translate-x-1/2 -translate-y-1/2 absolute contents left-1/2 top-[calc(50%+2609.5px)]" data-node-id="27:799" data-name="Group">
+            <p className="[word-break:break-word] absolute font-['Cabinet_Grotesk:Medium'] leading-[20px] left-[calc(50%-179px)] not-italic text-[14px] text-white top-[calc(50%+2583px)] w-[358px]" data-node-id="27:751">
+              “Es ist ein lang erwiesener Fakt, dass ein Leser vom Text abgelenkt wird, wenn er sich ein Layout ansieht. Der Punkt, Lorem Ipsum zu nutzen, ist, dass es mehr oder weniger die normale Anordnung von Buchstaben darstellt und somit nach lesbarer Sprache aussieht.”
+            </p>
+            <div className="-translate-x-1/2 -translate-y-1/2 absolute h-[31px] left-[calc(25%+12px)] top-[calc(50%+2551.5px)] w-[187px]" data-node-id="27:752" data-name="Auto Layout Horizontal">
+              <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgAutoLayoutHorizontal} />
+            </div>
+          </div>
+          <div className="-translate-x-1/2 -translate-y-1/2 absolute contents left-1/2 top-[calc(50%+2723px)]" data-node-id="27:801" data-name="Group">
+            <p className="[word-break:break-word] absolute font-['Cabinet_Grotesk:Bold'] leading-[36px] left-[calc(25%-81.5px)] not-italic text-[24px] text-white top-[calc(50%+2705px)] whitespace-nowrap" data-node-id="27:759">{`Alexander Gibson `}</p>
+            <div className="-translate-x-1/2 -translate-y-1/2 absolute contents left-[calc(87.5%-23.25px)] top-[calc(50%+2723px)]" data-node-id="27:798" data-name="Group">
+              <div className="-translate-x-1/2 -translate-y-1/2 absolute contents left-[calc(87.5%+8.75px)] top-[calc(50%+2723px)]" data-node-id="27:790" data-name="Group">
+                <div className="-translate-x-1/2 -translate-y-1/2 absolute left-[calc(87.5%+8.75px)] size-[48px] top-[calc(50%+2723px)]" data-node-id="27:761" data-name="Ellipse">
+                  <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgEllipse8} />
+                </div>
+                <div className="-translate-x-1/2 -translate-y-1/2 absolute flex items-center justify-center left-[calc(87.5%+8.75px)] size-[24px] top-[calc(50%+2723px)]" data-node-id="27:762">
+                  <div className="flex-none rotate-90">
+                    <div className="relative size-[24px]" data-name="vuesax/linear/arrow-up">
+                      <div className="absolute contents inset-0" data-node-id="I27:762;7:1996" data-name="Group">
+                        <div className="absolute inset-[0_-22.92%_-22.92%_0]" data-node-id="I27:762;7:1997" data-name="arrow-up">
+                          <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgArrowUp} />
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div className="-translate-x-1/2 -translate-y-1/2 absolute contents left-[calc(75%-6.5px)] top-[calc(50%+2723px)]" data-node-id="27:791" data-name="Group">
+                <div className="-translate-x-1/2 -translate-y-1/2 absolute flex items-center justify-center left-[calc(75%-6.5px)] size-[48px] top-[calc(50%+2723px)]" data-node-id="27:792">
+                  <div className="-scale-y-100 flex-none rotate-180">
+                    <div className="relative size-[48px]" data-name="Ellipse">
+                      <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgEllipse9} />
+                    </div>
+                  </div>
+                </div>
+                <div className="-translate-x-1/2 -translate-y-1/2 absolute flex items-center justify-center left-[calc(75%-6.5px)] size-[24px] top-[calc(50%+2723px)]" data-node-id="27:793">
+                  <div className="-scale-y-100 flex-none rotate-90">
+                    <div className="relative size-[24px]" data-name="vuesax/linear/arrow-up">
+                      <div className="absolute contents inset-0" data-node-id="I27:793;7:1996" data-name="Group">
+                        <div className="absolute inset-[0_-22.92%_-22.92%_0]" data-node-id="I27:793;7:1997" data-name="arrow-up">
+                          <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgArrowUp1} />
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div className="absolute contents left-[16px] top-[5236px]" data-node-id="28:864" data-name="Group">
+        <div className="absolute contents left-[16px] top-[5236px]" data-node-id="28:863" data-name="Group">
+          <p className="-translate-x-1/2 [word-break:break-word] absolute font-['Cabinet_Grotesk:Black'] leading-[0] left-1/2 not-italic text-[32px] text-center text-white top-[5236px] uppercase w-[358px]" data-node-id="27:676">
+            <span className="leading-[40px]">{`wordpress `}</span>
+            <span className="leading-[40px] text-[#ffdf00]">resources</span>
+          </p>
+          <div className="absolute content-stretch flex gap-[6px] items-start left-[40px] top-[5348px]" data-node-id="38:885">
+            <div className="border-[#ffdf00] border-b-2 border-solid content-stretch flex items-start p-[12px] relative shrink-0" data-node-id="27:678" data-name="Auto Layout Horizontal">
+              <p className="[word-break:break-word] capitalize font-['Cabinet_Grotesk:Bold'] leading-[20px] not-italic relative shrink-0 text-[#ffdf00] text-[14px] whitespace-nowrap" data-node-id="27:679">
+                plugins
+              </p>
+            </div>
+            <div className="content-stretch flex items-start p-[12px] relative shrink-0" data-node-id="27:680" data-name="Auto Layout Horizontal">
+              <p className="[word-break:break-word] capitalize font-['Cabinet_Grotesk:Bold'] leading-[20px] not-italic relative shrink-0 text-[14px] text-white whitespace-nowrap" data-node-id="27:681">
+                themes
+              </p>
+            </div>
+            <div className="content-stretch flex items-start p-[12px] relative shrink-0" data-node-id="27:682" data-name="Auto Layout Horizontal">
+              <p className="[word-break:break-word] capitalize font-['Cabinet_Grotesk:Bold'] leading-[20px] not-italic relative shrink-0 text-[14px] text-white whitespace-nowrap" data-node-id="27:683">
+                templates
+              </p>
+            </div>
+            <div className="content-stretch flex items-start p-[12px] relative shrink-0" data-node-id="27:684" data-name="Auto Layout Horizontal">
+              <p className="[word-break:break-word] capitalize font-['Cabinet_Grotesk:Bold'] leading-[20px] not-italic relative shrink-0 text-[14px] text-white whitespace-nowrap" data-node-id="27:685">
+                UI Kits
+              </p>
+            </div>
+          </div>
+          <div className="absolute contents left-[16px] top-[5424px]" data-node-id="28:862" data-name="Group">
+            <div className="absolute contents left-[16px] top-[5424px]" data-node-id="27:686" data-name="Group">
+              <div className="-translate-x-1/2 -translate-y-1/2 absolute contents left-1/2 top-[calc(50%+755.5px)]" data-node-id="27:687" data-name="Group">
+                <div className="-translate-x-1/2 -translate-y-1/2 absolute bg-white h-[77px] left-1/2 rounded-bl-[16px] rounded-br-[16px] top-[calc(50%+755.5px)] w-[358px]" data-node-id="27:688" data-name="Rectangle" />
+                <div className="-translate-x-1/2 -translate-y-1/2 absolute contents left-[calc(87.5%-15.25px)] top-[calc(50%+756px)]" data-node-id="27:689" data-name="Group">
+                  <div className="-translate-x-1/2 -translate-y-1/2 absolute bg-[#ffdf00] h-[30px] left-[calc(87.5%-15.25px)] rounded-[50px] top-[calc(50%+756px)] w-[64px]" data-node-id="27:690" data-name="Rectangle" />
+                  <p className="[word-break:break-word] absolute capitalize font-['Cabinet_Grotesk:Medium'] h-[18px] leading-[20px] left-[calc(87.5%-29.25px)] not-italic text-[#151515] text-[14px] top-[calc(50%+747px)] w-[29px]" data-node-id="27:691">
+                    view
+                  </p>
+                </div>
+                <div className="-translate-x-1/2 -translate-y-1/2 [word-break:break-word] absolute contents leading-[20px] left-[calc(25%+11px)] not-italic top-[calc(50%+755px)]" data-node-id="27:692" data-name="Group">
+                  <p className="absolute font-['Cabinet_Grotesk:Bold'] h-[20px] left-[calc(25%-65.5px)] text-[#151515] text-[16px] top-[calc(50%+733px)] w-[153px]" data-node-id="27:693">
+                    Nayapay Payment API
+                  </p>
+                  <p className="absolute capitalize font-['Cabinet_Grotesk:Medium'] h-[20px] left-[calc(12.5%-16.75px)] text-[#818181] text-[14px] top-[calc(50%+757px)] w-[43px]" data-node-id="27:694">
+                    blog
+                  </p>
+                </div>
+              </div>
+              <div className="-translate-x-1/2 -translate-y-1/2 absolute bg-[#ffdf00] h-[241px] left-1/2 rounded-tl-[16px] rounded-tr-[16px] top-[calc(50%+596.5px)] w-[358px]" data-node-id="27:695" data-name="Frame 1 (2) 9" />
+              <div className="absolute h-[241px] left-[16px] rounded-tl-[16px] rounded-tr-[16px] top-[5424px] w-[358px]" data-node-id="38:907" data-name="unsplash:HNPrWOH2Z8U">
+                <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none rounded-tl-[16px] rounded-tr-[16px] size-full" src={imgUnsplashHnPrWoh2Z8U} />
+              </div>
+            </div>
+            <div className="absolute contents left-[16px] top-[5766px]" data-node-id="27:696" data-name="Group">
+              <div className="-translate-x-1/2 -translate-y-1/2 absolute contents left-1/2 top-[calc(50%+1097.5px)]" data-node-id="27:697" data-name="Group">
+                <div className="-translate-x-1/2 -translate-y-1/2 absolute bg-white h-[77px] left-1/2 rounded-bl-[16px] rounded-br-[16px] top-[calc(50%+1097.5px)] w-[358px]" data-node-id="27:698" data-name="Rectangle" />
+                <div className="-translate-x-1/2 -translate-y-1/2 absolute contents left-[calc(87.5%-15.25px)] top-[calc(50%+1098px)]" data-node-id="27:699" data-name="Group">
+                  <div className="-translate-x-1/2 -translate-y-1/2 absolute bg-[#ffdf00] h-[30px] left-[calc(87.5%-15.25px)] rounded-[50px] top-[calc(50%+1098px)] w-[64px]" data-node-id="27:700" data-name="Rectangle" />
+                  <p className="[word-break:break-word] absolute capitalize font-['Cabinet_Grotesk:Medium'] h-[18px] leading-[20px] left-[calc(87.5%-29.25px)] not-italic text-[#151515] text-[14px] top-[calc(50%+1089px)] w-[29px]" data-node-id="27:701">
+                    view
+                  </p>
+                </div>
+                <div className="-translate-x-1/2 -translate-y-1/2 [word-break:break-word] absolute capitalize contents leading-[20px] left-[calc(25%+11px)] not-italic top-[calc(50%+1097px)]" data-node-id="27:702" data-name="Group">
+                  <p className="absolute font-['Cabinet_Grotesk:Bold'] h-[20px] left-[calc(25%-65.5px)] text-[#151515] text-[16px] top-[calc(50%+1075px)] w-[153px]" data-node-id="27:703">
+                    react wp
+                  </p>
+                  <p className="absolute font-['Cabinet_Grotesk:Medium'] h-[20px] left-[calc(12.5%-16.75px)] text-[#818181] text-[14px] top-[calc(50%+1099px)] w-[43px]" data-node-id="27:704">
+                    blog
+                  </p>
+                </div>
+              </div>
+              <div className="-translate-x-1/2 -translate-y-1/2 absolute bg-[#ffdf00] h-[241px] left-1/2 rounded-tl-[16px] rounded-tr-[16px] top-[calc(50%+938.5px)] w-[358px]" data-node-id="27:705" data-name="Frame 1 (2) 9" />
+              <div className="absolute h-[241px] left-[16px] rounded-tl-[16px] rounded-tr-[16px] top-[5766px] w-[358px]" data-node-id="38:908" data-name="unsplash:UYsBCu9RP3Y">
+                <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none rounded-tl-[16px] rounded-tr-[16px] size-full" src={imgUnsplashUYsBCu9Rp3Y} />
+              </div>
+            </div>
+            <div className="absolute contents left-[16px] top-[6108px]" data-node-id="27:706" data-name="Group">
+              <div className="-translate-x-1/2 -translate-y-1/2 absolute contents left-1/2 top-[calc(50%+1439.5px)]" data-node-id="27:707" data-name="Group">
+                <div className="-translate-x-1/2 -translate-y-1/2 absolute bg-white h-[77px] left-1/2 rounded-bl-[16px] rounded-br-[16px] top-[calc(50%+1439.5px)] w-[358px]" data-node-id="27:708" data-name="Rectangle" />
+                <div className="-translate-x-1/2 -translate-y-1/2 absolute contents left-[calc(87.5%-15.25px)] top-[calc(50%+1440px)]" data-node-id="27:709" data-name="Group">
+                  <div className="-translate-x-1/2 -translate-y-1/2 absolute bg-[#ffdf00] h-[30px] left-[calc(87.5%-15.25px)] rounded-[50px] top-[calc(50%+1440px)] w-[64px]" data-node-id="27:710" data-name="Rectangle" />
+                  <p className="[word-break:break-word] absolute capitalize font-['Cabinet_Grotesk:Medium'] h-[18px] leading-[20px] left-[calc(87.5%-29.25px)] not-italic text-[#151515] text-[14px] top-[calc(50%+1431px)] w-[29px]" data-node-id="27:711">
+                    view
+                  </p>
+                </div>
+                <div className="-translate-x-1/2 -translate-y-1/2 [word-break:break-word] absolute capitalize contents leading-[20px] left-[calc(37.5%-33.25px)] not-italic top-[calc(50%+1439px)]" data-node-id="27:712" data-name="Group">
+                  <p className="absolute font-['Cabinet_Grotesk:Bold'] left-[calc(37.5%-114.25px)] text-[#151515] text-[16px] top-[calc(50%+1417px)] whitespace-nowrap" data-node-id="27:713">
+                    wordpress to webflow
+                  </p>
+                  <p className="absolute font-['Cabinet_Grotesk:Medium'] h-[20px] left-[calc(12.5%-16.75px)] text-[#818181] text-[14px] top-[calc(50%+1441px)] w-[43px]" data-node-id="27:714">
+                    blog
+                  </p>
+                </div>
+              </div>
+              <div className="-translate-x-1/2 -translate-y-1/2 absolute bg-[#ffdf00] h-[241px] left-1/2 rounded-tl-[16px] rounded-tr-[16px] top-[calc(50%+1280.5px)] w-[358px]" data-node-id="27:715" data-name="Frame 1 (2) 9" />
+              <div className="absolute h-[241px] left-[16px] rounded-tl-[16px] rounded-tr-[16px] top-[6108px] w-[358px]" data-node-id="38:909" data-name="unsplash:-WPrNEM_6dg">
+                <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none rounded-tl-[16px] rounded-tr-[16px] size-full" src={imgUnsplashWPrNem6Dg} />
+              </div>
+            </div>
+            <div className="absolute contents left-[16px] top-[6450px]" data-node-id="27:716" data-name="Group">
+              <div className="-translate-x-1/2 -translate-y-1/2 absolute contents left-1/2 top-[calc(50%+1781.5px)]" data-node-id="27:717" data-name="Group">
+                <div className="-translate-x-1/2 -translate-y-1/2 absolute bg-white h-[77px] left-1/2 rounded-bl-[16px] rounded-br-[16px] top-[calc(50%+1781.5px)] w-[358px]" data-node-id="27:718" data-name="Rectangle" />
+                <div className="-translate-x-1/2 -translate-y-1/2 absolute contents left-[calc(87.5%-15.25px)] top-[calc(50%+1782px)]" data-node-id="27:719" data-name="Group">
+                  <div className="-translate-x-1/2 -translate-y-1/2 absolute bg-[#ffdf00] h-[30px] left-[calc(87.5%-15.25px)] rounded-[50px] top-[calc(50%+1782px)] w-[64px]" data-node-id="27:720" data-name="Rectangle" />
+                  <p className="[word-break:break-word] absolute capitalize font-['Cabinet_Grotesk:Medium'] h-[18px] leading-[20px] left-[calc(87.5%-29.25px)] not-italic text-[#151515] text-[14px] top-[calc(50%+1773px)] w-[29px]" data-node-id="27:721">
+                    view
+                  </p>
+                </div>
+                <div className="-translate-x-1/2 -translate-y-1/2 [word-break:break-word] absolute capitalize contents leading-[20px] left-[calc(25%+11px)] not-italic top-[calc(50%+1781px)]" data-node-id="27:722" data-name="Group">
+                  <p className="absolute font-['Cabinet_Grotesk:Bold'] h-[20px] left-[calc(25%-65.5px)] text-[#151515] text-[16px] top-[calc(50%+1759px)] w-[153px]" data-node-id="27:723">
+                    yoast seo
+                  </p>
+                  <p className="absolute font-['Cabinet_Grotesk:Medium'] h-[20px] left-[calc(12.5%-16.75px)] text-[#818181] text-[14px] top-[calc(50%+1783px)] w-[43px]" data-node-id="27:724">
+                    blog
+                  </p>
+                </div>
+              </div>
+              <div className="-translate-x-1/2 -translate-y-1/2 absolute bg-[#ffdf00] h-[241px] left-1/2 rounded-tl-[16px] rounded-tr-[16px] top-[calc(50%+1622.5px)] w-[358px]" data-node-id="27:725" data-name="Frame 1 (2) 9" />
+              <div className="absolute h-[241px] left-[16px] rounded-tl-[16px] rounded-tr-[16px] top-[6450px] w-[358px]" data-node-id="38:910" data-name="unsplash:eveI7MOcSmw">
+                <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none rounded-tl-[16px] rounded-tr-[16px] size-full" src={imgUnsplashEveI7MOcSmw} />
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className="-translate-x-1/2 -translate-y-1/2 absolute contents left-1/2 top-[calc(50%+1867px)]" data-node-id="27:726" data-name="Group">
+          <p className="[text-decoration-skip-ink:none] [text-underline-position:from-font] [word-break:break-word] absolute capitalize decoration-from-font decoration-solid font-['Cabinet_Grotesk:Bold'] leading-[30px] left-[calc(37.5%-4.25px)] not-italic text-[#ffdf00] text-[20px] top-[calc(50%+1852px)] underline whitespace-nowrap" data-node-id="27:727">
+            view all
+          </p>
+          <div className="-translate-x-1/2 -translate-y-1/2 absolute left-[calc(62.5%-7.75px)] size-[24px] top-[calc(50%+1867px)]" data-node-id="27:728" data-name="arrow-narrow-right">
+            <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgArrowNarrowRight} />
+          </div>
+        </div>
+      </div>
+      <div className="-translate-x-1/2 absolute contents left-[calc(50%+8px)] top-[4357px]" data-node-id="27:675" data-name="Group">
+        <p className="-translate-x-1/2 [word-break:break-word] absolute font-['Cabinet_Grotesk:Black'] leading-[0] left-1/2 not-italic text-[32px] text-center text-white top-[4357px] uppercase w-[352px]" data-node-id="27:618">
+          <span className="leading-[40px]">{`what’s our `}</span>
+          <span className="leading-[40px] text-[#ffdf00]">{`creative `}</span>
+          <span className="leading-[40px]">process?</span>
+        </p>
+        <div className="-translate-x-1/2 absolute h-[275px] left-[calc(50%+8px)] rounded-bl-[21.07px] rounded-tl-[21.07px] top-[4861px] w-[374px]" data-node-id="27:619" data-name="Image">
+          <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none rounded-bl-[21.07px] rounded-tl-[21.07px] size-full" src={imgImage} />
+        </div>
+        <div className="-translate-x-1/2 absolute contents left-1/2 top-[4469px]" data-node-id="27:674" data-name="Group">
+          <div className="-translate-x-1/2 absolute contents left-1/2 top-[4469px]" data-node-id="27:621" data-name="Group">
+            <div className="-translate-x-1/2 absolute contents left-1/2 top-[4469px]" data-node-id="27:649" data-name="Group">
+              <div className="-translate-x-1/2 absolute left-[calc(12.5%-8.75px)] size-[48px] top-[4471px]" data-node-id="27:622" data-name="Group">
+                <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgGroup3} />
+              </div>
+              <div className="-translate-x-1/2 [word-break:break-word] absolute capitalize contents left-[calc(62.5%-16.75px)] not-italic text-white top-[4469px]" data-node-id="27:625" data-name="Group">
+                <p className="absolute font-['Cabinet_Grotesk:Extrabold'] leading-[30px] left-[calc(37.5%-66.25px)] text-[24px] top-[4469px] whitespace-nowrap" data-node-id="27:626">
+                  empathize
+                </p>
+                <p className="absolute font-['Cabinet_Grotesk:Medium'] leading-[20px] left-[calc(62.5%-163.75px)] text-[14px] top-[4501px] w-[294px]" data-node-id="27:627">
+                  Nam eget aliquam facilisis tortor, massa. Elementum
+                </p>
+              </div>
+            </div>
+          </div>
+          <div className="-translate-x-1/2 absolute contents left-1/2 top-[4565px]" data-node-id="27:650" data-name="Group">
+            <div className="-translate-x-1/2 absolute contents left-1/2 top-[4565px]" data-node-id="27:651" data-name="Group">
+              <div className="-translate-x-1/2 absolute left-[calc(12.5%-8.75px)] size-[48px] top-[4567px]" data-node-id="27:652" data-name="Group">
+                <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgGroup3} />
+              </div>
+              <div className="-translate-x-1/2 [word-break:break-word] absolute capitalize contents left-[calc(62.5%-16.75px)] not-italic text-white top-[4565px]" data-node-id="27:655" data-name="Group">
+                <p className="absolute font-['Cabinet_Grotesk:Extrabold'] leading-[30px] left-[calc(37.5%-66.25px)] text-[24px] top-[4565px] whitespace-nowrap" data-node-id="27:656">
+                  empathize
+                </p>
+                <p className="absolute font-['Cabinet_Grotesk:Medium'] leading-[20px] left-[calc(62.5%-163.75px)] text-[14px] top-[4597px] w-[294px]" data-node-id="27:657">
+                  Nam eget aliquam facilisis tortor, massa. Elementum
+                </p>
+              </div>
+            </div>
+          </div>
+          <div className="-translate-x-1/2 absolute contents left-1/2 top-[4661px]" data-node-id="27:658" data-name="Group">
+            <div className="-translate-x-1/2 absolute contents left-1/2 top-[4661px]" data-node-id="27:659" data-name="Group">
+              <div className="-translate-x-1/2 absolute left-[calc(12.5%-8.75px)] size-[48px] top-[4663px]" data-node-id="27:660" data-name="Group">
+                <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgGroup3} />
+              </div>
+              <div className="-translate-x-1/2 [word-break:break-word] absolute capitalize contents left-[calc(62.5%-16.75px)] not-italic text-white top-[4661px]" data-node-id="27:663" data-name="Group">
+                <p className="absolute font-['Cabinet_Grotesk:Extrabold'] leading-[30px] left-[calc(37.5%-66.25px)] text-[24px] top-[4661px] whitespace-nowrap" data-node-id="27:664">
+                  empathize
+                </p>
+                <p className="absolute font-['Cabinet_Grotesk:Medium'] leading-[20px] left-[calc(62.5%-163.75px)] text-[14px] top-[4693px] w-[294px]" data-node-id="27:665">
+                  Nam eget aliquam facilisis tortor, massa. Elementum
+                </p>
+              </div>
+            </div>
+          </div>
+          <div className="-translate-x-1/2 absolute contents left-1/2 top-[4757px]" data-node-id="27:666" data-name="Group">
+            <div className="-translate-x-1/2 absolute contents left-1/2 top-[4757px]" data-node-id="27:667" data-name="Group">
+              <div className="-translate-x-1/2 absolute left-[calc(12.5%-8.75px)] size-[48px] top-[4759px]" data-node-id="27:668" data-name="Group">
+                <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgGroup3} />
+              </div>
+              <div className="-translate-x-1/2 [word-break:break-word] absolute capitalize contents left-[calc(62.5%-16.75px)] not-italic text-white top-[4757px]" data-node-id="27:671" data-name="Group">
+                <p className="absolute font-['Cabinet_Grotesk:Extrabold'] leading-[30px] left-[calc(37.5%-66.25px)] text-[24px] top-[4757px] whitespace-nowrap" data-node-id="27:672">
+                  empathize
+                </p>
+                <p className="absolute font-['Cabinet_Grotesk:Medium'] leading-[20px] left-[calc(62.5%-163.75px)] text-[14px] top-[4789px] w-[294px]" data-node-id="27:673">
+                  Nam eget aliquam facilisis tortor, massa. Elementum
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div className="-translate-x-1/2 absolute contents left-[calc(50%+0.5px)] top-[4019px]" data-node-id="27:617" data-name="Group">
+        <div className="-translate-x-1/2 absolute contents left-[calc(50%+0.5px)] top-[4019px]" data-node-id="27:616" data-name="Group">
+          <div className="-translate-x-1/2 absolute contents left-[calc(50%+0.5px)] top-[4019px]" data-node-id="27:610" data-name="Group">
+            <div className="-translate-x-1/2 absolute bg-[#ffdf00] h-[42px] left-[calc(50%+0.5px)] opacity-8 rounded-[50px] top-[4019px] w-[263px]" data-node-id="27:611" data-name="Rectangle" />
+            <div className="-translate-x-1/2 absolute contents left-[calc(50%+0.5px)] top-[4030px]" data-node-id="27:612" data-name="Group">
+              <p className="[word-break:break-word] absolute capitalize font-['Cabinet_Grotesk:Medium'] leading-[20px] left-[calc(62.5%-139.75px)] not-italic text-[#ffdf00] text-[14px] top-[4030px] whitespace-nowrap" data-node-id="27:613">{`award winning wordPress agency `}</p>
+              <div className="-translate-x-1/2 absolute left-[calc(12.5%+36.25px)] size-[14px] top-[4032.96px]" data-node-id="27:614" data-name="Vector">
+                <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgVector} />
+              </div>
+            </div>
+          </div>
+          <p className="[word-break:break-word] absolute font-['Cabinet_Grotesk:Black'] leading-[0] left-[calc(50%-115px)] not-italic text-[32px] text-white top-[4073px] uppercase whitespace-nowrap" data-node-id="27:615">
+            <span className="leading-[40px]">{`they trust `}</span>
+            <span className="leading-[40px] text-[#ffdf00]">us</span>
+          </p>
+        </div>
+        <div className="-translate-x-1/2 absolute contents left-[calc(50%+0.5px)] top-[4145px]" data-node-id="27:510" data-name="Group">
+          <div className="-translate-x-1/2 absolute contents left-[calc(50%+0.5px)] top-[4207px]" data-node-id="27:511" data-name="Group">
+            <div className="-translate-x-1/2 absolute bg-[#ffdf00] content-stretch flex h-[49px] items-start left-[calc(12.5%+25.75px)] px-[21.979px] py-[16.484px] rounded-[130.502px] top-[4208px] w-[113px]" data-node-id="27:512" data-name="Auto Layout Horizontal">
+              <div className="h-[15px] overflow-clip relative shrink-0 w-[69px]" data-node-id="27:513" data-name="Format=Wordmark">
+                <div className="absolute inset-[0_0.45%_0_0]" data-node-id="I27:513;5:6782" data-name="Group">
+                  <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgGroup4} />
+                </div>
+              </div>
+            </div>
+            <div className="-translate-x-1/2 absolute bg-[#1b1b1b] content-stretch flex h-[49px] items-start left-[calc(50%+0.5px)] px-[21.979px] py-[16.484px] rounded-[130.502px] top-[4208px] w-[113px]" data-node-id="27:514" data-name="Auto Layout Horizontal">
+              <div className="h-[15px] relative shrink-0 w-[69px]" data-node-id="27:515" data-name="Property 1=Wordmark">
+                <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgProperty1Wordmark} />
+              </div>
+            </div>
+            <div className="-translate-x-1/2 absolute bg-[#1b1b1b] content-stretch flex h-[49px] items-start left-[calc(87.5%-24.75px)] px-[21.979px] py-[16.484px] rounded-[130.502px] top-[4207px] w-[113px]" data-node-id="27:516" data-name="Auto Layout Horizontal">
+              <div className="h-[16px] relative shrink-0 w-[69px]" data-node-id="27:517" data-name="Format=Wordmark">
+                <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgFormatWordmark} />
+              </div>
+            </div>
+            <div className="-translate-x-1/2 absolute bg-[#1b1b1b] content-stretch flex h-[49px] items-start left-[-46.5px] px-[21.979px] py-[16.484px] rounded-[130.502px] top-[4208px] w-[113px]" data-node-id="27:518" data-name="Auto Layout Horizontal">
+              <div className="h-[15px] relative shrink-0 w-[69px]" data-node-id="27:519" data-name="Format=Wordmark">
+                <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgFormatWordmark1} />
+              </div>
+            </div>
+            <div className="-translate-x-1/2 absolute bg-[#1b1b1b] content-stretch flex h-[50px] items-start left-[-167.5px] px-[21.979px] py-[16.484px] rounded-[130.502px] top-[4207px] w-[113px]" data-node-id="27:520" data-name="Auto Layout Horizontal">
+              <div className="h-[17px] relative shrink-0 w-[69px]" data-node-id="27:521" data-name="Format=Wordmark">
+                <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgFormatWordmark2} />
+              </div>
+            </div>
+            <div className="-translate-x-1/2 absolute bg-[#1b1b1b] content-stretch flex h-[49px] items-start left-[calc(100%+168.5px)] px-[21.979px] py-[16.484px] rounded-[130.502px] top-[4208px] w-[113px]" data-node-id="27:522" data-name="Auto Layout Horizontal">
+              <div className="h-[16px] relative shrink-0 w-[69px]" data-node-id="27:523" data-name="Format=Wordmark">
+                <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgFormatWordmark3} />
+              </div>
+            </div>
+            <div className="-translate-x-1/2 absolute bg-[#1b1b1b] content-stretch flex h-[46px] items-start left-[calc(100%+47.5px)] px-[21.979px] py-[16.484px] rounded-[130.502px] top-[4209px] w-[113px]" data-node-id="27:524" data-name="Auto Layout Horizontal">
+              <div className="h-[13px] relative shrink-0 w-[69px]" data-node-id="27:525" data-name="Format=Frame">
+                <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgFormatFrame} />
+              </div>
+            </div>
+          </div>
+          <div className="-translate-x-1/2 absolute contents left-[calc(50%+1px)] top-[4145px]" data-node-id="27:526" data-name="Group">
+            <div className="-translate-x-1/2 absolute bg-[#1b1b1b] content-stretch flex h-[53px] items-start left-[calc(62.5%-5.25px)] px-[21.979px] py-[16.484px] rounded-[130.502px] top-[4145px] w-[131px]" data-node-id="27:527" data-name="Auto Layout Horizontal">
+              <div className="h-[21px] relative shrink-0 w-[87px]" data-node-id="27:528" data-name="Format=Frame">
+                <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgFormatFrame1} />
+              </div>
+            </div>
+            <div className="-translate-x-1/2 absolute bg-[#1b1b1b] content-stretch flex h-[53px] items-start left-[calc(25%+11px)] px-[21.979px] py-[16.484px] rounded-[130.502px] top-[4145px] w-[113px]" data-node-id="27:529" data-name="Auto Layout Horizontal">
+              <div className="h-[20px] relative shrink-0 w-[69px]" data-node-id="27:530" data-name="Format=Wordmark">
+                <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgFormatWordmark4} />
+              </div>
+            </div>
+            <div className="-translate-x-1/2 absolute bg-[#1b1b1b] content-stretch flex h-[50px] items-start left-[calc(100%+100.5px)] px-[21.979px] py-[16.484px] rounded-[130.502px] top-[4147px] w-[113px]" data-node-id="27:531" data-name="Auto Layout Horizontal">
+              <div className="h-[17px] relative shrink-0 w-[69px]" data-node-id="27:532" data-name="Format=Wordmark">
+                <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgFormatWordmark5} />
+              </div>
+            </div>
+            <div className="-translate-x-1/2 absolute bg-[#ffdf00] content-stretch flex h-[43px] items-start left-[calc(87.5%+28.25px)] px-[21.979px] py-[16.484px] rounded-[130.502px] top-[4150px] w-[113px]" data-node-id="27:533" data-name="Auto Layout Horizontal">
+              <div className="h-[10px] relative shrink-0 w-[69px]" data-node-id="27:534" data-name="Format=Wordmark">
+                <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgFormatWordmark6} />
+              </div>
+            </div>
+            <div className="-translate-x-1/2 absolute bg-[#1b1b1b] content-stretch flex h-[53px] items-start left-[-98.5px] px-[21.979px] py-[16.484px] rounded-[130.502px] top-[4145px] w-[113px]" data-node-id="27:535" data-name="Auto Layout Horizontal">
+              <div className="h-[20px] relative shrink-0 w-[69px]" data-node-id="27:536" data-name="Format=Wordmark">
+                <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgFormatWordmark7} />
+              </div>
+            </div>
+            <div className="-translate-x-1/2 absolute bg-[#1b1b1b] content-stretch flex h-[49px] items-start left-[5px] px-[21.979px] py-[16.484px] rounded-[130.502px] top-[4148px] w-[78px]" data-node-id="27:537" data-name="Auto Layout Horizontal">
+              <div className="h-[15px] relative shrink-0 w-[34px]" data-node-id="27:538" data-name="Format=Wordmark">
+                <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgFormatWordmark8} />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div className="-translate-x-1/2 absolute contents left-1/2 top-[3181px]" data-node-id="27:608" data-name="Group">
+        <div className="-translate-x-1/2 absolute bg-[#ffdf00] h-[428px] left-1/2 top-[3181px] w-[390px]" data-node-id="27:447" data-name="Rectangle" />
+        <div className="-translate-x-1/2 absolute contents left-1/2 top-[3232px]" data-node-id="27:452" data-name="Group">
+          <p className="-translate-x-1/2 [word-break:break-word] absolute font-['Cabinet_Grotesk:Black'] leading-[40px] left-1/2 not-italic text-[#151515] text-[32px] text-center top-[3232px] uppercase w-[358px]" data-node-id="27:448">
+            our recent projects we did
+          </p>
+          <div className="-translate-x-1/2 absolute contents left-[calc(50%+0.5px)] top-[3328px]" data-node-id="27:449" data-name="Group">
+            <div className="-translate-x-1/2 absolute bg-[#151515] h-[48px] left-[calc(50%+0.5px)] rounded-[8px] top-[3328px] w-[133px]" data-node-id="27:450" data-name="Rectangle" />
+            <p className="-translate-x-1/2 [word-break:break-word] absolute capitalize font-['Cabinet_Grotesk:Extrabold'] leading-[normal] left-[calc(50%+0.5px)] not-italic text-[14px] text-center text-white top-[3344px] whitespace-nowrap" data-node-id="27:451">
+              all projects
+            </p>
+          </div>
+        </div>
+        <div className="-translate-x-1/2 absolute contents left-1/2 top-[3423px]" data-node-id="27:501" data-name="Group">
+          <div className="-translate-x-1/2 absolute bg-[#1b1b1b] h-[468px] left-1/2 overflow-clip rounded-[24px] top-[3423px] w-[334px]" data-node-id="27:453" data-name="Frame">
+            <div className="-translate-x-1/2 absolute h-[299px] left-1/2 top-[169px] w-[334px]" data-node-id="27:454" data-name="Image">
+              <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none size-full" src={imgImage1} />
+            </div>
+            <div className="-translate-x-1/2 absolute h-0 left-[calc(50%-96px)] top-[39px] w-[94px]" data-node-id="27:455" data-name="Line">
+              <div className="absolute inset-[-1px_0]">
+                <img alt="" className="block max-w-none size-full" src={imgLine} />
+              </div>
+            </div>
+            <p className="[word-break:break-word] absolute capitalize font-['Cabinet_Grotesk:Extrabold'] leading-[30px] left-[calc(50%-25px)] not-italic text-[24px] text-white top-[24px] whitespace-nowrap" data-node-id="27:456">
+              landing page UI
+            </p>
+            <p className="[word-break:break-word] absolute capitalize font-['Cabinet_Grotesk:Medium'] leading-[20px] left-[calc(50%-143px)] not-italic text-[14px] text-white top-[111px] w-[168px]" data-node-id="27:457">
+              nike landing page website
+            </p>
+            <div className="-translate-x-1/2 absolute left-[calc(50%+119px)] size-[48px] top-[97px]" data-node-id="27:458" data-name="Group">
+              <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgGroup5} />
+            </div>
+          </div>
+          <div className="-translate-x-1/2 absolute bg-[#1b1b1b] h-[373px] left-[calc(100%+117px)] overflow-clip rounded-[19.114px] top-[3471px] w-[266px]" data-node-id="27:485" data-name="Frame">
+            <div className="-translate-x-1/2 absolute h-[238px] left-1/2 top-[135px] w-[266px]" data-node-id="27:486" data-name="Image">
+              <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none size-full" src={imgImage1} />
+            </div>
+            <div className="-translate-x-1/2 absolute h-0 left-[calc(50%-76.46px)] top-[31.06px] w-[74.862px]" data-node-id="27:487" data-name="Line">
+              <div className="absolute inset-[-0.8px_0]">
+                <img alt="" className="block max-w-none size-full" src={imgLine1} />
+              </div>
+            </div>
+            <p className="[word-break:break-word] absolute capitalize font-['Cabinet_Grotesk:Extrabold'] leading-[23.892px] left-[calc(50%-20px)] not-italic text-[19.114px] text-white top-[19px] whitespace-nowrap" data-node-id="27:488">
+              landing page UI
+            </p>
+            <p className="[word-break:break-word] absolute capitalize font-['Cabinet_Grotesk:Medium'] leading-[15.928px] left-[calc(50%-114px)] not-italic text-[11.15px] text-white top-[88px] w-[134px]" data-node-id="27:489">
+              nike landing page website
+            </p>
+            <div className="-translate-x-1/2 absolute left-[calc(50%+95px)] size-[38px] top-[77px]" data-node-id="27:490" data-name="Group">
+              <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgGroup6} />
+            </div>
+          </div>
+          <div className="-translate-x-1/2 absolute bg-[#1b1b1b] h-[373px] left-[-117px] overflow-clip rounded-[19.114px] top-[3471px] w-[266px]" data-node-id="27:493" data-name="Frame">
+            <div className="-translate-x-1/2 absolute h-[238px] left-1/2 top-[135px] w-[266px]" data-node-id="27:494" data-name="Image">
+              <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none size-full" src={imgImage1} />
+            </div>
+            <div className="-translate-x-1/2 absolute h-0 left-[calc(50%-76.46px)] top-[31.06px] w-[74.862px]" data-node-id="27:495" data-name="Line">
+              <div className="absolute inset-[-0.8px_0]">
+                <img alt="" className="block max-w-none size-full" src={imgLine1} />
+              </div>
+            </div>
+            <p className="[word-break:break-word] absolute capitalize font-['Cabinet_Grotesk:Extrabold'] leading-[23.892px] left-[calc(50%-20px)] not-italic text-[19.114px] text-white top-[19px] whitespace-nowrap" data-node-id="27:496">
+              landing page UI
+            </p>
+            <p className="[word-break:break-word] absolute capitalize font-['Cabinet_Grotesk:Medium'] leading-[15.928px] left-[calc(50%-114px)] not-italic text-[11.15px] text-white top-[88px] w-[134px]" data-node-id="27:497">
+              nike landing page website
+            </p>
+            <div className="-translate-x-1/2 absolute left-[calc(50%+95px)] size-[38px] top-[77px]" data-node-id="27:498" data-name="Group">
+              <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgGroup6} />
+            </div>
+          </div>
+        </div>
+        <div className="-translate-x-1/2 absolute contents left-1/2 top-[3915px]" data-node-id="27:506" data-name="Group">
+          <div className="-translate-x-1/2 absolute bg-[#ffdf00] h-[4px] left-[calc(37.5%+8.75px)] rounded-[10px] top-[3915px] w-[64px]" data-node-id="27:507" data-name="Rectangle" />
+          <div className="-translate-x-1/2 absolute bg-[#ffdf00] h-[4px] left-[calc(62.5%-32.75px)] opacity-50 rounded-[10px] top-[3915px] w-[32px]" data-node-id="27:508" data-name="Rectangle" />
+          <div className="-translate-x-1/2 absolute bg-[#ffdf00] h-[4px] left-[calc(62.5%+7.25px)] opacity-50 rounded-[10px] top-[3915px] w-[32px]" data-node-id="27:509" data-name="Rectangle" />
+        </div>
+      </div>
+      <div className="-translate-x-1/2 absolute contents left-1/2 top-[1035px]" data-node-id="28:861" data-name="Group">
+        <div className="-translate-x-1/2 absolute contents left-[calc(50%-0.5px)] top-[1035px]" data-node-id="27:368" data-name="Group">
+          <div className="-translate-x-1/2 absolute contents left-[calc(50%-0.5px)] top-[1035px]" data-node-id="27:362" data-name="Group">
+            <div className="-translate-x-1/2 absolute bg-[#ffdf00] h-[42px] left-[calc(50%-0.5px)] opacity-8 rounded-[50px] top-[1035px] w-[133px]" data-node-id="27:363" data-name="Rectangle" />
+            <div className="-translate-x-1/2 absolute contents left-1/2 top-[1046px]" data-node-id="27:364" data-name="Group">
+              <p className="[word-break:break-word] absolute capitalize font-['Cabinet_Grotesk:Medium'] leading-[20px] left-[calc(62.5%-75.75px)] not-italic text-[#ffdf00] text-[14px] top-[1046px] whitespace-nowrap" data-node-id="27:365">
+                our services
+              </p>
+              <div className="-translate-x-1/2 absolute left-[calc(37.5%+2.75px)] size-[14px] top-[1048.96px]" data-node-id="27:366" data-name="Vector">
+                <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgVector} />
+              </div>
+            </div>
+          </div>
+          <p className="[word-break:break-word] absolute font-['Cabinet_Grotesk:Black'] leading-[0] left-[calc(50%-179px)] not-italic text-[0px] text-white top-[1089px] uppercase whitespace-nowrap" data-node-id="27:367">
+            <span className="leading-[40px] text-[32px]">{`what do we `}</span>
+            <span className="leading-[40px] text-[#ffdf00] text-[32px]">p</span>
+            <span className="leading-[40px] text-[#ffdf00] text-[32px]">rovide</span>
+            <span className="leading-[40px] text-[32px]">?</span>
+          </p>
+        </div>
+        <div className="-translate-x-1/2 absolute contents left-1/2 top-[1161px]" data-node-id="28:860" data-name="Group">
+          <div className="-translate-x-1/2 absolute contents left-1/2 top-[1161px]" data-node-id="27:369" data-name="Group">
+            <div className="-translate-x-1/2 absolute contents left-1/2 top-[1161px]" data-node-id="27:370" data-name="Group">
+              <div className="-translate-x-1/2 absolute bg-[#ffdf00] h-[300px] left-1/2 rounded-[24px] top-[1161px] w-[358px]" data-node-id="27:371" data-name="Rectangle" />
+              <div className="-translate-x-1/2 absolute contents left-1/2 top-[1212px]" data-node-id="27:372" data-name="Group">
+                <div className="-translate-x-1/2 absolute contents left-1/2 top-[1212px]" data-node-id="27:373" data-name="Group">
+                  <div className="-translate-x-1/2 [word-break:break-word] absolute capitalize contents left-1/2 not-italic text-[#151515] top-[1308px]" data-node-id="27:374" data-name="Group">
+                    <p className="absolute font-['Cabinet_Grotesk:Extrabold'] leading-[30px] left-[calc(37.5%-89.25px)] text-[24px] top-[1308px] whitespace-nowrap" data-node-id="27:375">
+                      theme development
+                    </p>
+                    <p className="absolute font-['Cabinet_Grotesk:Medium'] leading-[20px] left-[calc(50%-138px)] text-[14px] top-[1350px] w-[276px]" data-node-id="27:376">{`You need to get positive results when you spend hard earned marketing and promotions. `}</p>
+                  </div>
+                  <div className="-translate-x-1/2 absolute left-[calc(25%-4.5px)] size-[72px] top-[1212px]" data-node-id="27:377" data-name="Ellipse">
+                    <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgEllipse10} />
+                  </div>
+                  <Code02 className="-translate-x-1/2 absolute left-[calc(25%-4.5px)] size-[24px] top-[1236px]" />
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className="-translate-x-1/2 absolute contents left-1/2 top-[1485px]" data-node-id="27:380" data-name="Group">
+            <div className="-translate-x-1/2 absolute contents left-1/2 top-[1485px]" data-node-id="27:381" data-name="Group">
+              <div className="-translate-x-1/2 absolute bg-[#1b1b1b] h-[300px] left-1/2 rounded-[24px] top-[1485px] w-[358px]" data-node-id="27:382" data-name="Rectangle" />
+              <div className="-translate-x-1/2 absolute contents left-1/2 top-[1536px]" data-node-id="27:383" data-name="Group">
+                <div className="-translate-x-1/2 absolute contents left-1/2 top-[1536px]" data-node-id="27:384" data-name="Group">
+                  <div className="-translate-x-1/2 [word-break:break-word] absolute capitalize contents left-1/2 not-italic text-white top-[1632px]" data-node-id="27:385" data-name="Group">
+                    <p className="absolute font-['Cabinet_Grotesk:Extrabold'] leading-[30px] left-[calc(37.5%-89.25px)] text-[24px] top-[1632px] whitespace-nowrap" data-node-id="27:386">
+                      plugin development
+                    </p>
+                    <p className="absolute font-['Cabinet_Grotesk:Medium'] leading-[20px] left-[calc(50%-138px)] text-[14px] top-[1674px] w-[276px]" data-node-id="27:387">{`You need to get positive results when you spend hard earned marketing and promotions. `}</p>
+                  </div>
+                  <div className="-translate-x-1/2 absolute left-[calc(25%-4.5px)] size-[72px] top-[1536px]" data-node-id="27:388" data-name="Ellipse">
+                    <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgEllipse11} />
+                  </div>
+                  <div className="-translate-x-1/2 absolute left-[calc(25%-4.5px)] size-[24px] top-[1560px]" data-node-id="27:389" data-name="code-02">
+                    <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgCode3} />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className="-translate-x-1/2 absolute contents left-1/2 top-[1809px]" data-node-id="27:391" data-name="Group">
+            <div className="-translate-x-1/2 absolute contents left-1/2 top-[1809px]" data-node-id="27:392" data-name="Group">
+              <div className="-translate-x-1/2 absolute bg-[#1b1b1b] h-[300px] left-1/2 rounded-[24px] top-[1809px] w-[358px]" data-node-id="27:393" data-name="Rectangle" />
+              <div className="-translate-x-1/2 absolute contents left-1/2 top-[1860px]" data-node-id="27:394" data-name="Group">
+                <div className="-translate-x-1/2 absolute contents left-1/2 top-[1860px]" data-node-id="27:395" data-name="Group">
+                  <div className="-translate-x-1/2 [word-break:break-word] absolute capitalize contents left-1/2 not-italic text-white top-[1956px]" data-node-id="27:396" data-name="Group">
+                    <p className="absolute font-['Cabinet_Grotesk:Extrabold'] leading-[30px] left-[calc(37.5%-89.25px)] text-[24px] top-[1956px] whitespace-nowrap" data-node-id="27:397">
+                      ecommerce site
+                    </p>
+                    <p className="absolute font-['Cabinet_Grotesk:Medium'] leading-[20px] left-[calc(50%-138px)] text-[14px] top-[1998px] w-[276px]" data-node-id="27:398">{`You need to get positive results when you spend hard earned marketing and promotions. `}</p>
+                  </div>
+                  <div className="-translate-x-1/2 absolute left-[calc(25%-4.5px)] size-[72px] top-[1860px]" data-node-id="27:399" data-name="Ellipse">
+                    <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgEllipse11} />
+                  </div>
+                  <div className="-translate-x-1/2 absolute left-[calc(25%-4.5px)] size-[24px] top-[1884px]" data-node-id="27:400" data-name="code-02">
+                    <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgCode3} />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className="-translate-x-1/2 absolute contents left-1/2 top-[2133px]" data-node-id="27:402" data-name="Group">
+            <div className="-translate-x-1/2 absolute contents left-1/2 top-[2133px]" data-node-id="27:403" data-name="Group">
+              <div className="-translate-x-1/2 absolute bg-[#1b1b1b] h-[300px] left-1/2 rounded-[24px] top-[2133px] w-[358px]" data-node-id="27:404" data-name="Rectangle" />
+              <div className="-translate-x-1/2 absolute contents left-1/2 top-[2184px]" data-node-id="27:405" data-name="Group">
+                <div className="-translate-x-1/2 absolute contents left-1/2 top-[2184px]" data-node-id="27:406" data-name="Group">
+                  <div className="-translate-x-1/2 [word-break:break-word] absolute capitalize contents left-1/2 not-italic text-white top-[2280px]" data-node-id="27:407" data-name="Group">
+                    <p className="absolute font-['Cabinet_Grotesk:Extrabold'] leading-[30px] left-[calc(37.5%-89.25px)] text-[24px] top-[2280px] whitespace-nowrap" data-node-id="27:408">
+                      business site
+                    </p>
+                    <p className="absolute font-['Cabinet_Grotesk:Medium'] leading-[20px] left-[calc(50%-138px)] text-[14px] top-[2322px] w-[276px]" data-node-id="27:409">{`You need to get positive results when you spend hard earned marketing and promotions. `}</p>
+                  </div>
+                  <div className="-translate-x-1/2 absolute left-[calc(25%-4.5px)] size-[72px] top-[2184px]" data-node-id="27:410" data-name="Ellipse">
+                    <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgEllipse11} />
+                  </div>
+                  <div className="-translate-x-1/2 absolute left-[calc(25%-4.5px)] size-[24px] top-[2208px]" data-node-id="27:411" data-name="code-02">
+                    <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgCode3} />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className="-translate-x-1/2 absolute contents left-1/2 top-[2457px]" data-node-id="27:413" data-name="Group">
+            <div className="-translate-x-1/2 absolute contents left-1/2 top-[2457px]" data-node-id="27:414" data-name="Group">
+              <div className="-translate-x-1/2 absolute bg-[#1b1b1b] h-[300px] left-1/2 rounded-[24px] top-[2457px] w-[358px]" data-node-id="27:415" data-name="Rectangle" />
+              <div className="-translate-x-1/2 absolute contents left-1/2 top-[2508px]" data-node-id="27:416" data-name="Group">
+                <div className="-translate-x-1/2 absolute contents left-1/2 top-[2508px]" data-node-id="27:417" data-name="Group">
+                  <div className="-translate-x-1/2 [word-break:break-word] absolute capitalize contents left-1/2 not-italic text-white top-[2604px]" data-node-id="27:418" data-name="Group">
+                    <p className="absolute font-['Cabinet_Grotesk:Extrabold'] leading-[30px] left-[calc(37.5%-89.25px)] text-[24px] top-[2604px] whitespace-nowrap" data-node-id="27:419">
+                      cusom coding
+                    </p>
+                    <p className="absolute font-['Cabinet_Grotesk:Medium'] leading-[20px] left-[calc(50%-138px)] text-[14px] top-[2646px] w-[276px]" data-node-id="27:420">{`You need to get positive results when you spend hard earned marketing and promotions. `}</p>
+                  </div>
+                  <div className="-translate-x-1/2 absolute left-[calc(25%-4.5px)] size-[72px] top-[2508px]" data-node-id="27:421" data-name="Ellipse">
+                    <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgEllipse11} />
+                  </div>
+                  <div className="-translate-x-1/2 absolute left-[calc(25%-4.5px)] size-[24px] top-[2532px]" data-node-id="27:422" data-name="code-02">
+                    <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgCode3} />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className="-translate-x-1/2 absolute contents left-1/2 top-[2781px]" data-node-id="27:424" data-name="Group">
+            <div className="-translate-x-1/2 absolute contents left-1/2 top-[2781px]" data-node-id="27:425" data-name="Group">
+              <div className="-translate-x-1/2 absolute bg-[#1b1b1b] h-[300px] left-1/2 rounded-[24px] top-[2781px] w-[358px]" data-node-id="27:426" data-name="Rectangle" />
+              <div className="-translate-x-1/2 absolute contents left-1/2 top-[2832px]" data-node-id="27:427" data-name="Group">
+                <div className="-translate-x-1/2 absolute contents left-1/2 top-[2832px]" data-node-id="27:428" data-name="Group">
+                  <div className="-translate-x-1/2 [word-break:break-word] absolute capitalize contents left-1/2 not-italic text-white top-[2928px]" data-node-id="27:429" data-name="Group">
+                    <p className="absolute font-['Cabinet_Grotesk:Extrabold'] leading-[30px] left-[calc(37.5%-89.25px)] text-[24px] top-[2928px] whitespace-nowrap" data-node-id="27:430">
+                      uI/UX Design
+                    </p>
+                    <p className="absolute font-['Cabinet_Grotesk:Medium'] leading-[20px] left-[calc(50%-138px)] text-[14px] top-[2970px] w-[276px]" data-node-id="27:431">{`You need to get positive results when you spend hard earned marketing and promotions. `}</p>
+                  </div>
+                  <div className="-translate-x-1/2 absolute left-[calc(25%-4.5px)] size-[72px] top-[2832px]" data-node-id="27:432" data-name="Ellipse">
+                    <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgEllipse11} />
+                  </div>
+                  <div className="-translate-x-1/2 absolute left-[calc(25%-4.5px)] size-[24px] top-[2856px]" data-node-id="27:433" data-name="code-02">
+                    <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgCode3} />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div className="-translate-x-1/2 absolute contents left-[calc(50%-0.38px)] top-[805.51px]" data-node-id="27:289" data-name="Group">
+        <div className="-translate-x-1/2 absolute contents h-[149.716px] left-[calc(50%-0.31px)] top-[805.68px] w-[1306.612px]" data-node-id="27:290" data-name="Group">
+          <div className="-translate-x-1/2 absolute flex h-[149.716px] items-center justify-center left-[calc(50%-0.31px)] top-[805.68px] w-[1306.612px]" data-node-id="27:291">
+            <div className="flex-none rotate-[-3.5deg]">
+              <div className="bg-[#ffdf00] h-[70.193px] relative w-[1304.76px]" data-name="Rectangle" />
+            </div>
+          </div>
+          <div className="-translate-x-1/2 absolute contents h-[78.546px] left-[calc(50%+0.28px)] top-[841.42px] w-[975.309px]" data-node-id="27:292" data-name="Group">
+            <div className="-translate-x-1/2 absolute flex h-[22.534px] items-center justify-center left-[calc(75%-8.8px)] top-[863.78px] w-[88.239px]" data-node-id="27:293">
+              <div className="flex-none rotate-[-3.5deg]">
+                <div className="h-[17.234px] relative w-[87.35px]" data-name="Group">
+                  <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgGroup7} />
+                </div>
+              </div>
+            </div>
+            <div className="-translate-x-1/2 absolute flex h-[19.885px] items-center justify-center left-[calc(100%+22.93px)] top-[857.43px] w-[79.358px]" data-node-id="27:296">
+              <div className="flex-none rotate-[-3.5deg]">
+                <div className="h-[15.116px] relative w-[78.582px]" data-name="Group">
+                  <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgGroup8} />
+                </div>
+              </div>
+            </div>
+            <div className="-translate-x-1/2 absolute flex h-[18.067px] items-center justify-center left-[calc(100%+133.48px)] top-[851.55px] w-[50.752px]" data-node-id="27:302">
+              <div className="flex-none rotate-[-3.5deg]">
+                <div className="h-[15.047px] relative w-[49.926px]" data-name="Group">
+                  <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgGroup9} />
+                </div>
+              </div>
+            </div>
+            <div className="-translate-x-1/2 absolute flex h-[22.218px] items-center justify-center left-[calc(100%+249.47px)] top-[842.99px] w-[86.877px]" data-node-id="27:305">
+              <div className="flex-none rotate-[-3.5deg]">
+                <p className="[word-break:break-word] font-['Cabinet_Grotesk:Medium'] leading-[16.503px] not-italic relative text-[#151515] text-[22.327px] text-center whitespace-nowrap">Natroma</p>
+              </div>
+            </div>
+            <div className="-translate-x-1/2 absolute flex h-[22.711px] items-center justify-center left-[-251.88px] top-[896.76px] w-[80.905px]" data-node-id="27:306">
+              <div className="flex-none rotate-[-3.5deg]">
+                <div className="h-[17.863px] relative w-[79.964px]" data-name="Group">
+                  <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgGroup10} />
+                </div>
+              </div>
+            </div>
+            <div className="-translate-x-1/2 absolute flex h-[24.503px] items-center justify-center left-[-120.29px] top-[887.74px] w-[91.704px]" data-node-id="27:309">
+              <div className="flex-none rotate-[-3.5deg]">
+                <div className="h-[19px] relative w-[90.713px]" data-name="Group">
+                  <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgGroup11} />
+                </div>
+              </div>
+            </div>
+            <div className="-translate-x-1/2 absolute flex h-[19.47px] items-center justify-center left-[13.97px] top-[881.63px] w-[86.077px]" data-node-id="27:312">
+              <div className="flex-none rotate-[-3.5deg]">
+                <div className="h-[14.285px] relative w-[85.364px]" data-name="Group">
+                  <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgGroup12} />
+                </div>
+              </div>
+            </div>
+            <div className="-translate-x-1/2 absolute flex h-[23.631px] items-center justify-center left-[calc(37.5%+2.08px)] top-[871.31px] w-[91.808px]" data-node-id="27:318">
+              <div className="flex-none rotate-[-3.5deg]">
+                <div className="h-[18.118px] relative w-[90.871px]" data-name="Group">
+                  <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgGroup13} />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className="-translate-x-1/2 absolute contents h-[149.716px] left-[calc(50%-0.46px)] top-[805.51px] w-[1306.612px]" data-node-id="27:326" data-name="Group">
+          <div className="-translate-x-1/2 absolute flex h-[149.716px] items-center justify-center left-[calc(50%-0.46px)] top-[805.51px] w-[1306.612px]" data-node-id="27:327">
+            <div className="flex-none rotate-[3.5deg]">
+              <div className="backdrop-blur-[8.38px] bg-[rgba(21,21,21,0.15)] h-[70.193px] relative w-[1304.76px]" data-name="Rectangle" />
+            </div>
+          </div>
+          <div className="-translate-x-1/2 absolute contents h-[78.502px] left-[calc(50%-0.31px)] top-[841.67px] w-[974.584px]" data-node-id="27:328" data-name="Group">
+            <div className="-translate-x-1/2 absolute flex h-[22.534px] items-center justify-center left-[calc(75%-9.01px)] top-[874.85px] w-[88.24px]" data-node-id="27:329">
+              <div className="flex-none rotate-[3.5deg]">
+                <div className="h-[17.234px] relative w-[87.351px]" data-name="Group">
+                  <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgGroup14} />
+                </div>
+              </div>
+            </div>
+            <div className="-translate-x-1/2 absolute flex h-[19.885px] items-center justify-center left-[calc(100%+22.7px)] top-[884.31px] w-[79.359px]" data-node-id="27:332">
+              <div className="flex-none rotate-[3.5deg]">
+                <div className="h-[15.116px] relative w-[78.582px]" data-name="Group">
+                  <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgGroup15} />
+                </div>
+              </div>
+            </div>
+            <div className="-translate-x-1/2 absolute flex h-[18.067px] items-center justify-center left-[calc(100%+133.25px)] top-[891.95px] w-[50.751px]" data-node-id="27:338">
+              <div className="flex-none rotate-[3.5deg]">
+                <div className="h-[15.047px] relative w-[49.925px]" data-name="Group">
+                  <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgGroup16} />
+                </div>
+              </div>
+            </div>
+            <div className="-translate-x-1/2 absolute flex h-[22.218px] items-center justify-center left-[calc(100%+248.44px)] top-[897.66px] w-[86.877px]" data-node-id="27:341">
+              <div className="flex-none rotate-[3.5deg]">
+                <p className="[word-break:break-word] font-['Cabinet_Grotesk:Medium'] leading-[16.503px] not-italic relative text-[22.327px] text-center text-white whitespace-nowrap">Natroma</p>
+              </div>
+            </div>
+            <div className="-translate-x-1/2 absolute flex h-[22.711px] items-center justify-center left-[-252.12px] top-[842.32px] w-[80.905px]" data-node-id="27:342">
+              <div className="flex-none rotate-[3.5deg]">
+                <div className="h-[17.863px] relative w-[79.963px]" data-name="Group">
+                  <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgGroup17} />
+                </div>
+              </div>
+            </div>
+            <div className="-translate-x-1/2 absolute flex h-[24.503px] items-center justify-center left-[-120.53px] top-[849.39px] w-[91.704px]" data-node-id="27:345">
+              <div className="flex-none rotate-[3.5deg]">
+                <div className="h-[19px] relative w-[90.714px]" data-name="Group">
+                  <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgGroup18} />
+                </div>
+              </div>
+            </div>
+            <div className="-translate-x-1/2 absolute flex h-[19.47px] items-center justify-center left-[13.78px] top-[859.7px] w-[86.077px]" data-node-id="27:348">
+              <div className="flex-none rotate-[3.5deg]">
+                <div className="h-[14.285px] relative w-[85.364px]" data-name="Group">
+                  <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgGroup19} />
+                </div>
+              </div>
+            </div>
+            <div className="-translate-x-1/2 absolute flex h-[23.632px] items-center justify-center left-[calc(37.5%+1.9px)] top-[865.82px] w-[91.807px]" data-node-id="27:354">
+              <div className="flex-none rotate-[3.5deg]">
+                <div className="h-[18.118px] relative w-[90.871px]" data-name="Group">
+                  <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgGroup20} />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div className="-translate-x-1/2 absolute contents left-[calc(50%-8px)] top-[127px]" data-node-id="28:859" data-name="Group">
+        <div className="-translate-x-1/2 absolute contents left-1/2 top-[127px]" data-node-id="28:858" data-name="Group">
+          <p className="-translate-x-1/2 [word-break:break-word] absolute font-['Cabinet_Grotesk:Black'] leading-[0] left-1/2 not-italic text-[0px] text-center text-white top-[127px] uppercase w-[358px] whitespace-pre-wrap" data-node-id="27:188">
+            <span className="leading-[32px] text-[32px]">{`we create beautiful `}</span>
+            <span className="leading-[32px] text-[#ffdf00] text-[32px]">{` efficient `}</span>
+            <span className="leading-[32px] text-[32px]">wordpress websites.</span>
+          </p>
+          <p className="-translate-x-1/2 [word-break:break-word] absolute font-['Cabinet_Grotesk:Medium'] leading-[20px] left-1/2 not-italic text-[14px] text-center text-white top-[239px] w-[358px] whitespace-pre-wrap" data-node-id="27:190">{`You need to get positive results when you spend hard earned marketing and promotions need to get positive results when you  `}</p>
+          <div className="-translate-x-1/2 absolute contents left-[calc(50%+0.5px)] top-[315px]" data-node-id="27:191" data-name="Group">
+            <div className="-translate-x-1/2 absolute bg-[#ffdf00] h-[48px] left-[calc(50%+0.5px)] rounded-[8px] top-[315px] w-[133px]" data-node-id="27:192" data-name="Rectangle" />
+            <p className="-translate-x-1/2 [word-break:break-word] absolute font-['Cabinet_Grotesk:Extrabold'] leading-[normal] left-[calc(50%+0.5px)] not-italic text-[#151515] text-[14px] text-center top-[330px] whitespace-nowrap" data-node-id="27:193">
+              Get Started
+            </p>
+          </div>
+        </div>
+        <div className="-translate-x-1/2 absolute contents left-[calc(50%-8px)] top-[395px]" data-node-id="27:288" data-name="Group">
+          <div className="-translate-x-1/2 absolute contents left-[calc(50%-8px)] top-[422px]" data-node-id="27:194" data-name="Group">
+            <div className="-translate-x-1/2 absolute h-[212px] left-[calc(50%-8px)] rounded-br-[16.261px] rounded-tr-[16.261px] top-[422px] w-[374px]" data-node-id="27:195" data-name="Image">
+              <img alt="" className="absolute inset-0 max-w-none object-bottom pointer-events-none rounded-br-[16.261px] rounded-tr-[16.261px] size-full" src={imgImage2} />
+            </div>
+          </div>
+          <div className="-translate-x-1/2 absolute contents left-[calc(87.5%-14.75px)] top-[395px]" data-node-id="27:236" data-name="Group">
+            <div className="-translate-x-1/2 absolute flex items-center justify-center left-[calc(87.5%-14.75px)] size-[53px] top-[395px]" data-node-id="27:237">
+              <div className="flex-none rotate-90">
+                <div className="relative size-[53px]" data-name="Star">
+                  <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgStar} />
+                </div>
+              </div>
+            </div>
+            <div className="-translate-x-1/2 absolute contents left-[calc(87.5%-14.75px)] top-[397.96px]" data-node-id="27:238" data-name="Group">
+              <div className="-translate-x-1/2 absolute flex h-[15.375px] items-center justify-center left-[calc(87.5%-14.56px)] top-[414.31px] w-[9.738px]" data-node-id="27:239">
+                <div className="flex-none rotate-90">
+                  <div className="h-[9.738px] relative w-[15.375px]" data-name="Vector">
+                    <div className="absolute inset-[-0.4%_0]">
+                      <img alt="" className="block max-w-none size-full" src={imgVector2} />
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div className="-translate-x-1/2 absolute contents left-[calc(87.5%-14.75px)] top-[397.96px]" data-node-id="27:240" data-name="Group">
+                <ul className="[word-break:break-word] absolute block font-['Cabinet_Grotesk:Medium'] leading-[0] left-[calc(87.5%-39.25px)] not-italic text-[5.125px] text-white top-[419px] whitespace-nowrap" data-node-id="27:241">
+                  <li className="list-disc ms-[7.6875px]">
+                    <span className="leading-[normal] text-[5.125px]">​</span>
+                  </li>
+                </ul>
+                <div className="-translate-x-1/2 absolute contents left-[calc(87.5%-14.75px)] top-[397.96px]" data-node-id="27:242" data-name="Group">
+                  <div className="-translate-x-1/2 absolute contents left-[calc(87.5%-14.84px)] top-[397.96px]" data-node-id="27:243" data-name="Group">
+                    <div className="absolute flex h-[4.541px] items-center justify-center left-[calc(87.5%-39.25px)] top-[415.12px] w-[6.595px]" data-node-id="27:244">
+                      <div className="flex-none rotate-[-73.96deg]">
+                        <p className="[word-break:break-word] font-['Cabinet_Grotesk:Medium'] leading-[normal] not-italic relative text-[5.125px] text-white whitespace-nowrap">e</p>
+                      </div>
+                    </div>
+                    <div className="absolute flex h-[5.42px] items-center justify-center left-[calc(87.5%-37.25px)] top-[410.33px] w-[6.708px]" data-node-id="27:245">
+                      <div className="flex-none rotate-[-62.67deg]">
+                        <p className="[word-break:break-word] font-['Cabinet_Grotesk:Medium'] leading-[normal] not-italic relative text-[5.125px] text-white whitespace-nowrap">x</p>
+                      </div>
+                    </div>
+                    <div className="absolute flex h-[6.089px] items-center justify-center left-[calc(87.5%-35.25px)] top-[406.66px] w-[6.56px]" data-node-id="27:246">
+                      <div className="flex-none rotate-[-51.37deg]">
+                        <p className="[word-break:break-word] font-['Cabinet_Grotesk:Medium'] leading-[normal] not-italic relative text-[5.125px] text-white whitespace-nowrap">p</p>
+                      </div>
+                    </div>
+                    <div className="absolute flex h-[5.801px] items-center justify-center left-[calc(87.5%-32.25px)] top-[403.66px] w-[5.496px]" data-node-id="27:247">
+                      <div className="flex-none rotate-[-41.9deg]">
+                        <p className="[word-break:break-word] font-['Cabinet_Grotesk:Medium'] leading-[normal] not-italic relative text-[5.125px] text-white whitespace-nowrap">l</p>
+                      </div>
+                    </div>
+                    <div className="absolute flex h-[6.673px] items-center justify-center left-[calc(87.5%-29.25px)] top-[401.39px] w-[5.75px]" data-node-id="27:248">
+                      <div className="flex-none rotate-[-32.43deg]">
+                        <p className="[word-break:break-word] font-['Cabinet_Grotesk:Medium'] leading-[normal] not-italic relative text-[5.125px] text-white whitespace-nowrap">o</p>
+                      </div>
+                    </div>
+                    <div className="absolute flex h-[6.682px] items-center justify-center left-[calc(87.5%-25.25px)] top-[398.9px] w-[4.99px]" data-node-id="27:249">
+                      <div className="flex-none rotate-[-21.5deg]">
+                        <p className="[word-break:break-word] font-['Cabinet_Grotesk:Medium'] leading-[normal] not-italic relative text-[5.125px] text-white whitespace-nowrap">r</p>
+                      </div>
+                    </div>
+                    <div className="absolute flex h-[6.448px] items-center justify-center left-[calc(87.5%-20.25px)] top-[398.45px] w-[4.049px]" data-node-id="27:250">
+                      <div className="flex-none rotate-[-10.57deg]">
+                        <p className="[word-break:break-word] font-['Cabinet_Grotesk:Medium'] leading-[normal] not-italic relative text-[5.125px] text-white whitespace-nowrap">e</p>
+                      </div>
+                    </div>
+                    <div className="absolute flex h-[6.037px] items-center justify-center left-[calc(87.5%-16.25px)] top-[397.96px] w-[2.114px]" data-node-id="27:251">
+                      <div className="flex-none rotate-[-1.09deg]">
+                        <p className="[word-break:break-word] font-['Cabinet_Grotesk:Medium'] leading-[normal] not-italic relative text-[5.125px] text-white whitespace-nowrap">{` `}</p>
+                      </div>
+                    </div>
+                    <div className="absolute flex h-[6.595px] items-center justify-center left-[calc(87.5%-13.28px)] top-[398px] w-[4.966px]" data-node-id="27:252">
+                      <div className="flex-none rotate-[9.84deg]">
+                        <p className="[word-break:break-word] font-['Cabinet_Grotesk:Medium'] leading-[normal] not-italic relative text-[5.125px] text-white whitespace-nowrap">w</p>
+                      </div>
+                    </div>
+                    <div className="absolute flex h-[6.695px] items-center justify-center left-[calc(87.5%-8.59px)] top-[400px] w-[5.102px]" data-node-id="27:253">
+                      <div className="flex-none rotate-[22.95deg]">
+                        <p className="[word-break:break-word] font-['Cabinet_Grotesk:Medium'] leading-[normal] not-italic relative text-[5.125px] text-white whitespace-nowrap">e</p>
+                      </div>
+                    </div>
+                    <div className="absolute flex h-[6.642px] items-center justify-center left-[calc(87.5%-5.66px)] top-[402px] w-[5.877px]" data-node-id="27:254">
+                      <div className="flex-none rotate-[34.61deg]">
+                        <p className="[word-break:break-word] font-['Cabinet_Grotesk:Medium'] leading-[normal] not-italic relative text-[5.125px] text-white whitespace-nowrap">b</p>
+                      </div>
+                    </div>
+                    <div className="absolute flex h-[6.33px] items-center justify-center left-[calc(87.5%-2.56px)] top-[405px] w-[6.397px]" data-node-id="27:255">
+                      <div className="flex-none rotate-[45.91deg]">
+                        <p className="[word-break:break-word] font-['Cabinet_Grotesk:Medium'] leading-[normal] not-italic relative text-[5.125px] text-white whitespace-nowrap">s</p>
+                      </div>
+                    </div>
+                    <div className="absolute flex h-[5.079px] items-center justify-center left-[calc(87.5%-0.17px)] top-[408px] w-[6.063px]" data-node-id="27:256">
+                      <div className="flex-none rotate-[55.02deg]">
+                        <p className="[word-break:break-word] font-['Cabinet_Grotesk:Medium'] leading-[normal] not-italic relative text-[5.125px] text-white whitespace-nowrap">i</p>
+                      </div>
+                    </div>
+                    <div className="absolute flex h-[4.475px] items-center justify-center left-[calc(87.5%+1.39px)] top-[411px] w-[6.26px]" data-node-id="27:257">
+                      <div className="flex-none rotate-[63.4deg]">
+                        <p className="[word-break:break-word] font-['Cabinet_Grotesk:Medium'] leading-[normal] not-italic relative text-[5.125px] text-white whitespace-nowrap">t</p>
+                      </div>
+                    </div>
+                    <div className="absolute flex h-[4.541px] items-center justify-center left-[calc(87.5%+2.98px)] top-[415px] w-[6.595px]" data-node-id="27:258">
+                      <div className="flex-none rotate-[73.96deg]">
+                        <p className="[word-break:break-word] font-['Cabinet_Grotesk:Medium'] leading-[normal] not-italic relative text-[5.125px] text-white whitespace-nowrap">e</p>
+                      </div>
+                    </div>
+                  </div>
+                  <ul className="[word-break:break-word] absolute block font-['Cabinet_Grotesk:Medium'] leading-[0] left-[calc(87.5%+1.75px)] not-italic text-[5.125px] text-white top-[419px] whitespace-nowrap" data-node-id="27:259">
+                    <li className="list-disc ms-[7.6875px]">
+                      <span className="leading-[normal] text-[5.125px]">​</span>
+                    </li>
+                  </ul>
+                  <div className="-translate-x-1/2 absolute contents left-[calc(87.5%-15.16px)] top-[424.34px]" data-node-id="27:260" data-name="Group">
+                    <div className="absolute flex h-[4.541px] items-center justify-center left-[calc(87.5%+2.15px)] top-[424.34px] w-[6.595px]" data-node-id="27:261">
+                      <div className="flex-none rotate-[106.04deg]">
+                        <p className="[word-break:break-word] font-['Cabinet_Grotesk:Medium'] leading-[normal] not-italic relative text-[5.125px] text-white whitespace-nowrap">e</p>
+                      </div>
+                    </div>
+                    <div className="absolute flex h-[5.42px] items-center justify-center left-[calc(87.5%+1.04px)] top-[428.25px] w-[6.708px]" data-node-id="27:262">
+                      <div className="flex-none rotate-[117.33deg]">
+                        <p className="[word-break:break-word] font-['Cabinet_Grotesk:Medium'] leading-[normal] not-italic relative text-[5.125px] text-white whitespace-nowrap">x</p>
+                      </div>
+                    </div>
+                    <div className="absolute flex h-[6.089px] items-center justify-center left-[calc(87.5%-0.81px)] top-[431.25px] w-[6.56px]" data-node-id="27:263">
+                      <div className="flex-none rotate-[128.63deg]">
+                        <p className="[word-break:break-word] font-['Cabinet_Grotesk:Medium'] leading-[normal] not-italic relative text-[5.125px] text-white whitespace-nowrap">p</p>
+                      </div>
+                    </div>
+                    <div className="absolute flex h-[5.801px] items-center justify-center left-[calc(87.5%-3.75px)] top-[434.53px] w-[5.496px]" data-node-id="27:264">
+                      <div className="flex-none rotate-[138.1deg]">
+                        <p className="[word-break:break-word] font-['Cabinet_Grotesk:Medium'] leading-[normal] not-italic relative text-[5.125px] text-white whitespace-nowrap">l</p>
+                      </div>
+                    </div>
+                    <div className="absolute flex h-[6.673px] items-center justify-center left-[calc(87.5%-6px)] top-[435.94px] w-[5.75px]" data-node-id="27:265">
+                      <div className="flex-none rotate-[147.57deg]">
+                        <p className="[word-break:break-word] font-['Cabinet_Grotesk:Medium'] leading-[normal] not-italic relative text-[5.125px] text-white whitespace-nowrap">o</p>
+                      </div>
+                    </div>
+                    <div className="absolute flex h-[6.682px] items-center justify-center left-[calc(87.5%-9.24px)] top-[437.42px] w-[4.99px]" data-node-id="27:266">
+                      <div className="flex-none rotate-[158.5deg]">
+                        <p className="[word-break:break-word] font-['Cabinet_Grotesk:Medium'] leading-[normal] not-italic relative text-[5.125px] text-white whitespace-nowrap">r</p>
+                      </div>
+                    </div>
+                    <div className="absolute flex h-[6.448px] items-center justify-center left-[calc(87.5%-13.3px)] top-[439.1px] w-[4.049px]" data-node-id="27:267">
+                      <div className="flex-none rotate-[169.43deg]">
+                        <p className="[word-break:break-word] font-['Cabinet_Grotesk:Medium'] leading-[normal] not-italic relative text-[5.125px] text-white whitespace-nowrap">e</p>
+                      </div>
+                    </div>
+                    <div className="absolute flex h-[6.037px] items-center justify-center left-[calc(87.5%-15.36px)] top-[440px] w-[2.114px]" data-node-id="27:268">
+                      <div className="flex-none rotate-[178.91deg]">
+                        <p className="[word-break:break-word] font-['Cabinet_Grotesk:Medium'] leading-[normal] not-italic relative text-[5.125px] text-white whitespace-nowrap">{` `}</p>
+                      </div>
+                    </div>
+                    <div className="absolute flex h-[6.595px] items-center justify-center left-[calc(87.5%-21.19px)] top-[439.4px] w-[4.966px]" data-node-id="27:269">
+                      <div className="flex-none rotate-[-170.16deg]">
+                        <p className="[word-break:break-word] font-['Cabinet_Grotesk:Medium'] leading-[normal] not-italic relative text-[5.125px] text-white whitespace-nowrap">w</p>
+                      </div>
+                    </div>
+                    <div className="absolute flex h-[6.695px] items-center justify-center left-[calc(87.5%-26.01px)] top-[437.31px] w-[5.102px]" data-node-id="27:270">
+                      <div className="flex-none rotate-[-157.05deg]">
+                        <p className="[word-break:break-word] font-['Cabinet_Grotesk:Medium'] leading-[normal] not-italic relative text-[5.125px] text-white whitespace-nowrap">e</p>
+                      </div>
+                    </div>
+                    <div className="absolute flex h-[6.642px] items-center justify-center left-[calc(87.5%-29.72px)] top-[435.36px] w-[5.877px]" data-node-id="27:271">
+                      <div className="flex-none rotate-[-145.39deg]">
+                        <p className="[word-break:break-word] font-['Cabinet_Grotesk:Medium'] leading-[normal] not-italic relative text-[5.125px] text-white whitespace-nowrap">b</p>
+                      </div>
+                    </div>
+                    <div className="absolute flex h-[6.33px] items-center justify-center left-[calc(87.5%-33.34px)] top-[432.67px] w-[6.397px]" data-node-id="27:272">
+                      <div className="flex-none rotate-[-134.09deg]">
+                        <p className="[word-break:break-word] font-['Cabinet_Grotesk:Medium'] leading-[normal] not-italic relative text-[5.125px] text-white whitespace-nowrap">s</p>
+                      </div>
+                    </div>
+                    <div className="absolute flex h-[5.079px] items-center justify-center left-[calc(87.5%-35.4px)] top-[430.92px] w-[6.063px]" data-node-id="27:273">
+                      <div className="flex-none rotate-[-124.98deg]">
+                        <p className="[word-break:break-word] font-['Cabinet_Grotesk:Medium'] leading-[normal] not-italic relative text-[5.125px] text-white whitespace-nowrap">i</p>
+                      </div>
+                    </div>
+                    <div className="absolute flex h-[4.475px] items-center justify-center left-[calc(87.5%-37.15px)] top-[428.52px] w-[6.26px]" data-node-id="27:274">
+                      <div className="flex-none rotate-[-116.6deg]">
+                        <p className="[word-break:break-word] font-['Cabinet_Grotesk:Medium'] leading-[normal] not-italic relative text-[5.125px] text-white whitespace-nowrap">t</p>
+                      </div>
+                    </div>
+                    <div className="absolute flex h-[4.541px] items-center justify-center left-[calc(87.5%-39.08px)] top-[424.46px] w-[6.595px]" data-node-id="27:275">
+                      <div className="flex-none rotate-[-106.04deg]">
+                        <p className="[word-break:break-word] font-['Cabinet_Grotesk:Medium'] leading-[normal] not-italic relative text-[5.125px] text-white whitespace-nowrap">e</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className="-translate-x-1/2 [word-break:break-word] absolute contents left-1/2 not-italic text-white top-[666px] whitespace-nowrap" data-node-id="27:287" data-name="Group">
+          <div className="-translate-x-1/2 absolute contents left-[calc(12.5%+22.25px)] top-[666px]" data-node-id="27:278" data-name="Group">
+            <p className="absolute font-['Cabinet_Grotesk:Black'] leading-[0] left-[calc(12.5%-15.75px)] text-[0px] top-[666px] uppercase" data-node-id="27:279">
+              <span className="leading-[40px] text-[32px]">13</span>
+              <span className="leading-[40px] text-[#ffdf00] text-[32px]">+</span>
+            </p>
+            <p className="absolute capitalize font-['Cabinet_Grotesk:Medium'] leading-[20px] left-[calc(12.5%-15.75px)] text-[14px] top-[706px]" data-node-id="27:280">
+              awards won
+            </p>
+          </div>
+          <div className="-translate-x-1/2 absolute contents left-[calc(37.5%+38.25px)] top-[666px]" data-node-id="27:281" data-name="Group">
+            <p className="absolute font-['Cabinet_Grotesk:Black'] leading-[0] left-[calc(37.5%-5.25px)] text-[0px] top-[666px] uppercase" data-node-id="27:282">
+              <span className="leading-[40px] text-[32px]">500</span>
+              <span className="leading-[40px] text-[#ffdf00] text-[32px]">+</span>
+            </p>
+            <p className="absolute capitalize font-['Cabinet_Grotesk:Medium'] leading-[20px] left-[calc(37.5%-5.25px)] text-[14px] top-[706px]" data-node-id="27:283">
+              projects done
+            </p>
+          </div>
+          <div className="-translate-x-1/2 absolute contents left-[calc(87.5%-32.75px)] top-[666px]" data-node-id="27:284" data-name="Group">
+            <p className="absolute font-['Cabinet_Grotesk:Black'] leading-[0] left-[calc(75%-32.5px)] text-[0px] top-[666px] uppercase" data-node-id="27:285">
+              <span className="leading-[40px] text-[32px]">274</span>
+              <span className="leading-[40px] text-[#ffdf00] text-[32px]">+</span>
+            </p>
+            <p className="absolute capitalize font-['Cabinet_Grotesk:Medium'] leading-[20px] left-[calc(87.5%-81.25px)] text-[14px] top-[706px]" data-node-id="27:286">
+              brands trust us
+            </p>
+          </div>
+        </div>
+      </div>
+      <div className="absolute contents left-[16px] top-[31px]" data-node-id="28:911" data-name="Group">
+        <div className="absolute contents left-[calc(75%+47.5px)] top-[31px]" data-node-id="28:909" data-name="Group">
+          <div className="absolute bg-white h-[4px] left-[calc(75%+47.5px)] rounded-[8px] top-[31px] w-[34px]" data-node-id="28:906" data-name="Rectangle" />
+          <div className="absolute bg-white h-[4px] left-[calc(75%+47.5px)] rounded-[8px] top-[43px] w-[34px]" data-node-id="28:907" data-name="Rectangle" />
+          <div className="absolute bg-white h-[4px] left-[calc(75%+47.5px)] rounded-[8px] top-[55px] w-[34px]" data-node-id="28:908" data-name="Rectangle" />
+        </div>
+        <div className="absolute h-[25px] left-[16px] top-[33px] w-[102px]" data-node-id="32:194" data-name="logo-white 1">
+          <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none size-full" src={imgLogoWhite1} />
+        </div>
+      </div>
+    </div>
+  );
+}
+SUPER CRITICAL: The generated React+Tailwind code MUST be converted to match the target project's technology stack and styling system.
+1. Analyze the target codebase to identify: technology stack, styling approach, component patterns, and design tokens
+2. Convert React syntax to the target framework/library
+3. Transform all Tailwind classes to the target styling system while preserving exact visual design
+4. Follow the project's existing patterns and conventions
+DO NOT install any Tailwind as a dependency unless the user instructs you to do so.
+
+Node ids have been added to the code as data attributes, e.g. `data-node-id="1:2"`.
+These styles are contained in the design: s: Effect(type: DROP_SHADOW, color: #5870781A, offset: (0, 8), radius: 100, spread: 0).
+Images and SVGs will be stored as constants, e.g. const image = 'https://www.figma.com/api/mcp/asset/550e8400-e29b-41d4-a716-446655440000.png'. These constants will be used in the code as the source for the image, ex: <img src={image} />. Image assets are stored on a remote server for 7 days and can be fetched using the provided URLs until they expire.

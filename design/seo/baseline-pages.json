@@ -1,0 +1,777 @@
+{
+  "origin": "https://nine-ai-studio.serhad1999.chatgpt.site",
+  "date": "2026-09-08T00:05:55.356Z",
+  "pages": [
+    {
+      "path": "/",
+      "intended": "public-index",
+      "status": 200,
+      "title": "Nine.ai — Websites, Google Ads &amp; Automatisierung",
+      "description": "Landingpages ab 1.990 € netto, Unternehmenswebsites und individuelle Lösungen. Vergleiche Nine Start, Launch, Growth und Nine X mit echten Kundenreferenzen.",
+      "robots": "noindex, nofollow",
+      "canonical": "https://nine-ai-studio.serhad1999.chatgpt.site",
+      "h1": [
+        "Eine Website, die Kunden für dich gewinnt."
+      ],
+      "mainWords": 692,
+      "jsonLdCount": 0,
+      "images": [
+        {
+          "src": "/assets/projects/meister-lorenz-desktop.webp",
+          "alt": "Meister Lorenz – Desktop-Ansicht der Website",
+          "width": "1440",
+          "height": "1000",
+          "loading": "eager"
+        },
+        {
+          "src": "/assets/projects/meister-lorenz-mobile.webp",
+          "alt": "Meister Lorenz – mobile Website-Ansicht",
+          "width": "390",
+          "height": "844",
+          "loading": "eager"
+        },
+        {
+          "src": "/assets/projects/parkesicher-desktop.webp",
+          "alt": "ParkeSicher – Desktop-Ansicht der Website",
+          "width": "1440",
+          "height": "1000",
+          "loading": "lazy"
+        },
+        {
+          "src": "/assets/projects/parkesicher-mobile.webp",
+          "alt": "ParkeSicher – mobile Website-Ansicht",
+          "width": "390",
+          "height": "844",
+          "loading": "lazy"
+        },
+        {
+          "src": "/assets/projects/un-petit-cafe-desktop.webp",
+          "alt": "Un Petit Café / Toastclub – Desktop-Ansicht der Website",
+          "width": "1440",
+          "height": "1000",
+          "loading": "lazy"
+        },
+        {
+          "src": "/assets/projects/un-petit-cafe-mobile.webp",
+          "alt": "Un Petit Café / Toastclub – mobile Website-Ansicht",
+          "width": "390",
+          "height": "844",
+          "loading": "lazy"
+        },
+        {
+          "src": "/assets/projects/meister-lorenz-desktop.webp",
+          "alt": "Meister Lorenz – Desktop-Ansicht der Website",
+          "width": "1440",
+          "height": "1000",
+          "loading": "lazy"
+        },
+        {
+          "src": "/assets/projects/meister-lorenz-mobile.webp",
+          "alt": "Meister Lorenz – mobile Website-Ansicht",
+          "width": "390",
+          "height": "844",
+          "loading": "lazy"
+        },
+        {
+          "src": "/assets/projects/meister-lorenz-desktop.webp",
+          "alt": "Meister Lorenz – Desktop-Ansicht der Website",
+          "width": "1440",
+          "height": "1000",
+          "loading": "lazy"
+        }
+      ],
+      "internalLinks": [
+        "/projekt-starten",
+        "/projekte#meister-lorenz",
+        "/website-erstellen-lassen?paket=nine-start#website-check",
+        "/website-erstellen-lassen?paket=nine-launch#website-check",
+        "/website-erstellen-lassen?paket=nine-growth#website-check",
+        "/website-erstellen-lassen?paket=unsicher#website-check",
+        "/pakete",
+        "/projekte",
+        "/ueber-nine"
+      ]
+    },
+    {
+      "path": "/loesungen",
+      "intended": "public-index",
+      "status": 200,
+      "title": "Lösungen | Nine.ai",
+      "description": "Plattformen, Websites, KI-Automation und Google Ads: Entdecke den passenden Einstieg für dein digitales System.",
+      "robots": "noindex, nofollow",
+      "canonical": "https://nine-ai-studio.serhad1999.chatgpt.site/loesungen",
+      "h1": [
+        "Was können wir für dich tun?"
+      ],
+      "mainWords": 268,
+      "jsonLdCount": 0,
+      "images": [],
+      "internalLinks": [
+        "/",
+        "/plattformen-web-apps",
+        "/websites",
+        "/ki-automation",
+        "/google-ads-growth",
+        "/ueber-nine"
+      ]
+    },
+    {
+      "path": "/plattformen-web-apps",
+      "intended": "public-index",
+      "status": 200,
+      "title": "Web-Apps &amp; Kundenportale | Nine.ai",
+      "description": "Deine Kunden sollen online buchen, Angebote vergleichen oder sich anmelden können? Wir planen und entwickeln die passende Anwendung.",
+      "robots": "noindex, nofollow",
+      "canonical": "https://nine-ai-studio.serhad1999.chatgpt.site/plattformen-web-apps",
+      "h1": [
+        "Kundenportale &amp; Web-Apps. Direkt im Browser."
+      ],
+      "mainWords": 299,
+      "jsonLdCount": 0,
+      "images": [
+        {
+          "src": "/assets/projects/parkesicher-desktop.webp",
+          "alt": "ParkeSicher: Flughafen und Reisezeitraum für eine Parkplatzsuche auswählen",
+          "width": "1440",
+          "height": "1000",
+          "loading": "lazy"
+        }
+      ],
+      "internalLinks": [
+        "/",
+        "/checkout/platform-discovery",
+        "/checkout/platform-discovery",
+        "/projekte/parkesicher"
+      ]
+    },
+    {
+      "path": "/websites",
+      "intended": "public-index",
+      "status": 200,
+      "title": "Websites für Unternehmen | Nine.ai",
+      "description": "Wir gestalten und entwickeln deinen Auftritt – damit Besucher sofort verstehen, was du anbietest, und dich leicht kontaktieren können.",
+      "robots": "noindex, nofollow",
+      "canonical": "https://nine-ai-studio.serhad1999.chatgpt.site/websites",
+      "h1": [
+        "Dein Angebot ist gut. Zeigen wir es."
+      ],
+      "mainWords": 789,
+      "jsonLdCount": 0,
+      "images": [
+        {
+          "src": "/assets/projects/gardentime-desktop.webp",
+          "alt": "Kundenprojekt Garden Time Frankfurt: Unternehmenswebsite mit Anfrageformular",
+          "width": "1440",
+          "height": "1000"
+        },
+        {
+          "src": "/assets/projects/mrcarkey-desktop.webp",
+          "alt": "Mr. CarKey – Desktop-Ansicht der Website",
+          "width": "1440",
+          "height": "1000",
+          "loading": "lazy"
+        },
+        {
+          "src": "/assets/projects/mrcarkey-mobile.webp",
+          "alt": "Mr. CarKey – mobile Website-Ansicht",
+          "width": "390",
+          "height": "844",
+          "loading": "lazy"
+        },
+        {
+          "src": "/assets/projects/gardentime-desktop.webp",
+          "alt": "Garden Time Frankfurt – Desktop-Ansicht der Website",
+          "width": "1440",
+          "height": "1000",
+          "loading": "lazy"
+        },
+        {
+          "src": "/assets/projects/gardentime-mobile.webp",
+          "alt": "Garden Time Frankfurt – mobile Website-Ansicht",
+          "width": "390",
+          "height": "844",
+          "loading": "lazy"
+        },
+        {
+          "src": "/assets/projects/dirik-autopflege-desktop.webp",
+          "alt": "Dirik Autopflege – Desktop-Ansicht der Website",
+          "width": "1440",
+          "height": "1000",
+          "loading": "lazy"
+        },
+        {
+          "src": "/assets/projects/dirik-autopflege-mobile.webp",
+          "alt": "Dirik Autopflege – mobile Website-Ansicht",
+          "width": "390",
+          "height": "844",
+          "loading": "lazy"
+        }
+      ],
+      "internalLinks": [
+        "/",
+        "/projekt-starten?service=Website",
+        "/website-erstellen-lassen?paket=nine-start#website-check",
+        "/website-erstellen-lassen?paket=nine-launch#website-check",
+        "/checkout/nine-launch",
+        "/website-erstellen-lassen?paket=nine-growth#website-check",
+        "/checkout/nine-growth",
+        "/website-erstellen-lassen?paket=unsicher#website-check"
+      ]
+    },
+    {
+      "path": "/website-erstellen-lassen",
+      "intended": "public-index",
+      "status": 200,
+      "title": "Website erstellen lassen – ab 1.990 € netto | Nine.ai",
+      "description": "Deine neue Website. Alles außer gewöhnlich. Individuelles Webdesign, klare Festpreise ab 1.990 € netto und persönliche Abstimmung. Jetzt Website-Projekt anfragen.",
+      "robots": "noindex, nofollow",
+      "canonical": "https://nine-ai-studio.serhad1999.chatgpt.site/website-erstellen-lassen",
+      "h1": [
+        "Deine neue Website. Alles außer gewöhnlich."
+      ],
+      "mainWords": 745,
+      "jsonLdCount": 0,
+      "images": [
+        {
+          "src": "/assets/projects/prime-energie-desktop.webp",
+          "alt": "PRIME ENERGIE – Desktop-Ansicht der Website",
+          "width": "1440",
+          "height": "1000",
+          "loading": "eager"
+        },
+        {
+          "src": "/assets/projects/prime-energie-mobile.webp",
+          "alt": "PRIME ENERGIE – mobile Website-Ansicht",
+          "width": "390",
+          "height": "844",
+          "loading": "eager"
+        },
+        {
+          "src": "/assets/projects/prime-energie-desktop.webp",
+          "alt": "PRIME ENERGIE – Desktop-Ansicht der Website",
+          "width": "1440",
+          "height": "1000",
+          "loading": "lazy"
+        },
+        {
+          "src": "/assets/projects/prime-energie-mobile.webp",
+          "alt": "PRIME ENERGIE – mobile Website-Ansicht",
+          "width": "390",
+          "height": "844",
+          "loading": "lazy"
+        },
+        {
+          "src": "/assets/projects/parkesicher-desktop.webp",
+          "alt": "ParkeSicher – Desktop-Ansicht der Website",
+          "width": "1440",
+          "height": "1000",
+          "loading": "lazy"
+        },
+        {
+          "src": "/assets/projects/parkesicher-mobile.webp",
+          "alt": "ParkeSicher – mobile Website-Ansicht",
+          "width": "390",
+          "height": "844",
+          "loading": "lazy"
+        },
+        {
+          "src": "/assets/projects/meister-lorenz-desktop.webp",
+          "alt": "Meister Lorenz – Desktop-Ansicht der Website",
+          "width": "1440",
+          "height": "1000",
+          "loading": "lazy"
+        },
+        {
+          "src": "/assets/projects/meister-lorenz-mobile.webp",
+          "alt": "Meister Lorenz – mobile Website-Ansicht",
+          "width": "390",
+          "height": "844",
+          "loading": "lazy"
+        },
+        {
+          "src": "/assets/brand/favicon.svg",
+          "alt": "",
+          "width": "420",
+          "height": "420"
+        }
+      ],
+      "internalLinks": [
+        "/pakete",
+        "/datenschutz",
+        "/projekte",
+        "/plattformen-web-apps",
+        "/google-ads-growth"
+      ]
+    },
+    {
+      "path": "/ki-automation",
+      "intended": "public-index",
+      "status": 200,
+      "title": "Aufgaben automatisieren | Nine.ai",
+      "description": "Anfragen sortieren, Dokumente auslesen, Daten übertragen: Wir verbinden deine Programme und automatisieren wiederkehrende Aufgaben.",
+      "robots": "noindex, nofollow",
+      "canonical": "https://nine-ai-studio.serhad1999.chatgpt.site/ki-automation",
+      "h1": [
+        "KI, die im Alltag Arbeit abnimmt."
+      ],
+      "mainWords": 279,
+      "jsonLdCount": 0,
+      "images": [],
+      "internalLinks": [
+        "/",
+        "/projekt-starten?service=KI%20%26%20Automation",
+        "/projekt-starten?service=KI%20%26%20Automation"
+      ]
+    },
+    {
+      "path": "/google-ads-growth",
+      "intended": "public-index",
+      "status": 200,
+      "title": "Werbung bei Google | Nine.ai",
+      "description": "Wir betreuen deine Google-Werbung, verbessern die verlinkten Seiten und messen, welche Anfragen daraus entstehen.",
+      "robots": "noindex, nofollow",
+      "canonical": "https://nine-ai-studio.serhad1999.chatgpt.site/google-ads-growth",
+      "h1": [
+        "Bei Google gefunden werden. Von den richtigen Kunden."
+      ],
+      "mainWords": 283,
+      "jsonLdCount": 0,
+      "images": [],
+      "internalLinks": [
+        "/",
+        "/checkout/nine-scale",
+        "/checkout/nine-scale"
+      ]
+    },
+    {
+      "path": "/projekte",
+      "intended": "public-index",
+      "status": 200,
+      "title": "Projekte | Nine.ai",
+      "description": "Neun echte Kundenprojekte: Websites für Dienstleister, eine Fahrzeugdatenbank sowie eigene Buchungs-, Reservierungs- und Bestellsysteme. Desktop- und Mobilansichten ansehen.",
+      "robots": "noindex, nofollow",
+      "canonical": "https://nine-ai-studio.serhad1999.chatgpt.site/projekte",
+      "h1": [
+        "Gute Arbeit. Zum Ansehen."
+      ],
+      "mainWords": 227,
+      "jsonLdCount": 0,
+      "images": [
+        {
+          "src": "/assets/projects/parkesicher-desktop.webp",
+          "alt": "ParkeSicher – Desktop-Ansicht der Website",
+          "width": "1440",
+          "height": "1000",
+          "loading": "lazy"
+        },
+        {
+          "src": "/assets/projects/parkesicher-mobile.webp",
+          "alt": "ParkeSicher – mobile Website-Ansicht",
+          "width": "390",
+          "height": "844",
+          "loading": "lazy"
+        },
+        {
+          "src": "/assets/projects/un-petit-cafe-desktop.webp",
+          "alt": "Un Petit Café / Toastclub – Desktop-Ansicht der Website",
+          "width": "1440",
+          "height": "1000",
+          "loading": "lazy"
+        },
+        {
+          "src": "/assets/projects/un-petit-cafe-mobile.webp",
+          "alt": "Un Petit Café / Toastclub – mobile Website-Ansicht",
+          "width": "390",
+          "height": "844",
+          "loading": "lazy"
+        },
+        {
+          "src": "/assets/projects/mb-performance-desktop.webp",
+          "alt": "MB Performance – Desktop-Ansicht der Website",
+          "width": "1440",
+          "height": "1000",
+          "loading": "lazy"
+        },
+        {
+          "src": "/assets/projects/mb-performance-mobile.webp",
+          "alt": "MB Performance – mobile Website-Ansicht",
+          "width": "390",
+          "height": "844",
+          "loading": "lazy"
+        },
+        {
+          "src": "/assets/projects/meister-lorenz-desktop.webp",
+          "alt": "Meister Lorenz – Desktop-Ansicht der Website",
+          "width": "1440",
+          "height": "1000",
+          "loading": "lazy"
+        },
+        {
+          "src": "/assets/projects/meister-lorenz-mobile.webp",
+          "alt": "Meister Lorenz – mobile Website-Ansicht",
+          "width": "390",
+          "height": "844",
+          "loading": "lazy"
+        },
+        {
+          "src": "/assets/projects/prime-energie-desktop.webp",
+          "alt": "PRIME ENERGIE – Desktop-Ansicht der Website",
+          "width": "1440",
+          "height": "1000",
+          "loading": "lazy"
+        },
+        {
+          "src": "/assets/projects/prime-energie-mobile.webp",
+          "alt": "PRIME ENERGIE – mobile Website-Ansicht",
+          "width": "390",
+          "height": "844",
+          "loading": "lazy"
+        },
+        {
+          "src": "/assets/projects/mrcarkey-desktop.webp",
+          "alt": "Mr. CarKey – Desktop-Ansicht der Website",
+          "width": "1440",
+          "height": "1000",
+          "loading": "lazy"
+        },
+        {
+          "src": "/assets/projects/mrcarkey-mobile.webp",
+          "alt": "Mr. CarKey – mobile Website-Ansicht",
+          "width": "390",
+          "height": "844",
+          "loading": "lazy"
+        },
+        {
+          "src": "/assets/projects/gardentime-desktop.webp",
+          "alt": "Garden Time Frankfurt – Desktop-Ansicht der Website",
+          "width": "1440",
+          "height": "1000",
+          "loading": "lazy"
+        },
+        {
+          "src": "/assets/projects/gardentime-mobile.webp",
+          "alt": "Garden Time Frankfurt – mobile Website-Ansicht",
+          "width": "390",
+          "height": "844",
+          "loading": "lazy"
+        },
+        {
+          "src": "/assets/projects/loni-galabau-desktop.webp",
+          "alt": "Loni GalaBau – Desktop-Ansicht der Website",
+          "width": "1440",
+          "height": "1000",
+          "loading": "lazy"
+        },
+        {
+          "src": "/assets/projects/loni-galabau-mobile.webp",
+          "alt": "Loni GalaBau – mobile Website-Ansicht",
+          "width": "390",
+          "height": "844",
+          "loading": "lazy"
+        },
+        {
+          "src": "/assets/projects/dirik-autopflege-desktop.webp",
+          "alt": "Dirik Autopflege – Desktop-Ansicht der Website",
+          "width": "1440",
+          "height": "1000",
+          "loading": "lazy"
+        },
+        {
+          "src": "/assets/projects/dirik-autopflege-mobile.webp",
+          "alt": "Dirik Autopflege – mobile Website-Ansicht",
+          "width": "390",
+          "height": "844",
+          "loading": "lazy"
+        }
+      ],
+      "internalLinks": [
+        "/"
+      ]
+    },
+    {
+      "path": "/projekte/parkesicher",
+      "intended": "public-index",
+      "status": 200,
+      "title": "ParkeSicher – Projekt | Nine.ai",
+      "description": "Flughafen auswählen, Angebote vergleichen und Parkplätze buchen. Einblicke in die Produkt- und Systemperspektive von ParkeSicher.",
+      "robots": "noindex, nofollow",
+      "canonical": "https://nine-ai-studio.serhad1999.chatgpt.site/projekte/parkesicher",
+      "h1": [
+        "ParkeSicher. Vom Parkplatz zur Plattform."
+      ],
+      "mainWords": 149,
+      "jsonLdCount": 0,
+      "images": [
+        {
+          "src": "/assets/projects/parkesicher-desktop.webp",
+          "alt": "ParkeSicher – Desktop-Ansicht der Website",
+          "width": "1440",
+          "height": "1000",
+          "loading": "lazy"
+        }
+      ],
+      "internalLinks": [
+        "/",
+        "/projekte",
+        "/projekt-starten?service=Plattform"
+      ]
+    },
+    {
+      "path": "/pakete",
+      "intended": "public-index",
+      "status": 200,
+      "title": "Pakete &amp; Preise | Nine.ai",
+      "description": "Nine Start 1.990 €, Nine Launch 6.900 €, Nine Growth 12.900 € netto und Nine X auf Anfrage. Vergleiche Leistungen und passende Kundenprojekte.",
+      "robots": "noindex, nofollow",
+      "canonical": "https://nine-ai-studio.serhad1999.chatgpt.site/pakete",
+      "h1": [
+        "Deine neue Website. Dein klarer Festpreis."
+      ],
+      "mainWords": 658,
+      "jsonLdCount": 0,
+      "images": [],
+      "internalLinks": [
+        "/",
+        "/website-erstellen-lassen?paket=nine-start#website-check",
+        "/website-erstellen-lassen?paket=nine-launch#website-check",
+        "/checkout/nine-launch",
+        "/website-erstellen-lassen?paket=nine-growth#website-check",
+        "/checkout/nine-growth",
+        "/website-erstellen-lassen?paket=unsicher#website-check",
+        "/checkout/platform-discovery",
+        "/checkout/custom-platform",
+        "/checkout/nine-scale",
+        "/ki-automation"
+      ]
+    },
+    {
+      "path": "/ueber-nine",
+      "intended": "public-index",
+      "status": 200,
+      "title": "Über Nine | Nine.ai",
+      "description": "Strategie, Design, Backend und Growth gemeinsam gedacht. Lerne die Haltung und das Arbeitsmodell von Nine.ai kennen.",
+      "robots": "noindex, nofollow",
+      "canonical": "https://nine-ai-studio.serhad1999.chatgpt.site/ueber-nine",
+      "h1": [
+        "Du machst dein Geschäft. Wir kümmern uns um deinen Auftritt."
+      ],
+      "mainWords": 190,
+      "jsonLdCount": 0,
+      "images": [
+        {
+          "src": "/assets/process.jpg",
+          "alt": "Zusammenarbeit am digitalen Projekt, Bildmotiv aus der Designvorlage",
+          "width": "710",
+          "height": "522"
+        },
+        {
+          "src": "/assets/projects/parkesicher-desktop.webp",
+          "alt": "ParkeSicher: Flughafen und Reisezeitraum für eine Parkplatzsuche auswählen",
+          "width": "1440",
+          "height": "1000",
+          "loading": "lazy"
+        }
+      ],
+      "internalLinks": [
+        "/",
+        "/projekt-starten",
+        "/projekte/parkesicher"
+      ]
+    },
+    {
+      "path": "/projekt-starten",
+      "intended": "public-noindex",
+      "status": 200,
+      "title": "Projekt starten | Nine.ai",
+      "description": "Beschreibe dein Vorhaben in wenigen Sätzen und bereite deine Nine.ai-Projektanfrage vor.",
+      "robots": "noindex, nofollow",
+      "canonical": "https://nine-ai-studio.serhad1999.chatgpt.site/projekt-starten",
+      "h1": [
+        "Was können wir für dich tun ?"
+      ],
+      "mainWords": 141,
+      "jsonLdCount": 0,
+      "images": [],
+      "internalLinks": [
+        "/",
+        "/pakete",
+        "/datenschutz"
+      ]
+    },
+    {
+      "path": "/checkout/nine-launch",
+      "intended": "public-noindex",
+      "status": 200,
+      "title": "Nine Launch – Website-Paket auswählen | Nine.ai",
+      "description": "Eine klare, individuelle Unternehmenswebsite. Fester Nettopreis, Leistungen und vorbereiteter Bestellablauf.",
+      "robots": "noindex, nofollow",
+      "canonical": "https://nine-ai-studio.serhad1999.chatgpt.site/checkout/nine-launch",
+      "h1": [
+        "Gute Entscheidung. Jetzt wird es konkret."
+      ],
+      "mainWords": 215,
+      "jsonLdCount": 0,
+      "images": [
+        {
+          "src": "/assets/projects/meister-lorenz-desktop.webp",
+          "alt": "Meister Lorenz – Desktop-Ansicht der Website",
+          "width": "1440",
+          "height": "1000",
+          "loading": "lazy"
+        }
+      ],
+      "internalLinks": [
+        "/",
+        "/pakete",
+        "/pakete",
+        "/projekt-starten?service=Website"
+      ]
+    },
+    {
+      "path": "/checkout/nine-growth",
+      "intended": "public-noindex",
+      "status": 200,
+      "title": "Nine Growth – Website-Paket auswählen | Nine.ai",
+      "description": "Website und Kundengewinnung zusammen aufbauen. Fester Nettopreis, Leistungen und vorbereiteter Bestellablauf.",
+      "robots": "noindex, nofollow",
+      "canonical": "https://nine-ai-studio.serhad1999.chatgpt.site/checkout/nine-growth",
+      "h1": [
+        "Gute Entscheidung. Jetzt wird es konkret."
+      ],
+      "mainWords": 209,
+      "jsonLdCount": 0,
+      "images": [
+        {
+          "src": "/assets/projects/gardentime-desktop.webp",
+          "alt": "Garden Time Frankfurt – Desktop-Ansicht der Website",
+          "width": "1440",
+          "height": "1000",
+          "loading": "lazy"
+        }
+      ],
+      "internalLinks": [
+        "/",
+        "/pakete",
+        "/pakete",
+        "/projekt-starten?service=Website"
+      ]
+    },
+    {
+      "path": "/checkout/platform-discovery",
+      "intended": "public-noindex",
+      "status": 200,
+      "title": "Platform Discovery – Paketdetails | Nine.ai",
+      "description": "Aus einer Plattformidee einen belastbaren Plan machen. Leistungsumfang, Preisorientierung und persönliches Projektbriefing.",
+      "robots": "noindex, nofollow",
+      "canonical": "https://nine-ai-studio.serhad1999.chatgpt.site/checkout/platform-discovery",
+      "h1": [
+        "Deine Web-App zuerst planen ."
+      ],
+      "mainWords": 169,
+      "jsonLdCount": 0,
+      "images": [],
+      "internalLinks": [
+        "/",
+        "/pakete",
+        "/pakete",
+        "/datenschutz"
+      ]
+    },
+    {
+      "path": "/checkout/custom-platform",
+      "intended": "public-noindex",
+      "status": 200,
+      "title": "Custom Platform – Paketdetails | Nine.ai",
+      "description": "Dein digitales Geschäftsmodell individuell entwickeln. Leistungsumfang, Preisorientierung und persönliches Projektbriefing.",
+      "robots": "noindex, nofollow",
+      "canonical": "https://nine-ai-studio.serhad1999.chatgpt.site/checkout/custom-platform",
+      "h1": [
+        "Deine Plattform bauen ."
+      ],
+      "mainWords": 176,
+      "jsonLdCount": 0,
+      "images": [],
+      "internalLinks": [
+        "/",
+        "/pakete",
+        "/pakete",
+        "/datenschutz"
+      ]
+    },
+    {
+      "path": "/checkout/nine-scale",
+      "intended": "public-noindex",
+      "status": 200,
+      "title": "Nine Scale – Paketdetails | Nine.ai",
+      "description": "Bestehende Nachfrage systematisch weiterentwickeln. Leistungsumfang, Preisorientierung und persönliches Projektbriefing.",
+      "robots": "noindex, nofollow",
+      "canonical": "https://nine-ai-studio.serhad1999.chatgpt.site/checkout/nine-scale",
+      "h1": [
+        "Deine Google-Werbung ."
+      ],
+      "mainWords": 169,
+      "jsonLdCount": 0,
+      "images": [],
+      "internalLinks": [
+        "/",
+        "/pakete",
+        "/pakete",
+        "/datenschutz"
+      ]
+    },
+    {
+      "path": "/impressum",
+      "intended": "public-noindex",
+      "status": 200,
+      "title": "Impressum | Nine.ai",
+      "description": "Anbieter- und Designhinweise zur privaten Nine.ai-Projektvorschau.",
+      "robots": "noindex, nofollow",
+      "canonical": "https://nine-ai-studio.serhad1999.chatgpt.site/impressum",
+      "h1": [
+        "Impressum"
+      ],
+      "mainWords": 100,
+      "jsonLdCount": 0,
+      "images": [],
+      "internalLinks": [
+        "/"
+      ]
+    },
+    {
+      "path": "/datenschutz",
+      "intended": "public-noindex",
+      "status": 200,
+      "title": "Datenschutz | Nine.ai",
+      "description": "Informationen zur lokalen Verarbeitung des Projektbriefings und zur privaten Nine.ai-Vorschau.",
+      "robots": "noindex, nofollow",
+      "canonical": "https://nine-ai-studio.serhad1999.chatgpt.site/datenschutz",
+      "h1": [
+        "Datenschutz"
+      ],
+      "mainWords": 245,
+      "jsonLdCount": 0,
+      "images": [],
+      "internalLinks": [
+        "/"
+      ]
+    },
+    {
+      "path": "/agb",
+      "intended": "public-noindex",
+      "status": 200,
+      "title": "AGB | Nine.ai",
+      "description": "Informationen zum geplanten Vertrags- und Bestellprozess der Nine.ai-Vorschau.",
+      "robots": "noindex, nofollow",
+      "canonical": "https://nine-ai-studio.serhad1999.chatgpt.site/agb",
+      "h1": [
+        "AGB"
+      ],
+      "mainWords": 70,
+      "jsonLdCount": 0,
+      "images": [],
+      "internalLinks": [
+        "/"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,245 @@
+{
+  "method": "Manually transcribed visible Google PageSpeed Insights report; mobile Moto G Power, slow 4G, Lighthouse 13.4.1",
+  "kind": "lab, not field Core Web Vitals or a ranking score",
+  "release": 26,
+  "reports": [
+    {
+      "path": "/",
+      "reportUrl": "https://pagespeed.web.dev/analysis/https-nine-ai-studio-serhad1999-chatgpt-site/cgqg7jsmvq?form_factor=mobile",
+      "capturedAt": "2026-09-08T03:35:19+02:00",
+      "performance": 91,
+      "accessibility": 100,
+      "bestPractices": 100,
+      "seo": 100,
+      "fcpSeconds": 2.0,
+      "lcpSeconds": 3.2,
+      "totalBlockingMs": 0,
+      "cls": 0,
+      "speedIndexSeconds": 3.4,
+      "fieldData": "No data available",
+      "lcpElement": "main#main > section.wrap > div.sales-hero-copy > h1",
+      "observations": [
+        "LCP is the visible hero heading; element render delay shown as 1830 ms",
+        "Image delivery estimate: 143 KiB potential savings on two Meister Lorenz captures, which are also reused in the page",
+        "Image cache TTL: one hour, conservative because names are not content-addressed",
+        "Four render-blocking stylesheets: estimated 150 ms savings, 43.9 KiB transferred",
+        "Unused JavaScript estimate 60 KiB; measured total blocking time remains zero"
+      ]
+    },
+    {
+      "path": "/website-erstellen-lassen",
+      "reportUrl": "https://pagespeed.web.dev/analysis/https-nine-ai-studio-serhad1999-chatgpt-site-website-erstellen-lassen/ieaq80k3xu?form_factor=mobile",
+      "capturedAt": "2026-09-08T03:39:12+02:00",
+      "performance": 87,
+      "accessibility": 96,
+      "bestPractices": 100,
+      "seo": 100,
+      "fcpSeconds": 2.2,
+      "lcpSeconds": 3.3,
+      "totalBlockingMs": 50,
+      "cls": 0,
+      "speedIndexSeconds": 4.4,
+      "fieldData": "No data available",
+      "lcpElement": "section.lead-hero > div.hero-showcase > div.hero-display > img.reference-preview",
+      "observations": [
+        "PRIME ENERGIE hero image is eager and present in initial HTML but lacks fetchpriority=high",
+        "LCP breakdown: resource delay 250 ms, resource duration 170 ms, element render delay 1980 ms",
+        "Contrast failure: three project category labels and the system-preview label in the lead reference section",
+        "Image delivery estimate 392 KiB, cache estimate 332 KiB; render-blocking stylesheets estimate 150 ms"
+      ]
+    },
+    {
+      "path": "/google-ads-growth",
+      "reportUrl": "https://pagespeed.web.dev/analysis/https-nine-ai-studio-serhad1999-chatgpt-site-google-ads-growth/pat20qltb8?form_factor=mobile",
+      "capturedAt": "2026-09-08T03:41:23+02:00",
+      "performance": 95,
+      "accessibility": 100,
+      "bestPractices": 100,
+      "seo": 100,
+      "fcpSeconds": 1.7,
+      "lcpSeconds": 2.7,
+      "totalBlockingMs": 0,
+      "cls": 0,
+      "speedIndexSeconds": 3.0,
+      "fieldData": "No data available",
+      "observations": [
+        "Image delivery estimate 100 KiB; render-blocking stylesheet estimate 280 ms"
+      ]
+    },
+    {
+      "path": "/projekte/parkesicher",
+      "reportUrl": "https://pagespeed.web.dev/analysis/https-nine-ai-studio-serhad1999-chatgpt-site-projekte-parkesicher/j5nigwhc1x?form_factor=mobile",
+      "capturedAt": "2026-09-08T03:43:02+02:00",
+      "performance": 93,
+      "accessibility": 100,
+      "bestPractices": 100,
+      "seo": 100,
+      "fcpSeconds": 1.7,
+      "lcpSeconds": 2.9,
+      "totalBlockingMs": 0,
+      "cls": 0,
+      "speedIndexSeconds": 4.2,
+      "fieldData": "No data available",
+      "observations": [
+        "Image delivery estimate 125 KiB; render-blocking stylesheet estimate 270 ms"
+      ]
+    },
+    {
+      "path": "/wissen/was-kostet-eine-website",
+      "reportUrl": "https://pagespeed.web.dev/analysis/https-nine-ai-studio-serhad1999-chatgpt-site-wissen-was-kostet-eine-website/xklkzncm7t?form_factor=mobile",
+      "capturedAt": "2026-09-08T03:44:33+02:00",
+      "performance": 93,
+      "accessibility": 100,
+      "bestPractices": 100,
+      "seo": 100,
+      "fcpSeconds": 1.7,
+      "lcpSeconds": 2.9,
+      "totalBlockingMs": 0,
+      "cls": 0,
+      "speedIndexSeconds": 3.9,
+      "fieldData": "No data available",
+      "observations": [
+        "Image delivery estimate 105 KiB; render-blocking stylesheet estimate 130 ms"
+      ]
+    }
+  ],
+  "followUp": [
+    {
+      "release": 27,
+      "path": "/website-erstellen-lassen",
+      "reportUrl": "https://pagespeed.web.dev/analysis/https-nine-ai-studio-serhad1999-chatgpt-site-website-erstellen-lassen/527t2jx0lp?form_factor=mobile",
+      "capturedAt": "2026-09-08T03:49:47+02:00",
+      "performance": 86,
+      "accessibility": 100,
+      "bestPractices": 100,
+      "seo": 100,
+      "fcpSeconds": 2.2,
+      "lcpSeconds": 3.5,
+      "totalBlockingMs": 40,
+      "cls": 0,
+      "speedIndexSeconds": 4.6,
+      "fieldData": "No data available",
+      "observations": [
+        "Contrast failure no longer reported",
+        "LCP discovery failure no longer reported; high image fetch priority independently verified in published HTML",
+        "Performance score did not improve in this single follow-up; no speed gain is claimed",
+        "Lab LCP remains above 2.5 seconds; field CWV are unavailable"
+      ]
+    },
+    {
+      "release": 28,
+      "path": "/website-erstellen-lassen",
+      "reportUrl": "https://pagespeed.web.dev/analysis/https-nine-ai-studio-serhad1999-chatgpt-site-website-erstellen-lassen/nisp0aq78e?form_factor=mobile",
+      "capturedAt": "2026-09-08T04:24:51+02:00",
+      "performance": 94,
+      "accessibility": 100,
+      "bestPractices": 100,
+      "seo": 100,
+      "fcpSeconds": 2.0,
+      "lcpSeconds": 2.9,
+      "totalBlockingMs": 60,
+      "cls": 0,
+      "speedIndexSeconds": 2.3,
+      "fieldData": "No data available",
+      "imageDeliveryPotentialSavingsKiB": 97,
+      "lcpElement": "section.lead-hero > div.hero-showcase > div.hero-display > img.reference-preview",
+      "selectedImages": [
+        {
+          "file": "meister-lorenz-desktop--w800.webp",
+          "width": 800,
+          "transferKiB": 37.3,
+          "displayCssPixels": [
+            297,
+            206
+          ]
+        },
+        {
+          "file": "parkesicher-desktop--w800.webp",
+          "width": 800,
+          "transferKiB": 33.8,
+          "displayCssPixels": [
+            297,
+            206
+          ]
+        },
+        {
+          "file": "prime-energie-desktop--w800.webp",
+          "width": 800,
+          "transferKiB": 27.7,
+          "displayCssPixels": [
+            341,
+            237
+          ]
+        },
+        {
+          "file": "prime-energie-mobile--w260.webp",
+          "width": 260,
+          "transferKiB": 14.4,
+          "displayCssPixels": [
+            80,
+            174
+          ]
+        }
+      ],
+      "observations": [
+        "Native responsive candidates are visibly selected in the official report, with versioned URLs and high fetch priority on the hero",
+        "Estimated remaining image savings dropped from about 393 KiB in v27 to 97 KiB; full-resolution originals remain available for larger displays",
+        "Single-run performance score increased from 86 to 94 and lab LCP decreased from 3.5 to 2.9 seconds; these are observations, not a guaranteed stable speed gain",
+        "Remaining large-image warnings compare 800px/260px resources with CSS dimensions; sharper high-density image choices are retained rather than lowering fidelity only for a score",
+        "Render-blocking stylesheet estimate remains 150 ms",
+        "Visible LCP breakdown reports TTFB 20 ms, resource delay 480 ms, download 30 ms, render delay 470 ms; trace breakdown is not substituted for the separately simulated 2.9-second LCP metric",
+        "No contrast or LCP-discovery failure reported; lab LCP remains above 2.5 seconds and field CWV data remain unavailable"
+      ]
+    },
+    {
+      "release": 29,
+      "path": "/website-erstellen-lassen",
+      "reportUrl": "https://pagespeed.web.dev/analysis/https-nine-ai-studio-serhad1999-chatgpt-site-website-erstellen-lassen/yprizhknfh?form_factor=mobile",
+      "capturedAt": "2026-09-08T04:37:43+02:00",
+      "performance": 93,
+      "accessibility": 100,
+      "bestPractices": 100,
+      "seo": 100,
+      "fcpSeconds": 1.8,
+      "lcpSeconds": 2.7,
+      "totalBlockingMs": 0,
+      "cls": 0,
+      "speedIndexSeconds": 4.4,
+      "fieldData": "No data available",
+      "imageDeliveryPotentialSavingsKiB": 97,
+      "blockingCssTransferKiB": 27.3,
+      "mainCssTransferKiB": 18.0,
+      "observations": [
+        "Official report loads the new index.CAnP_J5l.css stylesheet; main stylesheet transfer is 18.0 KiB, four blocking stylesheets total 27.3 KiB",
+        "Compared with the preceding v28 run, FCP is 1.8 versus 2.0 seconds, LCP 2.7 versus 2.9 seconds and total blocking 0 versus 60 ms",
+        "Performance score is 93 versus 94 and Speed Index 4.4 versus 2.3 seconds; mixed single-run results are not presented as a uniform or stable speed gain",
+        "No contrast failures reported; estimated render-blocking opportunity remains 150 ms",
+        "Reduced CSS source generation preserves all custom rules and preflight; offscreen Liquid shader setup is deferred in source",
+        "No field CWV data are available; simulated LCP remains above 2.5 seconds"
+      ]
+    },
+    {
+      "release": 29,
+      "path": "/",
+      "reportUrl": "https://pagespeed.web.dev/analysis/https-nine-ai-studio-serhad1999-chatgpt-site/ndc5ezafdf?form_factor=mobile",
+      "capturedAt": "2026-09-08T04:38:49+02:00",
+      "performance": 94,
+      "accessibility": 100,
+      "bestPractices": 100,
+      "seo": 100,
+      "fcpSeconds": 1.7,
+      "lcpSeconds": 2.6,
+      "totalBlockingMs": 10,
+      "cls": 0,
+      "speedIndexSeconds": 4.3,
+      "fieldData": "No data available",
+      "imageDeliveryPotentialSavingsKiB": 76,
+      "observations": [
+        "Shared stylesheet change retains 100 accessibility, best-practice and Lighthouse SEO lab scores on the homepage",
+        "Compared with the v26 homepage baseline, performance is 94 versus 91, FCP 1.7 versus 2.0 seconds and LCP 2.6 versus 3.2 seconds; both v28 responsive images and v29 stylesheet reductions are now present",
+        "Total blocking is 10 ms versus 0 ms and Speed Index 4.3 versus 3.4 seconds in the baseline; these mixed single-run measurements do not establish a uniform stable improvement",
+        "CLS remains zero in the lab; no actual-user or field CWV data are available"
+      ]
+    }
+  ]
+}

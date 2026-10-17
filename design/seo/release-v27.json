@@ -1,0 +1,23 @@
+{
+  "projectId": "appgprj_6a9c5aadc2bc819194a07b6d2c80e9b0",
+  "versionId": "appgprj_6a9c5aadc2bc819194a07b6d2c80e9b0~appgver_b3d3ada473688191b02eb2833eed9c86",
+  "version": 27,
+  "sourceCommit": "427338614c8c3a7ab0801d1ab3f64d899f804836",
+  "deploymentId": "appgdep_6a9f69757bc0819188e9387975851b97",
+  "deploymentStatus": "succeeded",
+  "publishedAt": "2026-09-08T01:48:50.827553+00:00",
+  "url": "https://nine-ai-studio.serhad1999.chatgpt.site",
+  "runtimeEnvironmentRevision": 0,
+  "verification": "design/seo/verified-live.json",
+  "labReports": "design/seo/pagespeed-mobile-lab.json",
+  "changes": [
+    "High fetch priority for large eager reference previews; secondary mobile illustrations retain normal priority",
+    "Lead reference labels contrast increased from 4.20/4.34 to 7.01 against the actual section background",
+    "Public package copy describes a draft without calling the page a private preview"
+  ],
+  "limitations": [
+    "Lab metrics are not field Core Web Vitals or evidence of search ranking",
+    "All five inspected Google reports have no real-user data",
+    "No own domain connected; legal identity and verified profiles require owner input"
+  ]
+}

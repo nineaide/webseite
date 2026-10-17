@@ -1,0 +1,119 @@
+{
+  "evidence": "design/seo/verified-live.json",
+  "checkedAt": "2026-09-08T02:38:40.988Z",
+  "coverage": "39/39 index pages; 9 additional noindex pages",
+  "status": "provisional: viewport, field and external identity evidence incomplete",
+  "seo": {
+    "score": 90,
+    "categories": [
+      [
+        "Indexierung & Crawling",
+        24,
+        25,
+        "Robots 5/5, Canonical 5/5, Sitemap 5/5, Status/Linkziele 5/5, Host 4/5: Sites leitet HTTP mit 302 auf HTTPS um; nicht im Worker steuerbar."
+      ],
+      [
+        "SSR & mobile Inhalte",
+        18,
+        20,
+        "Primärinhalt im HTML 10/10, echte 404 5/5, mobile Bot-Inhalte identisch 3/3; separate mobile Browser-DOM-Prüfung 0/2, hier nicht durchgeführt."
+      ],
+      [
+        "Strukturierte Daten",
+        12,
+        15,
+        "WebPage 4/4, anwendbare Breadcrumbs 3/3, Seitentypen 3/3, konsistente Organization 2/2; verifizierte externe Identitätsprofile 0/3."
+      ],
+      [
+        "Metadaten",
+        18,
+        20,
+        "Eindeutige Titel 6/6, Beschreibungen 6/6, OG/Twitter-Text und URL 6/6; Social-Bild 0/2, bewusst nicht beauftragt. Deutsch-only: i18n-Punkte hier enthalten."
+      ],
+      [
+        "Semantik & Links",
+        10,
+        10,
+        "H1 3/3, semantische Bereiche 3/3, HTML-Verlinkung/Erreichbarkeit 4/4; keine Pagination, UGC oder bezahlten Fremdlinks vorhanden."
+      ],
+      [
+        "Bilder",
+        5,
+        5,
+        "Alt 2/2, feste Abmessungen 2/2, im Quelltext passende Ladeprioritäten 1/1. Bild-MIME, Originalbytes und Cache geprüft; keine neue visuelle Ansichtsmessung."
+      ],
+      [
+        "Core Web Vitals — Feldnachweis offen",
+        3,
+        5,
+        "Reservierte Bildflächen 1, lokale gecachte Fonts 1, begrenzte/pausierbare Bewegung 1. Zusätzliche mobile PageSpeed-Labormessungen ersetzen keinen Feldnachweis: 0/2 für ungemessene Feld-LCP/CLS/INP."
+      ]
+    ]
+  },
+  "geo": {
+    "score": 90,
+    "categories": [
+      [
+        "KI-Crawler-Regeln",
+        20,
+        20,
+        "Retrieval und Training getrennt konfiguriert. Google-Extended bleibt gesperrt; dadurch auch dessen Gemini-Grounding-Verwendungen. Google Search wird dadurch nicht gesperrt."
+      ],
+      [
+        "Auslesbares HTML",
+        20,
+        20,
+        "39/39 Seiten ohne JavaScript lesbar; 39/39 OAI-SearchBot-Vergleiche identisch."
+      ],
+      [
+        "Inhaltsstruktur",
+        14,
+        15,
+        "Eigenständige Antworten und Vergleiche, Listen/Tabellen, verlinkte Belege. Einzelne bestehende Verkaufs-Heros bleiben bewusst emotional formuliert."
+      ],
+      [
+        "Unternehmensidentität",
+        12,
+        20,
+        "Organization 4/4, inhaltliche Über-Seite 4/4, sichtbare Redaktion 2/2, verlinktes Autoren-/Unternehmensprofil 2/2; belegte persönliche Qualifikationen 0/2, verifizierte sameAs-Profile 0/6."
+      ],
+      [
+        "SEO als Voraussetzung",
+        14,
+        15,
+        "round(SEO × 0,15); beschreibt technische Voraussetzungen, keine vorhandenen Positionen."
+      ],
+      [
+        "Keine unbelegten GEO-Tricks",
+        10,
+        10,
+        "Keine llms.txt-Abkürzung, erfundenen Bewertungen, unsichtbaren Keyword-Texte oder Stadtseitenserien."
+      ]
+    ]
+  },
+  "baseline": {
+    "scope": "11 intended-index pages in v24",
+    "seo": 60,
+    "geo": 49,
+    "status": "provisional; two index blockers on every intended-index page",
+    "seo_raw_categories": [
+      14,
+      18,
+      0,
+      12,
+      10,
+      5,
+      3
+    ],
+    "seo_cap": 60,
+    "geo_categories": [
+      0,
+      20,
+      10,
+      0,
+      9,
+      10
+    ]
+  },
+  "caveat": "Internal technical readiness rubric, not a Google score. Content quality, backlinks, competition, ranking and traffic success are not scored."
+}

@@ -1,0 +1,23 @@
+User-agent: *
+Allow: /
+Disallow: /api/
+
+# Public search and answer retrieval are welcome; private form APIs are not.
+User-agent: OAI-SearchBot
+User-agent: ChatGPT-User
+User-agent: PerplexityBot
+User-agent: Claude-SearchBot
+User-agent: Claude-User
+Allow: /
+Disallow: /api/
+
+# Preserve the previous opt-out for model-training crawlers.
+# Google-Extended also governs Gemini grounding, not Google Search AI features.
+User-agent: GPTBot
+User-agent: Google-Extended
+User-agent: ClaudeBot
+User-agent: CCBot
+User-agent: Meta-ExternalAgent
+Disallow: /
+
+Sitemap: https://nine-ai-studio.serhad1999.chatgpt.site/sitemap.xml

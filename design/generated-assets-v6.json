@@ -1,0 +1,21 @@
+{
+  "mode": "built-in image_gen",
+  "purpose": "Fictional concept website imagery; not Nine.ai clients, team or outcomes",
+  "assets": [
+    {
+      "name": "werkraum",
+      "file": "public/assets/concepts/werkraum.webp",
+      "prompt": "Use case: photorealistic-natural. Asset type: full-width editorial photograph inside a fictional German artisan/interior-design website concept, clearly labeled as a concept in the surrounding website. Create a sophisticated quiet contemporary kitchen and dining interior, precise custom cabinetry in smoked dark walnut and matte slate blue, silver-grey stone island, one sculptural dark dining chair, large window onto a courtyard. Architecture magazine photography, authentic subtle material imperfections, real afternoon side light with soft shadows, calm not over-styled. Eye-level, 3:2 wide composition with main cabinetry and island visible at center and right; no people. Cool neutral grade, rich slate, stone white, charcoal, soft natural wood. Avoid yellow/orange grading, excessive beige, CG plastic, text, logos, watermarks, screens or website UI. Crisp professional photographic image."
+    },
+    {
+      "name": "kontur",
+      "file": "public/assets/concepts/kontur.webp",
+      "prompt": "Use case: photorealistic-natural. Asset type: editorial property photography inside a clearly labeled fictional German architecture/property website concept. A striking realistic small contemporary two-storey home in a leafy German suburb, off-white mineral plaster, dark grey standing-seam upper facade, large carefully placed windows, restrained planting and mature trees, wet grey stone path after light rain, subtle interior illumination. Straight architectural verticals, architectural magazine image, 3:2 landscape framing. Blue hour daylight still bright enough to see materials, cool silver/blue-green grade, sophisticated and grounded, no excessive mansion luxury. No people, no cars, no signage, no logos, no text, no watermark, no yellow accent. Original fictional building."
+    },
+    {
+      "name": "waerme",
+      "file": "public/assets/concepts/waerme.webp",
+      "prompt": "Use case: photorealistic-natural. Asset type: editorial photograph for a clearly labeled fictional regional home-energy contractor website concept. A skilled installation technician seen in three-quarter rear view inspecting a modern matte dark-grey domestic air-source heat pump outdoors beside an understated contemporary German house. Deep navy work jacket without logos, natural believable hands, realistic installation hardware and clean organized grey piping, modest planting in background, soft daylight after rain. Focus on real craft and solid equipment rather than a stock photo smile. Wide 3:2 framing, technician on right, equipment central-left. Palette navy, sage green, silver, neutral white. No yellow high-visibility vest, no text, no brand marks, no watermarks, no artificial lens flare. Natural editorial photography, tactile realistic surfaces."
+    }
+  ]
+}

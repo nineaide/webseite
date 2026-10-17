@@ -1,0 +1,26 @@
+{
+  "projectId": "appgprj_6a9c5aadc2bc819194a07b6d2c80e9b0",
+  "versionId": "appgprj_6a9c5aadc2bc819194a07b6d2c80e9b0~appgver_b0b2e1ad3b348191837b65ee45b89836",
+  "version": 28,
+  "sourceCommit": "7960418069439048d54576de770a0040821d8a10",
+  "deploymentId": "appgdep_6a9f71a7073881919c9b52ab63ef7b28",
+  "deploymentStatus": "succeeded",
+  "publishedAt": "2026-09-08T02:23:48.431952+00:00",
+  "url": "https://nine-ai-studio.serhad1999.chatgpt.site",
+  "runtimeEnvironmentRevision": 0,
+  "verification": "design/seo/verified-live.json",
+  "imageVerification": "design/seo/responsive-images.json",
+  "labReports": "design/seo/pagespeed-mobile-lab.json",
+  "changes": [
+    "45 build-time WebP variants from 27 untouched approved original project images",
+    "Native HTML srcset/sizes across hero, gallery, menu, editorial, case and guide images",
+    "Content-hash versioned image URLs with one-year immutable caching; legacy URLs retain one-hour cache",
+    "Explicit WebP MIME, HEAD, ETag, conditional HTTP 304 and wrong-version HTTP 404 preserved and verified locally",
+    "No image binary payload in client JavaScript; original geometry and existing anonymization preserved"
+  ],
+  "limitations": [
+    "Lab metrics are not field Core Web Vitals or evidence of search ranking",
+    "No own domain connected; legal identity, authentic team photos and verified profiles require owner input",
+    "No Nine.ai Search Console property available in the inspected account; no ownership changes made there"
+  ]
+}

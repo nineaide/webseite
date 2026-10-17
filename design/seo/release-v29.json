@@ -1,0 +1,24 @@
+{
+  "projectId": "appgprj_6a9c5aadc2bc819194a07b6d2c80e9b0",
+  "versionId": "appgprj_6a9c5aadc2bc819194a07b6d2c80e9b0~appgver_a53b90b7df50819188534e32dea70332",
+  "version": 29,
+  "sourceCommit": "e71ca7f4cf572ee854d3f14714baf77770a7610d",
+  "deploymentId": "appgdep_6a9f74d0d36c81918c7a0f45c86a0622",
+  "deploymentStatus": "succeeded",
+  "publishedAt": "2026-09-08T02:37:17.987906+00:00",
+  "url": "https://nine-ai-studio.serhad1999.chatgpt.site",
+  "runtimeEnvironmentRevision": 0,
+  "verification": "design/seo/verified-live.json",
+  "payloadVerification": "design/seo/rendering-payload.json",
+  "labReports": "design/seo/pagespeed-mobile-lab.json",
+  "changes": [
+    "Tailwind scans application and five actually imported UI primitives instead of unused library and research files",
+    "Blocking root stylesheet reduced from 226236 to 88706 bytes; all 515 custom unlayered CSS nodes and preflight are identical",
+    "Liquid shader and distance-field setup waits until its section is near the viewport, with existing SVG fallback, pause and reduced motion retained"
+  ],
+  "limitations": [
+    "Lab performance is not field Core Web Vitals or search-ranking evidence",
+    "No own domain connected; company identity, genuine team photos and profiles still require owner input",
+    "No Nine.ai Search Console or Bing ownership/account has been supplied"
+  ]
+}

@@ -1,0 +1,68 @@
+{
+  "checkedAt": "2026-09-08T02:33:56.266Z",
+  "before": {
+    "release": 28,
+    "sourceCommit": "7960418069439048d54576de770a0040821d8a10",
+    "cssFile": "_next/static/css/index.DC2iexbI.css",
+    "bytes": 226236,
+    "gzipBytes": 40074,
+    "sha256": "146490b2e4ba0e5adba9ae9e03a5e8c360718dffa1d5e425e0958ffe261bb064"
+  },
+  "after": {
+    "cssFile": "_next/static/css/index.CAnP_J5l.css",
+    "bytes": 88706,
+    "gzipBytes": 17881,
+    "sha256": "f5de6a9a7a5483e3fb03067049501a0f26c07af5fb93a7e9c7d2ce1b773ebad4"
+  },
+  "customUnlayeredCssUnchanged": true,
+  "customUnlayeredNodes": 515,
+  "utilities": {
+    "before": [
+      {
+        "rules": 1784,
+        "bytes": 152046
+      }
+    ],
+    "after": [
+      {
+        "rules": 179,
+        "bytes": 16360
+      }
+    ]
+  },
+  "requiredUiSources": [
+    "accordion",
+    "button",
+    "dialog",
+    "native-select",
+    "tabs"
+  ],
+  "limitations": [
+    "Build bytes and gzip estimates, not field load times",
+    "All currently imported application UI sources are included; update explicit Tailwind sources when adding another component",
+    "CSS source preservation is not a full rendered viewport comparison"
+  ],
+  "compressionMethod": "node:zlib gzipSync with identical default settings for before/after",
+  "preflightUnchanged": true,
+  "liveResources": [
+    {
+      "path": "/_next/static/css/index.CAnP_J5l.css",
+      "status": 200,
+      "contentType": "text/css",
+      "bytes": 88706,
+      "sha256": "f5de6a9a7a5483e3fb03067049501a0f26c07af5fb93a7e9c7d2ce1b773ebad4",
+      "matchesBuild": true,
+      "cacheControl": "public, max-age=0, must-revalidate"
+    },
+    {
+      "path": "/_next/static/chunks/liquid-mark-CBxgFp5W.js",
+      "status": 200,
+      "contentType": "text/javascript",
+      "bytes": 7502,
+      "sha256": "3c08f71c701c8cfaf42c6d6458e2901de6854d9b76acd9278037bef44344ee8b",
+      "matchesBuild": true,
+      "cacheControl": "public, max-age=0, must-revalidate"
+    }
+  ],
+  "liveCheckedAt": "2026-09-08T02:45:48.785Z"
+}

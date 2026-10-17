@@ -1,0 +1,71 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="1000" viewBox="0 0 1400 1000"><rect width="1400" height="1000" fill="#151515"/><g font-family="Arial, sans-serif" fill="#fff">
+<svg id="Ebene_2" data-name="Ebene 2" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="64" y="60" width="300" height="102" viewBox="0 0 828.09 280.53">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: url(#Unbenannter_Verlauf_36);
+        opacity: .61;
+      }
+
+      .cls-2 {
+        fill: url(#Unbenannter_Verlauf_60);
+      }
+    </style>
+    <linearGradient id="Unbenannter_Verlauf_60" data-name="Unbenannter Verlauf 60" x1="-14.55" y1="94.03" x2="194.13" y2="214.51" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#0a4fd8"/>
+      <stop offset=".82" stop-color="#1389ff"/>
+    </linearGradient>
+    <linearGradient id="Unbenannter_Verlauf_36" data-name="Unbenannter Verlauf 36" x1="29.28" y1="300.87" x2="290.58" y2="66.43" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#0f4fd5"/>
+      <stop offset=".82" stop-color="#158dff"/>
+    </linearGradient>
+  </defs>
+  <g id="Ebene_1-2" data-name="Ebene 1">
+    <g>
+      <g>
+        <path class="cls-2" d="M230.17,104.31v47.78c-2.89-3.33-5.78-6.67-8.67-10-9.78,20.32-26.74,48.62-55.55,74.78-59.56,54.06-129.12,62.02-154.22,63.66,11.68-10.19,28-24.99,46.61-43.83,42.5-43.02,59.04-68.73,63.48-75.78,14.16-22.52,23.16-36.83,25.79-50.88,1.42-4.87,2.18-10.03,2.18-15.36,0-30.37-24.62-54.99-54.99-54.99s-54.99,24.62-54.99,54.99,24.62,54.98,54.99,54.98c1.77,0,3.52-.08,5.25-.25-9.67,11.97-19.34,23.95-29,35.92C30.22,175.05,0,138.09,0,94.08,0,42.12,42.12,0,94.09,0s94.08,42.12,94.08,94.08c0,11.48-2.28,21.87-5.5,30.79-3.89,8.34-8.77,17.67-14.92,27.5-8.8,14.07-20.19,29.17-34.91,43.83-9.29,9.25-18.57,16.99-27.34,23.45,12.08-6.08,25.42-13.88,39.17-23.95,28.34-20.74,48.09-43.51,61.28-61.72-5.41.33-10.82.67-16.22,1,13.48-10.22,26.96-20.45,40.44-30.67Z"/>
+        <path class="cls-1" d="M230.17,104.31v47.78c-2.89-3.33-5.78-6.67-8.67-10-9.78,20.32-26.74,48.62-55.55,74.78-59.56,54.06-129.12,62.02-154.22,63.66,5.15-6.64,13.02-15.32,24.3-23.38,9.92-7.09,19.36-11.48,26.67-14.22,22.14-8.95,51.5-23.51,81.97-47.23,27.62-21.5,47.55-43.83,61.28-61.72-5.41.33-10.82.67-16.22,1,13.48-10.22,26.96-20.45,40.44-30.67Z"/>
+      </g>
+      <g>
+        <g>
+          <path fill="#FFFFFF" d="M288.13,189.62v-98.71h24.5l66.17,69.95v-69.95h24.31v98.71h-24.31l-66.36-69.95v69.95h-24.31Z"/>
+          <path fill="#FFFFFF" d="M459.06,189.62h-24.69v-98.71h24.69v98.71Z"/>
+          <path fill="#FFFFFF" d="M490.31,189.62v-98.71h24.5l66.17,69.95v-69.95h24.31v98.71h-24.31l-66.36-69.95v69.95h-24.31Z"/>
+          <path fill="#FFFFFF" d="M636.55,189.62v-98.71h87.58v15.93h-62.89v25.39h56.33v15.26h-56.33v26.2h62.89v15.93h-87.58Z"/>
+        </g>
+        <g>
+          <path fill="#FFFFFF" d="M752.98,189.62l22.56-47.52h11.19l22.56,47.52h-11.54l-5.04-10.99h-23.33l-5.04,10.99h-11.37ZM772.63,171.62h16.92l-7.18-15.34c-.51-1.24-1.11-2.67-1.28-3.64-.26.91-.77,2.34-1.37,3.64l-7.09,15.34Z"/>
+          <path fill="#FFFFFF" d="M828.09,189.62h-10.94v-47.52h10.94v47.52Z"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>
+
+<text x="1336" y="107" text-anchor="end" font-size="16" fill="#bdbdbd">NINE.AI / FARBSYSTEM / 05.09.2026</text>
+<text x="64" y="246" font-size="55" font-weight="900">DIE FIGMA-SPRACHE BLEIBT.</text>
+<text x="64" y="310" font-size="55" font-weight="900" fill="#1389ff">BLAU WIRD DIE MARKE.</text>
+<text x="64" y="354" font-size="20" fill="#bdbdbd">Dunkle Bühne. Kräftige Typografie. Klare Flächen. Das originale Logo-Blau führt.</text>
+<rect x="64" y="402" width="410" height="294" rx="24" fill="#1b1b1b"/>
+<text x="92" y="445" font-size="15" fill="#bdbdbd">AKTION / DUNKLES LOGO-BLAU</text>
+<text x="92" y="495" font-size="29" font-weight="700">Digitale Produkte bauen.</text>
+<text x="92" y="534" font-size="18" fill="#bdbdbd">Klarer Einstieg, lesbare Beschriftung.</text>
+<rect x="92" y="576" width="195" height="56" rx="8" fill="#0a4fd8"/>
+<text x="189" y="611" text-anchor="middle" font-size="17" font-weight="700">Projekt starten</text>
+<text x="92" y="669" font-size="15" fill="#bdbdbd">Weiß auf #0A4FD8 · 6,72:1</text>
+<rect x="494" y="402" width="410" height="294" rx="24" fill="#1389ff"/>
+<circle cx="558" cy="466" r="32" fill="#151515"/>
+<text x="558" y="475" text-anchor="middle" font-size="28">↗</text>
+<text x="526" y="553" font-size="31" fill="#151515" font-weight="700">Eine starke Fläche.</text>
+<text x="526" y="592" font-size="18" fill="#151515">Das helle Blau übernimmt die Rolle</text>
+<text x="526" y="619" font-size="18" fill="#151515">der Highlight-Karte aus Figma.</text>
+<text x="526" y="669" font-size="15" fill="#151515">#151515 auf #1389FF · 5,26:1</text>
+<rect x="924" y="402" width="412" height="294" rx="24" fill="#1b1b1b"/>
+<text x="952" y="445" font-size="15" fill="#bdbdbd">EINE KONSISTENTE FARBWELT</text>
+<rect x="952" y="479" width="130" height="34" rx="17" fill="#60a5fa"/>
+<text x="1017" y="502" text-anchor="middle" font-size="15" fill="#151515" font-weight="700">Konsistent.</text>
+<text x="952" y="562" font-size="25" font-weight="700">Blau bleibt die Farbe.</text>
+<text x="952" y="606" font-size="18" fill="#bdbdbd">Logo-Blau, dunkle Neutraltöne, Weiß.</text>
+<text x="952" y="634" font-size="18" fill="#bdbdbd">Eine klare Hierarchie in jeder Szene.</text>
+<text x="952" y="669" font-size="15" fill="#bdbdbd">Keine gelben Flächen oder Zusatzakzente.</text>
+<rect x="64" y="754" width="196" height="77" rx="8" fill="#151515" stroke="#414141"/><text x="64" y="864" font-size="18" font-weight="700">Canvas</text><text x="64" y="890" font-size="15" fill="#bdbdbd">#151515</text><rect x="279" y="754" width="196" height="77" rx="8" fill="#1b1b1b" stroke="#414141"/><text x="279" y="864" font-size="18" font-weight="700">Surface</text><text x="279" y="890" font-size="15" fill="#bdbdbd">#1B1B1B</text><rect x="494" y="754" width="196" height="77" rx="8" fill="#0a4fd8" stroke="#414141"/><text x="494" y="864" font-size="18" font-weight="700">Primary</text><text x="494" y="890" font-size="15" fill="#bdbdbd">#0A4FD8</text><rect x="709" y="754" width="196" height="77" rx="8" fill="#1389ff" stroke="#414141"/><text x="709" y="864" font-size="18" font-weight="700">Highlight</text><text x="709" y="890" font-size="15" fill="#bdbdbd">#1389FF</text><rect x="924" y="754" width="196" height="77" rx="8" fill="#ffffff" stroke="#414141"/><text x="924" y="864" font-size="18" font-weight="700">Text</text><text x="924" y="890" font-size="15" fill="#bdbdbd">#FFFFFF</text><rect x="1139" y="754" width="196" height="77" rx="8" fill="#60a5fa" stroke="#414141"/><text x="1139" y="864" font-size="18" font-weight="700">Fokus</text><text x="1139" y="890" font-size="15" fill="#bdbdbd">#60A5FA</text><text x="64" y="960" font-size="15" fill="#bdbdbd">Farb- und Logo-Studie · keine neue Seitenkomposition · Kontraste rechnerisch geprüft</text></g></svg>

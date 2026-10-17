@@ -1,0 +1,82 @@
+@import 'tailwindcss' source(none);
+@import 'tw-animate-css';
+/* Scan the application and its actual UI dependencies. Research artifacts and
+   unused library components must not inflate every page's blocking stylesheet. */
+@source './';
+@source '../components/ui/accordion.tsx';
+@source '../components/ui/button.tsx';
+@source '../components/ui/dialog.tsx';
+@source '../components/ui/native-select.tsx';
+@source '../components/ui/tabs.tsx';
+:root {
+  --background: #060b1b;
+  --foreground: #f8fbff;
+  --primary: #0a4fd8;
+  --accent: #0a4fd8;
+  --popover: #f6f9ff;
+  --popover-foreground: #101b31;
+  --muted-foreground: #556078;
+  --radius: 0.75rem;
+  color-scheme: dark;
+}
+* {
+  box-sizing: border-box;
+}
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 100px;
+}
+body {
+  margin: 0;
+  background: var(--background);
+  color: var(--foreground);
+  font-family: var(--font-nine-sans, Arial, sans-serif);
+  font-size: 1rem;
+  line-height: 1.55;
+}
+a {
+  color: inherit;
+  text-decoration: none;
+}
+button,
+input,
+select,
+textarea {
+  font: inherit;
+}
+button,
+a {
+  touch-action: manipulation;
+}
+button {
+  cursor: pointer;
+}
+button:disabled {
+  cursor: not-allowed;
+}
+a:focus-visible,
+button:focus-visible,
+input:focus-visible,
+select:focus-visible,
+textarea:focus-visible,
+summary:focus-visible {
+  outline: 3px solid #3c8ef5;
+  outline-offset: 4px;
+}
+h1,
+h2,
+h3,
+p {
+  margin: 0;
+}
+em {
+  font-style: normal;
+  color: #0a4fd8;
+}
+img {
+  max-width: 100%;
+}
+::selection {
+  background: #93c4ff;
+  color: #07142b;
+}

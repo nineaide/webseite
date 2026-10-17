@@ -1,0 +1,54 @@
+{
+  "checkedAt": "2026-09-08T02:44:15.673611+00:00",
+  "customDomains": {
+    "source": "Sites list_custom_domains",
+    "items": []
+  },
+  "mainDomainDecision": "No owner confirmation received; live Sites URL remains canonical",
+  "businessIdentity": {
+    "source": "lib/site-identity.ts, app/team-data.ts, app/subpages.tsx Legal",
+    "legalName": null,
+    "legalAddress": null,
+    "legalRepresentative": null,
+    "authenticTeamMembers": 0,
+    "verifiedExternalProfiles": []
+  },
+  "searchConsole": {
+    "source": "Visible property selector in existing signed-in browser account",
+    "availablePropertyCount": 2,
+    "nineAiPropertyFound": false,
+    "otherPropertyMetricsUsed": false,
+    "ownershipChanged": false,
+    "limitation": "This describes only the inspected account; no conclusion about other accounts"
+  },
+  "measurementConnectors": {
+    "source": "Current callable tool metadata",
+    "searchConsoleBingOrRankConnectorFound": false
+  },
+  "recurrence": [
+    {
+      "goalTurnRelease": 27,
+      "evidenceCommit": "7a8172a",
+      "evidence": "design/seo/completion-audit-2026-09-08.md at that commit",
+      "condition": "No confirmed own main domain, company identity or Nine.ai measurement property"
+    },
+    {
+      "goalTurnRelease": 28,
+      "evidenceCommit": "1cd49c9",
+      "evidence": "design/seo/completion-audit-2026-09-08.md at that commit",
+      "condition": "Same owner facts/access still absent; image work completed independently"
+    },
+    {
+      "goalTurnRelease": 29,
+      "evidence": "This direct domain, source and property-selector verification",
+      "condition": "Same owner facts/access still absent; measured payload optimization completed independently"
+    }
+  ],
+  "requiredNextInputs": [
+    "Confirm the production main domain",
+    "Supply the official legal company name, address and responsible person",
+    "Provide the correct Nine.ai Search Console or Bing property/account; do not place ownership into a customer account"
+  ],
+  "rankingRequirement": "Unproven. Technical audits and Lighthouse scores do not establish nationwide first-page search positions.",
+  "remainingWork": "Connect the approved domain, complete the real business identity and authorized profiles, verify the proper search property and obtain indexing/position evidence. No further unrequested pages, speculative identity claims or cosmetic score-only changes are a substitute."
+}

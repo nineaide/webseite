@@ -1,0 +1,173 @@
+[
+  {
+    "path": "/",
+    "fonts": [
+      "\"Cabinet Grotesk\", Arial, sans-serif"
+    ],
+    "h1": "Deine Website.Mehr Anfragen.",
+    "scroll": 390,
+    "width": 390
+  },
+  {
+    "path": "/loesungen",
+    "fonts": [
+      "\"Cabinet Grotesk\", Arial, sans-serif"
+    ],
+    "h1": "Was können wir für dich tun?",
+    "scroll": 390,
+    "width": 390
+  },
+  {
+    "path": "/plattformen-web-apps",
+    "fonts": [
+      "\"Cabinet Grotesk\", Arial, sans-serif"
+    ],
+    "h1": "Deine eigene App. Für Kunden, Partner oder dein Team.",
+    "scroll": 390,
+    "width": 390
+  },
+  {
+    "path": "/websites",
+    "fonts": [
+      "\"Cabinet Grotesk\", Arial, sans-serif"
+    ],
+    "h1": "Eine neue Website für dein Unternehmen.",
+    "scroll": 390,
+    "width": 390
+  },
+  {
+    "path": "/ki-automation",
+    "fonts": [
+      "\"Cabinet Grotesk\", Arial, sans-serif"
+    ],
+    "h1": "KI, die im Alltag Arbeit abnimmt.",
+    "scroll": 390,
+    "width": 390
+  },
+  {
+    "path": "/google-ads-growth",
+    "fonts": [
+      "\"Cabinet Grotesk\", Arial, sans-serif"
+    ],
+    "h1": "Bei Google gefunden werden. Von den richtigen Kunden.",
+    "scroll": 390,
+    "width": 390
+  },
+  {
+    "path": "/projekte",
+    "fonts": [
+      "\"Cabinet Grotesk\", Arial, sans-serif"
+    ],
+    "h1": "Gute Ideen.Echte Projekte.",
+    "scroll": 390,
+    "width": 390
+  },
+  {
+    "path": "/projekte/parkesicher",
+    "fonts": [
+      "\"Cabinet Grotesk\", Arial, sans-serif"
+    ],
+    "h1": "ParkeSicher. Vom Parkplatz zur Plattform.",
+    "scroll": 390,
+    "width": 390
+  },
+  {
+    "path": "/pakete",
+    "fonts": [
+      "\"Cabinet Grotesk\", Arial, sans-serif"
+    ],
+    "h1": "Dein Vorhaben.Das passende Paket.",
+    "scroll": 390,
+    "width": 390
+  },
+  {
+    "path": "/ueber-nine",
+    "fonts": [
+      "\"Cabinet Grotesk\", Arial, sans-serif"
+    ],
+    "h1": "Du machst dein Geschäft. Wir kümmern uns um deinen Auftritt.",
+    "scroll": 390,
+    "width": 390
+  },
+  {
+    "path": "/projekt-starten",
+    "fonts": [
+      "\"Cabinet Grotesk\", Arial, sans-serif"
+    ],
+    "h1": "Was können wir für dich tun.",
+    "scroll": 390,
+    "width": 390
+  },
+  {
+    "path": "/checkout/nine-launch",
+    "fonts": [
+      "\"Cabinet Grotesk\", Arial, sans-serif"
+    ],
+    "h1": "Deine neue Website.",
+    "scroll": 390,
+    "width": 390
+  },
+  {
+    "path": "/checkout/nine-growth",
+    "fonts": [
+      "\"Cabinet Grotesk\", Arial, sans-serif"
+    ],
+    "h1": "Website + Werbestart.",
+    "scroll": 390,
+    "width": 390
+  },
+  {
+    "path": "/checkout/platform-discovery",
+    "fonts": [
+      "\"Cabinet Grotesk\", Arial, sans-serif"
+    ],
+    "h1": "Deine App zuerst planen.",
+    "scroll": 390,
+    "width": 390
+  },
+  {
+    "path": "/checkout/custom-platform",
+    "fonts": [
+      "\"Cabinet Grotesk\", Arial, sans-serif"
+    ],
+    "h1": "Deine Plattform bauen.",
+    "scroll": 390,
+    "width": 390
+  },
+  {
+    "path": "/checkout/nine-scale",
+    "fonts": [
+      "\"Cabinet Grotesk\", Arial, sans-serif"
+    ],
+    "h1": "Deine Google-Werbung.",
+    "scroll": 390,
+    "width": 390
+  },
+  {
+    "path": "/impressum",
+    "fonts": [
+      "\"Cabinet Grotesk\", Arial, sans-serif"
+    ],
+    "h1": "Impressum",
+    "scroll": 390,
+    "width": 390
+  },
+  {
+    "path": "/datenschutz",
+    "fonts": [
+      "\"Cabinet Grotesk\", Arial, sans-serif"
+    ],
+    "h1": "Datenschutz",
+    "scroll": 390,
+    "width": 390
+  },
+  {
+    "path": "/agb",
+    "fonts": [
+      "\"Cabinet Grotesk\", Arial, sans-serif"
+    ],
+    "h1": "AGB",
+    "scroll": 390,
+    "width": 390
+  }
+]

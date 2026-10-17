@@ -1,0 +1,1125 @@
+{
+  "tool": "1.0.0",
+  "origin": "https://nine-ai-studio.serhad1999.chatgpt.site",
+  "generatedAt": "2026-09-08T01:29:13.191Z",
+  "durationMs": 4337,
+  "pagesFetched": 39,
+  "sitemapUrlCount": 39,
+  "score": {
+    "total": 92,
+    "pagesScored": 39,
+    "sitePenalty": 2
+  },
+  "findings": [
+    {
+      "severity": "P3",
+      "doc": "docs/01",
+      "where": "http://",
+      "message": "http:// answers 302; a permanent move should be 301.",
+      "evidence": {
+        "status": 302
+      }
+    },
+    {
+      "severity": "P3",
+      "doc": "docs/06",
+      "where": "https://nine-ai-studio.serhad1999.chatgpt.site/sitemap.xml",
+      "message": "All 39 entries share one `lastmod` date (2026-09-08). A lastmod that moves on deploy rather than on edit gets discounted entirely.",
+      "evidence": null
+    },
+    {
+      "severity": "P3",
+      "doc": "docs/01",
+      "where": "/",
+      "message": "Incomplete Open Graph (missing og:title or og:image). Not a ranking factor; it is the whole preview on every share surface.",
+      "evidence": null
+    },
+    {
+      "severity": "P3",
+      "doc": "docs/08",
+      "where": "/",
+      "message": "A JSON-LD node has no `@type`.",
+      "evidence": null
+    },
+    {
+      "severity": "P3",
+      "doc": "docs/08",
+      "where": "/",
+      "message": "A JSON-LD node has no `@type`.",
+      "evidence": null
+    },
+    {
+      "severity": "P3",
+      "doc": "docs/01",
+      "where": "/loesungen",
+      "message": "Incomplete Open Graph (missing og:title or og:image). Not a ranking factor; it is the whole preview on every share surface.",
+      "evidence": null
+    },
+    {
+      "severity": "P3",
+      "doc": "docs/08",
+      "where": "/loesungen",
+      "message": "A JSON-LD node has no `@type`.",
+      "evidence": null
+    },
+    {
+      "severity": "P3",
+      "doc": "docs/08",
+      "where": "/loesungen",
+      "message": "A JSON-LD node has no `@type`.",
+      "evidence": null
+    },
+    {
+      "severity": "P3",
+      "doc": "docs/01",
+      "where": "/wissen",
+      "message": "Incomplete Open Graph (missing og:title or og:image). Not a ranking factor; it is the whole preview on every share surface.",
+      "evidence": null
+    },
+    {
+      "severity": "P3",
+      "doc": "docs/08",
+      "where": "/wissen",
+      "message": "A JSON-LD node has no `@type`.",
+      "evidence": null
+    },
+    {
+      "severity": "P3",
+      "doc": "docs/08",
+      "where": "/wissen",
+      "message": "A JSON-LD node has no `@type`.",
+      "evidence": null
+    },
+    {
+      "severity": "P3",
+      "doc": "docs/01",
+      "where": "/website-erstellen-lassen",
+      "message": "Incomplete Open Graph (missing og:title or og:image). Not a ranking factor; it is the whole preview on every share surface.",
+      "evidence": null
+    },
+    {
+      "severity": "P3",
+      "doc": "docs/08",
+      "where": "/website-erstellen-lassen",
+      "message": "A JSON-LD node has no `@type`.",
+      "evidence": null
+    },
+    {
+      "severity": "P3",
+      "doc": "docs/08",
+      "where": "/website-erstellen-lassen",
+      "message": "A JSON-LD node has no `@type`.",
+      "evidence": null
+    },
+    {
+      "severity": "P3",
+      "doc": "docs/01",
+      "where": "/ueber-nine",
+      "message": "Incomplete Open Graph (missing og:title or og:image). Not a ranking factor; it is the whole preview on every share surface.",
+      "evidence": null
+    },
+    {
+      "severity": "P3",
+      "doc": "docs/08",
+      "where": "/ueber-nine",
+      "message": "A JSON-LD node has no `@type`.",
+      "evidence": null
+    },
+    {
+      "severity": "P3",
+      "doc": "docs/08",
+      "where": "/ueber-nine",
+      "message": "A JSON-LD node has no `@type`.",
+      "evidence": null
+    },
+    {
+      "severity": "P3",
+      "doc": "docs/01",
+      "where": "/projekte",
+      "message": "Incomplete Open Graph (missing og:title or og:image). Not a ranking factor; it is the whole preview on every share surface.",
+      "evidence": null
+    },
+    {
+      "severity": "P3",
+      "doc": "docs/08",
+      "where": "/projekte",
+      "message": "A JSON-LD node has no `@type`.",
+      "evidence": null
+    },
+    {
+      "severity": "P3",
+      "doc": "docs/08",
+      "where": "/projekte",
+      "message": "A JSON-LD node has no `@type`.",
+      "evidence": null
+    },
+    {
+      "severity": "P3",
+      "doc": "docs/01",
+      "where": "/pakete",
+      "message": "Incomplete Open Graph (missing og:title or og:image). Not a ranking factor; it is the whole preview on every share surface.",
+      "evidence": null
+    },
+    {
+      "severity": "P3",
+      "doc": "docs/08",
+      "where": "/pakete",
+      "message": "A JSON-LD node has no `@type`.",
+      "evidence": null
+    },
+    {
+      "severity": "P3",
+      "doc": "docs/08",
+      "where": "/pakete",
+      "message": "A JSON-LD node has no `@type`.",
+      "evidence": null
+    },
+    {
+      "severity": "P3",
+      "doc": "docs/01",
+      "where": "/plattformen-web-apps",
+      "message": "Incomplete Open Graph (missing og:title or og:image). Not a ranking factor; it is the whole preview on every share surface.",
+      "evidence": null
+    },
+    {
+      "severity": "P3",
+      "doc": "docs/08",
+      "where": "/plattformen-web-apps",
+      "message": "A JSON-LD node has no `@type`.",
+      "evidence": null
+    },
+    {
+      "severity": "P3",
+      "doc": "docs/08",
+      "where": "/plattformen-web-apps",
+      "message": "A JSON-LD node has no `@type`.",
+      "evidence": null
+    },
+    {
+      "severity": "P3",
+      "doc": "docs/01",
+      "where": "/ki-automation",
+      "message": "Incomplete Open Graph (missing og:title or og:image). Not a ranking factor; it is the whole preview on every share surface.",
+      "evidence": null
+    },
+    {
+      "severity": "P3",
+      "doc": "docs/08",
+      "where": "/ki-automation",
+      "message": "A JSON-LD node has no `@type`.",
+      "evidence": null
+    },
+    {
+      "severity": "P3",
+      "doc": "docs/08",
+      "where": "/ki-automation",
+      "message": "A JSON-LD node has no `@type`.",
+      "evidence": null
+    },
+    {
+      "severity": "P3",
+      "doc": "docs/01",
+      "where": "/google-ads-growth",
+      "message": "Incomplete Open Graph (missing og:title or og:image). Not a ranking factor; it is the whole preview on every share surface.",
+      "evidence": null
+    },
+    {
+      "severity": "P3",
+      "doc": "docs/08",
+      "where": "/google-ads-growth",
+      "message": "A JSON-LD node has no `@type`.",
+      "evidence": null
+    },
+    {
+      "severity": "P3",
+      "doc": "docs/08",
+      "where": "/google-ads-growth",
+      "message": "A JSON-LD node has no `@type`.",
+      "evidence": null
+    },
+    {
+      "severity": "P3",
+      "doc": "docs/01",
+      "where": "/websites",
+      "message": "Incomplete Open Graph (missing og:title or og:image). Not a ranking factor; it is the whole preview on every share surface.",
+      "evidence": null
+    },
+    {
+      "severity": "P3",
+      "doc": "docs/08",
+      "where": "/websites",
+      "message": "A JSON-LD node has no `@type`.",
+      "evidence": null
+    },
+    {
+      "severity": "P3",
+      "doc": "docs/08",
+      "where": "/websites",
+      "message": "A JSON-LD node has no `@type`.",
+      "evidence": null
+    },
+    {
+      "severity": "P3",
+      "doc": "docs/01",
+      "where": "/plattformen-web-apps/buchungssysteme",
+      "message": "Incomplete Open Graph (missing og:title or og:image). Not a ranking factor; it is the whole preview on every share surface.",
+      "evidence": null
+    },
+    {
+      "severity": "P3",
+      "doc": "docs/08",
+      "where": "/plattformen-web-apps/buchungssysteme",
+      "message": "A JSON-LD node has no `@type`.",
+      "evidence": null
+    },
+    {
+      "severity": "P3",
+      "doc": "docs/08",
+      "where": "/plattformen-web-apps/buchungssysteme",
+      "message": "A JSON-LD node has no `@type`.",
+      "evidence": null
+    },
+    {
+      "severity": "P3",
+      "doc": "docs/01",
+      "where": "/plattformen-web-apps/bestellsysteme-gastronomie",
+      "message": "Incomplete Open Graph (missing og:title or og:image). Not a ranking factor; it is the whole preview on every share surface.",
+      "evidence": null
+    },
+    {
+      "severity": "P3",
+      "doc": "docs/08",
+      "where": "/plattformen-web-apps/bestellsysteme-gastronomie",
+      "message": "A JSON-LD node has no `@type`.",
+      "evidence": null
+    },
+    {
+      "severity": "P3",
+      "doc": "docs/08",
+      "where": "/plattformen-web-apps/bestellsysteme-gastronomie",
+      "message": "A JSON-LD node has no `@type`.",
+      "evidence": null
+    },
+    {
+      "severity": "P3",
+      "doc": "docs/01",
+      "where": "/plattformen-web-apps/kundenportale",
+      "message": "Incomplete Open Graph (missing og:title or og:image). Not a ranking factor; it is the whole preview on every share surface.",
+      "evidence": null
+    },
+    {
+      "severity": "P3",
+      "doc": "docs/08",
+      "where": "/plattformen-web-apps/kundenportale",
+      "message": "A JSON-LD node has no `@type`.",
+      "evidence": null
+    },
+    {
+      "severity": "P3",
+      "doc": "docs/08",
+      "where": "/plattformen-web-apps/kundenportale",
+      "message": "A JSON-LD node has no `@type`.",
+      "evidence": null
+    },
+    {
+      "severity": "P3",
+      "doc": "docs/01",
+      "where": "/plattformen-web-apps/konfiguratoren",
+      "message": "Incomplete Open Graph (missing og:title or og:image). Not a ranking factor; it is the whole preview on every share surface.",
+      "evidence": null
+    },
+    {
+      "severity": "P3",
+      "doc": "docs/08",
+      "where": "/plattformen-web-apps/konfiguratoren",
+      "message": "A JSON-LD node has no `@type`.",
+      "evidence": null
+    },
+    {
+      "severity": "P3",
+      "doc": "docs/08",
+      "where": "/plattformen-web-apps/konfiguratoren",
+      "message": "A JSON-LD node has no `@type`.",
+      "evidence": null
+    },
+    {
+      "severity": "P3",
+      "doc": "docs/01",
+      "where": "/google-ads-growth/landingpages",
+      "message": "Incomplete Open Graph (missing og:title or og:image). Not a ranking factor; it is the whole preview on every share surface.",
+      "evidence": null
+    },
+    {
+      "severity": "P3",
+      "doc": "docs/08",
+      "where": "/google-ads-growth/landingpages",
+      "message": "A JSON-LD node has no `@type`.",
+      "evidence": null
+    },
+    {
+      "severity": "P3",
+      "doc": "docs/08",
+      "where": "/google-ads-growth/landingpages",
+      "message": "A JSON-LD node has no `@type`.",
+      "evidence": null
+    },
+    {
+      "severity": "P3",
+      "doc": "docs/01",
+      "where": "/plattformen-web-apps/schnittstellen",
+      "message": "Incomplete Open Graph (missing og:title or og:image). Not a ranking factor; it is the whole preview on every share surface.",
+      "evidence": null
+    },
+    {
+      "severity": "P3",
+      "doc": "docs/08",
+      "where": "/plattformen-web-apps/schnittstellen",
+      "message": "A JSON-LD node has no `@type`.",
+      "evidence": null
+    },
+    {
+      "severity": "P3",
+      "doc": "docs/08",
+      "where": "/plattformen-web-apps/schnittstellen",
+      "message": "A JSON-LD node has no `@type`.",
+      "evidence": null
+    },
+    {
+      "severity": "P3",
+      "doc": "docs/01",
+      "where": "/google-ads-growth/suchanzeigen",
+      "message": "Incomplete Open Graph (missing og:title or og:image). Not a ranking factor; it is the whole preview on every share surface.",
+      "evidence": null
+    },
+    {
+      "severity": "P3",
+      "doc": "docs/08",
+      "where": "/google-ads-growth/suchanzeigen",
+      "message": "A JSON-LD node has no `@type`.",
+      "evidence": null
+    },
+    {
+      "severity": "P3",
+      "doc": "docs/08",
+      "where": "/google-ads-growth/suchanzeigen",
+      "message": "A JSON-LD node has no `@type`.",
+      "evidence": null
+    },
+    {
+      "severity": "P3",
+      "doc": "docs/01",
+      "where": "/google-ads-growth/conversion-tracking",
+      "message": "Incomplete Open Graph (missing og:title or og:image). Not a ranking factor; it is the whole preview on every share surface.",
+      "evidence": null
+    },
+    {
+      "severity": "P3",
+      "doc": "docs/08",
+      "where": "/google-ads-growth/conversion-tracking",
+      "message": "A JSON-LD node has no `@type`.",
+      "evidence": null
+    },
+    {
+      "severity": "P3",
+      "doc": "docs/08",
+      "where": "/google-ads-growth/conversion-tracking",
+      "message": "A JSON-LD node has no `@type`.",
+      "evidence": null
+    },
+    {
+      "severity": "P3",
+      "doc": "docs/01",
+      "where": "/ki-automation/prozessautomatisierung",
+      "message": "Incomplete Open Graph (missing og:title or og:image). Not a ranking factor; it is the whole preview on every share surface.",
+      "evidence": null
+    },
+    {
+      "severity": "P3",
+      "doc": "docs/08",
+      "where": "/ki-automation/prozessautomatisierung",
+      "message": "A JSON-LD node has no `@type`.",
+      "evidence": null
+    },
+    {
+      "severity": "P3",
+      "doc": "docs/08",
+      "where": "/ki-automation/prozessautomatisierung",
+      "message": "A JSON-LD node has no `@type`.",
+      "evidence": null
+    },
+    {
+      "severity": "P3",
+      "doc": "docs/01",
+      "where": "/ki-automation/ki-assistenten",
+      "message": "Incomplete Open Graph (missing og:title or og:image). Not a ranking factor; it is the whole preview on every share surface.",
+      "evidence": null
+    },
+    {
+      "severity": "P3",
+      "doc": "docs/08",
+      "where": "/ki-automation/ki-assistenten",
+      "message": "A JSON-LD node has no `@type`.",
+      "evidence": null
+    },
+    {
+      "severity": "P3",
+      "doc": "docs/08",
+      "where": "/ki-automation/ki-assistenten",
+      "message": "A JSON-LD node has no `@type`.",
+      "evidence": null
+    },
+    {
+      "severity": "P3",
+      "doc": "docs/01",
+      "where": "/websites/dienstleister",
+      "message": "Incomplete Open Graph (missing og:title or og:image). Not a ranking factor; it is the whole preview on every share surface.",
+      "evidence": null
+    },
+    {
+      "severity": "P3",
+      "doc": "docs/08",
+      "where": "/websites/dienstleister",
+      "message": "A JSON-LD node has no `@type`.",
+      "evidence": null
+    },
+    {
+      "severity": "P3",
+      "doc": "docs/08",
+      "where": "/websites/dienstleister",
+      "message": "A JSON-LD node has no `@type`.",
+      "evidence": null
+    },
+    {
+      "severity": "P3",
+      "doc": "docs/01",
+      "where": "/websites/handwerk",
+      "message": "Incomplete Open Graph (missing og:title or og:image). Not a ranking factor; it is the whole preview on every share surface.",
+      "evidence": null
+    },
+    {
+      "severity": "P3",
+      "doc": "docs/08",
+      "where": "/websites/handwerk",
+      "message": "A JSON-LD node has no `@type`.",
+      "evidence": null
+    },
+    {
+      "severity": "P3",
+      "doc": "docs/08",
+      "where": "/websites/handwerk",
+      "message": "A JSON-LD node has no `@type`.",
+      "evidence": null
+    },
+    {
+      "severity": "P3",
+      "doc": "docs/01",
+      "where": "/projekte/parkesicher",
+      "message": "Incomplete Open Graph (missing og:title or og:image). Not a ranking factor; it is the whole preview on every share surface.",
+      "evidence": null
+    },
+    {
+      "severity": "P3",
+      "doc": "docs/08",
+      "where": "/projekte/parkesicher",
+      "message": "A JSON-LD node has no `@type`.",
+      "evidence": null
+    },
+    {
+      "severity": "P3",
+      "doc": "docs/08",
+      "where": "/projekte/parkesicher",
+      "message": "A JSON-LD node has no `@type`.",
+      "evidence": null
+    },
+    {
+      "severity": "P3",
+      "doc": "docs/01",
+      "where": "/websites/gastronomie",
+      "message": "Incomplete Open Graph (missing og:title or og:image). Not a ranking factor; it is the whole preview on every share surface.",
+      "evidence": null
+    },
+    {
+      "severity": "P3",
+      "doc": "docs/08",
+      "where": "/websites/gastronomie",
+      "message": "A JSON-LD node has no `@type`.",
+      "evidence": null
+    },
+    {
+      "severity": "P3",
+      "doc": "docs/08",
+      "where": "/websites/gastronomie",
+      "message": "A JSON-LD node has no `@type`.",
+      "evidence": null
+    },
+    {
+      "severity": "P3",
+      "doc": "docs/01",
+      "where": "/projekte/mb-performance",
+      "message": "Incomplete Open Graph (missing og:title or og:image). Not a ranking factor; it is the whole preview on every share surface.",
+      "evidence": null
+    },
+    {
+      "severity": "P3",
+      "doc": "docs/08",
+      "where": "/projekte/mb-performance",
+      "message": "A JSON-LD node has no `@type`.",
+      "evidence": null
+    },
+    {
+      "severity": "P3",
+      "doc": "docs/08",
+      "where": "/projekte/mb-performance",
+      "message": "A JSON-LD node has no `@type`.",
+      "evidence": null
+    },
+    {
+      "severity": "P3",
+      "doc": "docs/01",
+      "where": "/projekte/un-petit-cafe",
+      "message": "Incomplete Open Graph (missing og:title or og:image). Not a ranking factor; it is the whole preview on every share surface.",
+      "evidence": null
+    },
+    {
+      "severity": "P3",
+      "doc": "docs/08",
+      "where": "/projekte/un-petit-cafe",
+      "message": "A JSON-LD node has no `@type`.",
+      "evidence": null
+    },
+    {
+      "severity": "P3",
+      "doc": "docs/08",
+      "where": "/projekte/un-petit-cafe",
+      "message": "A JSON-LD node has no `@type`.",
+      "evidence": null
+    },
+    {
+      "severity": "P3",
+      "doc": "docs/01",
+      "where": "/projekte/prime-energie",
+      "message": "Incomplete Open Graph (missing og:title or og:image). Not a ranking factor; it is the whole preview on every share surface.",
+      "evidence": null
+    },
+    {
+      "severity": "P3",
+      "doc": "docs/08",
+      "where": "/projekte/prime-energie",
+      "message": "A JSON-LD node has no `@type`.",
+      "evidence": null
+    },
+    {
+      "severity": "P3",
+      "doc": "docs/08",
+      "where": "/projekte/prime-energie",
+      "message": "A JSON-LD node has no `@type`.",
+      "evidence": null
+    },
+    {
+      "severity": "P3",
+      "doc": "docs/01",
+      "where": "/projekte/meister-lorenz",
+      "message": "Incomplete Open Graph (missing og:title or og:image). Not a ranking factor; it is the whole preview on every share surface.",
+      "evidence": null
+    },
+    {
+      "severity": "P3",
+      "doc": "docs/08",
+      "where": "/projekte/meister-lorenz",
+      "message": "A JSON-LD node has no `@type`.",
+      "evidence": null
+    },
+    {
+      "severity": "P3",
+      "doc": "docs/08",
+      "where": "/projekte/meister-lorenz",
+      "message": "A JSON-LD node has no `@type`.",
+      "evidence": null
+    },
+    {
+      "severity": "P3",
+      "doc": "docs/01",
+      "where": "/projekte/gardentime",
+      "message": "Incomplete Open Graph (missing og:title or og:image). Not a ranking factor; it is the whole preview on every share surface.",
+      "evidence": null
+    },
+    {
+      "severity": "P3",
+      "doc": "docs/08",
+      "where": "/projekte/gardentime",
+      "message": "A JSON-LD node has no `@type`.",
+      "evidence": null
+    },
+    {
+      "severity": "P3",
+      "doc": "docs/08",
+      "where": "/projekte/gardentime",
+      "message": "A JSON-LD node has no `@type`.",
+      "evidence": null
+    },
+    {
+      "severity": "P3",
+      "doc": "docs/01",
+      "where": "/projekte/mrcarkey",
+      "message": "Incomplete Open Graph (missing og:title or og:image). Not a ranking factor; it is the whole preview on every share surface.",
+      "evidence": null
+    },
+    {
+      "severity": "P3",
+      "doc": "docs/08",
+      "where": "/projekte/mrcarkey",
+      "message": "A JSON-LD node has no `@type`.",
+      "evidence": null
+    },
+    {
+      "severity": "P3",
+      "doc": "docs/08",
+      "where": "/projekte/mrcarkey",
+      "message": "A JSON-LD node has no `@type`.",
+      "evidence": null
+    },
+    {
+      "severity": "P3",
+      "doc": "docs/01",
+      "where": "/projekte/loni-galabau",
+      "message": "Incomplete Open Graph (missing og:title or og:image). Not a ranking factor; it is the whole preview on every share surface.",
+      "evidence": null
+    },
+    {
+      "severity": "P3",
+      "doc": "docs/08",
+      "where": "/projekte/loni-galabau",
+      "message": "A JSON-LD node has no `@type`.",
+      "evidence": null
+    },
+    {
+      "severity": "P3",
+      "doc": "docs/08",
+      "where": "/projekte/loni-galabau",
+      "message": "A JSON-LD node has no `@type`.",
+      "evidence": null
+    },
+    {
+      "severity": "P3",
+      "doc": "docs/01",
+      "where": "/projekte/dirik-autopflege",
+      "message": "Incomplete Open Graph (missing og:title or og:image). Not a ranking factor; it is the whole preview on every share surface.",
+      "evidence": null
+    },
+    {
+      "severity": "P3",
+      "doc": "docs/08",
+      "where": "/projekte/dirik-autopflege",
+      "message": "A JSON-LD node has no `@type`.",
+      "evidence": null
+    },
+    {
+      "severity": "P3",
+      "doc": "docs/08",
+      "where": "/projekte/dirik-autopflege",
+      "message": "A JSON-LD node has no `@type`.",
+      "evidence": null
+    },
+    {
+      "severity": "P3",
+      "doc": "docs/01",
+      "where": "/wissen/was-kostet-eine-website",
+      "message": "Incomplete Open Graph (missing og:title or og:image). Not a ranking factor; it is the whole preview on every share surface.",
+      "evidence": null
+    },
+    {
+      "severity": "P3",
+      "doc": "docs/08",
+      "where": "/wissen/was-kostet-eine-website",
+      "message": "A JSON-LD node has no `@type`.",
+      "evidence": null
+    },
+    {
+      "severity": "P3",
+      "doc": "docs/08",
+      "where": "/wissen/was-kostet-eine-website",
+      "message": "A JSON-LD node has no `@type`.",
+      "evidence": null
+    },
+    {
+      "severity": "P3",
+      "doc": "docs/01",
+      "where": "/wissen/website-relaunch-checkliste",
+      "message": "Incomplete Open Graph (missing og:title or og:image). Not a ranking factor; it is the whole preview on every share surface.",
+      "evidence": null
+    },
+    {
+      "severity": "P3",
+      "doc": "docs/08",
+      "where": "/wissen/website-relaunch-checkliste",
+      "message": "A JSON-LD node has no `@type`.",
+      "evidence": null
+    },
+    {
+      "severity": "P3",
+      "doc": "docs/08",
+      "where": "/wissen/website-relaunch-checkliste",
+      "message": "A JSON-LD node has no `@type`.",
+      "evidence": null
+    },
+    {
+      "severity": "P3",
+      "doc": "docs/01",
+      "where": "/wissen/google-ads-budget-planen",
+      "message": "Incomplete Open Graph (missing og:title or og:image). Not a ranking factor; it is the whole preview on every share surface.",
+      "evidence": null
+    },
+    {
+      "severity": "P3",
+      "doc": "docs/08",
+      "where": "/wissen/google-ads-budget-planen",
+      "message": "A JSON-LD node has no `@type`.",
+      "evidence": null
+    },
+    {
+      "severity": "P3",
+      "doc": "docs/08",
+      "where": "/wissen/google-ads-budget-planen",
+      "message": "A JSON-LD node has no `@type`.",
+      "evidence": null
+    },
+    {
+      "severity": "P3",
+      "doc": "docs/01",
+      "where": "/wissen/web-app-oder-standardsoftware",
+      "message": "Incomplete Open Graph (missing og:title or og:image). Not a ranking factor; it is the whole preview on every share surface.",
+      "evidence": null
+    },
+    {
+      "severity": "P3",
+      "doc": "docs/08",
+      "where": "/wissen/web-app-oder-standardsoftware",
+      "message": "A JSON-LD node has no `@type`.",
+      "evidence": null
+    },
+    {
+      "severity": "P3",
+      "doc": "docs/08",
+      "where": "/wissen/web-app-oder-standardsoftware",
+      "message": "A JSON-LD node has no `@type`.",
+      "evidence": null
+    },
+    {
+      "severity": "P3",
+      "doc": "docs/01",
+      "where": "/wissen/website-briefing",
+      "message": "Incomplete Open Graph (missing og:title or og:image). Not a ranking factor; it is the whole preview on every share surface.",
+      "evidence": null
+    },
+    {
+      "severity": "P3",
+      "doc": "docs/08",
+      "where": "/wissen/website-briefing",
+      "message": "A JSON-LD node has no `@type`.",
+      "evidence": null
+    },
+    {
+      "severity": "P3",
+      "doc": "docs/08",
+      "where": "/wissen/website-briefing",
+      "message": "A JSON-LD node has no `@type`.",
+      "evidence": null
+    },
+    {
+      "severity": "P3",
+      "doc": "docs/01",
+      "where": "/wissen/buchungssystem-planen",
+      "message": "Incomplete Open Graph (missing og:title or og:image). Not a ranking factor; it is the whole preview on every share surface.",
+      "evidence": null
+    },
+    {
+      "severity": "P3",
+      "doc": "docs/08",
+      "where": "/wissen/buchungssystem-planen",
+      "message": "A JSON-LD node has no `@type`.",
+      "evidence": null
+    },
+    {
+      "severity": "P3",
+      "doc": "docs/08",
+      "where": "/wissen/buchungssystem-planen",
+      "message": "A JSON-LD node has no `@type`.",
+      "evidence": null
+    }
+  ],
+  "pages": [
+    {
+      "path": "/",
+      "status": 200,
+      "title": "Nine.ai – Webdesign, Webentwicklung & Google Ads",
+      "canonical": "https://nine-ai-studio.serhad1999.chatgpt.site",
+      "words": 740
+    },
+    {
+      "path": "/wissen",
+      "status": 200,
+      "title": "Wissen: Websites, Web-Apps & Google Ads planen | Nine.ai",
+      "canonical": "https://nine-ai-studio.serhad1999.chatgpt.site/wissen",
+      "words": 227
+    },
+    {
+      "path": "/loesungen",
+      "status": 200,
+      "title": "Websites, Web-Apps, Google Ads & Automatisierung | Nine.ai",
+      "canonical": "https://nine-ai-studio.serhad1999.chatgpt.site/loesungen",
+      "words": 441
+    },
+    {
+      "path": "/websites",
+      "status": 200,
+      "title": "Webdesign für Unternehmen – Pakete & Referenzen | Nine.ai",
+      "canonical": "https://nine-ai-studio.serhad1999.chatgpt.site/websites",
+      "words": 923
+    },
+    {
+      "path": "/website-erstellen-lassen",
+      "status": 200,
+      "title": "Website erstellen lassen – ab 1.990 € netto | Nine.ai",
+      "canonical": "https://nine-ai-studio.serhad1999.chatgpt.site/website-erstellen-lassen",
+      "words": 783
+    },
+    {
+      "path": "/projekte",
+      "status": 200,
+      "title": "Webdesign- & Webentwicklungs-Referenzen | Nine.ai",
+      "canonical": "https://nine-ai-studio.serhad1999.chatgpt.site/projekte",
+      "words": 293
+    },
+    {
+      "path": "/pakete",
+      "status": 200,
+      "title": "Website-Pakete: 1.990 €, 6.900 € & 12.900 € | Nine.ai",
+      "canonical": "https://nine-ai-studio.serhad1999.chatgpt.site/pakete",
+      "words": 743
+    },
+    {
+      "path": "/ueber-nine",
+      "status": 200,
+      "title": "Über Nine.ai – Design, Entwicklung & Zusammenarbeit",
+      "canonical": "https://nine-ai-studio.serhad1999.chatgpt.site/ueber-nine",
+      "words": 315
+    },
+    {
+      "path": "/plattformen-web-apps",
+      "status": 200,
+      "title": "Webentwicklung: Web-Apps & Kundenportale | Nine.ai",
+      "canonical": "https://nine-ai-studio.serhad1999.chatgpt.site/plattformen-web-apps",
+      "words": 675
+    },
+    {
+      "path": "/google-ads-growth",
+      "status": 200,
+      "title": "Google Ads Agentur für Unternehmen | Nine.ai",
+      "canonical": "https://nine-ai-studio.serhad1999.chatgpt.site/google-ads-growth",
+      "words": 594
+    },
+    {
+      "path": "/ki-automation",
+      "status": 200,
+      "title": "KI & Prozessautomatisierung für Unternehmen | Nine.ai",
+      "canonical": "https://nine-ai-studio.serhad1999.chatgpt.site/ki-automation",
+      "words": 564
+    },
+    {
+      "path": "/plattformen-web-apps/buchungssysteme",
+      "status": 200,
+      "title": "Buchungssystem entwickeln lassen – individuell | Nine.ai",
+      "canonical": "https://nine-ai-studio.serhad1999.chatgpt.site/plattformen-web-apps/buchungssysteme",
+      "words": 659
+    },
+    {
+      "path": "/plattformen-web-apps/kundenportale",
+      "status": 200,
+      "title": "Kundenportal entwickeln lassen – Rollen & Abläufe | Nine.ai",
+      "canonical": "https://nine-ai-studio.serhad1999.chatgpt.site/plattformen-web-apps/kundenportale",
+      "words": 619
+    },
+    {
+      "path": "/plattformen-web-apps/bestellsysteme-gastronomie",
+      "status": 200,
+      "title": "Eigenes Bestellsystem für die Gastronomie | Nine.ai",
+      "canonical": "https://nine-ai-studio.serhad1999.chatgpt.site/plattformen-web-apps/bestellsysteme-gastronomie",
+      "words": 624
+    },
+    {
+      "path": "/plattformen-web-apps/konfiguratoren",
+      "status": 200,
+      "title": "Konfigurator programmieren lassen – mit Datenbank | Nine.ai",
+      "canonical": "https://nine-ai-studio.serhad1999.chatgpt.site/plattformen-web-apps/konfiguratoren",
+      "words": 650
+    },
+    {
+      "path": "/plattformen-web-apps/schnittstellen",
+      "status": 200,
+      "title": "Schnittstellen entwickeln & Systeme verbinden | Nine.ai",
+      "canonical": "https://nine-ai-studio.serhad1999.chatgpt.site/plattformen-web-apps/schnittstellen",
+      "words": 625
+    },
+    {
+      "path": "/google-ads-growth/suchanzeigen",
+      "status": 200,
+      "title": "Google Suchanzeigen für Unternehmen | Nine.ai",
+      "canonical": "https://nine-ai-studio.serhad1999.chatgpt.site/google-ads-growth/suchanzeigen",
+      "words": 619
+    },
+    {
+      "path": "/google-ads-growth/landingpages",
+      "status": 200,
+      "title": "Landingpage für Google Ads erstellen lassen | Nine.ai",
+      "canonical": "https://nine-ai-studio.serhad1999.chatgpt.site/google-ads-growth/landingpages",
+      "words": 631
+    },
+    {
+      "path": "/google-ads-growth/conversion-tracking",
+      "status": 200,
+      "title": "Google Ads Conversion-Tracking für Anfragen | Nine.ai",
+      "canonical": "https://nine-ai-studio.serhad1999.chatgpt.site/google-ads-growth/conversion-tracking",
+      "words": 599
+    },
+    {
+      "path": "/ki-automation/prozessautomatisierung",
+      "status": 200,
+      "title": "Prozessautomatisierung für Unternehmen | Nine.ai",
+      "canonical": "https://nine-ai-studio.serhad1999.chatgpt.site/ki-automation/prozessautomatisierung",
+      "words": 608
+    },
+    {
+      "path": "/ki-automation/ki-assistenten",
+      "status": 200,
+      "title": "KI-Assistenten für Unternehmenswissen & Anfragen | Nine.ai",
+      "canonical": "https://nine-ai-studio.serhad1999.chatgpt.site/ki-automation/ki-assistenten",
+      "words": 588
+    },
+    {
+      "path": "/websites/dienstleister",
+      "status": 200,
+      "title": "Website für Dienstleister erstellen lassen | Nine.ai",
+      "canonical": "https://nine-ai-studio.serhad1999.chatgpt.site/websites/dienstleister",
+      "words": 623
+    },
+    {
+      "path": "/websites/handwerk",
+      "status": 200,
+      "title": "Website für Handwerker – Webdesign mit Referenzen | Nine.ai",
+      "canonical": "https://nine-ai-studio.serhad1999.chatgpt.site/websites/handwerk",
+      "words": 637
+    },
+    {
+      "path": "/websites/gastronomie",
+      "status": 200,
+      "title": "Restaurant- & Café-Website erstellen lassen | Nine.ai",
+      "canonical": "https://nine-ai-studio.serhad1999.chatgpt.site/websites/gastronomie",
+      "words": 573
+    },
+    {
+      "path": "/projekte/parkesicher",
+      "status": 200,
+      "title": "ParkeSicher: Buchungsplattform & Anbieterportal | Nine.ai",
+      "canonical": "https://nine-ai-studio.serhad1999.chatgpt.site/projekte/parkesicher",
+      "words": 501
+    },
+    {
+      "path": "/projekte/un-petit-cafe",
+      "status": 200,
+      "title": "Un Petit Café: Website, Reservierung & Bestellsystem | Nine.ai",
+      "canonical": "https://nine-ai-studio.serhad1999.chatgpt.site/projekte/un-petit-cafe",
+      "words": 514
+    },
+    {
+      "path": "/projekte/mb-performance",
+      "status": 200,
+      "title": "MB Performance: Website mit Fahrzeugdatenbank | Nine.ai",
+      "canonical": "https://nine-ai-studio.serhad1999.chatgpt.site/projekte/mb-performance",
+      "words": 448
+    },
+    {
+      "path": "/projekte/meister-lorenz",
+      "status": 200,
+      "title": "Meister Lorenz: Webdesign für einen Meisterbetrieb | Nine.ai",
+      "canonical": "https://nine-ai-studio.serhad1999.chatgpt.site/projekte/meister-lorenz",
+      "words": 425
+    },
+    {
+      "path": "/projekte/prime-energie",
+      "status": 200,
+      "title": "PRIME ENERGIE: Webdesign mit digitaler Tarifanfrage | Nine.ai",
+      "canonical": "https://nine-ai-studio.serhad1999.chatgpt.site/projekte/prime-energie",
+      "words": 437
+    },
+    {
+      "path": "/projekte/mrcarkey",
+      "status": 200,
+      "title": "Mr. CarKey: Website für Fahrzeugschlüssel-Service | Nine.ai",
+      "canonical": "https://nine-ai-studio.serhad1999.chatgpt.site/projekte/mrcarkey",
+      "words": 419
+    },
+    {
+      "path": "/projekte/gardentime",
+      "status": 200,
+      "title": "Garden Time Frankfurt: Website für Garten & Gebäude | Nine.ai",
+      "canonical": "https://nine-ai-studio.serhad1999.chatgpt.site/projekte/gardentime",
+      "words": 421
+    },
+    {
+      "path": "/projekte/loni-galabau",
+      "status": 200,
+      "title": "Loni GalaBau: Webdesign für Garten- & Landschaftsbau | Nine.ai",
+      "canonical": "https://nine-ai-studio.serhad1999.chatgpt.site/projekte/loni-galabau",
+      "words": 414
+    },
+    {
+      "path": "/projekte/dirik-autopflege",
+      "status": 200,
+      "title": "Dirik Autopflege: Website für Fahrzeugaufbereitung | Nine.ai",
+      "canonical": "https://nine-ai-studio.serhad1999.chatgpt.site/projekte/dirik-autopflege",
+      "words": 403
+    },
+    {
+      "path": "/wissen/was-kostet-eine-website",
+      "status": 200,
+      "title": "Was kostet eine Website? Pakete & Zusatzkosten | Nine.ai",
+      "canonical": "https://nine-ai-studio.serhad1999.chatgpt.site/wissen/was-kostet-eine-website",
+      "words": 690
+    },
+    {
+      "path": "/wissen/website-relaunch-checkliste",
+      "status": 200,
+      "title": "Website-Relaunch: Checkliste von Bestand bis Start | Nine.ai",
+      "canonical": "https://nine-ai-studio.serhad1999.chatgpt.site/wissen/website-relaunch-checkliste",
+      "words": 634
+    },
+    {
+      "path": "/wissen/web-app-oder-standardsoftware",
+      "status": 200,
+      "title": "Eigene Web-App oder Standardsoftware? Entscheidungshilfe | Nine.ai",
+      "canonical": "https://nine-ai-studio.serhad1999.chatgpt.site/wissen/web-app-oder-standardsoftware",
+      "words": 653
+    },
+    {
+      "path": "/wissen/buchungssystem-planen",
+      "status": 200,
+      "title": "Buchungssystem planen: Kapazität, Preise & Abläufe | Nine.ai",
+      "canonical": "https://nine-ai-studio.serhad1999.chatgpt.site/wissen/buchungssystem-planen",
+      "words": 624
+    },
+    {
+      "path": "/wissen/google-ads-budget-planen",
+      "status": 200,
+      "title": "Google-Ads-Budget planen: Kosten und Anfragen verstehen | Nine.ai",
+      "canonical": "https://nine-ai-studio.serhad1999.chatgpt.site/wissen/google-ads-budget-planen",
+      "words": 650
+    },
+    {
+      "path": "/wissen/website-briefing",
+      "status": 200,
+      "title": "Website-Briefing: Diese Angaben helfen beim Angebot | Nine.ai",
+      "canonical": "https://nine-ai-studio.serhad1999.chatgpt.site/wissen/website-briefing",
+      "words": 702
+    }
+  ]
+}

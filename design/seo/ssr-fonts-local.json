@@ -1,0 +1,174 @@
+{
+  "origin": "http://localhost:3001",
+  "checkedAt": "2026-09-08T01:26:16.050Z",
+  "pages": [
+    {
+      "path": "/",
+      "status": 200,
+      "title": "Nine.ai – Webdesign, Webentwicklung &amp; Google Ads",
+      "mainTextLength": 5045,
+      "fontPreloads": 4
+    },
+    {
+      "path": "/loesungen",
+      "status": 200,
+      "title": "Websites, Web-Apps, Google Ads &amp; Automatisierung | Nine.ai",
+      "mainTextLength": 3109,
+      "fontPreloads": 4
+    },
+    {
+      "path": "/plattformen-web-apps",
+      "status": 200,
+      "title": "Webentwicklung: Web-Apps &amp; Kundenportale | Nine.ai",
+      "mainTextLength": 5129,
+      "fontPreloads": 4
+    },
+    {
+      "path": "/websites",
+      "status": 200,
+      "title": "Webdesign für Unternehmen – Pakete &amp; Referenzen | Nine.ai",
+      "mainTextLength": 6761,
+      "fontPreloads": 4
+    },
+    {
+      "path": "/website-erstellen-lassen",
+      "status": 200,
+      "title": "Website erstellen lassen – ab 1.990 € netto | Nine.ai",
+      "mainTextLength": 5460,
+      "fontPreloads": 4
+    },
+    {
+      "path": "/ki-automation",
+      "status": 200,
+      "title": "KI &amp; Prozessautomatisierung für Unternehmen | Nine.ai",
+      "mainTextLength": 4347,
+      "fontPreloads": 4
+    },
+    {
+      "path": "/google-ads-growth",
+      "status": 200,
+      "title": "Google Ads Agentur für Unternehmen | Nine.ai",
+      "mainTextLength": 4425,
+      "fontPreloads": 4
+    },
+    {
+      "path": "/projekte",
+      "status": 200,
+      "title": "Webdesign- &amp; Webentwicklungs-Referenzen | Nine.ai",
+      "mainTextLength": 2057,
+      "fontPreloads": 4
+    },
+    {
+      "path": "/projekte/parkesicher",
+      "status": 200,
+      "title": "ParkeSicher: Buchungsplattform &amp; Anbieterportal | Nine.ai",
+      "mainTextLength": 3730,
+      "fontPreloads": 4
+    },
+    {
+      "path": "/pakete",
+      "status": 200,
+      "title": "Website-Pakete: 1.990 €, 6.900 € &amp; 12.900 € | Nine.ai",
+      "mainTextLength": 5545,
+      "fontPreloads": 4
+    },
+    {
+      "path": "/ueber-nine",
+      "status": 200,
+      "title": "Über Nine.ai – Design, Entwicklung &amp; Zusammenarbeit",
+      "mainTextLength": 2046,
+      "fontPreloads": 4
+    },
+    {
+      "path": "/projekt-starten",
+      "status": 200,
+      "title": "Projekt starten | Nine.ai",
+      "mainTextLength": 952,
+      "fontPreloads": 4
+    },
+    {
+      "path": "/checkout/nine-launch",
+      "status": 200,
+      "title": "Nine Launch – Website-Paket auswählen | Nine.ai",
+      "mainTextLength": 1594,
+      "fontPreloads": 4
+    },
+    {
+      "path": "/checkout/nine-growth",
+      "status": 200,
+      "title": "Nine Growth – Website-Paket auswählen | Nine.ai",
+      "mainTextLength": 1628,
+      "fontPreloads": 4
+    },
+    {
+      "path": "/checkout/platform-discovery",
+      "status": 200,
+      "title": "Platform Discovery – Paketdetails | Nine.ai",
+      "mainTextLength": 1262,
+      "fontPreloads": 4
+    },
+    {
+      "path": "/checkout/custom-platform",
+      "status": 200,
+      "title": "Custom Platform – Paketdetails | Nine.ai",
+      "mainTextLength": 1260,
+      "fontPreloads": 4
+    },
+    {
+      "path": "/checkout/nine-scale",
+      "status": 200,
+      "title": "Nine Scale – Paketdetails | Nine.ai",
+      "mainTextLength": 1225,
+      "fontPreloads": 4
+    },
+    {
+      "path": "/impressum",
+      "status": 200,
+      "title": "Impressum | Nine.ai",
+      "mainTextLength": 917,
+      "fontPreloads": 4
+    },
+    {
+      "path": "/datenschutz",
+      "status": 200,
+      "title": "Datenschutz | Nine.ai",
+      "mainTextLength": 2087,
+      "fontPreloads": 4
+    },
+    {
+      "path": "/agb",
+      "status": 200,
+      "title": "AGB | Nine.ai",
+      "mainTextLength": 651,
+      "fontPreloads": 4
+    }
+  ],
+  "fonts": [
+    {
+      "path": "/fonts/cabinet-400.CsLkCdiI.woff2",
+      "bytes": 20332,
+      "cache": "public, max-age=31536000, immutable"
+    },
+    {
+      "path": "/fonts/cabinet-500.pUr7ULKA.woff2",
+      "bytes": 20260,
+      "cache": "public, max-age=31536000, immutable"
+    },
+    {
+      "path": "/fonts/cabinet-700.yJmHbigL.woff2",
+      "bytes": 20300,
+      "cache": "public, max-age=31536000, immutable"
+    },
+    {
+      "path": "/fonts/cabinet-800.oMN7HQ6L.woff2",
+      "bytes": 20204,
+      "cache": "public, max-age=31536000, immutable"
+    }
+  ],
+  "crawlerParity": [
+    "/",
+    "/websites",
+    "/projekte"
+  ],
+  "real404s": 3
+}

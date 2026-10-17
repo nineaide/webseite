@@ -1,0 +1,637 @@
+<frame id="13:1778" name="Desktop/Tablet Varient" x="4330" y="-422" width="1440" height="6431">
+  <frame id="13:2481" name="Group" x="-1" y="6326" width="1440" height="105">
+    <frame id="13:2482" name="Group" x="-1" y="6326" width="1440" height="105">
+      <rounded-rectangle id="13:2483" name="Rectangle" x="-1" y="6326" width="1440" height="105" />
+      <frame id="13:2486" name="Group" x="224" y="6368" width="448" height="22">
+        <text id="13:2487" name="Privacy Policy" x="224" y="6369" width="87" height="21" />
+        <text id="13:2488" name="Terms &amp; Conditions" x="355" y="6369" width="123" height="21" />
+        <text id="13:2489" name="Terms &amp; Conditions" x="355" y="6369" width="123" height="21" />
+        <text id="13:2490" name="Contact" x="524" y="6369" width="51" height="21" />
+        <text id="13:2491" name="License" x="624" y="6368" width="48" height="21" />
+      </frame>
+      <text id="13:2492" name="Copyright 2022 | wpcone.com" x="1183" y="6368" width="186" height="21" />
+      <frame id="13:2493" name="Auto Layout Horizontal" x="909" y="6370" width="219" height="16">
+        <instance id="13:2494" name="Facebook - Negative" x="0" y="0" width="15.999999046325684" height="15.999999046325684" />
+        <instance id="13:2495" name="Twitter - Negative" x="40.68072509765625" y="0" width="15.999999046325684" height="15.999999046325684" />
+        <instance id="13:2496" name="Instagram - Negative" x="81.3614501953125" y="0" width="15.999999046325684" height="15.999999046325684" />
+        <instance id="13:2497" name="LinkedIn - Negative" x="122.04217529296875" y="0" width="15.999999046325684" height="15.999999046325684" />
+        <instance id="13:2498" name="Dribbble - Negative" x="162.722900390625" y="0" width="15.999999046325684" height="15.999999046325684" />
+        <instance id="13:2499" name="Pinterest - Negative" x="203.40362548828125" y="0" width="15.999999046325684" height="15.999999046325684" />
+      </frame>
+      <frame id="13:2484" name="Group" x="-1" y="6326" width="1440" height="0">
+        <line id="13:2485" name="Line" x="-1" y="6326" width="1440" height="0" />
+      </frame>
+    </frame>
+    <rounded-rectangle id="33:195" name="logo-white 1" x="68" y="6365" width="102" height="25" />
+  </frame>
+  <frame id="13:2422" name="Group" x="100" y="5710" width="1240.0006103515625" height="476.00006103515625">
+    <frame id="13:2304" name="Group" x="100" y="5868" width="1240" height="318.00006103515625">
+      <frame id="13:2305" name="Group" x="100" y="5868" width="295" height="318">
+        <frame id="13:2306" name="Group" x="100" y="6109" width="295" height="77">
+          <rounded-rectangle id="13:2307" name="Rectangle" x="100" y="6109" width="295" height="77" />
+          <frame id="13:2308" name="Group" x="315" y="6133" width="64" height="30">
+            <rounded-rectangle id="13:2309" name="Rectangle" x="315" y="6133" width="64" height="30" />
+            <text id="13:2310" name="view" x="333" y="6139" width="29" height="18" />
+          </frame>
+          <frame id="13:2311" name="Group" x="116" y="6125" width="154" height="44">
+            <text id="13:2312" name="how to improve SEO?" x="116" y="6125" width="154" height="20" />
+            <text id="13:2313" name="blog" x="116" y="6149" width="43" height="20" />
+          </frame>
+        </frame>
+        <rounded-rectangle id="13:2314" name="Frame 1 (2) 9" x="100" y="5868" width="295" height="241" />
+        <rounded-rectangle id="38:906" name="unsplash:eveI7MOcSmw" x="100" y="5868" width="295" height="241" />
+      </frame>
+      <frame id="13:2315" name="Group" x="415" y="5868" width="295" height="318">
+        <frame id="13:2316" name="Group" x="415" y="6109" width="295" height="77">
+          <rounded-rectangle id="13:2317" name="Rectangle" x="415" y="6109" width="295" height="77" />
+          <frame id="13:2318" name="Group" x="630" y="6133" width="64" height="30">
+            <rounded-rectangle id="13:2319" name="Rectangle" x="630" y="6133" width="64" height="30" />
+            <text id="13:2320" name="view" x="648" y="6139" width="29" height="18" />
+          </frame>
+          <frame id="13:2321" name="Group" x="431" y="6125" width="153" height="44">
+            <text id="13:2322" name="best seo plugin" x="431" y="6125" width="153" height="20" />
+            <text id="13:2323" name="blog" x="431" y="6149" width="43" height="20" />
+          </frame>
+        </frame>
+        <rounded-rectangle id="13:2324" name="Frame 1 (2) 9" x="415" y="5868" width="295" height="241" />
+        <rounded-rectangle id="38:903" name="unsplash:qwtCeJ5cLYs" x="415" y="5868" width="295" height="241" />
+      </frame>
+      <frame id="13:2325" name="Group" x="729.9998168945312" y="5867.999940045105" width="295.00018310546875" height="318">
+        <frame id="13:2326" name="Group" x="729.9998168945312" y="6108.999940045105" width="295" height="77">
+          <rounded-rectangle id="13:2327" name="Rectangle" x="730" y="6109" width="295" height="77" />
+          <frame id="13:2328" name="Group" x="944.9998168945312" y="6132.999940045105" width="64" height="30">
+            <rounded-rectangle id="13:2329" name="Rectangle" x="945" y="6133" width="64" height="30" />
+            <text id="13:2330" name="view" x="963" y="6139.000000126587" width="29" height="18" />
+          </frame>
+          <frame id="13:2331" name="Group" x="745.9998168945312" y="6124.999940045105" width="153" height="44">
+            <text id="13:2332" name="seo for beginners" x="746" y="6125" width="153" height="20" />
+            <text id="13:2333" name="blog" x="746" y="6148.999999172913" width="43" height="20" />
+          </frame>
+        </frame>
+        <rounded-rectangle id="13:2334" name="Frame 1 (2) 9" x="730" y="5868" width="295" height="241" />
+        <rounded-rectangle id="38:904" name="unsplash:shr_Xn8S8QU" x="729.9998168945312" y="5867.999940045105" width="295" height="241" />
+      </frame>
+      <frame id="13:2335" name="Group" x="1045" y="5868" width="295" height="318">
+        <frame id="13:2336" name="Group" x="1045" y="6109" width="295" height="77">
+          <rounded-rectangle id="13:2337" name="Rectangle" x="1045" y="6109" width="295" height="77" />
+          <frame id="13:2338" name="Group" x="1260" y="6133" width="64" height="30">
+            <rounded-rectangle id="13:2339" name="Rectangle" x="1260" y="6133" width="64" height="30" />
+            <text id="13:2340" name="view" x="1278" y="6139" width="29" height="18" />
+          </frame>
+          <frame id="13:2341" name="Group" x="1061" y="6125" width="153" height="44">
+            <text id="13:2342" name="is seo worth it?" x="1061" y="6125" width="153" height="20" />
+            <text id="13:2343" name="blog" x="1061" y="6149" width="43" height="20" />
+          </frame>
+        </frame>
+        <rounded-rectangle id="13:2344" name="Frame 1 (2) 9" x="1045" y="5868" width="295" height="241" />
+        <rounded-rectangle id="38:905" name="unsplash:l5if0iQfV4c" x="1045" y="5868" width="295" height="241" />
+      </frame>
+    </frame>
+    <frame id="13:2421" name="Group" x="100" y="5710" width="1240.000244140625" height="118">
+      <frame id="13:2357" name="Group" x="1234.000244140625" y="5798" width="105.999755859375" height="30">
+        <text id="13:2358" name="view all" x="1234.000244140625" y="5798" width="70" height="30" />
+        <instance id="13:2359" name="arrow-narrow-right" x="1316" y="5801" width="24" height="24" />
+      </frame>
+      <frame id="13:2420" name="Group" x="100" y="5710" width="524" height="118">
+        <frame id="38:867" name="Frame 3" x="100" y="5774" width="489" height="54">
+          <frame id="13:2348" name="Auto Layout Horizontal" x="0" y="0" width="63" height="54">
+            <text id="13:2349" name="sEO" x="12" y="12" width="39" height="30" />
+          </frame>
+          <frame id="13:2350" name="Auto Layout Horizontal" x="79" y="0" width="141" height="54">
+            <text id="13:2351" name="development" x="12" y="12" width="117" height="30" />
+          </frame>
+          <frame id="13:2352" name="Auto Layout Horizontal" x="236" y="0" width="110" height="54">
+            <text id="13:2353" name="designing" x="12" y="12" width="86" height="30" />
+          </frame>
+          <frame id="13:2354" name="Auto Layout Horizontal" x="362" y="0" width="127" height="54">
+            <text id="13:2355" name="freelancing" x="12" y="12" width="103" height="30" />
+          </frame>
+        </frame>
+        <text id="13:2419" name="our latest blog posts" x="100" y="5710" width="524" height="40" />
+      </frame>
+    </frame>
+  </frame>
+  <vector id="13:2514" name="Vector" x="1390" y="5171" width="100" height="100" />
+  <frame id="13:2302" name="Group" x="126" y="5037" width="1188" height="533">
+    <frame id="13:2252" name="Group" x="126" y="5171" width="1188" height="399">
+      <frame id="13:2253" name="Group" x="126" y="5171" width="1188" height="399">
+        <frame id="13:2254" name="Group" x="126" y="5171" width="401" height="399">
+          <ellipse id="13:2255" name="Ellipse" x="127" y="5171" width="391" height="391" />
+          <ellipse id="13:2256" name="Ellipse" x="136" y="5179" width="391" height="391" />
+          <ellipse id="13:2257" name="Ellipse" x="240" y="5284" width="183" height="183" />
+          <ellipse id="13:2258" name="Ellipse" x="412" y="5192" width="89" height="89" />
+          <ellipse id="13:2259" name="Ellipse" x="434" y="5474" width="61" height="61" />
+          <ellipse id="13:2260" name="Ellipse" x="165" y="5195" width="71" height="71" />
+          <ellipse id="13:2261" name="Ellipse" x="133" y="5443" width="75" height="75" />
+          <ellipse id="13:2262" name="Ellipse" x="126" y="5437" width="89" height="89" />
+          <ellipse id="13:2263" name="Ellipse" x="151" y="5183" width="89" height="89" />
+          <ellipse id="13:2264" name="Ellipse" x="384" y="5343" width="64" height="64" />
+          <vector id="13:2265" name="Vector" x="402.2562255859375" y="5362.63655090332" width="28.022092819213867" height="21.694522857666016" />
+          <ellipse id="13:2266" name="Ellipse" x="421" y="5456" width="89" height="89" />
+        </frame>
+        <frame id="13:2267" name="Group" x="704" y="5238" width="610" height="266">
+          <text id="13:2268" name="“Es ist ein lang erwiesener Fakt, dass ein Leser vom Text abgelenkt wird, wenn er sich ein Layout ansieht. Der Punkt, Lorem Ipsum zu nutzen, ist, dass es mehr oder weniger die normale Anordnung von Buchstaben darstellt und somit nach lesbarer Sprache aussieht.”" x="704" y="5285" width="610" height="144" />
+          <frame id="13:2269" name="Auto Layout Horizontal" x="704" y="5238" width="187" height="31">
+            <star id="13:2270" name="Star" x="0" y="0" width="31" height="31" />
+            <star id="13:2271" name="Star" x="38.9487190246582" y="0" width="31" height="31" />
+            <star id="13:2272" name="Star" x="77.8974380493164" y="0" width="31" height="31" />
+            <star id="13:2273" name="Star" x="116.84615325927734" y="0" width="31" height="31" />
+            <star id="13:2274" name="Star" x="155.7948760986328" y="0" width="31" height="31" />
+          </frame>
+          <frame id="13:2275" name="Group" x="704" y="5445" width="537.9998779296875" height="59">
+            <text id="13:2276" name="Alexander Gibson" x="704" y="5457" width="186" height="36" />
+            <frame id="13:2277" name="Group" x="1137.9998779296875" y="5445.000078843877" width="104" height="59">
+              <ellipse id="13:2278" name="Ellipse" x="1183" y="5445" width="59" height="59" />
+              <instance id="13:2279" name="vuesax/linear/arrow-up" x="1228" y="5459.999999688909" width="30.000001311341293" height="30.000001311341293" />
+              <instance id="13:2280" name="vuesax/linear/arrow-up" x="1138" y="5488.999998735235" width="24.000000286197064" height="24.000000286197064" />
+            </frame>
+          </frame>
+        </frame>
+      </frame>
+    </frame>
+    <frame id="13:2295" name="Group" x="458" y="5037" width="525" height="94">
+      <text id="13:2296" name="what our clients say?" x="458" y="5091" width="525" height="40" />
+      <frame id="13:2297" name="Group" x="628" y="5037" width="152" height="38">
+        <rounded-rectangle id="13:2298" name="Rectangle" x="628" y="5037" width="152" height="38" />
+        <frame id="13:2299" name="Group" x="641" y="5047" width="126" height="18">
+          <text id="13:2300" name="testimonials" x="671" y="5048" width="96" height="16" />
+          <vector id="13:2301" name="Vector" x="641" y="5047" width="18" height="18" />
+        </frame>
+      </frame>
+    </frame>
+  </frame>
+  <frame id="20:326" name="Group" x="132.6708984375" y="5091" width="165.67092637258065" height="144.99989241309868">
+    <frame id="20:327" name="Frame" x="94.99979019165039" y="5090.999996706687" width="49.576783657073975" height="54.52653166651726" />
+    <vector id="20:344" name="Vector" x="92.55774152310038" y="5065.088123629426" width="125.55775729821107" height="119.08801604252494" />
+  </frame>
+  <frame id="13:2423" name="Group" x="100" y="4421" width="1240" height="476">
+    <frame id="13:2424" name="Group" x="100" y="4579" width="1240" height="318">
+      <frame id="13:2425" name="Group" x="100" y="4579" width="295" height="318">
+        <frame id="13:2426" name="Group" x="100" y="4820" width="295" height="77">
+          <rounded-rectangle id="13:2427" name="Rectangle" x="100" y="4820" width="295" height="77" />
+          <frame id="13:2428" name="Group" x="315" y="4844" width="64" height="30">
+            <rounded-rectangle id="13:2429" name="Rectangle" x="315" y="4844" width="64" height="30" />
+            <text id="13:2430" name="view" x="333" y="4850" width="29" height="18" />
+          </frame>
+          <frame id="13:2431" name="Group" x="116" y="4836" width="153" height="44">
+            <text id="13:2432" name="Nayapay Payment API" x="116" y="4836" width="153" height="20" />
+            <text id="13:2433" name="blog" x="116" y="4860" width="43" height="20" />
+          </frame>
+        </frame>
+        <rounded-rectangle id="13:2434" name="Frame 1 (2) 9" x="100" y="4579" width="295" height="241" />
+        <rounded-rectangle id="38:897" name="unsplash:HNPrWOH2Z8U" x="100" y="4579" width="295" height="241" />
+      </frame>
+      <frame id="13:2435" name="Group" x="415" y="4579" width="295" height="318">
+        <frame id="13:2436" name="Group" x="415" y="4820" width="295" height="77">
+          <rounded-rectangle id="13:2437" name="Rectangle" x="415" y="4820" width="295" height="77" />
+          <frame id="13:2438" name="Group" x="630" y="4844" width="64" height="30">
+            <rounded-rectangle id="13:2439" name="Rectangle" x="630" y="4844" width="64" height="30" />
+            <text id="13:2440" name="view" x="648" y="4850" width="29" height="18" />
+          </frame>
+          <frame id="13:2441" name="Group" x="431" y="4836" width="153" height="44">
+            <text id="13:2442" name="react wp" x="431" y="4836" width="153" height="20" />
+            <text id="13:2443" name="blog" x="431" y="4860" width="43" height="20" />
+          </frame>
+        </frame>
+        <rounded-rectangle id="13:2444" name="Frame 1 (2) 9" x="415" y="4579" width="295" height="241" />
+        <rounded-rectangle id="38:895" name="unsplash:UYsBCu9RP3Y" x="415" y="4579" width="295" height="241" />
+      </frame>
+      <frame id="13:2445" name="Group" x="730" y="4579" width="295" height="318">
+        <frame id="13:2446" name="Group" x="730" y="4820" width="295" height="77">
+          <rounded-rectangle id="13:2447" name="Rectangle" x="730" y="4820" width="295" height="77" />
+          <frame id="13:2448" name="Group" x="945" y="4844" width="64" height="30">
+            <rounded-rectangle id="13:2449" name="Rectangle" x="945" y="4844" width="64" height="30" />
+            <text id="13:2450" name="view" x="963" y="4850" width="29" height="18" />
+          </frame>
+          <frame id="13:2451" name="Group" x="746" y="4836" width="162" height="44">
+            <text id="13:2452" name="wordpress to webflow" x="746" y="4836" width="162" height="20" />
+            <text id="13:2453" name="blog" x="746" y="4860" width="43" height="20" />
+          </frame>
+        </frame>
+        <rounded-rectangle id="13:2454" name="Frame 1 (2) 9" x="730" y="4579" width="295" height="241" />
+        <rounded-rectangle id="38:898" name="unsplash:-WPrNEM_6dg" x="730" y="4579" width="295" height="241" />
+      </frame>
+      <frame id="13:2455" name="Group" x="1045" y="4579" width="295" height="318">
+        <frame id="13:2456" name="Group" x="1045" y="4820" width="295" height="77">
+          <rounded-rectangle id="13:2457" name="Rectangle" x="1045" y="4820" width="295" height="77" />
+          <frame id="13:2458" name="Group" x="1260" y="4844" width="64" height="30">
+            <rounded-rectangle id="13:2459" name="Rectangle" x="1260" y="4844" width="64" height="30" />
+            <text id="13:2460" name="view" x="1278" y="4850" width="29" height="18" />
+          </frame>
+          <frame id="13:2461" name="Group" x="1061" y="4836" width="153" height="44">
+            <text id="13:2462" name="topNotch SEO" x="1061" y="4836" width="153" height="20" />
+            <text id="13:2463" name="blog" x="1061" y="4860" width="43" height="20" />
+          </frame>
+        </frame>
+        <rounded-rectangle id="13:2464" name="Frame 1 (2) 9" x="1045" y="4579" width="295" height="241" />
+        <rounded-rectangle id="38:902" name="unsplash:eveI7MOcSmw" x="1045" y="4579" width="295" height="241" />
+      </frame>
+    </frame>
+    <frame id="13:2465" name="Group" x="100" y="4421" width="1240" height="118">
+      <frame id="13:2466" name="Group" x="1234" y="4509" width="106" height="30">
+        <text id="13:2467" name="view all" x="1234" y="4509" width="70" height="30" />
+        <instance id="13:2468" name="arrow-narrow-right" x="1316" y="4512" width="24" height="24" />
+      </frame>
+      <frame id="13:2469" name="Group" x="100" y="4421" width="534" height="118">
+        <frame id="38:866" name="Frame 2" x="100" y="4485" width="424" height="54">
+          <frame id="13:2471" name="Auto Layout Horizontal" x="0" y="0" width="87" height="54">
+            <text id="13:2472" name="plugins" x="12" y="12" width="63" height="30" />
+          </frame>
+          <frame id="13:2473" name="Auto Layout Horizontal" x="103" y="0" width="94" height="54">
+            <text id="13:2474" name="themes" x="12" y="12" width="70" height="30" />
+          </frame>
+          <frame id="13:2475" name="Auto Layout Horizontal" x="213" y="0" width="114" height="54">
+            <text id="13:2476" name="templates" x="12" y="12" width="90" height="30" />
+          </frame>
+          <frame id="13:2477" name="Auto Layout Horizontal" x="343" y="0" width="81" height="54">
+            <text id="13:2478" name="UI Kits" x="12" y="12" width="57" height="30" />
+          </frame>
+        </frame>
+        <text id="13:2479" name="wordpress resources" x="100" y="4421" width="534" height="40" />
+      </frame>
+    </frame>
+  </frame>
+  <frame id="20:325" name="Group" x="100" y="3759" width="1340" height="522">
+    <rounded-rectangle id="20:292" name="Image" x="730" y="3759" width="710" height="522" />
+    <frame id="20:324" name="Group" x="100" y="3780" width="505" height="480">
+      <frame id="20:381" name="Group" x="100" y="3780" width="505" height="480">
+        <text id="20:309" name="what’s our creative process?" x="100" y="3780" width="505" height="80" />
+        <frame id="20:380" name="Group" x="100" y="3900" width="505" height="360">
+          <frame id="20:316" name="Group" x="100" y="3900" width="505" height="66">
+            <frame id="20:312" name="Group" x="100" y="3901" width="64" height="64" />
+            <frame id="20:315" name="Group" x="188" y="3900" width="417" height="66">
+              <text id="20:313" name="empathize" x="188" y="3900" width="113" height="30" />
+              <text id="20:314" name="Nam eget aliquam facilisis tortor, massa. Elementum" x="188" y="3938" width="417" height="28" />
+            </frame>
+          </frame>
+          <frame id="20:359" name="Group" x="100" y="3998" width="505" height="66">
+            <frame id="20:360" name="Group" x="100" y="3999" width="64" height="64" />
+            <frame id="20:363" name="Group" x="188" y="3998" width="417" height="66">
+              <text id="20:364" name="define" x="188" y="3998" width="69" height="30" />
+              <text id="20:365" name="Nam eget aliquam facilisis tortor, massa. Elementum" x="188" y="4036" width="417" height="28" />
+            </frame>
+          </frame>
+          <frame id="20:366" name="Group" x="100" y="4096" width="505" height="66">
+            <frame id="20:367" name="Group" x="100" y="4097" width="64" height="64" />
+            <frame id="20:370" name="Group" x="188" y="4096" width="417" height="66">
+              <text id="20:371" name="ideate" x="188" y="4096" width="67" height="30" />
+              <text id="20:372" name="Nam eget aliquam facilisis tortor, massa. Elementum" x="188" y="4134" width="417" height="28" />
+            </frame>
+          </frame>
+          <frame id="20:373" name="Group" x="100" y="4194" width="505" height="66">
+            <frame id="20:374" name="Group" x="100" y="4195" width="64" height="64" />
+            <frame id="20:377" name="Group" x="188" y="4194" width="417" height="66">
+              <text id="20:378" name="laucnh" x="188" y="4194" width="78" height="30" />
+              <text id="20:379" name="Nam eget aliquam facilisis tortor, massa. Elementum" x="188" y="4232" width="417" height="28" />
+            </frame>
+          </frame>
+        </frame>
+      </frame>
+    </frame>
+  </frame>
+  <frame id="13:3000" name="Group" x="-73" y="3273" width="1587" height="346">
+    <frame id="13:2639" name="Group" x="558" y="3273" width="324" height="94">
+      <text id="13:2640" name="they trust us" x="561" y="3327" width="319" height="40" />
+      <frame id="13:2641" name="Group" x="558" y="3273" width="324" height="38">
+        <rounded-rectangle id="13:2642" name="Rectangle" x="558" y="3273" width="324" height="38" />
+        <frame id="13:2643" name="Group" x="571" y="3283.009521484375" width="298" height="18">
+          <text id="13:2644" name="award winning wordPress Agency" x="601" y="3284" width="268" height="16" />
+          <vector id="13:2645" name="Vector" x="571" y="3283.009521484375" width="18" height="18" />
+        </frame>
+      </frame>
+    </frame>
+    <frame id="13:2902" name="Group" x="-73" y="3407" width="1587" height="212">
+      <frame id="13:2903" name="Group" x="-73" y="3524" width="1587" height="95">
+        <frame id="13:2904" name="Auto Layout Horizontal" x="385" y="3526" width="213" height="92">
+          <instance id="13:2905" name="Format=Wordmark" x="41.603599548339844" y="31.202699661254883" width="130" height="28.999998092651367" />
+        </frame>
+        <frame id="13:2906" name="Auto Layout Horizontal" x="614" y="3526" width="213" height="92">
+          <instance id="13:2907" name="Property 1=Wordmark" x="41.603599548339844" y="31.202699661254883" width="130" height="28.999998092651367" />
+        </frame>
+        <frame id="13:2908" name="Auto Layout Horizontal" x="843" y="3525" width="213" height="93">
+          <instance id="13:2909" name="Format=Wordmark" x="41.603599548339844" y="31.202699661254883" width="130" height="31.000001907348633" />
+        </frame>
+        <frame id="13:2910" name="Auto Layout Horizontal" x="156" y="3526" width="213" height="92">
+          <instance id="13:2911" name="Format=Wordmark" x="41.603599548339844" y="31.202699661254883" width="130" height="28.999998092651367" />
+        </frame>
+        <frame id="13:2912" name="Auto Layout Horizontal" x="-73" y="3524" width="213" height="95">
+          <instance id="13:2913" name="Format=Wordmark" x="41.603599548339844" y="31.202699661254883" width="130" height="32" />
+        </frame>
+        <frame id="13:2914" name="Auto Layout Horizontal" x="1301" y="3526" width="213" height="92">
+          <instance id="13:2915" name="Format=Wordmark" x="41.603599548339844" y="31.202699661254883" width="130" height="30" />
+        </frame>
+        <frame id="13:2916" name="Auto Layout Horizontal" x="1072" y="3528" width="213" height="88">
+          <instance id="13:2917" name="Format=Frame" x="41.603599548339844" y="31.202699661254883" width="130" height="25" />
+        </frame>
+      </frame>
+      <frame id="13:2918" name="Group" x="57" y="3407" width="1328" height="101">
+        <frame id="13:2919" name="Auto Layout Horizontal" x="679" y="3407" width="248" height="101">
+          <instance id="13:2920" name="Format=Frame" x="41.603599548339844" y="31.202699661254883" width="165" height="39" />
+        </frame>
+        <frame id="13:2921" name="Auto Layout Horizontal" x="450" y="3407" width="213" height="101">
+          <instance id="13:2922" name="Format=Wordmark" x="41.603599548339844" y="31.202699661254883" width="130" height="38" />
+        </frame>
+        <frame id="13:2923" name="Auto Layout Horizontal" x="1172" y="3411" width="213" height="94">
+          <instance id="13:2924" name="Format=Wordmark" x="41.603599548339844" y="31.202699661254883" width="130" height="32" />
+        </frame>
+        <frame id="13:2925" name="Auto Layout Horizontal" x="943" y="3417" width="213" height="81">
+          <instance id="13:2926" name="Format=Wordmark" x="41.603599548339844" y="31.202699661254883" width="130" height="19" />
+        </frame>
+        <frame id="13:2927" name="Auto Layout Horizontal" x="57" y="3407" width="213" height="101">
+          <instance id="13:2928" name="Format=Wordmark" x="41.603599548339844" y="31.202699661254883" width="130" height="38" />
+        </frame>
+        <frame id="13:2929" name="Auto Layout Horizontal" x="286" y="3412" width="148" height="92">
+          <instance id="13:2930" name="Format=Wordmark" x="41.603599548339844" y="31.202699661254883" width="65" height="28.999998092651367" />
+        </frame>
+      </frame>
+    </frame>
+  </frame>
+  <frame id="13:2515" name="Group" x="1316.3289794921875" y="3155" width="165.7060546875" height="144.8319091796875">
+    <frame id="13:2516" name="Frame" x="1354.000087738037" y="3155" width="49.57678407430649" height="54.526531249284744" />
+    <vector id="13:2533" name="Vector" x="1356.477294921875" y="3180.743896484375" width="125.55774688720703" height="119.08800506591797" />
+  </frame>
+  <frame id="20:308" name="Group" x="0" y="2439" width="1440" height="694">
+    <frame id="20:278" name="Group" x="0" y="2439" width="1440" height="666">
+      <rounded-rectangle id="20:234" name="Rectangle" x="0" y="2439" width="1440" height="428" />
+      <frame id="20:282" name="Group" x="100" y="2629" width="1240" height="476">
+        <frame id="20:247" name="Frame" x="100" y="2629" width="400" height="476">
+          <rounded-rectangle id="20:240" name="Image" x="0" y="177" width="400" height="299" />
+          <vector id="20:241" name="Line" x="24" y="39" width="112" height="0" />
+          <text id="20:242" name="landing page UI" x="156" y="24" width="168" height="30" />
+          <text id="20:243" name="Sub Title" x="24" y="93" width="168" height="60" />
+          <frame id="20:248" name="Group" x="312" y="89" width="64" height="64" />
+        </frame>
+        <frame id="20:258" name="Frame" x="940" y="2629" width="400" height="476">
+          <rounded-rectangle id="20:259" name="Image" x="0" y="177" width="400" height="299" />
+          <vector id="20:260" name="Line" x="24" y="39" width="112" height="0" />
+          <text id="20:261" name="landing page UI" x="156" y="24" width="168" height="30" />
+          <text id="20:262" name="Sub Title" x="24" y="93" width="168" height="60" />
+          <frame id="20:263" name="Group" x="312" y="89" width="64" height="64" />
+        </frame>
+        <frame id="20:249" name="Frame" x="520" y="2629" width="400" height="476">
+          <rounded-rectangle id="20:250" name="Image" x="0" y="0" width="400" height="299" />
+          <frame id="20:257" name="Group" x="24" y="323" width="352" height="129.00003051757812">
+            <vector id="20:251" name="Line" x="24" y="338" width="112" height="0" />
+            <text id="20:252" name="landing page UI" x="156" y="323" width="168" height="30" />
+            <text id="20:253" name="nike landing page website" x="24" y="392" width="168" height="60" />
+            <frame id="20:254" name="Group" x="312" y="388.0000228881836" width="64" height="64" />
+          </frame>
+        </frame>
+      </frame>
+      <frame id="20:285" name="Group" x="100" y="2494" width="1240" height="80">
+        <frame id="20:286" name="Group" x="100" y="2494" width="388" height="80">
+          <frame id="20:287" name="Group" x="100" y="2494" width="388" height="80">
+            <text id="20:288" name="our recent projects we did" x="100" y="2494" width="388" height="80" />
+          </frame>
+        </frame>
+        <frame id="20:289" name="Group" x="1191" y="2506" width="149" height="56">
+          <rounded-rectangle id="20:290" name="Rectangle" x="1191" y="2506" width="149" height="56" />
+          <text id="20:291" name="all projects" x="1223" y="2524" width="84" height="20" />
+        </frame>
+      </frame>
+    </frame>
+    <frame id="20:307" name="Group" x="648" y="3129" width="144" height="4" />
+  </frame>
+  <frame id="13:2246" name="Group" x="100" y="1521" width="1240" height="778">
+    <frame id="13:2170" name="Group" x="475" y="1521" width="491" height="94">
+      <text id="13:2164" name="what do we provide?" x="475" y="1575" width="491" height="40" />
+      <frame id="13:2165" name="Group" x="641" y="1521" width="159" height="38">
+        <rounded-rectangle id="13:2166" name="Rectangle" x="641" y="1521" width="159" height="38" />
+        <frame id="13:2167" name="Group" x="654" y="1531.009521484375" width="133" height="18">
+          <text id="13:2168" name="our services" x="684" y="1532" width="103" height="16" />
+          <vector id="13:2169" name="Vector" x="654" y="1531.009521484375" width="18" height="18" />
+        </frame>
+      </frame>
+    </frame>
+    <frame id="13:2245" name="Group" x="100" y="1679" width="1240" height="620">
+      <frame id="13:2184" name="Group" x="100" y="1679" width="400" height="300">
+        <frame id="13:2199" name="Group" x="100" y="1679" width="400" height="300">
+          <rounded-rectangle id="13:2171" name="Rectangle" x="100" y="1679" width="400" height="300" />
+          <frame id="13:2183" name="Group" x="162" y="1718" width="276" height="222">
+            <frame id="13:2198" name="Group" x="162" y="1718" width="276" height="222">
+              <frame id="13:2197" name="Group" x="162" y="1814" width="276" height="126">
+                <text id="13:2180" name="theme development" x="162" y="1814" width="220" height="30" />
+                <text id="13:2182" name="You need to get positive results when you spend hard earned marketing and promotions." x="162" y="1856" width="276" height="84" />
+              </frame>
+              <ellipse id="13:2181" name="Ellipse" x="162" y="1718" width="72" height="72" />
+              <symbol id="20:266" name="code-02" x="186" y="1742" width="24" height="24" />
+            </frame>
+          </frame>
+        </frame>
+      </frame>
+      <frame id="13:2200" name="Group" x="520" y="1679" width="400" height="300">
+        <frame id="13:2201" name="Group" x="520" y="1679" width="400" height="300">
+          <rounded-rectangle id="13:2202" name="Rectangle" x="520" y="1679" width="400" height="300" />
+          <frame id="13:2203" name="Group" x="582" y="1718" width="276" height="222">
+            <frame id="13:2204" name="Group" x="582" y="1718" width="276" height="222">
+              <frame id="13:2205" name="Group" x="582" y="1814" width="276" height="126">
+                <text id="13:2206" name="plugin development" x="582" y="1814" width="213" height="30" />
+                <text id="13:2207" name="You need to get positive results when you spend hard earned marketing and promotions." x="582" y="1856" width="276" height="84" />
+              </frame>
+              <ellipse id="13:2208" name="Ellipse" x="582" y="1718" width="72" height="72" />
+              <instance id="20:274" name="code-02" x="606" y="1742" width="24" height="24" />
+            </frame>
+          </frame>
+        </frame>
+      </frame>
+      <frame id="13:2218" name="Group" x="940" y="1999" width="400" height="300">
+        <frame id="13:2219" name="Group" x="940" y="1999" width="400" height="300">
+          <rounded-rectangle id="13:2220" name="Rectangle" x="940" y="1999" width="400" height="300" />
+          <frame id="13:2221" name="Group" x="1002" y="2038" width="276" height="222">
+            <frame id="13:2222" name="Group" x="1002" y="2038" width="276" height="222">
+              <frame id="13:2223" name="Group" x="1002" y="2134" width="276" height="126">
+                <text id="13:2224" name="UI/UX Design" x="1002" y="2134" width="141" height="30" />
+                <text id="13:2225" name="You need to get positive results when you spend hard earned marketing and promotions." x="1002" y="2176" width="276" height="84" />
+              </frame>
+              <ellipse id="13:2226" name="Ellipse" x="1002" y="2038" width="72" height="72" />
+              <symbol id="20:382" name="bezier-curve-01" x="1026" y="2062" width="24" height="24" />
+            </frame>
+          </frame>
+        </frame>
+      </frame>
+      <frame id="13:2209" name="Group" x="940" y="1679" width="400" height="300">
+        <frame id="13:2210" name="Group" x="940" y="1679" width="400" height="300">
+          <rounded-rectangle id="13:2211" name="Rectangle" x="940" y="1679" width="400" height="300" />
+          <frame id="13:2212" name="Group" x="1002" y="1718" width="276" height="222">
+            <frame id="13:2213" name="Group" x="1002" y="1718" width="276" height="222">
+              <frame id="13:2214" name="Group" x="1002" y="1814" width="276" height="126">
+                <text id="13:2215" name="ecommerce site" x="1002" y="1814" width="176" height="30" />
+                <text id="13:2216" name="You need to get positive results when you spend hard earned marketing and promotions." x="1002" y="1856" width="276" height="84" />
+              </frame>
+              <ellipse id="13:2217" name="Ellipse" x="1002" y="1718" width="72" height="72" />
+              <instance id="20:276" name="code-02" x="1026" y="1742" width="24" height="24" />
+            </frame>
+          </frame>
+        </frame>
+      </frame>
+      <frame id="20:293" name="Group" x="100" y="1999" width="400" height="300">
+        <frame id="20:294" name="Group" x="100" y="1999" width="400" height="300">
+          <rounded-rectangle id="20:295" name="Rectangle" x="100" y="1999" width="400" height="300" />
+          <frame id="20:296" name="Group" x="162" y="2038" width="276" height="222">
+            <frame id="20:297" name="Group" x="162" y="2038" width="276" height="222">
+              <frame id="20:298" name="Group" x="162" y="2134" width="276" height="126">
+                <text id="20:299" name="business site" x="162" y="2134" width="143" height="30" />
+                <text id="20:300" name="You need to get positive results when you spend hard earned marketing and promotions." x="162" y="2176" width="276" height="84" />
+              </frame>
+              <ellipse id="20:301" name="Ellipse" x="162" y="2038" width="72" height="72" />
+              <instance id="20:302" name="code-02" x="186" y="2062" width="24" height="24" />
+            </frame>
+          </frame>
+        </frame>
+      </frame>
+      <frame id="13:2227" name="Group" x="520" y="1999" width="400" height="300">
+        <frame id="13:2228" name="Group" x="520" y="1999" width="400" height="300">
+          <rounded-rectangle id="13:2229" name="Rectangle" x="520" y="1999" width="400" height="300" />
+          <frame id="13:2230" name="Group" x="582" y="2038" width="276" height="222">
+            <frame id="13:2231" name="Group" x="582" y="2038" width="276" height="222">
+              <frame id="13:2232" name="Group" x="582" y="2134" width="276" height="126">
+                <text id="13:2233" name="custom coding" x="582" y="2134" width="163" height="30" />
+                <text id="13:2234" name="You need to get positive results when you spend hard earned marketing and promotions." x="582" y="2176" width="276" height="84" />
+              </frame>
+              <ellipse id="13:2235" name="Ellipse" x="582" y="2038" width="72" height="72" />
+              <instance id="20:270" name="code-02" x="606" y="2062" width="24" height="24" />
+            </frame>
+          </frame>
+        </frame>
+      </frame>
+    </frame>
+  </frame>
+  <vector id="13:2513" name="Vector" x="-51" y="1521" width="100" height="100" />
+  <frame id="13:2090" name="Group" x="-215.1048583984375" y="1166.9002685546875" width="1871.7236328125" height="214.012939453125">
+    <frame id="13:2091" name="Group" x="-215.00000469386578" y="1280.9999923706055" width="1871.618780091405" height="213.91320272162557">
+      <rounded-rectangle id="13:2092" name="Rectangle" x="-215.00000469386578" y="1280.9999923706055" width="1871.618780091405" height="213.91320272162557" />
+      <frame id="13:2093" name="Group" x="23.049754766899298" y="1303.0000284007615" width="1396.270446841896" height="112.45456748396111">
+        <frame id="13:2094" name="Group" x="784.7724896125882" y="1257.3375718109423" width="126.3550409239424" height="32.2680552759557" />
+        <frame id="13:2097" name="Group" x="976.1914786319769" y="1247.4828075388739" width="113.63759426228899" height="28.47452454752863" />
+        <frame id="13:2103" name="Group" x="1154.965557746394" y="1236.5484964849356" width="72.6732715618582" height="25.870397181009025" />
+        <text id="13:2106" name="Natroma" x="1295.9999408708488" y="1227.0000033290999" width="123.23760959506035" height="31.40315703302622" />
+        <frame id="13:2107" name="Group" x="23.106155362903706" y="1303.923043807193" width="115.85042419770616" height="32.52138309919212" />
+        <frame id="13:2110" name="Group" x="203.79672621219146" y="1291.9450714296747" width="131.31646072568856" height="35.08661916078188" />
+        <frame id="13:2113" name="Group" x="400.08016320663023" y="1282.7193804045683" width="123.25834353430582" height="27.880383449650367" />
+        <frame id="13:2119" name="Group" x="588.377361135373" y="1268.4230649250317" width="131.46440873058236" height="33.83914177189854" />
+      </frame>
+    </frame>
+    <frame id="13:2127" name="Group" x="-209" y="1167" width="1871.618891492486" height="213.91320868209004">
+      <rounded-rectangle id="13:2128" name="Rectangle" x="-209" y="1167" width="1871.618891492486" height="213.91320868209004" />
+      <frame id="13:2129" name="Group" x="24.373313711364943" y="1218.0444046833145" width="1396.1282159473212" height="112.44583255465477">
+        <frame id="13:2130" name="Group" x="785.9832407472231" y="1265.5529960850065" width="126.35504837939789" height="32.268056746880575" />
+        <frame id="13:2133" name="Group" x="977.1767314933015" y="1279.0998102054841" width="113.63761852851076" height="28.474564845041414" />
+        <frame id="13:2139" name="Group" x="1155.9503380174037" y="1290.0340243419278" width="72.67354235382936" height="25.870414766978683" />
+        <text id="13:2142" name="Natroma" x="1296.999960979671" y="1296.999997639003" width="123.23761686682701" height="31.403158463537693" />
+        <frame id="13:2143" name="Group" x="24.316853339966457" y="1218.9675236194032" width="115.8505680955459" height="32.5213930075538" />
+        <frame id="13:2146" name="Group" x="205.12053874731617" y="1229.099391079114" width="131.31646846819967" height="35.086620782463115" />
+        <frame id="13:2149" name="Group" x="401.0648602531279" y="1243.8632642094503" width="123.25835082022968" height="27.880384668929878" />
+        <frame id="13:2155" name="Group" x="589.7016266939227" y="1252.6213646667363" width="131.46411327724218" height="33.83914753322074" />
+      </frame>
+    </frame>
+  </frame>
+  <vector id="13:2512" name="Vector" x="1340" y="385" width="200" height="200" />
+  <frame id="13:2250" name="Group" x="0" y="222" width="1340" height="805">
+    <frame id="13:2249" name="Group" x="100" y="222" width="1240" height="180">
+      <text id="13:1966" name="we create beautiful efficient wordpress websites." x="100" y="222" width="882" height="180" />
+      <frame id="13:2071" name="Group" x="940" y="227" width="400" height="169">
+        <text id="13:2067" name="You need to get positive results when you spend hard earned marketing and promotions need to get positive results when you" x="940" y="227" width="400" height="93" />
+        <frame id="13:2068" name="Group" x="940" y="340" width="149" height="56">
+          <rounded-rectangle id="13:2069" name="Rectangle" x="940" y="340" width="149" height="56" />
+          <text id="13:2070" name="Get Started" x="972" y="358" width="85" height="20" />
+        </frame>
+      </frame>
+    </frame>
+    <frame id="13:2248" name="Group" x="0" y="448" width="1340" height="579">
+      <frame id="13:2247" name="Group" x="0" y="448" width="920" height="579">
+        <rounded-rectangle id="13:1972" name="Image" x="0" y="505" width="920" height="522" />
+        <frame id="20:429" name="Group" x="751" y="447.99999506061295" width="113.00000762939453" height="113.00000762939453">
+          <star id="20:430" name="Star" x="864.0000076293945" y="448" width="113.0000049393866" height="113.00000493938688" />
+          <frame id="20:431" name="Group" x="755" y="454.9427707869313" width="104.00000762939453" height="100.157470703125">
+            <vector id="20:432" name="Vector" x="817.9998664855957" y="489.0000026900075" width="20.670552726688584" height="32.637719104222086" />
+            <frame id="20:433" name="Group" x="755" y="454.9427707869313" width="104.00000762939453" height="100.157470703125">
+              <text id="20:434" name="Text" x="755" y="498.0000026900075" width="17" height="13" />
+              <frame id="20:435" name="Group" x="756" y="454.9427707869313" width="103" height="100.157470703125">
+                <frame id="20:436" name="Group" x="756" y="454.9427707869313" width="101.65742492675781" height="44.648311614990234">
+                  <text id="20:437" name="e" x="756" y="496.0000026900075" width="14.151586413383484" height="9.35761883854866" />
+                  <text id="20:438" name="x" x="759" y="486.00000078265884" width="14.303580343723297" height="11.298873722553253" />
+                  <text id="20:439" name="p" x="764" y="477.00000078265884" width="13.90150111913681" height="12.802447259426117" />
+                  <text id="20:440" name="l" x="771" y="468.9999998289845" width="10.914883434772491" height="11.679443538188934" />
+                  <text id="20:441" name="o" x="776" y="464.9999998289845" width="12.03546404838562" height="14.19030475616455" />
+                  <text id="20:442" name="r" x="786" y="459.9999998289845" width="9.416066348552704" height="13.92794007062912" />
+                  <text id="20:443" name="e" x="795" y="457.0000000674031" width="8.28211610019207" height="13.879804402589798" />
+                  <text id="20:444" name=" " x="805" y="455.00000020896414" width="3.247448243200779" height="13.054863773286343" />
+                  <text id="20:445" name="w" x="812" y="455.0000000003479" width="10.10350014269352" height="14.175698637962341" />
+                  <text id="20:446" name="e" x="825" y="458.0000000674031" width="10.594876021146774" height="14.310592114925385" />
+                  <text id="20:447" name="b" x="834" y="462.9999998289845" width="12.322544932365417" height="14.107246160507202" />
+                  <text id="20:448" name="s" x="843" y="468.9999998289845" width="13.511850416660309" height="13.354827463626862" />
+                  <text id="20:449" name="i" x="849" y="476.00000078265884" width="12.37125414609909" height="9.911185085773468" />
+                  <text id="20:450" name="t" x="853" y="482.00000078265884" width="13.862752258777618" height="10.291978657245636" />
+                  <text id="20:451" name="e" x="856" y="489.9999988753102" width="14.151586413383484" height="9.35761883854866" />
+                </frame>
+                <text id="20:452" name="Text" x="842" y="497.9999988753102" width="17" height="13" />
+                <frame id="20:453" name="Group" x="858" y="555.1002414900563" width="101.65742881338701" height="44.457860297086455">
+                  <text id="20:454" name="e" x="858.0000035056748" y="514.999995060613" width="14.151586949825287" height="9.357620000839233" />
+                  <text id="20:455" name="x" x="855.0000035851211" y="524.999998613042" width="14.303580462932587" height="11.29887530207634" />
+                  <text id="20:456" name="p" x="850.0000038394132" y="532.9999981759281" width="13.901500701904297" height="12.80244767665863" />
+                  <text id="20:457" name="l" x="843.000003140031" y="540.9999975639687" width="10.914882838726044" height="11.679444134235382" />
+                  <text id="20:458" name="o" x="838.0000046102657" y="545.9999971268551" width="12.035463631153107" height="14.190305173397064" />
+                  <text id="20:459" name="r" x="828.0000041731519" y="550.9999967294643" width="9.416064709424973" height="13.927940100431442" />
+                  <text id="20:460" name="e" x="820.0000039108834" y="553.9999968645473" width="8.282114937901497" height="13.879803866147995" />
+                  <text id="20:461" name=" " x="809.0000038234606" y="554.9999968267687" width="3.247447105124593" height="13.054863510653377" />
+                  <text id="20:462" name="w" x="802.0000000087632" y="554.999997704925" width="10.103501304984093" height="14.175699353218079" />
+                  <text id="20:463" name="e" x="789.0000002710312" y="551.999999995696" width="10.59487834572792" height="14.31059318780899" />
+                  <text id="20:464" name="b" x="780.0000006207222" y="548.0000001625654" width="12.322545349597931" height="14.107245743274689" />
+                  <text id="20:465" name="s" x="771.0000012326816" y="540.9999998525975" width="13.511850833892822" height="13.354827046394348" />
+                  <text id="20:466" name="i" x="765.000001844641" y="534.0000002817351" width="12.371253967285156" height="9.911184310913086" />
+                  <text id="20:467" name="t" x="761.0000023691777" y="527.999999932044" width="13.86275228857994" height="10.291977018117905" />
+                  <text id="20:468" name="e" x="758.0000030685596" y="520.0000015771243" width="14.151585876941681" height="9.357617676258087" />
+                </frame>
+              </frame>
+            </frame>
+          </frame>
+        </frame>
+      </frame>
+      <frame id="13:2089" name="Group" x="1045" y="534.9999847412109" width="295" height="462">
+        <frame id="13:2086" name="Group" x="1045" y="534.9999847412109" width="295" height="138">
+          <rounded-rectangle id="13:2085" name="Rectangle" x="1045" y="535" width="295" height="138" />
+          <frame id="13:2076" name="Group" x="1045" y="568.9999847412109" width="109" height="71">
+            <text id="13:2072" name="13+" x="1045" y="569" width="62" height="40" />
+            <text id="13:2073" name="awards won" x="1045" y="609" width="109" height="31" />
+          </frame>
+        </frame>
+        <frame id="13:2087" name="Group" x="1045" y="696.9999847412109" width="295" height="138">
+          <rounded-rectangle id="13:2084" name="Rectangle" x="1045" y="697" width="295" height="138" />
+          <frame id="13:2077" name="Group" x="1045" y="730.9999847412109" width="124" height="71">
+            <text id="13:2078" name="500+" x="1045" y="731" width="108" height="40" />
+            <text id="13:2079" name="projects done" x="1045" y="771" width="124" height="31" />
+          </frame>
+        </frame>
+        <frame id="13:2088" name="Group" x="1045" y="858.9999847412109" width="295" height="138">
+          <rounded-rectangle id="13:2083" name="Rectangle" x="1045" y="859" width="295" height="138" />
+          <frame id="13:2080" name="Group" x="1045" y="892.9999847412109" width="139" height="71">
+            <text id="13:2081" name="274+" x="1045" y="893" width="95" height="40" />
+            <text id="13:2082" name="brands trust us" x="1045" y="933" width="139" height="31" />
+          </frame>
+        </frame>
+      </frame>
+    </frame>
+  </frame>
+  <frame id="13:2553" name="Group" x="176.3876953125" y="1099.25" width="198.38718444295228" height="183.43781675901846">
+    <frame id="13:2554" name="Frame" x="140.00019946401744" y="1109.0000035769708" width="56.77499330043793" height="59.337169766426086" />
+    <vector id="13:2571" name="Vector" x="130.102229130007" y="1084.5066019173523" width="152.1017229324907" height="147.5269252748651" />
+  </frame>
+  <frame id="13:2586" name="Group" x="100" y="51" width="1240" height="56">
+    <frame id="13:2572" name="Group" x="100" y="60" width="709" height="37">
+      <frame id="13:2573" name="Group" x="306" y="62" width="503" height="34">
+        <text id="13:2574" name="home" x="306" y="62" width="52" height="34" />
+        <text id="13:2575" name="plugins" x="383" y="62" width="62" height="34" />
+        <text id="13:2576" name="themes" x="469" y="62" width="69" height="34" />
+        <text id="13:2577" name="templates" x="562" y="62" width="89" height="34" />
+        <text id="13:2578" name="blog" x="675" y="62" width="38" height="34" />
+        <text id="13:2579" name="support" x="737" y="62" width="72" height="34" />
+      </frame>
+      <rounded-rectangle id="32:193" name="logo-white 1" x="100" y="60" width="150" height="37" />
+    </frame>
+    <frame id="13:2581" name="Group" x="1191" y="51" width="149" height="56">
+      <rounded-rectangle id="13:2582" name="Rectangle" x="1191" y="51" width="149" height="56" />
+      <text id="13:2583" name="contact us" x="1226" y="69" width="79" height="20" />
+    </frame>
+  </frame>
+</frame>
+IMPORTANT: The design was too large to fit into context with get_design_context. Instead you have received a sparse metadata response, you MUST call get_design_context on the IDs of the sublayers to get the full code. Split up the calls to ensure the sublayers do not also exceed the context limit.

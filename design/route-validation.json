@@ -1,0 +1,241 @@
+{
+  "origin": "http://localhost:3001",
+  "checkedAt": "2026-09-06T19:13:03.388Z",
+  "results": [
+    {
+      "path": "/",
+      "status": 200,
+      "h1": 1,
+      "noindex": true,
+      "canonical": "https://nine-ai-studio.serhad1999.chatgpt.site",
+      "title": "Nine.ai — Websites, Google Ads &amp; Automatisierung",
+      "description": "Individuelle Websites für Unternehmen: Nine Launch für 6.900 € und Nine Growth für 12.900 € netto. Entdecke Beispiele, Leistungen und deinen nächsten Schritt.",
+      "badLinks": [],
+      "pass": true
+    },
+    {
+      "path": "/loesungen",
+      "status": 200,
+      "h1": 1,
+      "noindex": true,
+      "canonical": "https://nine-ai-studio.serhad1999.chatgpt.site/loesungen",
+      "title": "Lösungen | Nine.ai",
+      "description": "Plattformen, Websites, KI-Automation und Google Ads: Entdecke den passenden Einstieg für dein digitales System.",
+      "badLinks": [],
+      "pass": true
+    },
+    {
+      "path": "/plattformen-web-apps",
+      "status": 200,
+      "h1": 1,
+      "noindex": true,
+      "canonical": "https://nine-ai-studio.serhad1999.chatgpt.site/plattformen-web-apps",
+      "title": "Web-Apps &amp; Kundenportale | Nine.ai",
+      "description": "Deine Kunden sollen online buchen, Angebote vergleichen oder sich anmelden können? Wir planen und entwickeln die passende Anwendung.",
+      "badLinks": [],
+      "pass": true
+    },
+    {
+      "path": "/websites",
+      "status": 200,
+      "h1": 1,
+      "noindex": true,
+      "canonical": "https://nine-ai-studio.serhad1999.chatgpt.site/websites",
+      "title": "Websites für Unternehmen | Nine.ai",
+      "description": "Wir gestalten und entwickeln deinen Auftritt – damit Besucher sofort verstehen, was du anbietest, und dich leicht kontaktieren können.",
+      "badLinks": [],
+      "pass": true
+    },
+    {
+      "path": "/website-erstellen-lassen",
+      "status": 200,
+      "h1": 1,
+      "noindex": true,
+      "canonical": "https://nine-ai-studio.serhad1999.chatgpt.site/website-erstellen-lassen",
+      "title": "Website erstellen lassen – ab 1.990 € netto | Nine.ai",
+      "description": "Deine neue Website. Alles außer gewöhnlich. Individuelles Webdesign, klare Festpreise ab 1.990 € netto und persönliche Abstimmung. Jetzt Website-Projekt anfragen.",
+      "badLinks": [],
+      "pass": true
+    },
+    {
+      "path": "/ki-automation",
+      "status": 200,
+      "h1": 1,
+      "noindex": true,
+      "canonical": "https://nine-ai-studio.serhad1999.chatgpt.site/ki-automation",
+      "title": "Aufgaben automatisieren | Nine.ai",
+      "description": "Anfragen sortieren, Dokumente auslesen, Daten übertragen: Wir verbinden deine Programme und automatisieren wiederkehrende Aufgaben.",
+      "badLinks": [],
+      "pass": true
+    },
+    {
+      "path": "/google-ads-growth",
+      "status": 200,
+      "h1": 1,
+      "noindex": true,
+      "canonical": "https://nine-ai-studio.serhad1999.chatgpt.site/google-ads-growth",
+      "title": "Werbung bei Google | Nine.ai",
+      "description": "Wir betreuen deine Google-Werbung, verbessern die verlinkten Seiten und messen, welche Anfragen daraus entstehen.",
+      "badLinks": [],
+      "pass": true
+    },
+    {
+      "path": "/projekte",
+      "status": 200,
+      "h1": 1,
+      "noindex": true,
+      "canonical": "https://nine-ai-studio.serhad1999.chatgpt.site/projekte",
+      "title": "Projekte | Nine.ai",
+      "description": "Website-Designstudien für Handwerk, Immobilien und Energie sowie ein Einblick in ParkeSicher. Entdecke passende Beispiele zu den Nine.ai-Paketen.",
+      "badLinks": [],
+      "pass": true
+    },
+    {
+      "path": "/projekte/parkesicher",
+      "status": 200,
+      "h1": 1,
+      "noindex": true,
+      "canonical": "https://nine-ai-studio.serhad1999.chatgpt.site/projekte/parkesicher",
+      "title": "ParkeSicher – Projekt | Nine.ai",
+      "description": "Flughafen auswählen, Angebote vergleichen und Parkplätze buchen. Einblicke in die Produkt- und Systemperspektive von ParkeSicher.",
+      "badLinks": [],
+      "pass": true
+    },
+    {
+      "path": "/pakete",
+      "status": 200,
+      "h1": 1,
+      "noindex": true,
+      "canonical": "https://nine-ai-studio.serhad1999.chatgpt.site/pakete",
+      "title": "Pakete &amp; Preise | Nine.ai",
+      "description": "Deine Website zum Festpreis: Nine Launch 6.900 € oder Nine Growth mit Werbestart 12.900 € netto. Vergleiche Leistungen und passende Website-Beispiele.",
+      "badLinks": [],
+      "pass": true
+    },
+    {
+      "path": "/ueber-nine",
+      "status": 200,
+      "h1": 1,
+      "noindex": true,
+      "canonical": "https://nine-ai-studio.serhad1999.chatgpt.site/ueber-nine",
+      "title": "Über Nine | Nine.ai",
+      "description": "Strategie, Design, Backend und Growth gemeinsam gedacht. Lerne die Haltung und das Arbeitsmodell von Nine.ai kennen.",
+      "badLinks": [],
+      "pass": true
+    },
+    {
+      "path": "/projekt-starten",
+      "status": 200,
+      "h1": 1,
+      "noindex": true,
+      "canonical": "https://nine-ai-studio.serhad1999.chatgpt.site/projekt-starten",
+      "title": "Projekt starten | Nine.ai",
+      "description": "Beschreibe dein Vorhaben in wenigen Sätzen und bereite deine Nine.ai-Projektanfrage vor.",
+      "badLinks": [],
+      "pass": true
+    },
+    {
+      "path": "/checkout/nine-launch",
+      "status": 200,
+      "h1": 1,
+      "noindex": true,
+      "canonical": "https://nine-ai-studio.serhad1999.chatgpt.site/checkout/nine-launch",
+      "title": "Nine Launch – Website-Paket auswählen | Nine.ai",
+      "description": "Eine klare, individuelle Unternehmenswebsite. Fester Nettopreis, Leistungen und vorbereiteter Bestellablauf.",
+      "badLinks": [],
+      "pass": true
+    },
+    {
+      "path": "/checkout/nine-growth",
+      "status": 200,
+      "h1": 1,
+      "noindex": true,
+      "canonical": "https://nine-ai-studio.serhad1999.chatgpt.site/checkout/nine-growth",
+      "title": "Nine Growth – Website-Paket auswählen | Nine.ai",
+      "description": "Website und Kundengewinnung zusammen aufbauen. Fester Nettopreis, Leistungen und vorbereiteter Bestellablauf.",
+      "badLinks": [],
+      "pass": true
+    },
+    {
+      "path": "/checkout/platform-discovery",
+      "status": 200,
+      "h1": 1,
+      "noindex": true,
+      "canonical": "https://nine-ai-studio.serhad1999.chatgpt.site/checkout/platform-discovery",
+      "title": "Platform Discovery – Paketdetails | Nine.ai",
+      "description": "Aus einer Plattformidee einen belastbaren Plan machen. Leistungsumfang, Preisorientierung und persönliches Projektbriefing.",
+      "badLinks": [],
+      "pass": true
+    },
+    {
+      "path": "/checkout/custom-platform",
+      "status": 200,
+      "h1": 1,
+      "noindex": true,
+      "canonical": "https://nine-ai-studio.serhad1999.chatgpt.site/checkout/custom-platform",
+      "title": "Custom Platform – Paketdetails | Nine.ai",
+      "description": "Dein digitales Geschäftsmodell individuell entwickeln. Leistungsumfang, Preisorientierung und persönliches Projektbriefing.",
+      "badLinks": [],
+      "pass": true
+    },
+    {
+      "path": "/checkout/nine-scale",
+      "status": 200,
+      "h1": 1,
+      "noindex": true,
+      "canonical": "https://nine-ai-studio.serhad1999.chatgpt.site/checkout/nine-scale",
+      "title": "Nine Scale – Paketdetails | Nine.ai",
+      "description": "Bestehende Nachfrage systematisch weiterentwickeln. Leistungsumfang, Preisorientierung und persönliches Projektbriefing.",
+      "badLinks": [],
+      "pass": true
+    },
+    {
+      "path": "/impressum",
+      "status": 200,
+      "h1": 1,
+      "noindex": true,
+      "canonical": "https://nine-ai-studio.serhad1999.chatgpt.site/impressum",
+      "title": "Impressum | Nine.ai",
+      "description": "Anbieter- und Designhinweise zur privaten Nine.ai-Projektvorschau.",
+      "badLinks": [],
+      "pass": true
+    },
+    {
+      "path": "/datenschutz",
+      "status": 200,
+      "h1": 1,
+      "noindex": true,
+      "canonical": "https://nine-ai-studio.serhad1999.chatgpt.site/datenschutz",
+      "title": "Datenschutz | Nine.ai",
+      "description": "Informationen zur lokalen Verarbeitung des Projektbriefings und zur privaten Nine.ai-Vorschau.",
+      "badLinks": [],
+      "pass": true
+    },
+    {
+      "path": "/agb",
+      "status": 200,
+      "h1": 1,
+      "noindex": true,
+      "canonical": "https://nine-ai-studio.serhad1999.chatgpt.site/agb",
+      "title": "AGB | Nine.ai",
+      "description": "Informationen zum geplanten Vertrags- und Bestellprozess der Nine.ai-Vorschau.",
+      "badLinks": [],
+      "pass": true
+    },
+    {
+      "path": "/does-not-exist",
+      "status": 404,
+      "pass": true
+    },
+    {
+      "path": "/checkout/unknown-package",
+      "status": 404,
+      "pass": true
+    },
+    {
+      "path": "/projekte/unknown-case",
+      "status": 404,
+      "pass": true
+    }
+  ]
+}

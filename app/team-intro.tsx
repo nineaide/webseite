@@ -2,10 +2,14 @@
 import { ArrowUpRight } from 'lucide-react';
 import { teamMembers } from './team-data';
 
-export function TeamIntro() {
+export function TeamIntro({
+  eyebrow = 'PERSÖNLICH ZUSAMMENARBEITEN',
+}: {
+  eyebrow?: string;
+}) {
   return (
     <div className="team-intro">
-      <span className="eyebrow">PERSÖNLICH ZUSAMMENARBEITEN</span>
+      <span className="eyebrow">{eyebrow}</span>
       <h2>
         Dein Vorhaben.
         <br />

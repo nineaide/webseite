@@ -9,6 +9,7 @@ import { WebsitePackages } from './website-packages';
 import { FAQAnswers } from './faq-answers';
 import { TeamIntro } from './team-intro';
 import { Locations } from './locations';
+import { SolutionLinks } from './subpages';
 import { PageStructuredData } from './structured-data';
 export default function Landing() {
   return (
@@ -57,6 +58,50 @@ export default function Landing() {
             </div>
             <HeroShowcase />
           </section>
+          <section className="process-area home-about">
+            <div className="wrap">
+              <TeamIntro eyebrow="WER WIR SIND" />
+            </div>
+          </section>
+          <section className="package-area home-services" id="leistungen">
+            <div className="wrap">
+              <div className="section-heading">
+                <div>
+                  <span className="eyebrow">BUILD · AUTOMATE · SCALE</span>
+                  <h2>Unsere Leistungen</h2>
+                </div>
+                <p>
+                  Von Websites über individuelle Web-Apps bis zu Google Ads und
+                  Automatisierung: Wir entwickeln den passenden digitalen
+                  nächsten Schritt für dein Unternehmen.
+                </p>
+              </div>
+              <SolutionLinks />
+            </div>
+          </section>
+          <section className="work-area" id="beispiele">
+            <div className="wrap">
+              <div className="section-heading">
+                <div>
+                  <span className="eyebrow">BRANCHEN & WEBSITE-BEISPIELE</span>
+                  <h2>Einblicke in unsere Arbeit</h2>
+                </div>
+                <p>
+                  Entdecke unterschiedliche Branchen und echte Kundenprojekte
+                  mit Ansichten für Desktop und Mobil.
+                </p>
+              </div>
+              <ProjectGallery
+                ids={['parkesicher', 'un-petit-cafe', 'meister-lorenz']}
+              />
+              <div className="work-link">
+                <a className="c-inline-link" href="/projekte">
+                  Alle neun Kundenprojekte ansehen <ArrowUpRight size={19} />
+                </a>
+              </div>
+            </div>
+            <ResponsiveDemo />
+          </section>
           <section className="package-area" id="pakete">
             <div className="wrap">
               <div className="section-heading">
@@ -78,40 +123,23 @@ export default function Landing() {
               <WebsitePackages />
             </div>
           </section>
-          <section className="work-area" id="beispiele">
+          <section className="work-area home-locations" id="standorte">
+            <Locations className="wrap" />
+          </section>
+          <section className="process-area" id="ablauf">
             <div className="wrap">
               <div className="section-heading">
                 <div>
                   <span className="eyebrow">
-                    WENIGER VORSTELLEN. MEHR ANSEHEN.
+                    PERSÖNLICHE ZUSAMMENARBEIT
                   </span>
-                  <h2>
-                    Dein Unternehmen
-                    <br />
-                    hat seinen eigenen Stil.
-                  </h2>
+                  <h2>Gemeinsam von der Idee bis zum Launch.</h2>
                 </div>
                 <p>
-                  Deine Website sollte ihn zeigen. Entdecke echte Kundenprojekte
-                  – von klaren Unternehmensauftritten bis zu eigenen Buchungs-
-                  und Bestellsystemen.
+                  Du arbeitest direkt mit uns zusammen: Wir stimmen Ziele,
+                  Entwurf und Umsetzung Schritt für Schritt mit dir ab.
                 </p>
               </div>
-              <ProjectGallery
-                ids={['parkesicher', 'un-petit-cafe', 'meister-lorenz']}
-              />
-              <div className="work-link">
-                <a className="c-inline-link" href="/projekte">
-                  Alle neun Kundenprojekte ansehen <ArrowUpRight size={19} />
-                </a>
-              </div>
-            </div>
-            <Locations className="wrap" />
-          </section>
-          <ResponsiveDemo />
-          <section className="process-area" id="ablauf">
-            <div className="wrap process-layout">
-              <TeamIntro />
               <div className="process-list">
                 {[
                   [

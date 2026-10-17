@@ -481,7 +481,7 @@ export function ProjectGallery({
 export function ResponsiveDemo() {
   const project = referenceProjects.find((p) => p.id === 'meister-lorenz')!;
   return (
-    <section className="responsive-demo">
+    <div className="responsive-demo">
       <div className="wrap demo-layout">
         <div className="demo-copy">
           <span className="eyebrow">GUT AUSSEHEN IST ERST DER ANFANG</span>
@@ -511,6 +511,6 @@ export function ResponsiveDemo() {
           <p>Meister Lorenz · Kundenprojekt auf Desktop und Mobil</p>
         </div>
       </div>
-    </section>
+    </div>
   );
 }

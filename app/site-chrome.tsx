@@ -25,9 +25,10 @@ import {
   DialogDescription,
 } from '@/components/ui/dialog';
 export const navigation = [
+  ['Startseite', '/'],
+  ['Projekte', '/projekte'],
   ['Pakete & Preise', '/pakete'],
   ['Was wir machen', '/loesungen'],
-  ['Projekte', '/projekte'],
   ['Über Nine', '/ueber-nine'],
 ];
 export function Header() {
@@ -97,22 +98,22 @@ export function Header() {
         </a>
         <nav aria-label="Hauptnavigation">
           <a
-            href="/websites"
-            aria-current={path === '/websites' ? 'page' : undefined}
+            href="/"
+            aria-current={path === '/' ? 'page' : undefined}
           >
-            Websites
-          </a>
-          <a
-            href="/pakete"
-            aria-current={path === '/pakete' ? 'page' : undefined}
-          >
-            Pakete & Preise
+            Startseite
           </a>
           <a
             href="/projekte"
             aria-current={path?.startsWith('/projekte') ? 'page' : undefined}
           >
             Projekte
+          </a>
+          <a
+            href="/pakete"
+            aria-current={path === '/pakete' ? 'page' : undefined}
+          >
+            Pakete & Preise
           </a>
           <button
             type="button"

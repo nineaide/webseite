@@ -14,6 +14,11 @@ export type EditorialSection = {
   image?: EditorialImage;
   links?: { label: string; href: string }[];
 };
+export type ProjectFeature = {
+  title: string;
+  description: string;
+  image?: EditorialImage;
+};
 export type EditorialPage = {
   path: string;
   parent: string;
@@ -25,6 +30,9 @@ export type EditorialPage = {
   heading: string;
   intro: string;
   image: EditorialImage;
+  implementation?: ProjectFeature[];
+  mobileImage?: EditorialImage;
+  status?: 'Im Aufbau';
   highlights: string[];
   sections: EditorialSection[];
   faqs: string[][];

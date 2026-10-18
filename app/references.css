@@ -23,6 +23,32 @@
   aspect-ratio: 1.5;
   overflow: hidden;
 }
+.reference-project-placeholder {
+  position: absolute;
+  inset: 0;
+  display: grid;
+  align-content: center;
+  justify-items: center;
+  gap: 8px;
+  padding: 24px;
+  color: #294462;
+  text-align: center;
+}
+.reference-project-placeholder > span {
+  font-size: 0.8125rem;
+  font-weight: 700;
+}
+.reference-project-placeholder > strong {
+  max-width: 22ch;
+  font-size: clamp(1.15rem, 3vw, 1.7rem);
+  line-height: 1.2;
+}
+.reference-dialog-placeholder {
+  position: relative;
+  min-height: 190px;
+  border-radius: 14px;
+  background: #e8eff8;
+}
 .reference-browser {
   width: 94%;
   overflow: hidden;
@@ -84,6 +110,18 @@
 }
 .reference-card-foot > span {
   color: #66758a;
+}
+.reference-project-status {
+  display: inline-flex;
+  width: fit-content;
+  margin-top: 8px;
+  padding: 4px 9px;
+  border-radius: 999px;
+  background: #e4edfa;
+  color: #365576 !important;
+  font-size: 0.75rem !important;
+  font-weight: 700;
+  line-height: 1.4;
 }
 .reference-gallery .gallery-filters {
   flex-wrap: wrap;

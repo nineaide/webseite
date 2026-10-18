@@ -1,3 +1,5 @@
+import type { ProjectFeature } from './content/types';
+
 export type ProjectScreen = {
   src: string;
   title: string;
@@ -10,14 +12,23 @@ export type ReferenceProject = {
   id: string;
   name: string;
   industry: string;
-  category: string;
-  url: string;
+  category:
+    | 'Dienstleister'
+    | 'Automotive'
+    | 'Gastro'
+    | 'Plattformen'
+    | 'Handwerk'
+    | 'Energie';
+  url?: string;
   description: string;
   detail: string;
   features: string[];
   tone: string;
   systemTitle?: string;
   screens?: ProjectScreen[];
+  status?: 'Im Aufbau';
+  previewAvailable?: boolean;
+  implementation?: ProjectFeature[];
 };
 
 const screen = (
@@ -94,7 +105,7 @@ export const referenceProjects: ReferenceProject[] = [
     id: 'un-petit-cafe',
     name: 'Un Petit Café / Toastclub',
     industry: 'Gastronomie · Website & Bestellsystem',
-    category: 'Gastronomie',
+    category: 'Gastro',
     url: 'https://unpetitcafe.de',
     tone: '#eee7dc',
     description:
@@ -159,7 +170,7 @@ export const referenceProjects: ReferenceProject[] = [
     id: 'meister-lorenz',
     name: 'Meister Lorenz',
     industry: 'Handwerk · Autoschlüssel',
-    category: 'Dienstleister',
+    category: 'Handwerk',
     url: 'https://www.meister-lorenz.de',
     tone: '#e9e4df',
     description:
@@ -176,7 +187,7 @@ export const referenceProjects: ReferenceProject[] = [
     id: 'prime-energie',
     name: 'PRIME ENERGIE',
     industry: 'Energie · Website & Tarifanfrage',
-    category: 'Dienstleister',
+    category: 'Energie',
     url: 'https://www.primeenergie.de',
     tone: '#e8eedf',
     description:
@@ -187,6 +198,40 @@ export const referenceProjects: ReferenceProject[] = [
       'Schrittweise Strom- und Gasanfrage',
       'Privat- und Gewerbekunden ansprechen',
       'Interaktive Beispielrechnung',
+    ],
+    implementation: [
+      {
+        title: 'Website und Lead-Erfassung',
+        description:
+          'Der Tarifrechner führt Privat- und Gewerbekunden über Energieart, Postleitzahl und Verbrauch zur persönlichen Tarifprüfung.',
+        image: {
+          src: '/project-images/prime-energie-desktop.webp',
+          alt: 'PRIME ENERGIE Website mit schrittweisem Tarifrechner',
+          caption: 'Echte Desktop-Aufnahme: Website und Einstieg in die Tarifanfrage',
+          width: 1440,
+          height: 1000,
+        },
+      },
+      {
+        title: 'CRM-System',
+        description:
+          'Eine bestätigte Funktionsbeschreibung und freigegebene Systemaufnahme sind im vorhandenen Projektmaterial noch nicht enthalten.',
+      },
+      {
+        title: 'Internes Backoffice',
+        description:
+          'Eine bestätigte Funktionsbeschreibung und freigegebene Systemaufnahme sind im vorhandenen Projektmaterial noch nicht enthalten.',
+      },
+      {
+        title: 'Verwaltung und Weiterleitung von Kundenanfragen',
+        description:
+          'Konkrete Abläufe und eine freigegebene Systemaufnahme sind im vorhandenen Projektmaterial noch nicht enthalten.',
+      },
+      {
+        title: 'KI-Funktionen und Automatisierungen',
+        description:
+          'Welche Prozesse automatisiert werden und welche KI-Funktionen dazugehören, ist im vorhandenen Projektmaterial nicht dokumentiert.',
+      },
     ],
   },
   {
@@ -227,7 +272,7 @@ export const referenceProjects: ReferenceProject[] = [
     id: 'loni-galabau',
     name: 'Loni GalaBau',
     industry: 'Handwerk · Garten- & Landschaftsbau',
-    category: 'Dienstleister',
+    category: 'Handwerk',
     url: 'https://www.loni-galabau.de',
     tone: '#e4e8df',
     description:

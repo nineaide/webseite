@@ -333,8 +333,10 @@ export function ProjectGallery({
             'Alle',
             'Dienstleister',
             'Automotive',
-            'Gastronomie',
+            'Gastro',
             'Plattformen',
+            'Handwerk',
+            'Energie',
           ].map((item) => (
             <button
               key={item}
@@ -364,26 +366,35 @@ export function ProjectGallery({
                 className="reference-canvas"
                 style={{ background: project.tone }}
               >
-                <div className="reference-browser">
-                  <span aria-hidden="true">
-                    <i />
-                    <i />
-                    <i />
-                  </span>
-                  <ReferencePreview
-                    project={project}
-                    eager={priorityFirst && index === 0}
-                    sizes="(max-width: 700px) calc(75vw - 30px), (max-width: 1100px) 70vw, 900px"
-                  />
-                </div>
-                <div className="reference-phone" aria-hidden="true">
-                  <ReferencePreview
-                    project={project}
-                    mobile
-                    eager={priorityFirst && index === 0}
-                    sizes="(max-width: 700px) 21vw, (max-width: 1100px) 20vw, 220px"
-                  />
-                </div>
+                {project.previewAvailable === false ? (
+                  <div className="reference-project-placeholder">
+                    <span>{project.status ?? 'Projektvorschau'}</span>
+                    <strong>Bildschirmaufnahmen folgen</strong>
+                  </div>
+                ) : (
+                  <>
+                    <div className="reference-browser">
+                      <span aria-hidden="true">
+                        <i />
+                        <i />
+                        <i />
+                      </span>
+                      <ReferencePreview
+                        project={project}
+                        eager={priorityFirst && index === 0}
+                        sizes="(max-width: 700px) calc(75vw - 30px), (max-width: 1100px) 70vw, 900px"
+                      />
+                    </div>
+                    <div className="reference-phone" aria-hidden="true">
+                      <ReferencePreview
+                        project={project}
+                        mobile
+                        eager={priorityFirst && index === 0}
+                        sizes="(max-width: 700px) 21vw, (max-width: 1100px) 20vw, 220px"
+                      />
+                    </div>
+                  </>
+                )}
               </div>
               <span className="gallery-view">
                 <Maximize2 size={17} /> Projekt öffnen
@@ -392,6 +403,11 @@ export function ProjectGallery({
             <div className="gallery-caption">
               <div>
                 <span>{project.industry}</span>
+                {project.status && (
+                  <span className="reference-project-status">
+                    {project.status}
+                  </span>
+                )}
                 <ProjectHeading>{project.name}</ProjectHeading>
               </div>
               <button
@@ -413,14 +429,16 @@ export function ProjectGallery({
                   <Layers3 size={15} /> Mit Systemeinblicken
                 </span>
               )}
-              <a
-                href={project.url}
-                target="_blank"
-                rel="noopener noreferrer"
-                aria-label={project.name + ' Live-Website öffnen (neuer Tab)'}
-              >
-                Live-Website <ArrowUpRight size={16} />
-              </a>
+              {project.url && (
+                <a
+                  href={project.url}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  aria-label={project.name + ' Live-Website öffnen (neuer Tab)'}
+                >
+                  Live-Website <ArrowUpRight size={16} />
+                </a>
+              )}
             </div>
           </article>
         ))}
@@ -452,16 +470,24 @@ export function ProjectGallery({
                   </li>
                 ))}
               </ul>
-              <ProjectScreens key={selected.id} project={selected} />
+              {selected.previewAvailable === false ? (
+                <div className="reference-project-placeholder reference-dialog-placeholder">
+                  Bildschirmaufnahmen für dieses Projekt folgen.
+                </div>
+              ) : (
+                <ProjectScreens key={selected.id} project={selected} />
+              )}
               <div className="project-dialog-bottom">
-                <a
-                  className="c-inline-link"
-                  href={selected.url}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  Live-Website öffnen <ArrowUpRight size={18} />
-                </a>
+                {selected.url && (
+                  <a
+                    className="c-inline-link"
+                    href={selected.url}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    Live-Website öffnen <ArrowUpRight size={18} />
+                  </a>
+                )}
                 <a
                   className="c-button c-button-blue"
                   href={inquiryHref}

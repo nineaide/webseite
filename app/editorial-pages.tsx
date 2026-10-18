@@ -130,6 +130,9 @@ export function EditorialPageView({ page }: { page: EditorialPage }) {
       <header className="editorial-hero">
         <div className="editorial-hero-copy">
           <span className="eyebrow">{page.kicker}</span>
+          {page.status && (
+            <span className="editorial-project-status">{page.status}</span>
+          )}
           <h1>{page.heading}</h1>
           <p className="editorial-lead">{page.intro}</p>
           {isArticle ? (
@@ -166,7 +169,7 @@ export function EditorialPageView({ page }: { page: EditorialPage }) {
                   : 'So gehen wir vor'}{' '}
               <ArrowDown size={18} aria-hidden="true" />
             </a>
-            {project ? (
+            {project?.url && (
               <a
                 className="c-inline-link"
                 href={project.url}
@@ -176,7 +179,8 @@ export function EditorialPageView({ page }: { page: EditorialPage }) {
                 Kundenwebsite öffnen{' '}
                 <ArrowUpRight size={18} aria-hidden="true" />
               </a>
-            ) : (
+            )}
+            {!project && (
               <a
                 className="c-inline-link"
                 href="/website-erstellen-lassen?paket=unsicher#website-check"
@@ -187,17 +191,29 @@ export function EditorialPageView({ page }: { page: EditorialPage }) {
             )}
           </div>
         </div>
-        <EditorialFigure image={page.image} eager />
+        {project?.previewAvailable === false ? (
+          <div className="reference-project-placeholder editorial-image-placeholder">
+            Bildschirmaufnahmen folgen
+          </div>
+        ) : (
+          <EditorialFigure image={page.image} eager />
+        )}
       </header>
       <nav className="editorial-contents" aria-label="Inhalt dieser Seite">
-        {page.sections.map((section) => (
+        {page.sections.map((section, index) => (
           <a key={section.id} href={'#' + section.id}>
-            {section.title}
+            {project && !page.implementation && index === 0
+              ? 'Was haben wir konkret umgesetzt?'
+              : section.title}
           </a>
         ))}
+        {page.implementation && (
+          <a href="#umgesetzt">Einzelne Funktionen</a>
+        )}
+        {page.mobileImage && <a href="#mobil">Desktop- und Mobilansicht</a>}
       </nav>
       <div className="editorial-body">
-        {page.sections.map((section) => (
+        {page.sections.map((section, index) => (
           <section
             id={section.id}
             className={
@@ -206,7 +222,11 @@ export function EditorialPageView({ page }: { page: EditorialPage }) {
             }
             key={section.id}
           >
-            <h2>{section.title}</h2>
+            <h2>
+              {project && !page.implementation && index === 0
+                ? 'Was haben wir konkret umgesetzt?'
+                : section.title}
+            </h2>
             <div className="editorial-section-content">
               <div className="editorial-copy">
                 {section.paragraphs.map((text) => (
@@ -277,7 +297,51 @@ export function EditorialPageView({ page }: { page: EditorialPage }) {
           </section>
         ))}
       </div>
-      {project?.screens && (
+      {project && page.implementation && (
+        <section
+          id="umgesetzt"
+          className="case-implementation"
+          aria-labelledby="case-implementation-title"
+        >
+          <span className="eyebrow">FUNKTIONEN & SYSTEME</span>
+          <h2 id="case-implementation-title">
+            Was haben wir konkret umgesetzt?
+          </h2>
+          <div className="case-implementation-grid">
+            {page.implementation.map((feature) => (
+              <article className="case-implementation-item" key={feature.title}>
+                <div className="case-implementation-media">
+                  {feature.image ? (
+                    <>
+                      <img
+                        {...projectImageProps(
+                          feature.image.src,
+                          '(max-width: 700px) calc(100vw - 80px), 620px',
+                        )}
+                        alt={feature.image.alt}
+                        width={feature.image.width}
+                        height={feature.image.height}
+                        loading="lazy"
+                        decoding="async"
+                      />
+                      <span>{feature.image.caption}</span>
+                    </>
+                  ) : (
+                    <div className="case-implementation-placeholder">
+                      <span>Keine freigegebene Projektaufnahme vorhanden</span>
+                    </div>
+                  )}
+                </div>
+                <div className="case-implementation-copy">
+                  <h3>{feature.title}</h3>
+                  <p>{feature.description}</p>
+                </div>
+              </article>
+            ))}
+          </div>
+        </section>
+      )}
+      {project?.screens && project.previewAvailable !== false && (
         <section
           className="case-system-gallery"
           aria-label={project.systemTitle}
@@ -313,6 +377,31 @@ export function EditorialPageView({ page }: { page: EditorialPage }) {
             ))}
           </div>
         </section>
+      )}
+      {page.mobileImage && project?.previewAvailable !== false && (
+        <section
+          id="mobil"
+          className="editorial-section case-mobile-preview"
+          aria-labelledby="case-mobile-title"
+        >
+          <h2 id="case-mobile-title">Desktop- und Mobilansicht</h2>
+          <div className="editorial-section-content">
+            <div className="editorial-copy">
+              <p>
+                Die Desktop-Aufnahme ist oben zu sehen. Hier findest du die
+                separate Mobilansicht des Kundenprojekts.
+              </p>
+            </div>
+            <EditorialFigure image={page.mobileImage} />
+          </div>
+        </section>
+      )}
+      {project?.url && (
+        <div className="case-live-link">
+          <a href={project.url} target="_blank" rel="noopener noreferrer">
+            Live-Website öffnen <ArrowUpRight size={18} aria-hidden="true" />
+          </a>
+        </div>
       )}
       <ProjectProofLinks ids={page.referenceIds} />
       {page.faqs.length > 0 && (

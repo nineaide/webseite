@@ -308,9 +308,9 @@ export function Projects() {
       <section className="s-project-intro">
         <span className="n-kicker">KUNDENPROJEKTE</span>
         <h1>
-          Gute Arbeit.
+          Gute Arbeit
           <br />
-          <em>Zum Ansehen.</em>
+          <em>zum Ansehen</em>
         </h1>
         <p>
           Neun Unternehmen. Unterschiedliche Aufgaben. Websites, Datenbanken und
@@ -392,14 +392,16 @@ export function Parkesicher() {
             </li>
           ))}
         </ol>
-        <a
-          className="c-inline-link"
-          href={project.url}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          ParkeSicher live ansehen <ArrowUpRight size={18} />
-        </a>
+        {project.url && (
+          <a
+            className="c-inline-link"
+            href={project.url}
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            ParkeSicher live ansehen <ArrowUpRight size={18} />
+          </a>
+        )}
       </section>
     </>
   );

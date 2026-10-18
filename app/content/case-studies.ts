@@ -510,7 +510,24 @@ const details: Record<string, CaseDetail> = {
 };
 
 export const caseStudies: EditorialPage[] = referenceProjects.map((project) => {
-  const detail = details[project.id];
+  const detail =
+    details[project.id] ??
+    {
+      title: project.name + ': Kundenprojekt | Nine.ai',
+      heading: project.name + '.\nEin Kundenprojekt.',
+      sections: [
+        {
+          id: 'umsetzung',
+          title: 'Was haben wir konkret umgesetzt?',
+          paragraphs: [project.detail],
+          points: project.features.map((feature) => ({
+            title: feature,
+            text: 'Weitere Informationen zu diesem Bereich werden ergänzt.',
+          })),
+        },
+      ],
+      related: [],
+    };
   return {
     path: '/projekte/' + project.id,
     parent: '/projekte',
@@ -526,26 +543,22 @@ export const caseStudies: EditorialPage[] = referenceProjects.map((project) => {
       project.name + ': Desktopansicht der Kundenwebsite',
       project.name + ' · Website-Aufnahme vom 7. September 2026',
     ),
+    implementation: project.implementation,
+    mobileImage:
+      project.previewAvailable === false
+        ? undefined
+        : {
+            src: referenceImage(project.id, true),
+            width: 390,
+            height: 844,
+            alt:
+              project.name +
+              ': mobile Website mit dem jeweiligen Angebots- und Kontakteinstieg',
+            caption: project.name + ' · Mobilaufnahme vom 7. September 2026',
+          },
+    status: project.status,
     highlights: project.features,
-    sections: [
-      ...detail.sections,
-      {
-        id: 'mobil',
-        title: 'Die mobile Ansicht.',
-        paragraphs: [
-          'Die separate Mobilaufnahme zeigt den Einstieg der Website auf einem schmalen Bildschirm. Über den Link zur Kundenwebsite kannst du den aktuellen Auftritt selbst ansehen.',
-        ],
-        image: {
-          src: referenceImage(project.id, true),
-          width: 390,
-          height: 844,
-          alt:
-            project.name +
-            ': mobile Website mit dem jeweiligen Angebots- und Kontakteinstieg',
-          caption: project.name + ' · Mobilaufnahme vom 7. September 2026',
-        },
-      },
-    ],
+    sections: detail.sections,
     faqs: [],
     referenceIds: [],
     related: detail.related,

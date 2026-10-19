@@ -8,6 +8,9 @@
   "scripts": {
     "dev": "vinext dev",
     "build": "npm run prepare:images && vinext build",
+    "build:cloudflare": "node scripts/cloudflare.mjs build",
+    "deploy:cloudflare": "node scripts/cloudflare.mjs deploy",
+    "db:migrate:cloudflare": "node scripts/cloudflare.mjs migrate",
     "prepare:images": "node scripts/prepare-project-images.mjs",
     "start": "wrangler dev --config dist/server/wrangler.json",
     "verify:rendering": "node scripts/verify-rendering.mjs",

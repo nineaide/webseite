@@ -1,0 +1,18 @@
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "nineai-webseite",
+  "account_id": "41ddafaebf9c95011b48549d3d80eaf9",
+  "main": "vinext/server/fetch-handler",
+  "compatibility_date": "2026-05-15",
+  "compatibility_flags": ["nodejs_compat"],
+  "workers_dev": true,
+  "assets": { "binding": "ASSETS" },
+  "d1_databases": [
+    {
+      "binding": "DB",
+      "database_name": "nineai-website-leads",
+      "database_id": "a4708d2c-939a-404c-ac74-47d66bb9aef3",
+      "migrations_dir": "drizzle"
+    }
+  ]
+}

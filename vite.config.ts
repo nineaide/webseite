@@ -1,4 +1,5 @@
 import { sites } from '@openai/sites-vite-plugin';
+import { fileURLToPath } from 'node:url';
 import tailwindcss from '@tailwindcss/postcss';
 import vinext from 'vinext';
 import { defineConfig } from 'vite';
@@ -8,6 +9,8 @@ const SITE_CREATOR_PLACEHOLDER_DATABASE_ID =
   '00000000-0000-4000-8000-000000000000';
 
 const { d1, r2 } = hostingConfig;
+const isCloudflareDeployment =
+  process.env.NINEAI_DEPLOY_TARGET === 'cloudflare';
 
 // macOS Seatbelt blocks FSEvents, so Codex previews need polling for HMR.
 const isCodexSeatbeltSandbox = process.env.CODEX_SANDBOX === 'seatbelt';
@@ -46,15 +49,37 @@ export default defineConfig(async () => {
 
   return {
     css: { postcss: { plugins: [tailwindcss()] } },
+    resolve: isCloudflareDeployment
+      ? {
+          alias: [
+            {
+              find: fileURLToPath(
+                new URL(
+                  './app/project-images/[file]/route.ts',
+                  import.meta.url,
+                ),
+              ),
+              replacement: fileURLToPath(
+                new URL(
+                  './deployment/cloudflare-project-images.ts',
+                  import.meta.url,
+                ),
+              ),
+            },
+          ],
+        }
+      : undefined,
     server: isCodexSeatbeltSandbox
       ? { watch: { useFsEvents: false, usePolling: true } }
       : undefined,
     plugins: [
       vinext(),
-      sites(),
+      ...(isCloudflareDeployment ? [] : [sites()]),
       cloudflare({
         viteEnvironment: { name: 'rsc', childEnvironments: ['ssr'] },
-        config: localBindingConfig,
+        ...(isCloudflareDeployment
+          ? { configPath: './wrangler.cloudflare.json' }
+          : { config: localBindingConfig }),
       }),
     ],
   };

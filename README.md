@@ -10,6 +10,7 @@ German website for web design, web development, Google Ads and automation. Curre
 - Genuine team portraits can be added in `app/team-data.ts`. No team names, photos, phone number, customer reviews, legal identity or verified profile URLs have been invented.
 
 The Tailwind source list in `app/globals.css` covers the application and its five used UI primitives (including the dialog's button dependency). When importing another UI component, add its source and any UI dependencies there. Unused library components and research files are intentionally excluded from the blocking stylesheet. The Liquid mark keeps its server-rendered SVG fallback and initializes its WebGL surface only when the section comes within 200 px of the viewport; pause, reduced motion and offscreen animation stopping remain available.
+
 - Nine approved customer projects have desktop/mobile captures and independent detail pages. ParkeSicher and Café system images remain anonymized. Website examples do not imply measured Ads or revenue results.
 
 ## Architecture
@@ -48,3 +49,22 @@ Audit evidence and calculated readiness scores: `SEO-AUDIT-PROGRESS.md`, `design
 No Google Ads/Meta pixels or active conversion tags are installed. A local custom event hook exists for later integration. Complete business/legal information, a verified main domain, Search Console/Bing ownership, genuine reviews and team photos remain owner inputs. The Google Partner badge stays hidden until an approved real badge/profile is supplied.
 
 Publishing: build and verify, commit the exact source, push with a short-lived per-command credential, package using the Sites helper, save a version, deploy within the existing public audience, wait for success and re-fetch the live routes. Preserve the same Site and browser tab.
+
+## Cloudflare deployment from GitHub
+
+`wrangler.cloudflare.json` configures the independent `nineai-webseite` Worker and its D1 database. Use `npm run build:cloudflare` to build this target, then `npm run deploy:cloudflare` to deploy the generated Worker. The deploy command checks that the built Worker, account and database match the source configuration. The default `npm run build` still builds for the existing Sites hosting.
+
+For automatic deployment, connect Workers Builds to `nineaide/webseite` with these settings; this section documents the configuration and does not confirm that the connection is active:
+
+| Setting                    | Value                       |
+| -------------------------- | --------------------------- |
+| Production branch          | `main`                      |
+| Build command              | `npm run build:cloudflare`  |
+| Deploy command             | `npm run deploy:cloudflare` |
+| Build environment variable | `NODE_VERSION=24.15.0`      |
+
+Initialize the remote D1 schema deliberately with `npm run db:migrate:cloudflare`, using credentials with D1 edit permission. Apply any new migrations explicitly before deploying code that depends on them. Migrations are not part of every deployment: the standard Workers Builds token does not receive D1 edit permission.
+
+Configure `LEAD_RESEND_API_KEY` and `LEAD_EMAIL_FROM` separately in the Worker's runtime settings; never commit their values. These email settings are currently missing here and in the existing Sites deployment. Without them, accepted inquiries remain stored in D1 with a pending notification instead of being emailed.
+
+This Worker provides an additional live link. Canonicals and the sitemap origin continue to point to `https://nine-ai-studio.serhad1999.chatgpt.site/`; do not change the primary origin merely to add this deployment.

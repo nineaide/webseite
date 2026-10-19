@@ -1,16 +1,17 @@
-import { ArrowDown, ArrowUpRight, Check } from 'lucide-react';
-import { Header, Footer } from './site-chrome';
 import {
-  HeroShowcase,
-  ProjectGallery,
-  ResponsiveDemo,
-} from './project-showcase';
+  ArrowDown,
+  ArrowUpRight,
+  Check,
+} from 'lucide-react';
+import { Header, Footer } from './site-chrome';
+import { HeroShowcase, HomeProjectShowcase } from './project-showcase';
+import { HomeServiceCards } from './home-service-cards';
 import { WebsitePackages } from './website-packages';
 import { FAQAnswers } from './faq-answers';
 import { TeamIntro } from './team-intro';
 import { Locations } from './locations';
-import { SolutionLinks } from './subpages';
 import { PageStructuredData } from './structured-data';
+
 export default function Landing() {
   return (
     <div className="figma-site c-home">
@@ -65,18 +66,13 @@ export default function Landing() {
           </section>
           <section className="package-area home-services" id="leistungen">
             <div className="wrap">
-              <div className="section-heading">
+              <div className="section-heading home-services-heading">
                 <div>
                   <span className="eyebrow">BUILD · AUTOMATE · SCALE</span>
                   <h2>Unsere Leistungen</h2>
                 </div>
-                <p>
-                  Von Websites über individuelle Web-Apps bis zu Google Ads und
-                  Automatisierung: Wir entwickeln den passenden digitalen
-                  nächsten Schritt für dein Unternehmen.
-                </p>
               </div>
-              <SolutionLinks />
+              <HomeServiceCards />
             </div>
           </section>
           <section className="work-area" id="beispiele">
@@ -87,20 +83,17 @@ export default function Landing() {
                   <h2>Einblicke in unsere Arbeit</h2>
                 </div>
                 <p>
-                  Entdecke unterschiedliche Branchen und echte Kundenprojekte
-                  mit Ansichten für Desktop und Mobil.
+                  Echte Kundenprojekte aus neun Unternehmen. Wechsle zwischen
+                  den Auftritten und sieh dir Desktop- oder Mobilansichten an.
                 </p>
               </div>
-              <ProjectGallery
-                ids={['parkesicher', 'un-petit-cafe', 'meister-lorenz']}
-              />
+              <HomeProjectShowcase />
               <div className="work-link">
                 <a className="c-inline-link" href="/projekte">
                   Alle neun Kundenprojekte ansehen <ArrowUpRight size={19} />
                 </a>
               </div>
             </div>
-            <ResponsiveDemo />
           </section>
           <section className="package-area" id="pakete">
             <div className="wrap">

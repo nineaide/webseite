@@ -1,11 +1,21 @@
 'use client';
 /* oxlint-disable next/no-img-element */
-import { useState, type PointerEvent, type ReactNode } from 'react';
+import {
+  useEffect,
+  useState,
+  useSyncExternalStore,
+  type PointerEvent,
+  type ReactNode,
+} from 'react';
 import {
   ArrowUpRight,
   ArrowRight,
   Check,
+  ChevronLeft,
+  ChevronRight,
   Monitor,
+  Pause,
+  Play,
   Smartphone,
   X,
   Maximize2,
@@ -504,39 +514,211 @@ export function ProjectGallery({
   );
 }
 
-export function ResponsiveDemo() {
-  const project = referenceProjects.find((p) => p.id === 'meister-lorenz')!;
+function subscribeToReducedMotion(onChange: () => void) {
+  const preference = window.matchMedia('(prefers-reduced-motion: reduce)');
+  preference.addEventListener('change', onChange);
+  return () => preference.removeEventListener('change', onChange);
+}
+
+function getReducedMotionPreference() {
+  return window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+}
+
+export function HomeProjectShowcase() {
+  const [activeIndex, setActiveIndex] = useState(0);
+  const [view, setView] = useState<'desktop' | 'mobile'>('desktop');
+  const [playing, setPlaying] = useState(true);
+  const [direction, setDirection] = useState<'next' | 'previous'>('next');
+  const reducedMotion = useSyncExternalStore(
+    subscribeToReducedMotion,
+    getReducedMotionPreference,
+    () => false,
+  );
+  const project = referenceProjects[activeIndex] ?? referenceProjects[0];
+  const autoPlaying = playing && !reducedMotion;
+
+  useEffect(() => {
+    if (!autoPlaying || referenceProjects.length < 2) return;
+    const timer = window.setInterval(() => {
+      setDirection('next');
+      setActiveIndex((index) => (index + 1) % referenceProjects.length);
+    }, 7000);
+    return () => window.clearInterval(timer);
+  }, [autoPlaying]);
+
+  function goToProject(index: number, nextDirection: 'next' | 'previous') {
+    setPlaying(false);
+    setDirection(nextDirection);
+    setActiveIndex(
+      (index + referenceProjects.length) % referenceProjects.length,
+    );
+  }
+
+  function moveProject(offset: number) {
+    goToProject(
+      activeIndex + offset,
+      offset < 0 ? 'previous' : 'next',
+    );
+  }
+
+  function handleKeyDown(event: React.KeyboardEvent<HTMLButtonElement>) {
+    if (event.key === 'ArrowLeft') {
+      event.preventDefault();
+      moveProject(-1);
+    } else if (event.key === 'ArrowRight') {
+      event.preventDefault();
+      moveProject(1);
+    }
+  }
+
   return (
-    <div className="responsive-demo">
-      <div className="wrap demo-layout">
-        <div className="demo-copy">
-          <span className="eyebrow">GUT AUSSEHEN IST ERST DER ANFANG</span>
-          <h2>
-            Ein guter Auftritt.
-            <br />
-            <em>Auf jedem Bildschirm.</em>
-          </h2>
-          <p>
-            Deine Kunden sitzen nicht immer am Schreibtisch. Deshalb planen wir
-            Inhalt, Navigation und Anfrageweg auch fürs Handy.
-          </p>
-          <ul className="plain-checks">
-            <li>
-              <Check size={18} /> Das Angebot sofort verstehen
-            </li>
-            <li>
-              <Check size={18} /> Texte ohne Zoomen lesen
-            </li>
-            <li>
-              <Check size={18} /> Den Kontakt mit einem Fingertipp finden
-            </li>
-          </ul>
-        </div>
-        <div className="device-demo reference-demo">
-          <ProjectScreens project={project} />
-          <p>Meister Lorenz · Kundenprojekt auf Desktop und Mobil</p>
+    <section
+      className="home-project-showcase"
+      aria-roledescription="Karussell"
+      aria-label="Kundenprojekte ansehen"
+    >
+      <div className="home-project-visual">
+        <fieldset className="home-project-view-switch">
+          <legend className="sr-only">Geräteansicht wählen</legend>
+          <button
+            type="button"
+            aria-pressed={view === 'desktop'}
+            onClick={() => setView('desktop')}
+          >
+            <Monitor size={17} aria-hidden="true" /> Desktop
+          </button>
+          <button
+            type="button"
+            aria-pressed={view === 'mobile'}
+            onClick={() => setView('mobile')}
+          >
+            <Smartphone size={17} aria-hidden="true" /> Mobil
+          </button>
+        </fieldset>
+        <div
+          className={'home-project-stage home-project-stage-' + view}
+          style={{ backgroundColor: project.tone }}
+        >
+          {project.previewAvailable === false ? (
+            <div className="home-project-placeholder">
+              Bildschirmaufnahmen folgen
+            </div>
+          ) : (
+            <div
+              key={project.id}
+              className={
+                'home-project-screen home-project-screen-' +
+                view +
+                ' home-project-screen-' +
+                direction
+              }
+            >
+              {view === 'desktop' && (
+                <span className="home-project-browser-bar" aria-hidden="true">
+                  <i />
+                  <i />
+                  <i />
+                </span>
+              )}
+              <ReferencePreview
+                project={project}
+                mobile={view === 'mobile'}
+                eager
+                sizes={
+                  view === 'mobile'
+                    ? '260px'
+                    : '(max-width: 700px) calc(100vw - 72px), (max-width: 1200px) 70vw, 760px'
+                }
+              />
+            </div>
+          )}
         </div>
       </div>
-    </div>
+      <div className="home-project-information">
+        <div
+          className="home-project-copy"
+          aria-live={autoPlaying ? 'off' : 'polite'}
+          aria-atomic="true"
+        >
+          <span className="eyebrow">KUNDENPROJEKT · {project.industry}</span>
+          <h3>{project.name}</h3>
+          <p>{project.description}</p>
+          <div className="home-project-links">
+            <a href={'/projekte/' + project.id}>
+              Projekt im Detail <ArrowUpRight size={17} aria-hidden="true" />
+            </a>
+            {project.url && (
+              <a
+                href={project.url}
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Live-Website <ArrowUpRight size={17} aria-hidden="true" />
+              </a>
+            )}
+          </div>
+        </div>
+        <fieldset className="home-project-controls">
+          <legend className="sr-only">Projektsteuerung</legend>
+          <button
+            className="home-project-arrow"
+            type="button"
+            aria-label="Vorheriges Projekt"
+            onKeyDown={handleKeyDown}
+            onClick={() => moveProject(-1)}
+          >
+            <ChevronLeft size={21} aria-hidden="true" />
+          </button>
+          <span className="home-project-count" aria-live="off">
+            {String(activeIndex + 1).padStart(2, '0')} /{' '}
+            {String(referenceProjects.length).padStart(2, '0')}
+          </span>
+          <button
+            className="home-project-arrow"
+            type="button"
+            aria-label="Nächstes Projekt"
+            onKeyDown={handleKeyDown}
+            onClick={() => moveProject(1)}
+          >
+            <ChevronRight size={21} aria-hidden="true" />
+          </button>
+          <button
+            className="home-project-play"
+            type="button"
+            aria-label={
+              reducedMotion
+                ? 'Automatische Wiedergabe durch Bewegungseinstellung deaktiviert'
+                : autoPlaying
+                  ? 'Automatische Wiedergabe pausieren'
+                  : 'Automatische Wiedergabe starten'
+            }
+            aria-pressed={autoPlaying}
+            disabled={reducedMotion}
+            onClick={() => setPlaying(!autoPlaying)}
+          >
+            {autoPlaying ? (
+              <Pause size={17} aria-hidden="true" />
+            ) : (
+              <Play size={17} aria-hidden="true" />
+            )}
+            {autoPlaying ? 'Pause' : 'Abspielen'}
+          </button>
+        </fieldset>
+        <fieldset className="home-project-pagination">
+          <legend className="sr-only">Projekt direkt auswählen</legend>
+          {referenceProjects.map((item, index) => (
+            <button
+              type="button"
+              key={item.id}
+              aria-label={'Projekt ' + (index + 1) + ': ' + item.name}
+              aria-pressed={index === activeIndex}
+              onClick={() =>
+                goToProject(index, index < activeIndex ? 'previous' : 'next')
+              }
+            />
+          ))}
+        </fieldset>
+      </div>
+    </section>
   );
 }

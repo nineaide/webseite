@@ -52,6 +52,8 @@ Publishing: build and verify, commit the exact source, push with a short-lived p
 
 ## Cloudflare deployment from GitHub
 
+Live deployment: [nineai-webseite.team-41d.workers.dev](https://nineai-webseite.team-41d.workers.dev/).
+
 `wrangler.cloudflare.json` configures the independent `nineai-webseite` Worker and its D1 database. Use `npm run build:cloudflare` to build this target, then `npm run deploy:cloudflare` to deploy the generated Worker. The deploy command checks that the built Worker, account and database match the source configuration. The default `npm run build` still builds for the existing Sites hosting.
 
 For automatic deployment, connect Workers Builds to `nineaide/webseite` with these settings; this section documents the configuration and does not confirm that the connection is active:
@@ -64,6 +66,8 @@ For automatic deployment, connect Workers Builds to `nineaide/webseite` with the
 | Build environment variable | `NODE_VERSION=24.15.0`      |
 
 Initialize the remote D1 schema deliberately with `npm run db:migrate:cloudflare`, using credentials with D1 edit permission. Apply any new migrations explicitly before deploying code that depends on them. Migrations are not part of every deployment: the standard Workers Builds token does not receive D1 edit permission.
+
+For a local production preview, initialize the local schema with `npx wrangler d1 migrations apply DB --local --config wrangler.cloudflare.json`, then run `npm run start -- --persist-to .wrangler/state`. The explicit persistence directory makes the source-config migrations and built-config server use the same local database.
 
 Configure `LEAD_RESEND_API_KEY` and `LEAD_EMAIL_FROM` separately in the Worker's runtime settings; never commit their values. These email settings are currently missing here and in the existing Sites deployment. Without them, accepted inquiries remain stored in D1 with a pending notification instead of being emailed.
 

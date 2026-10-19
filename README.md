@@ -56,16 +56,18 @@ Live deployment: [nineai-webseite.team-41d.workers.dev](https://nineai-webseite.
 
 `wrangler.cloudflare.json` configures the independent `nineai-webseite` Worker and its D1 database. Use `npm run build:cloudflare` to build this target, then `npm run deploy:cloudflare` to deploy the generated Worker. The deploy command checks that the built Worker, account and database match the source configuration. The default `npm run build` still builds for the existing Sites hosting.
 
-For automatic deployment, connect Workers Builds to `nineaide/webseite` with these settings; this section documents the configuration and does not confirm that the connection is active:
+Workers Builds is connected to `nineaide/webseite`. Pushes to `main` are configured to automatically build and deploy `nineai-webseite` using these settings:
 
 | Setting                    | Value                       |
 | -------------------------- | --------------------------- |
 | Production branch          | `main`                      |
+| Root directory             | `/`                         |
 | Build command              | `npm run build:cloudflare`  |
 | Deploy command             | `npm run deploy:cloudflare` |
 | Build environment variable | `NODE_VERSION=24.15.0`      |
+| Preview builds             | Disabled                    |
 
-Initialize the remote D1 schema deliberately with `npm run db:migrate:cloudflare`, using credentials with D1 edit permission. Apply any new migrations explicitly before deploying code that depends on them. Migrations are not part of every deployment: the standard Workers Builds token does not receive D1 edit permission.
+Initialize the remote D1 schema deliberately with `npm run db:migrate:cloudflare`, using credentials with D1 edit permission. Apply any new migrations explicitly before deploying code that depends on them. Migrations are deliberately kept separate from automatic deployments so that schema changes can be reviewed before they run.
 
 For a local production preview, initialize the local schema with `npx wrangler d1 migrations apply DB --local --config wrangler.cloudflare.json`, then run `npm run start -- --persist-to .wrangler/state`. The explicit persistence directory makes the source-config migrations and built-config server use the same local database.
 

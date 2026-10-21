@@ -523,10 +523,7 @@ export const caseStudies: EditorialPage[] = referenceProjects.map((project) => {
     image: desktopImage(
       project.id,
       project.name + ': Desktopansicht der Kundenwebsite',
-      project.name +
-        (project.id === 'entwurf-energie'
-          ? ' · Website-Aufnahme vom 21. Oktober 2026'
-          : ' · Website-Aufnahme vom 7. September 2026'),
+      project.name + ' · Website-Aufnahme vom 21. Oktober 2026',
     ),
     implementation: project.implementation,
     mobileImage:
@@ -540,10 +537,7 @@ export const caseStudies: EditorialPage[] = referenceProjects.map((project) => {
               project.name +
               ': mobile Website mit dem jeweiligen Angebots- und Kontakteinstieg',
             caption:
-              project.name +
-              (project.id === 'entwurf-energie'
-                ? ' · Mobilaufnahme vom 21. Oktober 2026'
-                : ' · Mobilaufnahme vom 7. September 2026'),
+              project.name + ' · Mobilaufnahme vom 21. Oktober 2026',
           },
     status: project.status,
     highlights: project.features,
@@ -551,6 +545,6 @@ export const caseStudies: EditorialPage[] = referenceProjects.map((project) => {
     faqs: [],
     referenceIds: [],
     related: detail.related,
-    modified: project.id === 'entwurf-energie' ? '2026-10-21' : '2026-09-08',
+    modified: '2026-10-21',
   };
 });

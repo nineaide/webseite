@@ -76,302 +76,396 @@
     ]
   },
   "/project-images/dirik-autopflege-desktop.webp": {
-    "src": "/project-images/dirik-autopflege-desktop.webp?v=2baf27aee5c54f98",
+    "src": "/project-images/dirik-autopflege-desktop.webp?v=71dbceaadba7b52e",
     "width": 1440,
     "height": 1000,
     "variants": [
       {
-        "src": "/project-images/dirik-autopflege-desktop--w480.webp?v=faad759a51dc2c5e",
+        "src": "/project-images/dirik-autopflege-desktop--w480.webp?v=86d0f09b18e7b32f",
         "width": 480,
         "height": 333,
-        "bytes": 8912
+        "bytes": 8298
       },
       {
-        "src": "/project-images/dirik-autopflege-desktop--w800.webp?v=573d825c61a7e719",
+        "src": "/project-images/dirik-autopflege-desktop--w800.webp?v=492af45b6eb4da9d",
         "width": 800,
         "height": 556,
-        "bytes": 16984
+        "bytes": 15836
       },
       {
-        "src": "/project-images/dirik-autopflege-desktop.webp?v=2baf27aee5c54f98",
+        "src": "/project-images/dirik-autopflege-desktop.webp?v=71dbceaadba7b52e",
         "width": 1440,
         "height": 1000,
-        "bytes": 48594
+        "bytes": 46336
       }
     ]
   },
   "/project-images/dirik-autopflege-mobile.webp": {
-    "src": "/project-images/dirik-autopflege-mobile.webp?v=b68b1c8d77b4d3c2",
+    "src": "/project-images/dirik-autopflege-mobile.webp?v=ff72176aba968450",
     "width": 390,
     "height": 844,
     "variants": [
       {
-        "src": "/project-images/dirik-autopflege-mobile--w160.webp?v=0faf1a0432ee8a2a",
+        "src": "/project-images/dirik-autopflege-mobile--w160.webp?v=f9d5073f46596611",
         "width": 160,
         "height": 346,
-        "bytes": 6138
+        "bytes": 6390
       },
       {
-        "src": "/project-images/dirik-autopflege-mobile--w260.webp?v=e65bfecee9852beb",
+        "src": "/project-images/dirik-autopflege-mobile--w260.webp?v=c0a4a4f82d545ec3",
         "width": 260,
         "height": 563,
-        "bytes": 10778
+        "bytes": 10950
       },
       {
-        "src": "/project-images/dirik-autopflege-mobile.webp?v=b68b1c8d77b4d3c2",
+        "src": "/project-images/dirik-autopflege-mobile.webp?v=ff72176aba968450",
         "width": 390,
         "height": 844,
-        "bytes": 24548
+        "bytes": 25110
+      }
+    ]
+  },
+  "/project-images/entwurf-energie-crm-mobile.webp": {
+    "src": "/project-images/entwurf-energie-crm-mobile.webp?v=ed41b62a6885b286",
+    "width": 390,
+    "height": 844,
+    "variants": [
+      {
+        "src": "/project-images/entwurf-energie-crm-mobile--w160.webp?v=ee2b4d8cd84b0cc3",
+        "width": 160,
+        "height": 346,
+        "bytes": 5938
+      },
+      {
+        "src": "/project-images/entwurf-energie-crm-mobile--w260.webp?v=2cddff69134c81d3",
+        "width": 260,
+        "height": 563,
+        "bytes": 12836
+      },
+      {
+        "src": "/project-images/entwurf-energie-crm-mobile.webp?v=ed41b62a6885b286",
+        "width": 390,
+        "height": 844,
+        "bytes": 32022
+      }
+    ]
+  },
+  "/project-images/entwurf-energie-desktop.webp": {
+    "src": "/project-images/entwurf-energie-desktop.webp?v=2992b89829e2fab5",
+    "width": 1440,
+    "height": 1000,
+    "variants": [
+      {
+        "src": "/project-images/entwurf-energie-desktop--w480.webp?v=28a3582f9ab2a1d4",
+        "width": 480,
+        "height": 333,
+        "bytes": 12374
+      },
+      {
+        "src": "/project-images/entwurf-energie-desktop--w800.webp?v=9947fe0d618c7b42",
+        "width": 800,
+        "height": 556,
+        "bytes": 24496
+      },
+      {
+        "src": "/project-images/entwurf-energie-desktop.webp?v=2992b89829e2fab5",
+        "width": 1440,
+        "height": 1000,
+        "bytes": 80702
+      }
+    ]
+  },
+  "/project-images/entwurf-energie-leads.webp": {
+    "src": "/project-images/entwurf-energie-leads.webp?v=6abb56b4cc318d68",
+    "width": 1440,
+    "height": 1000,
+    "variants": [
+      {
+        "src": "/project-images/entwurf-energie-leads--w480.webp?v=15d1921462d603f1",
+        "width": 480,
+        "height": 333,
+        "bytes": 13150
+      },
+      {
+        "src": "/project-images/entwurf-energie-leads.webp?v=6abb56b4cc318d68",
+        "width": 1440,
+        "height": 1000,
+        "bytes": 101108
+      }
+    ]
+  },
+  "/project-images/entwurf-energie-mobile.webp": {
+    "src": "/project-images/entwurf-energie-mobile.webp?v=a8d85198490b6217",
+    "width": 390,
+    "height": 844,
+    "variants": [
+      {
+        "src": "/project-images/entwurf-energie-mobile--w160.webp?v=1dda9f218a368918",
+        "width": 160,
+        "height": 346,
+        "bytes": 8224
+      },
+      {
+        "src": "/project-images/entwurf-energie-mobile--w260.webp?v=ec33fd8aad76391e",
+        "width": 260,
+        "height": 563,
+        "bytes": 16716
+      },
+      {
+        "src": "/project-images/entwurf-energie-mobile.webp?v=a8d85198490b6217",
+        "width": 390,
+        "height": 844,
+        "bytes": 42706
       }
     ]
   },
   "/project-images/gardentime-desktop.webp": {
-    "src": "/project-images/gardentime-desktop.webp?v=2eaf9005430d5c8c",
+    "src": "/project-images/gardentime-desktop.webp?v=e33c0a15b96d46bc",
     "width": 1440,
     "height": 1000,
     "variants": [
       {
-        "src": "/project-images/gardentime-desktop--w480.webp?v=0e0f1fb66a6eeecb",
+        "src": "/project-images/gardentime-desktop--w480.webp?v=320c321e8e8efe21",
         "width": 480,
         "height": 333,
-        "bytes": 19600
+        "bytes": 20688
       },
       {
-        "src": "/project-images/gardentime-desktop--w800.webp?v=c5a2aab403e64b5e",
+        "src": "/project-images/gardentime-desktop--w800.webp?v=91e70359a9070f50",
         "width": 800,
         "height": 556,
-        "bytes": 43790
+        "bytes": 46014
       },
       {
-        "src": "/project-images/gardentime-desktop.webp?v=2eaf9005430d5c8c",
+        "src": "/project-images/gardentime-desktop.webp?v=e33c0a15b96d46bc",
         "width": 1440,
         "height": 1000,
-        "bytes": 145306
+        "bytes": 187892
       }
     ]
   },
   "/project-images/gardentime-mobile.webp": {
-    "src": "/project-images/gardentime-mobile.webp?v=cdbc88494540ab24",
+    "src": "/project-images/gardentime-mobile.webp?v=c1eee77589d29afa",
     "width": 390,
     "height": 844,
     "variants": [
       {
-        "src": "/project-images/gardentime-mobile--w160.webp?v=64661c8bb23a501f",
+        "src": "/project-images/gardentime-mobile--w160.webp?v=35834cf7ff566ed4",
         "width": 160,
         "height": 346,
-        "bytes": 6366
+        "bytes": 6830
       },
       {
-        "src": "/project-images/gardentime-mobile--w260.webp?v=daca50c6dae3e51e",
+        "src": "/project-images/gardentime-mobile--w260.webp?v=4b5c53a93ed35740",
         "width": 260,
         "height": 563,
-        "bytes": 12410
+        "bytes": 13746
       },
       {
-        "src": "/project-images/gardentime-mobile.webp?v=cdbc88494540ab24",
+        "src": "/project-images/gardentime-mobile.webp?v=c1eee77589d29afa",
         "width": 390,
         "height": 844,
-        "bytes": 29492
+        "bytes": 36722
       }
     ]
   },
   "/project-images/loni-galabau-desktop.webp": {
-    "src": "/project-images/loni-galabau-desktop.webp?v=913dbeb9843ef238",
+    "src": "/project-images/loni-galabau-desktop.webp?v=76ed1f8676ba659f",
     "width": 1440,
     "height": 1000,
     "variants": [
       {
-        "src": "/project-images/loni-galabau-desktop--w480.webp?v=9410a627d96f05dc",
+        "src": "/project-images/loni-galabau-desktop--w480.webp?v=395d2a62734422f4",
         "width": 480,
         "height": 333,
-        "bytes": 21036
+        "bytes": 22714
       },
       {
-        "src": "/project-images/loni-galabau-desktop--w800.webp?v=ac47430ac14a0a96",
+        "src": "/project-images/loni-galabau-desktop--w800.webp?v=cc8a767776598ec0",
         "width": 800,
         "height": 556,
-        "bytes": 46654
+        "bytes": 43352
       },
       {
-        "src": "/project-images/loni-galabau-desktop.webp?v=913dbeb9843ef238",
+        "src": "/project-images/loni-galabau-desktop.webp?v=76ed1f8676ba659f",
         "width": 1440,
         "height": 1000,
-        "bytes": 176920
+        "bytes": 135994
       }
     ]
   },
   "/project-images/loni-galabau-mobile.webp": {
-    "src": "/project-images/loni-galabau-mobile.webp?v=c2a944a31b3814a8",
+    "src": "/project-images/loni-galabau-mobile.webp?v=9e5f4df76a33abe4",
     "width": 390,
     "height": 844,
     "variants": [
       {
-        "src": "/project-images/loni-galabau-mobile--w160.webp?v=343890bf10cdf1aa",
+        "src": "/project-images/loni-galabau-mobile--w160.webp?v=87d2cee3db6f5904",
         "width": 160,
         "height": 346,
-        "bytes": 8620
+        "bytes": 9784
       },
       {
-        "src": "/project-images/loni-galabau-mobile--w260.webp?v=cadf30eee059f1a0",
+        "src": "/project-images/loni-galabau-mobile--w260.webp?v=9e5db680b1d1003d",
         "width": 260,
         "height": 563,
-        "bytes": 19156
+        "bytes": 20752
       },
       {
-        "src": "/project-images/loni-galabau-mobile.webp?v=c2a944a31b3814a8",
+        "src": "/project-images/loni-galabau-mobile.webp?v=9e5f4df76a33abe4",
         "width": 390,
         "height": 844,
-        "bytes": 55006
+        "bytes": 51422
       }
     ]
   },
   "/project-images/mb-performance-desktop.webp": {
-    "src": "/project-images/mb-performance-desktop.webp?v=0b1d4e0428c12baa",
+    "src": "/project-images/mb-performance-desktop.webp?v=f95d5ca29b1dc4f5",
     "width": 1440,
     "height": 1000,
     "variants": [
       {
-        "src": "/project-images/mb-performance-desktop--w480.webp?v=8d5dfa3b74bddc1e",
+        "src": "/project-images/mb-performance-desktop--w480.webp?v=79b0ad9ec1fbc69e",
         "width": 480,
         "height": 333,
-        "bytes": 18410
+        "bytes": 18596
       },
       {
-        "src": "/project-images/mb-performance-desktop--w800.webp?v=8bb8a84a1531a293",
+        "src": "/project-images/mb-performance-desktop--w800.webp?v=5934ce2fd03d759a",
         "width": 800,
         "height": 556,
-        "bytes": 39766
+        "bytes": 40890
       },
       {
-        "src": "/project-images/mb-performance-desktop.webp?v=0b1d4e0428c12baa",
+        "src": "/project-images/mb-performance-desktop.webp?v=f95d5ca29b1dc4f5",
         "width": 1440,
         "height": 1000,
-        "bytes": 130076
+        "bytes": 160604
       }
     ]
   },
   "/project-images/mb-performance-mobile.webp": {
-    "src": "/project-images/mb-performance-mobile.webp?v=6c03757c6a85821d",
+    "src": "/project-images/mb-performance-mobile.webp?v=c509973a4731e5e6",
     "width": 390,
     "height": 844,
     "variants": [
       {
-        "src": "/project-images/mb-performance-mobile--w160.webp?v=20f2bf0c3ee0b0a8",
+        "src": "/project-images/mb-performance-mobile--w160.webp?v=593a310a2b0594f8",
         "width": 160,
         "height": 346,
-        "bytes": 5440
+        "bytes": 10028
       },
       {
-        "src": "/project-images/mb-performance-mobile--w260.webp?v=85cb6366e0830bf4",
+        "src": "/project-images/mb-performance-mobile--w260.webp?v=06e71e6e75571002",
         "width": 260,
         "height": 563,
-        "bytes": 11148
+        "bytes": 23538
       },
       {
-        "src": "/project-images/mb-performance-mobile.webp?v=6c03757c6a85821d",
+        "src": "/project-images/mb-performance-mobile.webp?v=c509973a4731e5e6",
         "width": 390,
         "height": 844,
-        "bytes": 26392
+        "bytes": 70162
       }
     ]
   },
   "/project-images/meister-lorenz-desktop.webp": {
-    "src": "/project-images/meister-lorenz-desktop.webp?v=7cb9c66f1bb22210",
+    "src": "/project-images/meister-lorenz-desktop.webp?v=d09ae4c287f32f2d",
     "width": 1440,
     "height": 1000,
     "variants": [
       {
-        "src": "/project-images/meister-lorenz-desktop--w480.webp?v=426ea38d71bfb47e",
+        "src": "/project-images/meister-lorenz-desktop--w480.webp?v=c72e529db3fee624",
         "width": 480,
         "height": 333,
-        "bytes": 19534
+        "bytes": 18976
       },
       {
-        "src": "/project-images/meister-lorenz-desktop--w800.webp?v=d32c1f021d4ef155",
+        "src": "/project-images/meister-lorenz-desktop--w800.webp?v=894125224b6d275d",
         "width": 800,
         "height": 556,
-        "bytes": 38244
+        "bytes": 36460
       },
       {
-        "src": "/project-images/meister-lorenz-desktop.webp?v=7cb9c66f1bb22210",
+        "src": "/project-images/meister-lorenz-desktop.webp?v=d09ae4c287f32f2d",
         "width": 1440,
         "height": 1000,
-        "bytes": 113868
+        "bytes": 123892
       }
     ]
   },
   "/project-images/meister-lorenz-mobile.webp": {
-    "src": "/project-images/meister-lorenz-mobile.webp?v=c0e3475f44862dec",
+    "src": "/project-images/meister-lorenz-mobile.webp?v=084b6e8c47262472",
     "width": 390,
     "height": 844,
     "variants": [
       {
-        "src": "/project-images/meister-lorenz-mobile--w160.webp?v=dc1d3570da1e1cdc",
+        "src": "/project-images/meister-lorenz-mobile--w160.webp?v=9e8e38644f12e84e",
         "width": 160,
         "height": 346,
-        "bytes": 9372
+        "bytes": 9790
       },
       {
-        "src": "/project-images/meister-lorenz-mobile--w260.webp?v=69b575db35967794",
+        "src": "/project-images/meister-lorenz-mobile--w260.webp?v=81f8c22beb505cf0",
         "width": 260,
         "height": 563,
-        "bytes": 18030
+        "bytes": 18224
       },
       {
-        "src": "/project-images/meister-lorenz-mobile.webp?v=c0e3475f44862dec",
+        "src": "/project-images/meister-lorenz-mobile.webp?v=084b6e8c47262472",
         "width": 390,
         "height": 844,
-        "bytes": 40968
+        "bytes": 43280
       }
     ]
   },
   "/project-images/mrcarkey-desktop.webp": {
-    "src": "/project-images/mrcarkey-desktop.webp?v=486bcc5b9a62f8a6",
+    "src": "/project-images/mrcarkey-desktop.webp?v=9619c63e9ddb42b4",
     "width": 1440,
     "height": 1000,
     "variants": [
       {
-        "src": "/project-images/mrcarkey-desktop--w480.webp?v=6b96a8150e53bdef",
+        "src": "/project-images/mrcarkey-desktop--w480.webp?v=57002b34eb6b71be",
         "width": 480,
         "height": 333,
-        "bytes": 9324
+        "bytes": 9788
       },
       {
-        "src": "/project-images/mrcarkey-desktop--w800.webp?v=d38c4e04501b3b4e",
+        "src": "/project-images/mrcarkey-desktop--w800.webp?v=064621a39eecdf92",
         "width": 800,
         "height": 556,
-        "bytes": 18772
+        "bytes": 19246
       },
       {
-        "src": "/project-images/mrcarkey-desktop.webp?v=486bcc5b9a62f8a6",
+        "src": "/project-images/mrcarkey-desktop.webp?v=9619c63e9ddb42b4",
         "width": 1440,
         "height": 1000,
-        "bytes": 57122
+        "bytes": 64586
       }
     ]
   },
   "/project-images/mrcarkey-mobile.webp": {
-    "src": "/project-images/mrcarkey-mobile.webp?v=e7289bf6db249efc",
+    "src": "/project-images/mrcarkey-mobile.webp?v=8aee136d8dd76fc4",
     "width": 390,
     "height": 844,
     "variants": [
       {
-        "src": "/project-images/mrcarkey-mobile--w160.webp?v=021ec8f1c2ca195c",
+        "src": "/project-images/mrcarkey-mobile--w160.webp?v=4cf6119ba91a929d",
         "width": 160,
         "height": 346,
-        "bytes": 6522
+        "bytes": 6922
       },
       {
-        "src": "/project-images/mrcarkey-mobile--w260.webp?v=5db24c768b0fccdd",
+        "src": "/project-images/mrcarkey-mobile--w260.webp?v=b26ae887abb2c4b9",
         "width": 260,
         "height": 563,
-        "bytes": 12834
+        "bytes": 13424
       },
       {
-        "src": "/project-images/mrcarkey-mobile.webp?v=e7289bf6db249efc",
+        "src": "/project-images/mrcarkey-mobile.webp?v=8aee136d8dd76fc4",
         "width": 390,
         "height": 844,
-        "bytes": 31612
+        "bytes": 37042
       }
     ]
   },
@@ -414,52 +508,52 @@
     ]
   },
   "/project-images/parkesicher-desktop.webp": {
-    "src": "/project-images/parkesicher-desktop.webp?v=80a043723e118642",
+    "src": "/project-images/parkesicher-desktop.webp?v=bacfefca3eeb4996",
     "width": 1440,
     "height": 1000,
     "variants": [
       {
-        "src": "/project-images/parkesicher-desktop--w480.webp?v=ccbc47789f507354",
+        "src": "/project-images/parkesicher-desktop--w480.webp?v=e66bccd06a821ebc",
         "width": 480,
         "height": 333,
-        "bytes": 16478
+        "bytes": 15932
       },
       {
-        "src": "/project-images/parkesicher-desktop--w800.webp?v=65dd26a00e566252",
+        "src": "/project-images/parkesicher-desktop--w800.webp?v=f7187d080b0d87db",
         "width": 800,
         "height": 556,
-        "bytes": 34650
+        "bytes": 34464
       },
       {
-        "src": "/project-images/parkesicher-desktop.webp?v=80a043723e118642",
+        "src": "/project-images/parkesicher-desktop.webp?v=bacfefca3eeb4996",
         "width": 1440,
         "height": 1000,
-        "bytes": 102366
+        "bytes": 113708
       }
     ]
   },
   "/project-images/parkesicher-mobile.webp": {
-    "src": "/project-images/parkesicher-mobile.webp?v=94a51eb2dbdb658a",
+    "src": "/project-images/parkesicher-mobile.webp?v=fe0bb74473e10ebb",
     "width": 390,
     "height": 844,
     "variants": [
       {
-        "src": "/project-images/parkesicher-mobile--w160.webp?v=83163934d40621bf",
+        "src": "/project-images/parkesicher-mobile--w160.webp?v=54adefed180625d7",
         "width": 160,
         "height": 346,
-        "bytes": 10312
+        "bytes": 10712
       },
       {
-        "src": "/project-images/parkesicher-mobile--w260.webp?v=a6210f9b0eeda20b",
+        "src": "/project-images/parkesicher-mobile--w260.webp?v=a97fbad34c28be8e",
         "width": 260,
         "height": 563,
-        "bytes": 19690
+        "bytes": 21088
       },
       {
-        "src": "/project-images/parkesicher-mobile.webp?v=94a51eb2dbdb658a",
+        "src": "/project-images/parkesicher-mobile.webp?v=fe0bb74473e10ebb",
         "width": 390,
         "height": 844,
-        "bytes": 45890
+        "bytes": 54200
       }
     ]
   },
@@ -521,102 +615,52 @@
     ]
   },
   "/project-images/un-petit-cafe-desktop.webp": {
-    "src": "/project-images/un-petit-cafe-desktop.webp?v=1270586a15c283c3",
+    "src": "/project-images/un-petit-cafe-desktop.webp?v=e864106bfeaced5c",
     "width": 1440,
     "height": 1000,
     "variants": [
       {
-        "src": "/project-images/un-petit-cafe-desktop--w480.webp?v=16cde73bbcfa8d8e",
+        "src": "/project-images/un-petit-cafe-desktop--w480.webp?v=6064b6e2d721971c",
         "width": 480,
         "height": 333,
-        "bytes": 19988
+        "bytes": 20204
       },
       {
-        "src": "/project-images/un-petit-cafe-desktop--w800.webp?v=67c516c415339874",
+        "src": "/project-images/un-petit-cafe-desktop--w800.webp?v=53b114cfab6c0800",
         "width": 800,
         "height": 556,
-        "bytes": 40454
+        "bytes": 41018
       },
       {
-        "src": "/project-images/un-petit-cafe-desktop.webp?v=1270586a15c283c3",
+        "src": "/project-images/un-petit-cafe-desktop.webp?v=e864106bfeaced5c",
         "width": 1440,
         "height": 1000,
-        "bytes": 120200
+        "bytes": 135488
       }
     ]
   },
   "/project-images/un-petit-cafe-mobile.webp": {
-    "src": "/project-images/un-petit-cafe-mobile.webp?v=eed1b2d852293b34",
+    "src": "/project-images/un-petit-cafe-mobile.webp?v=96cd53279a57ff1c",
     "width": 390,
     "height": 844,
     "variants": [
       {
-        "src": "/project-images/un-petit-cafe-mobile--w160.webp?v=463d45b6386f8f60",
+        "src": "/project-images/un-petit-cafe-mobile--w160.webp?v=3ce8887d0e97fea0",
         "width": 160,
         "height": 346,
-        "bytes": 10782
+        "bytes": 10970
       },
       {
-        "src": "/project-images/un-petit-cafe-mobile--w260.webp?v=f3820f65898abd05",
+        "src": "/project-images/un-petit-cafe-mobile--w260.webp?v=54f5581fcbe7c5c3",
         "width": 260,
         "height": 563,
-        "bytes": 20972
+        "bytes": 22018
       },
       {
-        "src": "/project-images/un-petit-cafe-mobile.webp?v=eed1b2d852293b34",
+        "src": "/project-images/un-petit-cafe-mobile.webp?v=96cd53279a57ff1c",
         "width": 390,
         "height": 844,
-        "bytes": 48720
-      }
-    ]
-  },
-  "/project-images/entwurf-energie-desktop.webp": {
-    "src": "/project-images/entwurf-energie-desktop.webp?v=2992b89829e2fab5",
-    "width": 1440,
-    "height": 1000,
-    "variants": [
-      {
-        "src": "/project-images/entwurf-energie-desktop--w480.webp?v=28a3582f9ab2a1d4",
-        "width": 480,
-        "height": 333,
-        "bytes": 12374
-      },
-      {
-        "src": "/project-images/entwurf-energie-desktop--w800.webp?v=9947fe0d618c7b42",
-        "width": 800,
-        "height": 556,
-        "bytes": 24496
-      },
-      {
-        "src": "/project-images/entwurf-energie-desktop.webp?v=2992b89829e2fab5",
-        "width": 1440,
-        "height": 1000,
-        "bytes": 80702
-      }
-    ]
-  },
-  "/project-images/entwurf-energie-mobile.webp": {
-    "src": "/project-images/entwurf-energie-mobile.webp?v=a8d85198490b6217",
-    "width": 390,
-    "height": 844,
-    "variants": [
-      {
-        "src": "/project-images/entwurf-energie-mobile--w160.webp?v=1dda9f218a368918",
-        "width": 160,
-        "height": 346,
-        "bytes": 8224
-      },
-      {
-        "src": "/project-images/entwurf-energie-mobile--w260.webp?v=ec33fd8aad76391e",
-        "width": 260,
-        "height": 563,
-        "bytes": 16716
-      },
-      {
-        "src": "/project-images/entwurf-energie-mobile.webp?v=a8d85198490b6217",
-        "width": 390,
-        "height": 844,
-        "bytes": 42706
+        "bytes": 57012
       }
     ]
   }

@@ -17,7 +17,7 @@ const services: {
     number: '01',
     title: 'Websites & SEO',
     description:
-      'Dein Angebot klar erklären, bei Google gefunden werden und den Weg zur Anfrage einfach machen.',
+      'Leistungen zeigen, bei Google gefunden werden und Anfragen über die Website erhalten.',
     href: '/websites',
     link: 'Websites entdecken',
     preview: 'website',
@@ -26,7 +26,7 @@ const services: {
     number: '02',
     title: 'Web-Apps & Buchungsplattformen',
     description:
-      'Termine buchen, Angebote vergleichen, Kunden betreuen – in einer Anwendung für deine Abläufe.',
+      'Parkplätze buchen, Tische reservieren oder Fahrzeuge auswählen. Wir entwickeln die Anwendung dazu.',
     href: '/plattformen-web-apps',
     link: 'Web-Apps ansehen',
     preview: 'booking',
@@ -35,7 +35,7 @@ const services: {
     number: '03',
     title: 'CRM & Backoffice',
     description:
-      'Anfragen, Kundendaten und Aufgaben an einem Ort. Mit klaren Zuständigkeiten für dein Team.',
+      'Anfragen bearbeiten, Kunden wiederfinden und Aufgaben im Team verteilen.',
     href: '/plattformen-web-apps/kundenportale',
     link: 'Kundenportale entdecken',
     preview: 'crm',
@@ -44,7 +44,7 @@ const services: {
     number: '04',
     title: 'KI-Assistenten & Automatisierung',
     description:
-      'Dokumente auslesen, Anfragen sortieren und Daten übertragen. Dein Team behält die Kontrolle.',
+      'Dokumente auslesen, Anfragen vorsortieren und Daten zwischen deinen Programmen übertragen.',
     href: '/ki-automation',
     link: 'Automatisierung ansehen',
     preview: 'automation',
@@ -53,7 +53,7 @@ const services: {
     number: '05',
     title: 'Google Ads & monatliche Betreuung',
     description:
-      'Kampagnen betreuen, Anfragen auswerten und Zielseiten verbessern. Monat für Monat.',
+      'Google Anzeigen betreuen und prüfen, welche Suchanfragen zu Kundenanfragen führen.',
     href: '/google-ads-growth',
     link: 'Google Ads entdecken',
     preview: 'ads',

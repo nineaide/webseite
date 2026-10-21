@@ -30,9 +30,8 @@ export default function Landing() {
                 <em>für dich gewinnt.</em>
               </h1>
               <p>
-                Wir machen aus deinem Angebot einen starken Auftritt.
-                Individuell gestaltet, leicht zu bedienen und mit einem klaren
-                Weg zur Anfrage.
+                Wir gestalten und entwickeln deine Website. Damit Besucher
+                deine Leistungen finden und dich direkt anfragen können.
               </p>
               <div className="hero-actions">
                 <a href="#pakete" className="c-button c-button-light">

@@ -55,7 +55,7 @@ export const referenceProjects: ReferenceProject[] = [
     url: 'https://www.parkesicher.de',
     tone: '#dce8f5',
     description:
-      'Parkplätze vergleichen und buchen. Mit einer eigenen Anwendung für den täglichen Parkplatzbetrieb.',
+      'Flughafenparkplätze suchen und buchen. Anbieter verwalten Ankünfte, Preise und freie Plätze.',
     detail:
       'Die öffentliche Plattform verbindet Flughafensuche, Reisezeitraum und Parkplatzangebote. Im Anbieterbereich laufen Buchungen, Ankünfte, Preise und Verfügbarkeiten zusammen.',
     features: [
@@ -110,7 +110,7 @@ export const referenceProjects: ReferenceProject[] = [
     url: 'https://unpetitcafe.de',
     tone: '#eee7dc',
     description:
-      'Ein Café-Auftritt mit eigener Tischreservierung und einem Bestellsystem für den Service.',
+      'Tische reservieren, die Speisekarte ansehen und Bestellungen im eigenen System vom Tisch zur Küche weitergeben.',
     detail:
       'Die Website macht Frühstück und Speisekarte erlebbar und nimmt Reservierungsanfragen entgegen. Das eigene Bestellsystem verbindet Tischauswahl, Speisen, Extras und Küchenhinweise. Die Website tritt heute als Toastclub Wiesbaden auf.',
     features: [
@@ -158,7 +158,7 @@ export const referenceProjects: ReferenceProject[] = [
     url: 'https://www.mbperformance.eu',
     tone: '#e5e3e2',
     description:
-      'Eine Website für Chiptuning mit eigener Fahrzeugdatenbank für Marken, Modelle und Leistungsdaten.',
+      'Hersteller, Modell und Motor auswählen und die passenden Tuningwerte nachsehen. Mit eigener Fahrzeugdatenbank.',
     detail:
       'Besucher wählen Hersteller, Modell und Motor. Dahinter ordnet eine eigene Datenbank die passenden Fahrzeuge und Leistungswerte in PS und kW zu – als Grundlage für eine konkrete Anfrage.',
     features: [
@@ -175,7 +175,7 @@ export const referenceProjects: ReferenceProject[] = [
     url: 'https://www.meister-lorenz.de',
     tone: '#e9e4df',
     description:
-      'Ein klarer Auftritt für den Autoschlüssel-Meisterbetrieb mit Leistungsseiten und direkter Terminanfrage.',
+      'Autoschlüssel nachmachen, reparieren oder programmieren lassen. Die Terminanfrage erfasst Fahrzeug und Anliegen.',
     detail:
       'Vom Ersatzschlüssel bis zur Programmierung: Besucher finden passende Leistungen und Informationen zu einzelnen Fahrzeugmarken. Das Anfrageformular erfasst Fahrzeug und Anliegen für die persönliche Abstimmung.',
     features: [
@@ -193,9 +193,14 @@ export const referenceProjects: ReferenceProject[] = [
     websiteLabel: 'Live-Website',
     tone: '#eaf1e2',
     description:
-      'Moderne Website für einen Energieanbieter mit interaktivem Tarifrechner, digitaler Anfrageverwaltung und integriertem CRM.',
+      'Strom und Gas anfragen. Der Tarifrechner erfasst den Bedarf, das CRM führt die Anfragen zur Bearbeitung zusammen.',
     detail:
       'Entwurf Energie verbindet die Tarifberatung für Strom und Gas mit einer digitalen Anfrageverwaltung und einem integrierten CRM. Die verlinkte Website ist ein Entwurf mit ersetzten Unternehmensangaben und Beispieldaten.',
+    systemTitle: 'Tarifanfragen im CRM bearbeiten',
+    screens: [
+      screen('entwurf-energie-leads', 'Anfragen bearbeiten', 'Suche, Bearbeitungsstände und Zuordnung in der CRM-Demo. Alle Kontakte sind fiktiv.', 1440, 1000),
+      screen('entwurf-energie-crm-mobile', 'Anfragen unterwegs ansehen', 'Die mobile Anfragenliste desselben Entwurfsprojekts mit fiktiven Kontakten.', 390, 844),
+    ],
     features: [
       'Interaktiver Tarifrechner',
       'Digitale Anfrageverwaltung',
@@ -210,7 +215,7 @@ export const referenceProjects: ReferenceProject[] = [
     url: 'https://www.mrcarkey-wiesbaden.de',
     tone: '#e2e4e7',
     description:
-      'Fahrzeugschlüssel-Service im Rhein-Main-Gebiet. Leistungen verständlich erklärt, Kontakt schnell gefunden.',
+      'Die passende Hilfe für den Autoschlüssel finden. Mit Reparaturanfrage und direktem Kontakt per WhatsApp.',
     detail:
       'Nachmachen, reparieren oder programmieren: Die Website führt von der passenden Leistung zur Reparaturanfrage. Direkte Kontaktwege unterstützen Menschen, die schnell Hilfe benötigen.',
     features: [
@@ -227,7 +232,7 @@ export const referenceProjects: ReferenceProject[] = [
     url: 'https://www.gardentime-frankfurt.de',
     tone: '#dee9e3',
     description:
-      'Gartenpflege und Facility Management in Frankfurt – mit einem Anfrageformular direkt im Einstieg.',
+      'Gartenpflege oder Gebäudeservice auswählen und direkt mit der gewünschten Leistung anfragen.',
     detail:
       'Ein breites Dienstleistungsangebot wird in Gartenpflege und Gebäudeservice gegliedert. Interessenten wählen ihre gewünschte Leistung direkt im Formular aus und beschreiben so gezielt ihren Bedarf.',
     features: [
@@ -244,7 +249,7 @@ export const referenceProjects: ReferenceProject[] = [
     url: 'https://www.loni-galabau.de',
     tone: '#e4e8df',
     description:
-      'Gartengestaltung mit Raum für große Bilder, einzelne Leistungen und die Menschen hinter dem Betrieb.',
+      'Pflasterarbeiten, Naturstein und Gartengestaltung: Leistungen und Bilder der Arbeit vor der Kontaktaufnahme ansehen.',
     detail:
       'Der Auftritt verbindet Gartenbilder mit verständlichen Leistungsseiten – von Naturstein- und Pflasterarbeiten bis zur Gartengestaltung. Ein nachvollziehbarer Ablauf führt zur Kontaktaufnahme.',
     features: [
@@ -261,7 +266,7 @@ export const referenceProjects: ReferenceProject[] = [
     url: 'https://www.dirik-autopflege.de',
     tone: '#e6e2e2',
     description:
-      'Ein ausdrucksstarker Auftritt für Fahrzeugpflege: Leistungen, Galerie und Anfragewege in einem Angebot.',
+      'Innenreinigung und Keramikversiegelung ansehen. Mit Leistungsseiten, Fahrzeuggalerie und Anfrage.',
     detail:
       'Fahrzeugaufbereitung lebt von sichtbarer Qualität. Die Website zeigt Einblicke, erklärt Leistungen wie Innenreinigung und Keramikversiegelung und führt zur unverbindlichen Anfrage.',
     features: [

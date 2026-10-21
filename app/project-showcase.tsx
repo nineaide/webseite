@@ -384,11 +384,6 @@ export function ProjectGallery({
                 ) : (
                   <>
                     <div className="reference-browser">
-                      <span aria-hidden="true">
-                        <i />
-                        <i />
-                        <i />
-                      </span>
                       <ReferencePreview
                         project={project}
                         eager={priorityFirst && index === 0}

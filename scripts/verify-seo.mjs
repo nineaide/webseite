@@ -77,7 +77,7 @@ check(
 check(
   blocks.every((block) => {
     const path = new URL(decode(block.match(/<loc>([^<]+)<\/loc>/)?.[1] || '')).pathname;
-    const expected = path === '/projekte/entwurf-energie' ? '2026-10-21' : '2026-09-08';
+    const expected = path.startsWith('/projekte/') ? '2026-10-21' : '2026-09-08';
     return block.includes('<lastmod>' + expected + '</lastmod>');
   }),
   'accurate release modification dates',

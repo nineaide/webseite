@@ -29,7 +29,7 @@ export const industryPages: EditorialPage[] = [
         title: 'Was können Kunden bei dir beauftragen?',
         paragraphs: [
           'Eine Dienstleister-Website muss schnell erklären, welche Aufgaben du übernimmst. Bei einem breiten Angebot helfen klare Gruppen und eigene Seiten für Leistungen, die unterschiedliche Fragen auslösen.',
-          'Garden Time Frankfurt gliedert Gartenpflege und Gebäudeservice. PRIME ENERGIE unterscheidet Energiebedarf und Kundengruppen. In beiden Fällen wird aus einer allgemeinen Kontaktaufnahme eine Anfrage mit mehr Kontext.',
+          'Garden Time Frankfurt gliedert Gartenpflege und Gebäudeservice. Entwurf Energie unterscheidet Energiebedarf und Kundengruppen. In beiden Fällen wird aus einer allgemeinen Kontaktaufnahme eine Anfrage mit mehr Kontext.',
         ],
       },
       {

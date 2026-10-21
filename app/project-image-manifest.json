@@ -520,56 +520,6 @@
       }
     ]
   },
-  "/project-images/prime-energie-desktop.webp": {
-    "src": "/project-images/prime-energie-desktop.webp?v=26843efead2fdc5a",
-    "width": 1440,
-    "height": 1000,
-    "variants": [
-      {
-        "src": "/project-images/prime-energie-desktop--w480.webp?v=b741a06194163245",
-        "width": 480,
-        "height": 333,
-        "bytes": 14168
-      },
-      {
-        "src": "/project-images/prime-energie-desktop--w800.webp?v=bac10f50d0d12e04",
-        "width": 800,
-        "height": 556,
-        "bytes": 28338
-      },
-      {
-        "src": "/project-images/prime-energie-desktop.webp?v=26843efead2fdc5a",
-        "width": 1440,
-        "height": 1000,
-        "bytes": 82900
-      }
-    ]
-  },
-  "/project-images/prime-energie-mobile.webp": {
-    "src": "/project-images/prime-energie-mobile.webp?v=312641c2204f7ca3",
-    "width": 390,
-    "height": 844,
-    "variants": [
-      {
-        "src": "/project-images/prime-energie-mobile--w160.webp?v=bc42976e234ac4de",
-        "width": 160,
-        "height": 346,
-        "bytes": 7472
-      },
-      {
-        "src": "/project-images/prime-energie-mobile--w260.webp?v=44c028d41ff60894",
-        "width": 260,
-        "height": 563,
-        "bytes": 14708
-      },
-      {
-        "src": "/project-images/prime-energie-mobile.webp?v=312641c2204f7ca3",
-        "width": 390,
-        "height": 844,
-        "bytes": 34824
-      }
-    ]
-  },
   "/project-images/un-petit-cafe-desktop.webp": {
     "src": "/project-images/un-petit-cafe-desktop.webp?v=1270586a15c283c3",
     "width": 1440,

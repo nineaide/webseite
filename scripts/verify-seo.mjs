@@ -64,7 +64,7 @@ const locations = blocks.map((block) =>
   decode(block.match(/<loc>([^<]+)<\/loc>/)?.[1] || ''),
 );
 const indexPaths = locations.map((url) => new URL(url).pathname);
-assert.equal(indexPaths.length, 40, 'full intended-index inventory');
+assert.equal(indexPaths.length, 39, 'full intended-index inventory');
 assert.equal(
   new Set(indexPaths).size,
   indexPaths.length,
@@ -77,7 +77,7 @@ check(
 check(
   blocks.every((block) => {
     const path = new URL(decode(block.match(/<loc>([^<]+)<\/loc>/)?.[1] || '')).pathname;
-    const expected = path === '/projekte/entwurf-energie' ? '2026-10-20' : '2026-09-08';
+    const expected = path === '/projekte/entwurf-energie' ? '2026-10-21' : '2026-09-08';
     return block.includes('<lastmod>' + expected + '</lastmod>');
   }),
   'accurate release modification dates',
@@ -158,6 +158,7 @@ for (const path of [...indexPaths, ...noindexPaths]) {
     path + ': HTML response',
   );
   check((main.match(/<h1\b/g) || []).length === 1, path + ': one H1');
+  check(!/prime[ -]?energie/i.test(main), path + ': no outdated energy branding');
   check(text.length > 300, path + ': primary content rendered');
   check(
     title.length > 10 && description.length > 40,
@@ -350,6 +351,9 @@ for (const [name, userAgent] of Object.entries(crawlers))
     );
     crawlerParity.push({ path, crawler: name, status: response.status, same });
   }
+const legacyProject = await fetch(origin + '/projekte/prime-energie', { redirect: 'manual' });
+check(legacyProject.status === 308, 'legacy energy project: permanent redirect');
+check(new URL(legacyProject.headers.get('location'), origin).pathname === '/projekte/entwurf-energie', 'legacy energy project: current destination');
 const missingPaths = [
   '/no-such-page',
   '/checkout/no-such-package',
@@ -357,7 +361,9 @@ const missingPaths = [
   '/wissen/no-such-article',
   '/websites/no-such-industry',
   '/project-images/no-such-image.webp',
-  '/project-images/prime-energie-desktop.webp?v=outdated',
+  '/project-images/entwurf-energie-desktop.webp?v=outdated',
+  '/project-images/prime-energie-desktop.webp',
+  '/project-images/prime-energie-mobile.webp',
 ];
 for (const path of missingPaths)
   check((await get(path)).response.status === 404, path + ': actual 404');

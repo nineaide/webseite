@@ -117,9 +117,9 @@ export const serviceHubPages: EditorialPage[] = [
     intro:
       'Wir planen und betreuen deine Google-Werbung, gestalten passende Zielseiten und machen eingegangene Anfragen nachvollziehbar. Angebot, Anzeige und Kontaktweg werden gemeinsam betrachtet.',
     image: desktopImage(
-      'prime-energie',
-      'PRIME ENERGIE: Unternehmenswebsite mit einem strukturierten Anfrageweg',
-      'Website-Referenz PRIME ENERGIE · von der Leistung zur persönlichen Anfrage',
+      'entwurf-energie',
+      'Entwurf Energie: Unternehmenswebsite mit einem strukturierten Anfrageweg',
+      'Website-Referenz Entwurf Energie · von der Leistung zur persönlichen Anfrage',
     ),
     highlights: [
       'Suchanzeigen mit klarem Fokus',
@@ -153,15 +153,15 @@ export const serviceHubPages: EditorialPage[] = [
         id: 'zielseiten',
         title: 'Die Website ist Teil der Werbestrecke.',
         paragraphs: [
-          'Unsere Website-Projekte zeigen konkrete Wege zur Anfrage. PRIME ENERGIE fragt den Energiebedarf schrittweise ab. Bei Meister Lorenz steht das Fahrzeuganliegen im Mittelpunkt. Daraus wird für jede Kampagne ein passender eigener Aufbau entwickelt.',
+          'Unsere Website-Projekte zeigen konkrete Wege zur Anfrage. Entwurf Energie fragt den Energiebedarf schrittweise ab. Bei Meister Lorenz steht das Fahrzeuganliegen im Mittelpunkt. Daraus wird für jede Kampagne ein passender eigener Aufbau entwickelt.',
           'Die hier gezeigten Aufnahmen belegen unsere Website-Arbeit. Aussagen über Werbeergebnisse brauchen jeweils konkrete Kampagnen- und Geschäftsdaten.',
         ],
         image: {
-          src: '/project-images/prime-energie-mobile.webp',
+          src: '/project-images/entwurf-energie-mobile.webp',
           width: 390,
           height: 844,
-          alt: 'Mobile Website von PRIME ENERGIE mit Anfrageeinstieg',
-          caption: 'PRIME ENERGIE · die Anfrage auch mobil verständlich machen',
+          alt: 'Mobile Website von Entwurf Energie mit Anfrageeinstieg',
+          caption: 'Entwurf Energie · die Anfrage auch mobil verständlich machen',
         },
         links: [
           {
@@ -195,7 +195,7 @@ export const serviceHubPages: EditorialPage[] = [
       },
     ],
     faqs: services.find((s) => s.slug === 'google-ads-growth')!.faq,
-    referenceIds: ['prime-energie'],
+    referenceIds: ['entwurf-energie'],
     related: [
       '/google-ads-growth/suchanzeigen',
       '/google-ads-growth/landingpages',

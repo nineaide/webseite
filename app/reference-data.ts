@@ -185,55 +185,21 @@ export const referenceProjects: ReferenceProject[] = [
     ],
   },
   {
-    id: 'prime-energie',
-    name: 'PRIME ENERGIE',
-    industry: 'Energie · Website & Tarifanfrage',
+    id: 'entwurf-energie',
+    name: 'Entwurf Energie',
+    industry: 'Energie · Tarifberatung',
     category: 'Energie',
-    url: 'https://www.primeenergie.de',
-    tone: '#e8eedf',
+    url: 'https://dghawss03.github.io/energie-entwurf/',
+    websiteLabel: 'Live-Website',
+    tone: '#eaf1e2',
     description:
-      'Persönliche Energieberatung mit einem digitalen Anfrageweg für Strom- und Gastarife – für Privat- und Gewerbekunden.',
+      'Moderne Website für einen Energieanbieter mit interaktivem Tarifrechner, digitaler Anfrageverwaltung und integriertem CRM.',
     detail:
-      'Besucher wählen Strom, Gas oder beides und geben Postleitzahl und Verbrauch an. Die Website führt zur persönlichen Tarifprüfung, erklärt den Wechselablauf und macht Beispielrechnungen interaktiv nachvollziehbar.',
+      'Entwurf Energie verbindet die Tarifberatung für Strom und Gas mit einer digitalen Anfrageverwaltung und einem integrierten CRM. Die verlinkte Website ist ein Entwurf mit ersetzten Unternehmensangaben und Beispieldaten.',
     features: [
-      'Schrittweise Strom- und Gasanfrage',
-      'Privat- und Gewerbekunden ansprechen',
-      'Interaktive Beispielrechnung',
-    ],
-    implementation: [
-      {
-        title: 'Website und Lead-Erfassung',
-        description:
-          'Der Tarifrechner führt Privat- und Gewerbekunden über Energieart, Postleitzahl und Verbrauch zur persönlichen Tarifprüfung.',
-        image: {
-          src: '/project-images/prime-energie-desktop.webp',
-          alt: 'PRIME ENERGIE Website mit schrittweisem Tarifrechner',
-          caption:
-            'Echte Desktop-Aufnahme: Website und Einstieg in die Tarifanfrage',
-          width: 1440,
-          height: 1000,
-        },
-      },
-      {
-        title: 'CRM-System',
-        description:
-          'Eine bestätigte Funktionsbeschreibung und freigegebene Systemaufnahme sind im vorhandenen Projektmaterial noch nicht enthalten.',
-      },
-      {
-        title: 'Internes Backoffice',
-        description:
-          'Eine bestätigte Funktionsbeschreibung und freigegebene Systemaufnahme sind im vorhandenen Projektmaterial noch nicht enthalten.',
-      },
-      {
-        title: 'Verwaltung und Weiterleitung von Kundenanfragen',
-        description:
-          'Konkrete Abläufe und eine freigegebene Systemaufnahme sind im vorhandenen Projektmaterial noch nicht enthalten.',
-      },
-      {
-        title: 'KI-Funktionen und Automatisierungen',
-        description:
-          'Welche Prozesse automatisiert werden und welche KI-Funktionen dazugehören, ist im vorhandenen Projektmaterial nicht dokumentiert.',
-      },
+      'Interaktiver Tarifrechner',
+      'Digitale Anfrageverwaltung',
+      'Integriertes CRM',
     ],
   },
   {
@@ -304,24 +270,7 @@ export const referenceProjects: ReferenceProject[] = [
       'Anfrage und WhatsApp-Kontakt',
     ],
   },
-  {
-    id: 'entwurf-energie',
-    name: 'Entwurf Energie',
-    industry: 'Energie · Tarifberatung',
-    category: 'Energie',
-    url: 'https://dghawss03.github.io/energie-entwurf/',
-    websiteLabel: 'Website ansehen',
-    tone: '#eaf1e2',
-    description:
-      'Moderne Website für einen Energieanbieter mit interaktivem Tarifrechner, digitaler Anfrageverwaltung und integriertem CRM.',
-    detail:
-      'Entwurf Energie verbindet die Tarifberatung für Strom und Gas mit einer digitalen Anfrageverwaltung und einem integrierten CRM. Die verlinkte Website ist ein Entwurf mit ersetzten Unternehmensangaben und Beispieldaten.',
-    features: [
-      'Interaktiver Tarifrechner',
-      'Digitale Anfrageverwaltung',
-      'Integriertes CRM',
-    ],
-  },
+
 ];
 
 export const referenceImage = (id: string, mobile = false) =>
@@ -335,7 +284,7 @@ export const heroReferences = [
 
 // Campaign visitors see the same curated order in the hero and work section.
 export const leadReferenceIds = [
-  'prime-energie',
+  'entwurf-energie',
   'parkesicher',
   'meister-lorenz',
 ];

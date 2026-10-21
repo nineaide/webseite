@@ -14,9 +14,9 @@ export const adsAutomationPages: EditorialPage[] = [
     intro:
       'Wir planen und betreuen Google-Suchanzeigen für Unternehmen. Ausgangspunkt sind die Leistungen, die du verkaufen möchtest, und die Fragen deiner potenziellen Kunden. Anzeigen und Zielseiten werden darauf abgestimmt.',
     image: desktopImage(
-      'prime-energie',
-      'PRIME ENERGIE: Website mit schrittweiser Strom- und Gasanfrage',
-      'Website-Referenz PRIME ENERGIE · ein klarer Anfrageweg für ein erklärungsbedürftiges Angebot',
+      'entwurf-energie',
+      'Entwurf Energie: Website mit schrittweiser Strom- und Gasanfrage',
+      'Website-Referenz Entwurf Energie · ein klarer Anfrageweg für ein erklärungsbedürftiges Angebot',
     ),
     highlights: [
       'Suchbegriffe mit passendem Anliegen',
@@ -64,7 +64,7 @@ export const adsAutomationPages: EditorialPage[] = [
         title: 'Die Anzeige verspricht. Die Seite muss antworten.',
         paragraphs: [
           'Nach dem Klick sollte dieselbe Leistung klar erkennbar sein. Eine passende Überschrift, nachvollziehbare Leistungen, echte Projektbeispiele und ein verständlicher Anfrageweg helfen bei der Entscheidung.',
-          'Die Website von PRIME ENERGIE zeigt beispielsweise, wie eine Anfrage durch die Auswahl von Energieart und Bedarf vorbereitet wird. Das ist ein Beleg für unsere Website-Arbeit. Die Wirkung einer Werbekampagne lässt sich erst anhand ihrer eigenen Daten beurteilen.',
+          'Die Website von Entwurf Energie zeigt beispielsweise, wie eine Anfrage durch die Auswahl von Energieart und Bedarf vorbereitet wird. Das ist ein Beleg für unsere Website-Arbeit. Die Wirkung einer Werbekampagne lässt sich erst anhand ihrer eigenen Daten beurteilen.',
         ],
         links: [
           {
@@ -72,8 +72,8 @@ export const adsAutomationPages: EditorialPage[] = [
             href: '/google-ads-growth/landingpages',
           },
           {
-            label: 'Website-Projekt PRIME ENERGIE ansehen',
-            href: '/projekte/prime-energie',
+            label: 'Website-Projekt Entwurf Energie ansehen',
+            href: '/projekte/entwurf-energie',
           },
         ],
       },
@@ -107,7 +107,7 @@ export const adsAutomationPages: EditorialPage[] = [
         'Nicht zwingend. Eng verwandte Angebote können dieselbe passende Seite nutzen. Unterschiedliche Anliegen brauchen häufig eine gezieltere Antwort.',
       ],
     ],
-    referenceIds: ['prime-energie'],
+    referenceIds: ['entwurf-energie'],
     related: [
       '/google-ads-growth/landingpages',
       '/google-ads-growth/conversion-tracking',
@@ -128,9 +128,9 @@ export const adsAutomationPages: EditorialPage[] = [
     intro:
       'Wir bauen Landingpages, die nach einer Anzeige direkt zur passenden Leistung führen. Besucher sehen, was sie bekommen, warum sie dir vertrauen können und wie sie unverbindlich anfragen.',
     image: desktopImage(
-      'prime-energie',
-      'PRIME ENERGIE: Website mit Auswahl und Kontaktstrecke für eine persönliche Tarifanfrage',
-      'Website-Referenz PRIME ENERGIE · Angebot und Anfrage aufeinander abgestimmt',
+      'entwurf-energie',
+      'Entwurf Energie: Website mit Auswahl und Kontaktstrecke für eine persönliche Tarifanfrage',
+      'Website-Referenz Entwurf Energie · Angebot und Anfrage aufeinander abgestimmt',
     ),
     highlights: [
       'Eine erkennbare Leistung',
@@ -172,14 +172,14 @@ export const adsAutomationPages: EditorialPage[] = [
         title: 'Mobil zählt die Reihenfolge.',
         paragraphs: [
           'Angebot, Belege und Kontaktweg müssen auf einem kleinen Display verständlich bleiben. Wir planen Karten, Formularfelder und Bildausschnitte für die mobile Ansicht mit. Eine wichtige Information darf nicht allein in einem Desktopbild stecken.',
-          'Projektaufnahmen helfen, das Ergebnis einzuordnen. Bei PRIME ENERGIE führt die Website von Energieart und Bedarf zur persönlichen Tarifprüfung. Für andere Branchen wird die Auswahl auf den jeweiligen Anfrageprozess zugeschnitten.',
+          'Projektaufnahmen helfen, das Ergebnis einzuordnen. Bei Entwurf Energie führt die Website von Energieart und Bedarf zur persönlichen Tarifprüfung. Für andere Branchen wird die Auswahl auf den jeweiligen Anfrageprozess zugeschnitten.',
         ],
         image: {
-          src: '/project-images/prime-energie-mobile.webp',
+          src: '/project-images/entwurf-energie-mobile.webp',
           width: 390,
           height: 844,
-          alt: 'Mobile Website von PRIME ENERGIE mit dem Einstieg in die Tarifanfrage',
-          caption: 'Mobile Ansicht des Kundenprojekts PRIME ENERGIE',
+          alt: 'Mobile Website von Entwurf Energie mit dem Einstieg in die Tarifanfrage',
+          caption: 'Mobile Ansicht des Kundenprojekts Entwurf Energie',
         },
       },
       {
@@ -215,7 +215,7 @@ export const adsAutomationPages: EditorialPage[] = [
         'Eine neue Seite ist eine Verbesserungshypothese. Ob sie mehr passende Anfragen erzeugt, wird erst mit einer geeigneten Messung und tatsächlichem Besucherverhalten überprüfbar.',
       ],
     ],
-    referenceIds: ['prime-energie', 'meister-lorenz'],
+    referenceIds: ['entwurf-energie', 'meister-lorenz'],
     related: [
       '/website-erstellen-lassen',
       '/google-ads-growth/conversion-tracking',
@@ -236,9 +236,9 @@ export const adsAutomationPages: EditorialPage[] = [
     intro:
       'Wir planen, welche Aktionen als Ergebnis deiner Werbung zählen sollen. Eine eingegangene Anfrage, ein Klick auf eine Telefonnummer und ein gewonnener Auftrag werden dabei sauber unterschieden.',
     image: desktopImage(
-      'prime-energie',
-      'PRIME ENERGIE: strukturierter Einstieg in eine persönliche Anfrage',
-      'Website-Referenz PRIME ENERGIE · Anfragewege bilden die Grundlage eines Messkonzepts',
+      'entwurf-energie',
+      'Entwurf Energie: strukturierter Einstieg in eine persönliche Anfrage',
+      'Website-Referenz Entwurf Energie · Anfragewege bilden die Grundlage eines Messkonzepts',
     ),
     highlights: [
       'Erfolgreiche Anfragen erkennen',

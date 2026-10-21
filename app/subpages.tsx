@@ -95,7 +95,7 @@ export function Solutions() {
       />
       <SolutionLinks />
       <ProjectProofLinks
-        ids={['parkesicher', 'prime-energie', 'mb-performance']}
+        ids={['parkesicher', 'entwurf-energie', 'mb-performance']}
       />
       <section className="n-section n-split">
         <div>
@@ -410,7 +410,7 @@ export function Packages() {
   return (
     <>
       <PackageOverview />
-      <ProjectProofLinks ids={['meister-lorenz', 'prime-energie']} />
+      <ProjectProofLinks ids={['meister-lorenz', 'entwurf-energie']} />
       <FAQ />
     </>
   );

@@ -463,7 +463,7 @@ export const developmentPages: EditorialPage[] = [
         'Die mobilen Schritte werden zusammen mit der Desktopansicht gestaltet. Auswahl, Ergebnis und Anfrage müssen auch auf kleinem Bildschirm verständlich bleiben.',
       ],
     ],
-    referenceIds: ['mb-performance', 'prime-energie'],
+    referenceIds: ['mb-performance', 'entwurf-energie'],
     related: [
       '/plattformen-web-apps/schnittstellen',
       '/plattformen-web-apps/kundenportale',

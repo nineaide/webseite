@@ -1,5 +1,5 @@
 import type { Metadata } from 'next';
-import { notFound } from 'next/navigation';
+import { notFound, permanentRedirect } from 'next/navigation';
 import { Header, Footer } from '../site-chrome';
 import { services, packages } from '../site-data';
 import {
@@ -87,6 +87,7 @@ export async function generateMetadata({
   params: Promise<{ slug: string[] }>;
 }): Promise<Metadata> {
   const key = (await params).slug.join('/');
+  if (key === 'projekte/prime-energie') permanentRedirect('/projekte/entwurf-energie');
   const seoPage = findSeoPage('/' + key);
   if (seoPage) return pageMetadata(seoPage);
   const d = info(key);
@@ -116,6 +117,7 @@ export default async function Page({
   searchParams: Promise<{ service?: string }>;
 }) {
   const key = (await params).slug.join('/');
+  if (key === 'projekte/prime-energie') permanentRedirect('/projekte/entwurf-energie');
   if (!info(key)) notFound();
   const requested = (await searchParams).service;
   const initialService =

@@ -58,7 +58,7 @@ export const coreSeoPages: SeoPage[] = [
       'Deine Website zum klaren Preis: Nine Start, Launch, Growth oder individuell. Sieh dir echte Kundenprojekte an und frage dein Angebot unverbindlich an.',
     kind: 'service',
     modified: '2026-09-08',
-    image: '/project-images/prime-energie-desktop.webp',
+    image: '/project-images/entwurf-energie-desktop.webp',
   },
   {
     path: '/plattformen-web-apps',

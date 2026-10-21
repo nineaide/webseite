@@ -121,7 +121,7 @@ export const guidePages: EditorialPage[] = [
         'Ja. Zusätzliche Inhalte und Funktionen planen und kalkulieren wir als eigenen Umfang. Was später sinnvoll ist, berücksichtigen wir bereits bei der ersten Planung.',
       ],
     ],
-    referenceIds: ['meister-lorenz', 'prime-energie'],
+    referenceIds: ['meister-lorenz', 'entwurf-energie'],
     related: ['/websites', '/wissen/website-relaunch-checkliste', '/pakete'],
   },
   {
@@ -456,9 +456,9 @@ export const guidePages: EditorialPage[] = [
     intro:
       'Für Google Ads gibt es kein pauschal richtiges Monatsbudget. Plane getrennt, was an Google geht, was die Betreuung kostet und ob deine Zielseite bereits bereit ist. Danach zählt die Qualität der eingehenden Anfragen.',
     image: desktopImage(
-      'prime-energie',
-      'Prime Energie: Website mit Tarifangebot und Anfrageweg',
-      'Prime Energie ist eine Website-Referenz. Aus dem gezeigten Auftritt lassen sich keine Ads-Kosten oder Kampagnenergebnisse ableiten.',
+      'entwurf-energie',
+      'Entwurf Energie: Website mit Tarifangebot und Anfrageweg',
+      'Entwurf Energie ist eine Website-Referenz. Aus dem gezeigten Auftritt lassen sich keine Ads-Kosten oder Kampagnenergebnisse ableiten.',
     ),
     sections: [
       {

@@ -271,61 +271,6 @@ const details: Record<string, CaseDetail> = {
       '/website-erstellen-lassen',
     ],
   },
-  'prime-energie': {
-    title: 'PRIME ENERGIE: Webdesign mit digitaler Tarifanfrage | Nine.ai',
-    heading: 'PRIME ENERGIE.\nEin klarer Weg zur Tarifberatung.',
-    sections: [
-      {
-        id: 'angebot',
-        title: 'Persönliche Energieberatung verständlich machen.',
-        paragraphs: [
-          'Die Website von PRIME ENERGIE richtet sich an Privat- und Gewerbekunden, die ihren Strom- oder Gastarif prüfen lassen möchten. Der Auftritt verbindet die Erklärung des Angebots mit einer schrittweisen Anfrage.',
-          'Besucher wählen Strom, Gas oder beides und geben Postleitzahl und Verbrauch an. Diese Angaben bereiten die persönliche Tarifprüfung vor. Der Abschluss der Website ist eine Anfrage an die Beratung.',
-        ],
-      },
-      {
-        id: 'fuehrung',
-        title: 'Kleine Entscheidungen bringen Kontext in die Anfrage.',
-        paragraphs: [
-          'Die Auswahl von Energieart und Bedarf gliedert den Kontaktweg. Statt alle Angaben ohne Reihenfolge nebeneinanderzustellen, führt die Website durch die relevanten Informationen.',
-          'Der Wechselablauf wird erläutert. Eine interaktive Beispielrechnung macht eine Rechenidee nachvollziehbar; ein persönlicher Tarif wird anschließend anhand des konkreten Bedarfs geprüft.',
-        ],
-        points: [
-          {
-            title: 'Bedarf',
-            text: 'Strom, Gas oder beide Bereiche als verständlicher Einstieg.',
-          },
-          {
-            title: 'Informationen',
-            text: 'Postleitzahl und Verbrauch für die weitere Bearbeitung aufnehmen.',
-          },
-          {
-            title: 'Beratung',
-            text: 'Den nächsten persönlichen Schritt klar benennen.',
-          },
-        ],
-      },
-      {
-        id: 'transfer',
-        title: 'Ein Beispiel für erklärungsbedürftige Leistungen.',
-        paragraphs: [
-          'Das Projekt zeigt, wie eine Website eine komplexere Dienstleistung in einen verständlichen Anfrageweg übersetzt. Eine klare Reihenfolge und konkrete Eingaben können auch bei anderen Beratungs- und Dienstleistungsangeboten sinnvoll sein.',
-          'Auf dieser Projektseite werden Gestaltung und Funktionen der Website vorgestellt. Für die Beurteilung einer Werbekampagne wären deren eigene Messdaten und Geschäftsergebnisse erforderlich.',
-        ],
-        links: [
-          {
-            label: 'Landingpages für konkrete Angebote',
-            href: '/google-ads-growth/landingpages',
-          },
-        ],
-      },
-    ],
-    related: [
-      '/websites/dienstleister',
-      '/google-ads-growth/landingpages',
-      '/website-erstellen-lassen',
-    ],
-  },
   mrcarkey: {
     title: 'Mr. CarKey: Website für Fahrzeugschlüssel-Service | Nine.ai',
     heading: 'Mr. CarKey.\nDie passende Hilfe schnell finden.',
@@ -580,7 +525,7 @@ export const caseStudies: EditorialPage[] = referenceProjects.map((project) => {
       project.name + ': Desktopansicht der Kundenwebsite',
       project.name +
         (project.id === 'entwurf-energie'
-          ? ' · Website-Aufnahme vom 20. Oktober 2026'
+          ? ' · Website-Aufnahme vom 21. Oktober 2026'
           : ' · Website-Aufnahme vom 7. September 2026'),
     ),
     implementation: project.implementation,
@@ -597,7 +542,7 @@ export const caseStudies: EditorialPage[] = referenceProjects.map((project) => {
             caption:
               project.name +
               (project.id === 'entwurf-energie'
-                ? ' · Mobilaufnahme vom 20. Oktober 2026'
+                ? ' · Mobilaufnahme vom 21. Oktober 2026'
                 : ' · Mobilaufnahme vom 7. September 2026'),
           },
     status: project.status,
@@ -606,6 +551,6 @@ export const caseStudies: EditorialPage[] = referenceProjects.map((project) => {
     faqs: [],
     referenceIds: [],
     related: detail.related,
-    modified: project.id === 'entwurf-energie' ? '2026-10-20' : '2026-09-08',
+    modified: project.id === 'entwurf-energie' ? '2026-10-21' : '2026-09-08',
   };
 });

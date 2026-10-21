@@ -1,16 +1,7 @@
 'use client';
-import { useState, type ReactNode } from 'react';
-import {
-  ArrowRight,
-  ArrowUpRight,
-  BriefcaseBusiness,
-  CalendarDays,
-  Check,
-  CircleHelp,
-  Search,
-  Sparkles,
-  TrendingUp,
-} from 'lucide-react';
+import { useState } from 'react';
+import { ServicePreview } from './service-previews';
+import { ArrowRight, ArrowUpRight } from 'lucide-react';
 
 type PreviewKind = 'website' | 'booking' | 'crm' | 'automation' | 'ads';
 
@@ -69,121 +60,6 @@ const services: {
   },
 ];
 
-function Mockup({ kind }: { kind: PreviewKind }) {
-  let preview: ReactNode;
-  switch (kind) {
-    case 'website':
-      preview = (
-        <div className="service-mockup-website">
-          <div className="service-mockup-site-nav">
-            <strong>Beispiel Studio</strong>
-            <span>Leistungen · Über uns</span>
-          </div>
-          <div className="service-mockup-site-hero">
-            <small>KLARER AUFTRITT</small>
-            <strong>Ein Angebot, das ankommt.</strong>
-            <span>Leistungen schnell finden und Kontakt aufnehmen.</span>
-            <i>Mehr erfahren <ArrowUpRight size={12} /></i>
-          </div>
-          <div className="service-mockup-seo-note">
-            <Search size={14} /> Technische SEO-Grundlage · Seitenstruktur
-          </div>
-        </div>
-      );
-      break;
-    case 'booking':
-      preview = (
-        <div className="service-mockup-booking">
-          <div className="service-mockup-heading">
-            <CalendarDays size={16} /> <strong>Termin auswählen</strong>
-            <span>Oktober 2026</span>
-          </div>
-          <div className="service-mockup-days" aria-hidden="true">
-            {['Mo', 'Di', 'Mi', 'Do', 'Fr', 'Sa', 'So'].map((day) => (
-              <span key={day}>{day}</span>
-            ))}
-            {['12', '13', '14', '15', '16', '17', '18'].map((date, index) => (
-              <span className={index === 2 ? 'is-selected' : ''} key={date}>
-                {date}
-              </span>
-            ))}
-          </div>
-          <div className="service-mockup-times">
-            <span>10:30</span><span className="is-selected">12:00</span><span>14:30</span>
-          </div>
-        </div>
-      );
-      break;
-    case 'crm':
-      preview = (
-        <div className="service-mockup-crm">
-          <div className="service-mockup-heading">
-            <BriefcaseBusiness size={15} /> <strong>Anfragen</strong>
-            <span>Übersicht · Heute</span>
-          </div>
-          <div className="service-mockup-metrics">
-            <span><small>Offen</small><strong>13</strong></span>
-            <span><small>In Prüfung</small><strong>08</strong></span>
-            <span><small>Erledigt</small><strong>24</strong></span>
-          </div>
-          <div className="service-mockup-list-row">
-            <span><small>Fall #1048</small><strong>Website-Anfrage</strong></span>
-            <i>Neu</i>
-          </div>
-          <div className="service-mockup-list-row">
-            <span><small>Fall #1047</small><strong>Beratung</strong></span>
-            <i className="is-progress">In Prüfung</i>
-          </div>
-        </div>
-      );
-      break;
-    case 'automation':
-      preview = (
-        <div className="service-mockup-automation">
-          <div className="service-mockup-heading">
-            <Sparkles size={15} /> <strong>Aufgabenfluss</strong>
-            <span>Vorgang #1048</span>
-          </div>
-          <div className="service-mockup-flow">
-            <span><i>01</i><b>Anfrage kommt an</b><Check size={13} /></span>
-            <ArrowRight size={14} aria-hidden="true" />
-            <span><i>02</i><b>Einordnen & zuweisen</b><Check size={13} /></span>
-            <ArrowRight size={14} aria-hidden="true" />
-            <span className="needs-review"><i>03</i><b>Antwort vorbereiten</b><CircleHelp size={13} /></span>
-          </div>
-          <small>Freigabe durch dein Team</small>
-        </div>
-      );
-      break;
-    case 'ads':
-      preview = (
-        <div className="service-mockup-ads">
-          <div className="service-mockup-heading">
-            <TrendingUp size={15} /> <strong>Kampagnenreport</strong>
-            <span>01.–30. September</span>
-          </div>
-          <div className="service-mockup-metrics">
-            <span><small>Klicks</small><strong>1.248</strong></span>
-            <span><small>Anfragen</small><strong>37</strong></span>
-            <span><small>Rate</small><strong>2,9 %</strong></span>
-          </div>
-          <div className="service-mockup-chart" aria-hidden="true">
-            {[36, 52, 43, 68, 57, 79, 63, 88, 71, 96, 77, 100].map((height, index) => (
-              <i key={index} style={{ height: height + '%' }} />
-            ))}
-          </div>
-        </div>
-      );
-      break;
-  }
-
-  return (
-    <div className={'service-mockup service-mockup-' + kind}>
-      {preview}
-    </div>
-  );
-}
-
 export function HomeServiceCards() {
   const [activeIndex, setActiveIndex] = useState(0);
   const activeService = services[activeIndex] ?? services[0];
@@ -240,7 +116,7 @@ export function HomeServiceCards() {
             className="home-service-preview-content"
             key={activeService.preview}
           >
-            <Mockup kind={activeService.preview} />
+            <ServicePreview kind={activeService.preview} />
           </div>
         </div>
         <div className="home-service-preview-footer">

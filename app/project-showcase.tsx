@@ -175,22 +175,24 @@ export function HeroShowcase({
   const [active, setActive] = useState(projects[0].id);
   const project = projects.find((p) => p.id === active) ?? projects[0];
   return (
-    <div className="hero-showcase reference-hero">
-      <div className="hero-display">
-        <ReferencePreview
-          project={project}
-          eager
-          sizes="(max-width: 700px) calc(100vw - 65px), (max-width: 1100px) 80vw, 600px"
-        />
-        <span className="display-foot">KUNDENPROJEKT · {project.name}</span>
-      </div>
-      <div className="hero-phone" aria-hidden="true">
-        <ReferencePreview
-          project={project}
-          mobile
-          eager
-          sizes="(max-width: 700px) 23vw, 150px"
-        />
+    <div className={'hero-showcase reference-hero reference-hero-' + variant}>
+      <div className="hero-devices">
+        <div className="hero-display">
+          <ReferencePreview
+            project={project}
+            eager
+            sizes="(max-width: 700px) calc(100vw - 65px), (max-width: 1100px) 80vw, 600px"
+          />
+          <span className="display-foot">KUNDENPROJEKT · {project.name}</span>
+        </div>
+        <div className="hero-phone" aria-hidden="true">
+          <ReferencePreview
+            project={project}
+            mobile
+            eager
+            sizes="(max-width: 700px) 23vw, 150px"
+          />
+        </div>
       </div>
       <GlassSurface className="hero-selector">
         <span>Ein Einblick in unsere Arbeit</span>
@@ -552,10 +554,7 @@ export function HomeProjectShowcase() {
   }
 
   function moveProject(offset: number) {
-    goToProject(
-      activeIndex + offset,
-      offset < 0 ? 'previous' : 'next',
-    );
+    goToProject(activeIndex + offset, offset < 0 ? 'previous' : 'next');
   }
 
   function handleKeyDown(event: React.KeyboardEvent<HTMLButtonElement>) {
@@ -645,11 +644,7 @@ export function HomeProjectShowcase() {
               Projekt im Detail <ArrowUpRight size={17} aria-hidden="true" />
             </a>
             {project.url && (
-              <a
-                href={project.url}
-                target="_blank"
-                rel="noopener noreferrer"
-              >
+              <a href={project.url} target="_blank" rel="noopener noreferrer">
                 {project.websiteLabel ?? 'Live-Website'}{' '}
                 <ArrowUpRight size={17} aria-hidden="true" />
               </a>

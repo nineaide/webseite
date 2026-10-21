@@ -11,6 +11,66 @@
 .reference-hero .hero-phone .reference-preview {
   border-radius: 17px;
 }
+.hero-devices {
+  display: contents;
+}
+/* Keep the homepage controls in flow, below both device frames. */
+.reference-hero-home.hero-showcase {
+  padding: 12px 0 0;
+  margin-inline: 0;
+}
+.reference-hero-home .hero-devices {
+  display: block;
+  position: relative;
+  padding: 0 6% 6% 0;
+  min-width: 0;
+}
+.reference-hero-home .hero-display {
+  padding: 8px;
+  transform: none;
+  border-radius: 16px;
+}
+.reference-hero-home .hero-display .reference-preview {
+  width: 100%;
+  height: auto;
+  aspect-ratio: 1440 / 1000;
+  object-fit: contain;
+  object-position: top center;
+}
+.reference-hero-home .hero-phone {
+  width: 25%;
+  right: 0;
+  bottom: 0;
+  padding: 4px;
+  border-radius: 18px;
+  transform: none;
+  z-index: 1;
+}
+.reference-hero-home .hero-phone .reference-preview {
+  width: 100%;
+  height: auto;
+  aspect-ratio: 390 / 844;
+  object-fit: contain;
+  object-position: top center;
+  border-radius: 14px;
+}
+.reference-hero-home .hero-selector.liquid-surface {
+  position: relative;
+  inset: auto;
+  width: fit-content;
+  min-width: 0;
+  max-width: 100%;
+  margin-top: 18px;
+  padding: 12px;
+}
+.reference-hero-home .hero-selector > fieldset {
+  min-width: 0;
+  flex-wrap: wrap;
+}
+.reference-hero-home .hero-demo-note {
+  position: static;
+  margin: 14px 0 0;
+}
 .hero-demo-note a {
   display: inline-flex;
   align-items: center;

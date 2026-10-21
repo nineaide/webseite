@@ -130,6 +130,9 @@ export function ServicePreview({ kind }: { kind: Kind }) {
   const proof = proofs[kind];
   const project = referenceProjects.find((item) => item.id === proof.project)!;
   const view = proof.views[selected] ?? proof.views[0];
+  const scrollable =
+    view.layout === 'system' ||
+    (view.layout === 'mobile' && project.id !== 'entwurf-energie');
   return (
     <div className="service-proof" data-project={project.id}>
       <header className="service-proof-heading">
@@ -162,11 +165,14 @@ export function ServicePreview({ kind }: { kind: Kind }) {
         <div
           key={view.src}
           className={'service-proof-image service-proof-image-' + view.layout}
-          style={{ backgroundColor: project.tone }}
-          tabIndex={view.layout !== 'desktop' ? 0 : undefined}
-          role={view.layout !== 'desktop' ? 'region' : undefined}
+          style={{
+            backgroundColor:
+              project.id === 'entwurf-energie' ? '#fff' : project.tone,
+          }}
+          tabIndex={scrollable ? 0 : undefined}
+          role={scrollable ? 'region' : undefined}
           aria-label={
-            view.layout !== 'desktop'
+            scrollable
               ? project.name + ': ' + view.label + ', Aufnahme zum Scrollen'
               : undefined
           }
@@ -176,7 +182,7 @@ export function ServicePreview({ kind }: { kind: Kind }) {
             {...projectImageProps(
               view.src,
               view.layout === 'mobile'
-                ? '200px'
+                ? '(max-width: 400px) calc(100vw - 64px), 300px'
                 : '(max-width: 900px) calc(100vw - 64px), 640px',
             )}
             alt={

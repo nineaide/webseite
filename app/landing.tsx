@@ -8,7 +8,7 @@ import { HeroShowcase, HomeProjectShowcase } from './project-showcase';
 import { HomeServiceCards } from './home-service-cards';
 import { WebsitePackages } from './website-packages';
 import { FAQAnswers } from './faq-answers';
-import { TeamIntro } from './team-intro';
+import './home-about.css';
 import { Locations } from './locations';
 import { PageStructuredData } from './structured-data';
 
@@ -59,9 +59,30 @@ export default function Landing() {
             </div>
             <HeroShowcase />
           </section>
-          <section className="process-area home-about">
-            <div className="wrap">
-              <TeamIntro eyebrow="WER WIR SIND" />
+          <section className="process-area home-about" aria-labelledby="home-about-title">
+            <div className="wrap home-about-grid">
+              <div className="home-about-copy">
+                <span className="eyebrow">WER WIR SIND</span>
+                <h2 id="home-about-title">Deine Idee.<br />Direkt mit uns umgesetzt.</h2>
+                <p>Bei Nine.ai sprichst du direkt mit den Menschen, die deine Website oder digitale Lösung entwickeln. Ohne unnötige Umwege.</p>
+                <a className="c-inline-link" href="/ueber-nine">Über 9.ai <ArrowUpRight size={18} /></a>
+              </div>
+              <div className="home-about-process" aria-labelledby="home-about-process-title">
+                <h3 id="home-about-process-title">SO ARBEITEN WIR</h3>
+                <ol>
+                  {[
+                    ['Kennenlernen', 'Wir sprechen über dein Vorhaben.'],
+                    ['Konzept & Design', 'Du siehst, wie deine Lösung aussehen kann.'],
+                    ['Entwicklung', 'Wir setzen um und stimmen uns mit dir ab.'],
+                    ['Livegang', 'Dein Projekt geht online.'],
+                  ].map(([title, description], index) => (
+                    <li key={title}>
+                      <span className="home-about-step" aria-hidden="true">{String(index + 1).padStart(2, '0')}</span>
+                      <div><h4>{title}</h4><p>{description}</p></div>
+                    </li>
+                  ))}
+                </ol>
+              </div>
             </div>
           </section>
           <section className="package-area home-services" id="leistungen">

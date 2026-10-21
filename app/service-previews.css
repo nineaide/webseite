@@ -123,12 +123,12 @@
 .service-proof[data-project='entwurf-energie'] .service-proof-image-desktop {
   display: block;
   height: auto;
-  aspect-ratio: 1440 / 1000;
+  aspect-ratio: auto;
 }
 .service-proof[data-project='entwurf-energie'] .service-proof-image-desktop img {
   width: 100%;
   height: auto;
-  aspect-ratio: 1440 / 1000;
+  aspect-ratio: auto;
   object-fit: contain;
   object-position: top center;
 }
@@ -138,13 +138,15 @@
   height: auto;
   margin-inline: auto;
   padding: 0;
-  aspect-ratio: 390 / 844;
-  overflow: hidden;
+  max-height: 520px;
+  aspect-ratio: auto;
+  overflow-y: auto;
+  scrollbar-color: #a9b8cb #edf2f8;
 }
 .service-proof[data-project='entwurf-energie'] .service-proof-image-mobile img {
   width: 100%;
   height: auto;
-  aspect-ratio: 390 / 844;
+  aspect-ratio: auto;
   object-fit: contain;
   object-position: top center;
 }

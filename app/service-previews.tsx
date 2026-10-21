@@ -77,16 +77,16 @@ const proofs: Record<Kind, Proof> = {
     views: [
       {
         label: 'Anfragen',
-        src: '/project-images/entwurf-energie-leads.webp',
+        src: '/project-images/entwurf-energie-crm-preview-desktop.webp',
         width: 1440,
-        height: 1000,
+        height: 1680,
         layout: 'desktop',
       },
       {
         label: 'Mobil',
-        src: '/project-images/entwurf-energie-crm-mobile.webp',
+        src: '/project-images/entwurf-energie-crm-preview-mobile.webp',
         width: 390,
-        height: 844,
+        height: 2100,
         layout: 'mobile',
       },
     ],
@@ -120,7 +120,22 @@ const proofs: Record<Kind, Proof> = {
     area: 'Zielseite für eine Tarifanfrage',
     description:
       'Energieart wählen, Verbrauch und Postleitzahl angeben, Tarifprüfung anfragen. Jeder Schritt gehört zum selben Anliegen.',
-    views: websiteViews('entwurf-energie'),
+    views: [
+      {
+        label: 'Desktop',
+        src: '/project-images/entwurf-energie-landing-preview-desktop.webp',
+        width: 1440,
+        height: 934,
+        layout: 'desktop',
+      },
+      {
+        label: 'Mobil',
+        src: '/project-images/entwurf-energie-landing-preview-mobile.webp',
+        width: 390,
+        height: 1241,
+        layout: 'mobile',
+      },
+    ],
     note: 'Die Website zeigt den Anfrageweg. Werbeergebnisse sind für dieses Projekt nicht dokumentiert.',
   },
 };
@@ -130,9 +145,7 @@ export function ServicePreview({ kind }: { kind: Kind }) {
   const proof = proofs[kind];
   const project = referenceProjects.find((item) => item.id === proof.project)!;
   const view = proof.views[selected] ?? proof.views[0];
-  const scrollable =
-    view.layout === 'system' ||
-    (view.layout === 'mobile' && project.id !== 'entwurf-energie');
+  const scrollable = view.layout !== 'desktop';
   return (
     <div className="service-proof" data-project={project.id}>
       <header className="service-proof-heading">

@@ -64,7 +64,7 @@ const locations = blocks.map((block) =>
   decode(block.match(/<loc>([^<]+)<\/loc>/)?.[1] || ''),
 );
 const indexPaths = locations.map((url) => new URL(url).pathname);
-assert.equal(indexPaths.length, 39, 'full intended-index inventory');
+assert.equal(indexPaths.length, 40, 'full intended-index inventory');
 assert.equal(
   new Set(indexPaths).size,
   indexPaths.length,
@@ -75,7 +75,11 @@ check(
   'sitemap trusted canonical origin',
 );
 check(
-  blocks.every((block) => /<lastmod>2026-09-08<\/lastmod>/.test(block)),
+  blocks.every((block) => {
+    const path = new URL(decode(block.match(/<loc>([^<]+)<\/loc>/)?.[1] || '')).pathname;
+    const expected = path === '/projekte/entwurf-energie' ? '2026-10-20' : '2026-09-08';
+    return block.includes('<lastmod>' + expected + '</lastmod>');
+  }),
   'accurate release modification dates',
 );
 check(

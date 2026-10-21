@@ -63,7 +63,7 @@ export const serviceHubPages: EditorialPage[] = [
             'Un Petit Café / Toastclub · Bestellungen im Service aufnehmen',
         },
         links: [
-          { label: 'Alle neun Kundenprojekte ansehen', href: '/projekte' },
+          { label: 'Alle Projekte ansehen', href: '/projekte' },
         ],
       },
       {

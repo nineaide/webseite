@@ -26,7 +26,7 @@ export const coreSeoPages: SeoPage[] = [
     label: 'Startseite',
     title: 'Nine.ai – Webdesign, Webentwicklung & Google Ads',
     description:
-      'Websites ab 1.990 € netto, eigene Web-Apps und Google Ads für Unternehmen. Entdecke neun Kundenprojekte und frage dein Vorhaben persönlich an.',
+      'Websites ab 1.990 € netto, eigene Web-Apps und Google Ads für Unternehmen. Entdecke unsere Projekte und frage dein Vorhaben persönlich an.',
     kind: 'page',
     modified: '2026-09-08',
   },
@@ -96,7 +96,7 @@ export const coreSeoPages: SeoPage[] = [
     label: 'Projekte',
     title: 'Webdesign- & Webentwicklungs-Referenzen | Nine.ai',
     description:
-      'Neun echte Kundenprojekte: Websites, eine Fahrzeugdatenbank und eigene Buchungs-, Reservierungs- und Bestellsysteme. Sieh Desktop- und Mobilansichten.',
+      'Ausgewählte Projekte: Websites, eine Fahrzeugdatenbank und eigene Buchungs-, Reservierungs- und Bestellsysteme. Sieh Desktop- und Mobilansichten.',
     kind: 'collection',
     modified: '2026-09-08',
   },

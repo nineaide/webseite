@@ -619,5 +619,55 @@
         "bytes": 48720
       }
     ]
+  },
+  "/project-images/entwurf-energie-desktop.webp": {
+    "src": "/project-images/entwurf-energie-desktop.webp?v=2992b89829e2fab5",
+    "width": 1440,
+    "height": 1000,
+    "variants": [
+      {
+        "src": "/project-images/entwurf-energie-desktop--w480.webp?v=28a3582f9ab2a1d4",
+        "width": 480,
+        "height": 333,
+        "bytes": 12374
+      },
+      {
+        "src": "/project-images/entwurf-energie-desktop--w800.webp?v=9947fe0d618c7b42",
+        "width": 800,
+        "height": 556,
+        "bytes": 24496
+      },
+      {
+        "src": "/project-images/entwurf-energie-desktop.webp?v=2992b89829e2fab5",
+        "width": 1440,
+        "height": 1000,
+        "bytes": 80702
+      }
+    ]
+  },
+  "/project-images/entwurf-energie-mobile.webp": {
+    "src": "/project-images/entwurf-energie-mobile.webp?v=a8d85198490b6217",
+    "width": 390,
+    "height": 844,
+    "variants": [
+      {
+        "src": "/project-images/entwurf-energie-mobile--w160.webp?v=1dda9f218a368918",
+        "width": 160,
+        "height": 346,
+        "bytes": 8224
+      },
+      {
+        "src": "/project-images/entwurf-energie-mobile--w260.webp?v=ec33fd8aad76391e",
+        "width": 260,
+        "height": 563,
+        "bytes": 16716
+      },
+      {
+        "src": "/project-images/entwurf-energie-mobile.webp?v=a8d85198490b6217",
+        "width": 390,
+        "height": 844,
+        "bytes": 42706
+      }
+    ]
   }
 }

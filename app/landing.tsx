@@ -77,20 +77,16 @@ export default function Landing() {
           </section>
           <section className="work-area" id="beispiele">
             <div className="wrap">
-              <div className="section-heading">
+              <div className="section-heading home-work-heading">
                 <div>
                   <span className="eyebrow">BRANCHEN & WEBSITE-BEISPIELE</span>
                   <h2>Einblicke in unsere Arbeit</h2>
                 </div>
-                <p>
-                  Echte Kundenprojekte aus neun Unternehmen. Wechsle zwischen
-                  den Auftritten und sieh dir Desktop- oder Mobilansichten an.
-                </p>
               </div>
               <HomeProjectShowcase />
               <div className="work-link">
                 <a className="c-inline-link" href="/projekte">
-                  Alle neun Kundenprojekte ansehen <ArrowUpRight size={19} />
+                  Alle Projekte ansehen <ArrowUpRight size={19} />
                 </a>
               </div>
             </div>

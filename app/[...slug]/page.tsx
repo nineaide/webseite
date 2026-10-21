@@ -29,7 +29,7 @@ const pages: Record<string, [string, string]> = {
   ],
   projekte: [
     'Projekte',
-    'Neun echte Kundenprojekte: Websites für Dienstleister, eine Fahrzeugdatenbank sowie eigene Buchungs-, Reservierungs- und Bestellsysteme. Desktop- und Mobilansichten ansehen.',
+    'Ausgewählte Projekte: Websites für Dienstleister, eine Fahrzeugdatenbank sowie eigene Buchungs-, Reservierungs- und Bestellsysteme. Desktop- und Mobilansichten ansehen.',
   ],
   'projekte/parkesicher': [
     'ParkeSicher – Projekt',

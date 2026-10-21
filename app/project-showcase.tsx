@@ -446,7 +446,8 @@ export function ProjectGallery({
                   rel="noopener noreferrer"
                   aria-label={project.name + ' Live-Website öffnen (neuer Tab)'}
                 >
-                  Live-Website <ArrowUpRight size={16} />
+                  {project.websiteLabel ?? 'Live-Website'}{' '}
+                  <ArrowUpRight size={16} />
                 </a>
               )}
             </div>
@@ -495,7 +496,8 @@ export function ProjectGallery({
                     target="_blank"
                     rel="noopener noreferrer"
                   >
-                    Live-Website öffnen <ArrowUpRight size={18} />
+                    {selected.websiteLabel ?? 'Live-Website öffnen'}{' '}
+                    <ArrowUpRight size={18} />
                   </a>
                 )}
                 <a
@@ -653,7 +655,8 @@ export function HomeProjectShowcase() {
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                Live-Website <ArrowUpRight size={17} aria-hidden="true" />
+                {project.websiteLabel ?? 'Live-Website'}{' '}
+                <ArrowUpRight size={17} aria-hidden="true" />
               </a>
             )}
           </div>

@@ -1651,6 +1651,9 @@ button:active {
 .n-arrow {
   font-size: 1.8rem;
 }
+.home-work-heading {
+  grid-template-columns: minmax(0, 1fr);
+}
 .home-services-heading {
   grid-template-columns: minmax(0, 1fr);
   margin-bottom: 30px;
@@ -1678,10 +1681,9 @@ button:active {
   grid-template-columns: 40px minmax(0, 1fr) 20px;
   gap: 12px;
   align-items: center;
-  padding: 15px 16px;
+  padding: 20px 0;
   border: 0;
   border-bottom: 1px solid #d6e0ed;
-  border-left: 3px solid transparent;
   background: transparent;
   color: #334a67;
   text-align: left;
@@ -1692,16 +1694,15 @@ button:active {
     color 180ms ease;
 }
 .home-service-option[aria-pressed='true'] {
-  border-left-color: #0a4fd8;
-  background: #fff;
+  background: #ffffff55;
   color: #122845;
 }
 .home-service-option-number {
   align-self: start;
   padding-top: 5px;
   color: #7789a0;
-  font-size: 0.75rem;
-  font-weight: 700;
+  font-size: 1.125rem;
+  font-weight: 500;
   font-variant-numeric: tabular-nums;
 }
 .home-service-option-copy {
@@ -1715,16 +1716,11 @@ button:active {
   align-items: center;
   gap: 9px;
 }
-.home-service-option-title > svg {
-  flex: 0 0 auto;
-  color: #607998;
-  transition: color 180ms ease;
-}
-.home-service-option[aria-pressed='true'] .home-service-option-title > svg {
+.home-service-option[aria-pressed='true'] .home-service-option-number {
   color: #0a4fd8;
 }
 .home-service-option-title > strong {
-  font-size: 1.05rem;
+  font-size: clamp(1.125rem, 1.5vw, 1.375rem);
   line-height: 1.25;
 }
 .home-service-option-description {
@@ -1744,7 +1740,6 @@ button:active {
     color 180ms ease;
 }
 .home-service-option[aria-pressed='true'] .home-service-option-mark {
-  background: #e8f0fb;
   color: #0a4fd8;
 }
 .home-service-option:focus-visible,
@@ -1756,26 +1751,8 @@ button:active {
   display: flex;
   min-width: 0;
   flex-direction: column;
-  padding: 18px;
-  border-radius: 16px;
-  background: #0b1734;
-  color: #fff;
-  box-shadow: 0 18px 42px #0b244e1c;
-}
-.home-service-preview-topline {
-  display: flex;
-  min-height: 30px;
-  align-items: flex-start;
-  justify-content: space-between;
-  gap: 12px;
-  padding: 0 3px 12px;
-  color: #b6c8e2;
-  font-size: 0.6875rem;
-  font-weight: 700;
-}
-.home-service-preview-topline > span:last-child {
-  color: #8fa6c7;
-  font-variant-numeric: tabular-nums;
+  padding: 0;
+  color: #20334f;
 }
 .home-service-preview-window {
   display: flex;
@@ -1784,31 +1761,10 @@ button:active {
   flex: 1;
   flex-direction: column;
   overflow: hidden;
-  border: 1px solid #cdd9e9;
-  border-radius: 11px;
-  background: #f1f5fb;
-  color: #20334f;
-}
-.home-service-preview-window-bar {
-  display: flex;
-  min-height: 38px;
-  align-items: center;
-  gap: 12px;
-  padding: 0 14px;
-  border-bottom: 1px solid #e0e7f0;
+  border: 1px solid #dce3ec;
+  border-radius: 6px;
   background: #fff;
-  color: #728198;
-  font-size: 0.6875rem;
-}
-.home-service-preview-window-bar > span:first-child {
-  display: flex;
-  gap: 5px;
-}
-.home-service-preview-window-bar i {
-  width: 7px;
-  height: 7px;
-  border-radius: 50%;
-  background: #bac6d5;
+  color: #20334f;
 }
 .home-service-preview-content {
   display: grid;
@@ -1821,15 +1777,9 @@ button:active {
   display: flex;
   min-height: 58px;
   align-items: center;
-  justify-content: space-between;
+  justify-content: flex-end;
   gap: 12px;
-  padding: 12px 2px 0;
-}
-.home-service-preview-footer > p {
-  margin: 0;
-  color: #b6c8e2;
-  font-size: 0.75rem;
-  line-height: 1.4;
+  padding: 12px 0 0;
 }
 .home-service-preview-footer > a {
   display: inline-flex;
@@ -1837,10 +1787,8 @@ button:active {
   flex: 0 0 auto;
   align-items: center;
   gap: 8px;
-  padding: 9px 13px;
-  border-radius: 9px;
-  background: #0a4fd8;
-  color: #fff;
+  padding: 9px 0;
+  color: #0a4fd8;
   font-size: 0.8125rem;
   font-weight: 700;
 }
@@ -1861,7 +1809,7 @@ button:active {
   flex-direction: column;
   justify-content: center;
   padding: clamp(22px, 4vw, 44px);
-  background: linear-gradient(145deg, #f7f9fd, #eaf1f9);
+  background: #fff;
   color: #20334f;
 }
 .service-mockup-site-nav,
@@ -1873,9 +1821,8 @@ button:active {
 }
 .service-mockup-site-nav {
   justify-content: space-between;
-  padding: 8px 10px;
-  border: 1px solid #e4eaf2;
-  border-radius: 8px 8px 0 0;
+  padding: 0 0 22px;
+  border-bottom: 1px solid #e4eaf2;
   background: #fff;
 }
 .service-mockup-site-nav > strong {
@@ -1889,7 +1836,7 @@ button:active {
   display: grid;
   gap: 7px;
   padding: 32px 30px;
-  background: linear-gradient(120deg, #e8f1fc, #f8fbff);
+  background: #f3f6fa;
 }
 .service-mockup-site-hero > small {
   color: #5276a0;
@@ -1919,9 +1866,7 @@ button:active {
   display: flex;
   align-items: center;
   gap: 7px;
-  padding: 8px 10px;
-  border: 1px solid #e4eaf2;
-  border-radius: 0 0 8px 8px;
+  padding: 18px 0 0;
   background: #fff;
   color: #5d708a;
   font-size: 0.8125rem;
@@ -1965,7 +1910,7 @@ button:active {
 .service-mockup-times {
   display: flex;
   gap: 6px;
-  margin-top: 10px;
+  margin-top: 24px;
 }
 .service-mockup-times > span {
   flex: 1;
@@ -1983,23 +1928,20 @@ button:active {
 .service-mockup-automation {
   width: min(100%, 600px);
   margin-inline: auto;
-  padding: clamp(16px, 3vw, 28px);
-  border: 1px solid #e1e8f1;
-  border-radius: 9px;
+  padding: 0;
   background: #fff;
 }
 .service-mockup-metrics {
   display: grid;
   grid-template-columns: repeat(3, minmax(0, 1fr));
   gap: 6px;
-  margin-top: 10px;
+  margin-top: 24px;
 }
 .service-mockup-metrics > span {
   display: grid;
   gap: 3px;
-  padding: 8px;
-  border-radius: 7px;
-  background: #f3f6fb;
+  padding: 10px 0 18px;
+  border-bottom: 1px solid #e4eaf2;
 }
 .service-mockup-metrics small {
   color: #6f8096;
@@ -2007,7 +1949,7 @@ button:active {
 }
 .service-mockup-metrics strong {
   color: #1d3657;
-  font-size: 1.25rem;
+  font-size: 1.75rem;
 }
 .service-mockup-list-row {
   display: flex;
@@ -2053,7 +1995,7 @@ button:active {
   margin-inline: auto;
   grid-template-columns: 1fr;
   gap: 5px;
-  margin-top: 10px;
+  margin-top: 24px;
 }
 .service-mockup-flow > span {
   display: flex;
@@ -2061,9 +2003,8 @@ button:active {
   align-items: center;
   gap: 7px;
   padding: 12px 14px;
-  border: 1px solid #e4eaf2;
-  border-radius: 7px;
-  background: #f9fbfe;
+  border-bottom: 1px solid #e4eaf2;
+  background: #fff;
   color: #3f5877;
   font-size: 0.875rem;
 }
@@ -2080,7 +2021,7 @@ button:active {
   color: #4a8a70;
 }
 .service-mockup-flow > .needs-review {
-  background: #fffaf0;
+  background: #f3f6fa;
 }
 .service-mockup-flow > .needs-review > svg:last-child {
   color: #a5762a;
@@ -2091,14 +2032,14 @@ button:active {
   transform: rotate(90deg);
 }
 .service-mockup-ads .service-mockup-metrics > span {
-  background: #f4f8fd;
+  background: transparent;
 }
 .service-mockup-chart {
   display: flex;
   height: 126px;
   align-items: end;
   gap: 5px;
-  margin-top: 10px;
+  margin-top: 24px;
   padding: 6px 8px 0;
   border-bottom: 1px solid #dbe5f1;
   background: linear-gradient(180deg, #fff, #f7faff);
@@ -2110,11 +2051,8 @@ button:active {
 }
 @media (hover: hover) and (pointer: fine) {
   .home-service-option:hover {
-    background: #fff;
+    background: #ffffff55;
     color: #122845;
-  }
-  .home-service-option:hover .home-service-option-title > svg {
-    color: #0a4fd8;
   }
 }
 @media (max-width: 900px) {
@@ -2140,34 +2078,26 @@ button:active {
     min-height: 88px;
     grid-template-columns: 30px minmax(0, 1fr) 18px;
     gap: 9px;
-    padding: 13px 11px;
+    padding: 18px 0;
   }
   .home-service-option-number {
-    font-size: 0.6875rem;
-  }
-  .home-service-option-title > svg {
-    width: 18px;
-    height: 18px;
+    font-size: 1rem;
   }
   .home-service-option-title > strong {
-    font-size: 0.9375rem;
+    font-size: 1.0625rem;
   }
   .home-service-option-description {
     font-size: 0.75rem;
   }
   .home-service-preview {
-    padding: 12px;
-    border-radius: 13px;
-  }
-  .home-service-preview-topline {
-    font-size: 0.625rem;
+    padding: 0;
   }
   .home-service-preview-window {
     min-height: 340px;
   }
   .service-mockup {
     min-height: 300px;
-    padding: 18px;
+    padding: 24px 18px;
   }
   .service-mockup-site-nav > span {
     font-size: 0.625rem;
@@ -2192,12 +2122,11 @@ button:active {
   }
   .home-service-preview-footer > a {
     width: 100%;
-    justify-content: center;
+    justify-content: flex-end;
   }
 }
 @media (prefers-reduced-motion: reduce) {
   .home-service-option,
-  .home-service-option-title > svg,
   .home-service-option-mark,
   .home-service-preview-content {
     transition: none;

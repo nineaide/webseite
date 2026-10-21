@@ -20,6 +20,7 @@ export type ReferenceProject = {
     | 'Handwerk'
     | 'Energie';
   url?: string;
+  websiteLabel?: string;
   description: string;
   detail: string;
   features: string[];
@@ -207,7 +208,8 @@ export const referenceProjects: ReferenceProject[] = [
         image: {
           src: '/project-images/prime-energie-desktop.webp',
           alt: 'PRIME ENERGIE Website mit schrittweisem Tarifrechner',
-          caption: 'Echte Desktop-Aufnahme: Website und Einstieg in die Tarifanfrage',
+          caption:
+            'Echte Desktop-Aufnahme: Website und Einstieg in die Tarifanfrage',
           width: 1440,
           height: 1000,
         },
@@ -300,6 +302,24 @@ export const referenceProjects: ReferenceProject[] = [
       'Fahrzeugpflege sichtbar machen',
       'Galerie & Leistungsseiten',
       'Anfrage und WhatsApp-Kontakt',
+    ],
+  },
+  {
+    id: 'entwurf-energie',
+    name: 'Entwurf Energie',
+    industry: 'Energie · Tarifberatung',
+    category: 'Energie',
+    url: 'https://dghawss03.github.io/energie-entwurf/',
+    websiteLabel: 'Website ansehen',
+    tone: '#eaf1e2',
+    description:
+      'Moderne Website für einen Energieanbieter mit interaktivem Tarifrechner, digitaler Anfrageverwaltung und integriertem CRM.',
+    detail:
+      'Entwurf Energie verbindet die Tarifberatung für Strom und Gas mit einer digitalen Anfrageverwaltung und einem integrierten CRM. Die verlinkte Website ist ein Entwurf mit ersetzten Unternehmensangaben und Beispieldaten.',
+    features: [
+      'Interaktiver Tarifrechner',
+      'Digitale Anfrageverwaltung',
+      'Integriertes CRM',
     ],
   },
 ];

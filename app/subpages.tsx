@@ -313,7 +313,7 @@ export function Projects() {
           <em>zum Ansehen</em>
         </h1>
         <p>
-          Neun Unternehmen. Unterschiedliche Aufgaben. Websites, Datenbanken und
+          Unterschiedliche Unternehmen. Unterschiedliche Aufgaben. Websites, Datenbanken und
           eigene Systeme – hier kannst du unsere Arbeit ansehen.
         </p>
       </section>
@@ -455,7 +455,7 @@ export function About() {
             ganz Deutschland.
           </p>
           <p>
-            Unsere Referenzen zeigen neun konkrete Arbeiten: Auftritte für
+            Unsere Referenzen zeigen konkrete Arbeiten: Auftritte für
             Handwerk und Dienstleister, die Fahrzeugdatenbank von MB Performance
             sowie Buchung und Verwaltung bei ParkeSicher. Beim Café-Projekt
             gehören auch Reservierung und ein eigenes Bestellsystem dazu.

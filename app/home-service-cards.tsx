@@ -7,8 +7,6 @@ import {
   CalendarDays,
   Check,
   CircleHelp,
-  Globe2,
-  Layers3,
   Search,
   Sparkles,
   TrendingUp,
@@ -22,57 +20,51 @@ const services: {
   description: string;
   href: string;
   link: string;
-  icon: typeof Globe2;
   preview: PreviewKind;
 }[] = [
   {
     number: '01',
     title: 'Websites & SEO',
     description:
-      'Unternehmenswebsites mit klarer Nutzerführung und technischer SEO-Grundlage. Besucher verstehen dein Angebot und finden den nächsten Schritt.',
+      'Dein Angebot klar erklären, bei Google gefunden werden und den Weg zur Anfrage einfach machen.',
     href: '/websites',
     link: 'Websites entdecken',
-    icon: Globe2,
     preview: 'website',
   },
   {
     number: '02',
     title: 'Web-Apps & Buchungsplattformen',
     description:
-      'Eigene Anwendungen für Buchungen, Kundenportale und Abläufe, die mit Standardsoftware nicht gut abgebildet werden.',
+      'Termine buchen, Angebote vergleichen, Kunden betreuen – in einer Anwendung für deine Abläufe.',
     href: '/plattformen-web-apps',
     link: 'Web-Apps ansehen',
-    icon: Layers3,
     preview: 'booking',
   },
   {
     number: '03',
     title: 'CRM & Backoffice',
     description:
-      'Kundenanfragen, Rollen und interne Aufgaben in passenden digitalen Systemen übersichtlich zusammenführen.',
+      'Anfragen, Kundendaten und Aufgaben an einem Ort. Mit klaren Zuständigkeiten für dein Team.',
     href: '/plattformen-web-apps/kundenportale',
     link: 'Kundenportale entdecken',
-    icon: BriefcaseBusiness,
     preview: 'crm',
   },
   {
     number: '04',
     title: 'KI-Assistenten & Automatisierung',
     description:
-      'Wiederkehrende Arbeit vereinfachen: mit nachvollziehbaren Assistenten, klaren Regeln und passenden Freigaben.',
+      'Dokumente auslesen, Anfragen sortieren und Daten übertragen. Dein Team behält die Kontrolle.',
     href: '/ki-automation',
     link: 'Automatisierung ansehen',
-    icon: Sparkles,
     preview: 'automation',
   },
   {
     number: '05',
     title: 'Google Ads & monatliche Betreuung',
     description:
-      'Google-Ads-Kampagnen monatlich betreuen, Anfragen auswerten und die passenden Zielseiten weiterentwickeln.',
+      'Kampagnen betreuen, Anfragen auswerten und Zielseiten verbessern. Monat für Monat.',
     href: '/google-ads-growth',
     link: 'Google Ads entdecken',
-    icon: TrendingUp,
     preview: 'ads',
   },
 ];
@@ -127,7 +119,7 @@ function Mockup({ kind }: { kind: PreviewKind }) {
         <div className="service-mockup-crm">
           <div className="service-mockup-heading">
             <BriefcaseBusiness size={15} /> <strong>Anfragen</strong>
-            <span>Beispielansicht</span>
+            <span>Übersicht · Heute</span>
           </div>
           <div className="service-mockup-metrics">
             <span><small>Offen</small><strong>13</strong></span>
@@ -150,7 +142,7 @@ function Mockup({ kind }: { kind: PreviewKind }) {
         <div className="service-mockup-automation">
           <div className="service-mockup-heading">
             <Sparkles size={15} /> <strong>Aufgabenfluss</strong>
-            <span>Beispiel</span>
+            <span>Vorgang #1048</span>
           </div>
           <div className="service-mockup-flow">
             <span><i>01</i><b>Anfrage kommt an</b><Check size={13} /></span>
@@ -168,7 +160,7 @@ function Mockup({ kind }: { kind: PreviewKind }) {
         <div className="service-mockup-ads">
           <div className="service-mockup-heading">
             <TrendingUp size={15} /> <strong>Kampagnenreport</strong>
-            <span>Beispielmonat</span>
+            <span>01.–30. September</span>
           </div>
           <div className="service-mockup-metrics">
             <span><small>Klicks</small><strong>1.248</strong></span>
@@ -209,7 +201,7 @@ export function HomeServiceCards() {
         <legend id="home-service-list-label" className="sr-only">
           Leistungsbereich auswählen
         </legend>
-        {services.map(({ number, title, description, icon: Icon }, index) => (
+        {services.map(({ number, title, description }, index) => (
           <button
             id={'home-service-option-' + index}
             className="home-service-option"
@@ -226,7 +218,6 @@ export function HomeServiceCards() {
             <span className="home-service-option-number">{number}</span>
             <span className="home-service-option-copy">
               <span className="home-service-option-title">
-                <Icon size={20} aria-hidden="true" />
                 <strong>{title}</strong>
               </span>
               <span className="home-service-option-description">
@@ -244,15 +235,7 @@ export function HomeServiceCards() {
         id="home-service-panel"
         aria-label={activeService.title + ' – Vorschau'}
       >
-        <div className="home-service-preview-topline">
-          <span>ABSTRAKTES UI-BEISPIEL</span>
-          <span>{activeService.number} / 05</span>
-        </div>
         <div className="home-service-preview-window">
-          <div className="home-service-preview-window-bar" aria-hidden="true">
-            <span><i /><i /><i /></span>
-            <span>Vorschau · Generisches Interface</span>
-          </div>
           <div
             className="home-service-preview-content"
             key={activeService.preview}
@@ -261,7 +244,6 @@ export function HomeServiceCards() {
           </div>
         </div>
         <div className="home-service-preview-footer">
-          <p>Stilisierte Designstudie · keine Kundenansicht</p>
           <a href={activeService.href}>
             {activeService.link} <ArrowUpRight size={17} aria-hidden="true" />
           </a>

@@ -171,12 +171,12 @@ export function EditorialPageView({ page }: { page: EditorialPage }) {
             </a>
             {project?.url && (
               <a
-                className="c-inline-link"
+                className={project.websiteLabel ? 'c-button c-button-blue' : 'c-inline-link'}
                 href={project.url}
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                Kundenwebsite öffnen{' '}
+                {project.websiteLabel ?? 'Kundenwebsite öffnen'}{' '}
                 <ArrowUpRight size={18} aria-hidden="true" />
               </a>
             )}

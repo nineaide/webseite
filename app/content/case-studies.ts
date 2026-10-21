@@ -12,6 +12,45 @@ type CaseDetail = {
   related: string[];
 };
 const details: Record<string, CaseDetail> = {
+  'entwurf-energie': {
+    title: 'Entwurf Energie: Tarifrechner und CRM | Nine.ai',
+    heading: 'Entwurf Energie.\nVom Tarifinteresse zur Anfrage.',
+    sections: [
+      {
+        id: 'tarifrechner',
+        title: 'Strom und Gas passend zum Bedarf anfragen.',
+        paragraphs: [
+          'Der Tarifrechner unterscheidet private und gewerbliche Anfragen sowie Strom, Gas und kombinierte Anfragen. Postleitzahl und Verbrauch bilden den Einstieg in die Tarifberatung. Eine vorhandene Rechnung kann die Angaben zum Verbrauch ergänzen.',
+        ],
+        points: [
+          {
+            title: 'Tarifrechner',
+            text: 'Energieträger, Kundentyp und Jahresverbrauch in einem geführten Ablauf erfassen.',
+          },
+          {
+            title: 'Anfrageverwaltung',
+            text: 'Anfragen strukturiert aufnehmen und für die weitere Bearbeitung zusammenführen.',
+          },
+          {
+            title: 'CRM',
+            text: 'Kundenkontakte, Zuständigkeiten und Bearbeitungsstände in einer gemeinsamen Oberfläche organisieren.',
+          },
+        ],
+      },
+      {
+        id: 'entwurfsstand',
+        title: 'Einblicke in den Entwurfsstand.',
+        paragraphs: [
+          'Die Vorschauen zeigen die tatsächliche Startseite der verlinkten Website auf Desktop und Smartphone. Die Website kennzeichnet ihren Entwurfsstand und verwendet ersetzte Unternehmensangaben und Beispieldaten.',
+        ],
+      },
+    ],
+    related: [
+      '/plattformen-web-apps/kundenportale',
+      '/plattformen-web-apps',
+      '/website-erstellen-lassen',
+    ],
+  },
   parkesicher: {
     title: 'ParkeSicher: Buchungsplattform & Anbieterportal | Nine.ai',
     heading: 'ParkeSicher.\nVon der Suche bis zum Betrieb.',
@@ -510,24 +549,22 @@ const details: Record<string, CaseDetail> = {
 };
 
 export const caseStudies: EditorialPage[] = referenceProjects.map((project) => {
-  const detail =
-    details[project.id] ??
-    {
-      title: project.name + ': Kundenprojekt | Nine.ai',
-      heading: project.name + '.\nEin Kundenprojekt.',
-      sections: [
-        {
-          id: 'umsetzung',
-          title: 'Was haben wir konkret umgesetzt?',
-          paragraphs: [project.detail],
-          points: project.features.map((feature) => ({
-            title: feature,
-            text: 'Weitere Informationen zu diesem Bereich werden ergänzt.',
-          })),
-        },
-      ],
-      related: [],
-    };
+  const detail = details[project.id] ?? {
+    title: project.name + ': Kundenprojekt | Nine.ai',
+    heading: project.name + '.\nEin Kundenprojekt.',
+    sections: [
+      {
+        id: 'umsetzung',
+        title: 'Was haben wir konkret umgesetzt?',
+        paragraphs: [project.detail],
+        points: project.features.map((feature) => ({
+          title: feature,
+          text: 'Weitere Informationen zu diesem Bereich werden ergänzt.',
+        })),
+      },
+    ],
+    related: [],
+  };
   return {
     path: '/projekte/' + project.id,
     parent: '/projekte',
@@ -541,7 +578,10 @@ export const caseStudies: EditorialPage[] = referenceProjects.map((project) => {
     image: desktopImage(
       project.id,
       project.name + ': Desktopansicht der Kundenwebsite',
-      project.name + ' · Website-Aufnahme vom 7. September 2026',
+      project.name +
+        (project.id === 'entwurf-energie'
+          ? ' · Website-Aufnahme vom 20. Oktober 2026'
+          : ' · Website-Aufnahme vom 7. September 2026'),
     ),
     implementation: project.implementation,
     mobileImage:
@@ -554,7 +594,11 @@ export const caseStudies: EditorialPage[] = referenceProjects.map((project) => {
             alt:
               project.name +
               ': mobile Website mit dem jeweiligen Angebots- und Kontakteinstieg',
-            caption: project.name + ' · Mobilaufnahme vom 7. September 2026',
+            caption:
+              project.name +
+              (project.id === 'entwurf-energie'
+                ? ' · Mobilaufnahme vom 20. Oktober 2026'
+                : ' · Mobilaufnahme vom 7. September 2026'),
           },
     status: project.status,
     highlights: project.features,
@@ -562,6 +606,6 @@ export const caseStudies: EditorialPage[] = referenceProjects.map((project) => {
     faqs: [],
     referenceIds: [],
     related: detail.related,
-    modified: '2026-09-08',
+    modified: project.id === 'entwurf-energie' ? '2026-10-20' : '2026-09-08',
   };
 });

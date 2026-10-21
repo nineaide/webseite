@@ -170,7 +170,7 @@ export function Header() {
                 ],
                 [
                   'Kundenprojekte',
-                  'Neun Referenzen. Websites & eigene Systeme.',
+                  'Referenzen. Websites & eigene Systeme.',
                   '/projekte',
                   BriefcaseBusiness,
                 ],

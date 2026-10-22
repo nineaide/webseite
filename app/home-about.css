@@ -1,4 +1,4 @@
-.home-about .home-about-grid {
+﻿.home-about .home-about-grid {
   display: grid;
   grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
   align-items: center;
@@ -15,55 +15,75 @@
   font-size: 1.0625rem;
   line-height: 1.7;
 }
-.home-about .home-about-copy > a {
-  margin-top: 24px;
-}
-.home-about .home-about-process {
-  min-width: 0;
-  padding: clamp(24px, 3vw, 40px);
-  border-radius: 16px;
-  background: #fff;
-}
+.home-about .home-about-copy > a { margin-top: 24px; }
+.home-about .home-about-process { min-width: 0; }
 .home-about .home-about-process > h3 {
-  margin: 0 0 12px;
+  margin: 0 0 26px;
   color: #526079;
   font-size: .75rem;
   font-weight: 600;
   letter-spacing: .11em;
   line-height: 1.5;
 }
+/* One continuous route: read across the top, then return along the bottom. */
+.home-about .home-about-route {
+  position: relative;
+  isolation: isolate;
+}
+.home-about .home-about-route-line {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  overflow: visible;
+  pointer-events: none;
+}
+.home-about .home-about-route-line path {
+  fill: none;
+  stroke: #9cafc9;
+  stroke-width: 1;
+  vector-effect: non-scaling-stroke;
+}
+.home-about .home-about-route-line circle {
+  fill: #0a4fd8;
+}
+.home-about .home-about-route-line .home-about-route-finish {
+  stroke: #0a4fd8;
+  stroke-width: 1.5;
+}
 .home-about .home-about-process ol {
+  position: relative;
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+  grid-template-rows: 180px 180px;
+  column-gap: 9%;
   list-style: none;
   margin: 0;
   padding: 0;
 }
 .home-about .home-about-process li {
-  display: grid;
-  grid-template-columns: 32px minmax(0, 1fr);
-  gap: 16px;
-  padding: 22px 0;
+  min-width: 0;
+  padding: 46px 22px 0 0;
 }
-.home-about .home-about-process li + li {
-  border-top: 1px solid #e2e8f0;
+.home-about .home-about-process li:nth-child(3) {
+  grid-column: 2;
+  grid-row: 2;
 }
-.home-about .home-about-process li:last-child {
-  padding-bottom: 0;
-}
-.home-about .home-about-step {
-  padding-top: 3px;
-  color: #64748b;
-  font-size: .75rem;
-  font-variant-numeric: tabular-nums;
+.home-about .home-about-process li:nth-child(4) {
+  grid-column: 1;
+  grid-row: 2;
 }
 .home-about .home-about-process h4 {
-  margin: 0 0 6px;
+  margin: 0 0 8px;
   color: #101b31;
   font-size: 1.125rem;
   font-weight: 600;
   letter-spacing: -.02em;
   line-height: 1.3;
 }
+.home-about .home-about-process li:last-child h4 { color: #0a4fd8; }
 .home-about .home-about-process li p {
+  max-width: 24ch;
   margin: 0;
   color: #526079;
   font-size: .9375rem;
@@ -72,21 +92,12 @@
 @media (max-width: 760px) {
   .home-about .home-about-grid {
     grid-template-columns: minmax(0, 1fr);
-    gap: 32px;
+    gap: 40px;
   }
-  .home-about .home-about-copy h2 {
-    margin-bottom: 18px;
-  }
-  .home-about .home-about-copy > p {
-    font-size: 1rem;
-  }
-  .home-about .home-about-copy > a {
-    margin-top: 18px;
-  }
-  .home-about .home-about-process li {
-    grid-template-columns: 24px minmax(0, 1fr);
-    gap: 12px;
-    padding-top: 18px;
-    padding-bottom: 18px;
-  }
+  .home-about .home-about-copy h2 { margin-bottom: 18px; }
+  .home-about .home-about-copy > p { font-size: 1rem; }
+  .home-about .home-about-copy > a { margin-top: 18px; }
+  .home-about .home-about-process > h3 { margin-bottom: 16px; }
+  .home-about .home-about-process h4 { font-size: 1rem; }
+  .home-about .home-about-process li p { font-size: .875rem; }
 }

@@ -68,19 +68,27 @@ export default function Landing() {
               </div>
               <div className="home-about-process" aria-labelledby="home-about-process-title">
                 <h3 id="home-about-process-title">SO ARBEITEN WIR</h3>
+                <div className="home-about-route">
+                  <svg className="home-about-route-line" viewBox="0 0 600 360" preserveAspectRatio="none" aria-hidden="true">
+                    <path d="M 8 20 H 530 Q 582 20 582 72 V 148 Q 582 200 530 200 H 8" />
+                    <circle cx="8" cy="20" r="4" />
+                    <circle cx="326" cy="20" r="4" />
+                    <circle cx="326" cy="200" r="4" />
+                    <path className="home-about-route-finish" d="m 20 192 -12 8 12 8" />
+                  </svg>
                 <ol>
                   {[
                     ['Kennenlernen', 'Wir sprechen über dein Vorhaben.'],
                     ['Konzept & Design', 'Du siehst, wie deine Lösung aussehen kann.'],
                     ['Entwicklung', 'Wir setzen um und stimmen uns mit dir ab.'],
                     ['Livegang', 'Dein Projekt geht online.'],
-                  ].map(([title, description], index) => (
+                  ].map(([title, description]) => (
                     <li key={title}>
-                      <span className="home-about-step" aria-hidden="true">{String(index + 1).padStart(2, '0')}</span>
                       <div><h4>{title}</h4><p>{description}</p></div>
                     </li>
                   ))}
                 </ol>
+                </div>
               </div>
             </div>
           </section>

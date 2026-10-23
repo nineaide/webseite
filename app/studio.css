@@ -1671,19 +1671,21 @@ button:active {
   margin: 0;
   padding: 0;
   border: 0;
-  border-top: 1px solid #d6e0ed;
+  gap: 6px;
+  align-self: start;
 }
 .home-service-option {
   display: grid;
   width: 100%;
   min-width: 0;
-  min-height: 98px;
-  grid-template-columns: 40px minmax(0, 1fr) 20px;
-  gap: 12px;
-  align-items: center;
-  padding: 20px 0;
+  min-height: 44px;
+  grid-template-columns: minmax(0, 1fr) 20px;
+  gap: 16px;
+  align-items: start;
+  padding: 18px;
   border: 0;
-  border-bottom: 1px solid #d6e0ed;
+  border-left: 2px solid transparent;
+  border-radius: 0;
   background: transparent;
   color: #334a67;
   text-align: left;
@@ -1693,17 +1695,13 @@ button:active {
     border-color 180ms ease,
     color 180ms ease;
 }
-.home-service-option[aria-pressed='true'] {
-  background: #ffffff55;
-  color: #122845;
+.home-service-option:hover {
+  background: #ffffff30;
 }
-.home-service-option-number {
-  align-self: start;
-  padding-top: 5px;
-  color: #7789a0;
-  font-size: 1.125rem;
-  font-weight: 500;
-  font-variant-numeric: tabular-nums;
+.home-service-option[aria-pressed='true'] {
+  background: #ffffff40;
+  border-left-color: #0a4fd8;
+  color: #122845;
 }
 .home-service-option-copy {
   display: grid;
@@ -1716,24 +1714,24 @@ button:active {
   align-items: center;
   gap: 9px;
 }
-.home-service-option[aria-pressed='true'] .home-service-option-number {
-  color: #0a4fd8;
-}
 .home-service-option-title > strong {
   font-size: clamp(1.125rem, 1.5vw, 1.375rem);
+  font-weight: 500;
   line-height: 1.25;
+}
+.home-service-option[aria-pressed='true'] .home-service-option-title > strong {
+  font-weight: 600;
 }
 .home-service-option-description {
   color: #64748b;
-  font-size: 0.8125rem;
+  font-size: 0.875rem;
   line-height: 1.5;
 }
 .home-service-option-mark {
   display: grid;
-  width: 26px;
+  width: 20px;
   height: 26px;
   place-items: center;
-  border-radius: 50%;
   color: #8291a5;
   transition:
     background-color 180ms ease,
@@ -2061,7 +2059,7 @@ button:active {
     gap: 28px;
   }
   .home-service-option {
-    min-height: 86px;
+    min-height: 44px;
   }
   .home-service-preview-window {
     min-height: 380px;
@@ -2075,19 +2073,14 @@ button:active {
     gap: 22px;
   }
   .home-service-option {
-    min-height: 88px;
-    grid-template-columns: 30px minmax(0, 1fr) 18px;
-    gap: 9px;
-    padding: 18px 0;
-  }
-  .home-service-option-number {
-    font-size: 1rem;
+    padding: 16px 12px;
+    gap: 12px;
   }
   .home-service-option-title > strong {
     font-size: 1.0625rem;
   }
   .home-service-option-description {
-    font-size: 0.75rem;
+    font-size: 0.875rem;
   }
   .home-service-preview {
     padding: 0;

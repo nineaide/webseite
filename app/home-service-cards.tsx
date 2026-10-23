@@ -6,7 +6,6 @@ import { ArrowRight, ArrowUpRight } from 'lucide-react';
 type PreviewKind = 'website' | 'booking' | 'crm' | 'automation' | 'ads';
 
 const services: {
-  number: string;
   title: string;
   description: string;
   href: string;
@@ -14,7 +13,6 @@ const services: {
   preview: PreviewKind;
 }[] = [
   {
-    number: '01',
     title: 'Websites & SEO',
     description:
       'Leistungen zeigen, bei Google gefunden werden und Anfragen über die Website erhalten.',
@@ -23,7 +21,6 @@ const services: {
     preview: 'website',
   },
   {
-    number: '02',
     title: 'Web-Apps & Buchungsplattformen',
     description:
       'Parkplätze buchen, Tische reservieren oder Fahrzeuge auswählen. Wir entwickeln die Anwendung dazu.',
@@ -32,7 +29,6 @@ const services: {
     preview: 'booking',
   },
   {
-    number: '03',
     title: 'CRM & Backoffice',
     description:
       'Anfragen bearbeiten, Kunden wiederfinden und Aufgaben im Team verteilen.',
@@ -41,7 +37,6 @@ const services: {
     preview: 'crm',
   },
   {
-    number: '04',
     title: 'KI-Assistenten & Automatisierung',
     description:
       'Dokumente auslesen, Anfragen vorsortieren und Daten zwischen deinen Programmen übertragen.',
@@ -50,7 +45,6 @@ const services: {
     preview: 'automation',
   },
   {
-    number: '05',
     title: 'Google Ads & monatliche Betreuung',
     description:
       'Google Anzeigen betreuen und prüfen, welche Suchanfragen zu Kundenanfragen führen.',
@@ -77,21 +71,20 @@ export function HomeServiceCards() {
         <legend id="home-service-list-label" className="sr-only">
           Leistungsbereich auswählen
         </legend>
-        {services.map(({ number, title, description }, index) => (
+        {services.map(({ title, description }, index) => (
           <button
             id={'home-service-option-' + index}
             className="home-service-option"
             data-active={index === activeIndex}
             type="button"
             aria-pressed={index === activeIndex}
-            key={number}
+            key={title}
             onPointerEnter={(event) => {
               if (event.pointerType === 'mouse') selectService(index);
             }}
             onFocus={() => selectService(index)}
             onClick={() => selectService(index)}
           >
-            <span className="home-service-option-number">{number}</span>
             <span className="home-service-option-copy">
               <span className="home-service-option-title">
                 <strong>{title}</strong>

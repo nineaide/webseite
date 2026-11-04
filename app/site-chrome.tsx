@@ -35,6 +35,10 @@ export const navigation = [
 export function Header() {
   const [open, setOpen] = useState(false);
   const path = usePathname();
+  const inquiryHref =
+    path === '/website-erstellen-lassen'
+      ? '#website-check'
+      : inquiryHrefForPath(path);
   useEffect(() => {
     const registry = (
       document as Document & {
@@ -98,10 +102,7 @@ export function Header() {
           />
         </a>
         <nav aria-label="Hauptnavigation">
-          <a
-            href="/"
-            aria-current={path === '/' ? 'page' : undefined}
-          >
+          <a href="/" aria-current={path === '/' ? 'page' : undefined}>
             Startseite
           </a>
           <a
@@ -125,10 +126,7 @@ export function Header() {
             Mehr entdecken <ChevronDown size={15} />
           </button>
         </nav>
-        <a
-          className="c-button c-button-blue header-cta"
-          href={inquiryHrefForPath(path)}
-        >
+        <a className="c-button c-button-blue header-cta" href={inquiryHref}>
           Projekt anfragen <ArrowUpRight size={17} />
         </a>
         <button
@@ -250,7 +248,7 @@ export function Header() {
             <a href="/loesungen">
               Alle Leistungen <ArrowUpRight size={16} />
             </a>
-            <a href={inquiryHrefForPath(path)}>
+            <a href={inquiryHref} onClick={() => setOpen(false)}>
               Projekt anfragen <ArrowUpRight size={16} />
             </a>
           </div>

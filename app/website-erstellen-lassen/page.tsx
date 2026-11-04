@@ -10,6 +10,7 @@ import {
 } from 'lucide-react';
 import { FAQAnswers } from '../faq-answers';
 import { Footer } from '../site-footer';
+import { Header } from '../site-chrome';
 import { LeadForm, LeadMobileAction } from './website-lead';
 import {
   HeroShowcase,
@@ -76,27 +77,9 @@ export default async function WebsiteLeadPage({
   return (
     <div className="figma-site lead-page">
       <PageStructuredData path="/website-erstellen-lassen" />
-      <a className="lead-skip" href="#main">
-        Zum Inhalt
-      </a>
-      <header className="lead-header lead-wrap">
-        <a href="/" aria-label="Nine.ai Startseite" className="lead-logo">
-          <img
-            src="/assets/brand/NineAI-dark.svg"
-            alt="Nine.ai"
-            width="150"
-            height="51"
-          />
-        </a>
-        <nav aria-label="Auf dieser Seite">
-          <a href="#arbeiten">Arbeiten</a>
-          <a href="#preise">Pakete</a>
-          <a href="#website-check">Kontakt</a>
-        </nav>
-        <a href="#website-check" className="lead-header-contact">
-          Unverbindlich anfragen <ArrowUpRight size={18} aria-hidden="true" />
-        </a>
-      </header>
+      <div className="lead-navigation">
+        <Header />
+      </div>
       <main id="main">
         <section className="lead-hero lead-wrap" aria-labelledby="lead-title">
           <div className="lead-hero-copy">

@@ -80,8 +80,7 @@
   flex-shrink: 0;
 }
 .website-offer-growth {
-  background:
-    radial-gradient(ellipse at 110% 0, #164986, transparent 65%), #0b1734;
+  background: #0b1734;
   color: #fff;
 }
 .website-offer-growth > p,

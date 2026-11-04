@@ -22,6 +22,7 @@ import { GooglePartnerBadge } from '../google-partner-badge';
 import { leadOffers } from './lead-offers';
 import { leadReferenceIds } from '../reference-data';
 import { money } from '../site-data';
+import { inquiryOptions } from '../../lib/inquiry-options';
 import { PageStructuredData } from '../structured-data';
 import { findSeoPage } from '../../lib/seo-pages';
 import { pageMetadata } from '../../lib/seo-metadata';
@@ -35,8 +36,8 @@ const faqs = [
     'Wir schauen uns dein Vorhaben an und klären gemeinsam Ziel, Umfang und den passenden nächsten Schritt. Deine Anfrage ist unverbindlich. Ein Auftrag entsteht erst, wenn wir die Leistungen und Konditionen miteinander vereinbart haben.',
   ],
   [
-    'Sind die Paketpreise wirklich fest?',
-    'Ja. Nine Start kostet 1.990 €, Nine Launch 6.900 € und Nine Growth 12.900 €, jeweils netto für den beschriebenen Umfang. Hosting, Domain, Fremdlizenzen, neue Texte oder Fotografie und zusätzliche Leistungen kommen separat dazu. Bei Nine Growth sind das Werbebudget und eine laufende Anzeigenbetreuung nicht enthalten.',
+    'Wie sind die Paketpreise zu verstehen?',
+    'Nine Start beginnt bei 1.990 €, Nine Launch bei 6.900 € und Nine Growth bei 12.900 €, jeweils netto für den beschriebenen Umfang. Die Preise dienen als Orientierung; das persönliche Angebot richtet sich nach deinen Anforderungen. Hosting, Domain, zusätzliche Inhalte und laufende Betreuung kommen separat hinzu.',
   ],
   [
     'Was bedeutet „Seitenlayouts“?',
@@ -63,12 +64,13 @@ const faqs = [
 export default async function WebsiteLeadPage({
   searchParams,
 }: {
-  searchParams: Promise<{ paket?: string }>;
+  searchParams: Promise<{ paket?: string; service?: string }>;
 }) {
-  const requestedPackage = (await searchParams).paket;
+  const query = await searchParams;
+  const requestedPackage = query.paket;
   const initialPackage =
-    requestedPackage === 'unsicher' ||
-    leadOffers.some((offer) => offer.slug === requestedPackage)
+    requestedPackage === 'nine-x' ||
+    inquiryOptions.some((offer) => offer.value === requestedPackage)
       ? requestedPackage
       : '';
   return (
@@ -100,13 +102,11 @@ export default async function WebsiteLeadPage({
           <div className="lead-hero-copy">
             <span className="eyebrow">WEBDESIGN FÜR DEIN UNTERNEHMEN</span>
             <h1 id="lead-title">
-              Deine neue Website.
-              <br />
-              <em>Alles außer gewöhnlich.</em>
+              Eine Website für <em>dein Unternehmen.</em>
             </h1>
             <p>
-              Starkes Design. Klare Angebote. Ein einfacher Weg zum nächsten
-              Kunden.
+              Wir gestalten und entwickeln deinen Auftritt. Gemeinsam klären
+              wir, welche Inhalte und Funktionen du brauchst.
             </p>
             <div className="lead-hero-actions">
               <a href="#website-check" className="c-button c-button-light">
@@ -121,7 +121,7 @@ export default async function WebsiteLeadPage({
             <div className="lead-hero-trust">
               <span>
                 <Check size={16} aria-hidden="true" />
-                Fester Preis
+                Basispreis
               </span>
               <span>
                 <Check size={16} aria-hidden="true" />
@@ -141,7 +141,7 @@ export default async function WebsiteLeadPage({
         >
           <div className="lead-wrap lead-contact-layout">
             <div className="lead-contact-copy">
-              <span className="eyebrow">LASS UNS LOSLEGEN</span>
+              <span className="eyebrow">DEINE ANFRAGE</span>
               <h2 id="lead-contact-title">
                 Deine Idee.
                 <br />
@@ -196,7 +196,10 @@ export default async function WebsiteLeadPage({
                 </p>
               </div>
             </div>
-            <LeadForm initialPackage={initialPackage} />
+            <LeadForm
+              initialPackage={initialPackage}
+              initialService={query.service}
+            />
           </div>
         </section>
         <GooglePartnerBadge />
@@ -210,9 +213,9 @@ export default async function WebsiteLeadPage({
               <div>
                 <span className="eyebrow">AUSGEWÄHLTE KUNDENPROJEKTE</span>
                 <h2 id="lead-work-title">
-                  Drei Unternehmen.
+                  Drei Kundenprojekte.
                   <br />
-                  <em>Drei eigene Auftritte.</em>
+                  <em>Unterschiedliche Aufgaben.</em>
                 </h2>
               </div>
               <a href="/projekte" className="lead-text-link">
@@ -241,8 +244,8 @@ export default async function WebsiteLeadPage({
                 <em>Großer Unterschied.</em>
               </h2>
               <p>
-                Ein Auftritt, der sich gut anfühlt. Vom ersten Eindruck bis zum
-                letzten Klick.
+                Wir gestalten deine Website und prüfen, ob Besucher ihre
+                Informationen und den Kontakt finden.
               </p>
               <div className="lead-craft-points">
                 <div>

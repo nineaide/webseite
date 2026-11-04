@@ -89,7 +89,7 @@ export const guidePages: EditorialPage[] = [
         title: 'Der Kaufpreis ist nur ein Teil der Planung.',
         paragraphs: [
           'Domain, Hosting und Fremdlizenzen sind bei den Website-Paketen separat zu betrachten. Neue Texte, Fotografie und zusätzliche Inhalte können weiteren Aufwand erzeugen. Wartung und spätere Änderungen vereinbaren wir passend zum System.',
-          'Plane deshalb zwei Budgets: eines für die Erstellung und eines für den Betrieb. Lass dir bei laufenden Leistungen erklären, was enthalten ist, wie Änderungen abgerechnet werden und wie du an Inhalte und Zugänge kommst. Unsere Website-Paketpreise sind feste Nine.ai-Angebote für den beschriebenen Umfang, keine Aussage über allgemeine Marktpreise.',
+          'Plane deshalb zwei Budgets: eines für die Erstellung und eines für den Betrieb. Lass dir bei laufenden Leistungen erklären, was enthalten ist, wie Änderungen abgerechnet werden und wie du an Inhalte und Zugänge kommst. Unsere Website-Paketpreise sind Basispreise für den beschriebenen Umfang. Das individuelle Angebot richtet sich nach den vereinbarten Anforderungen.',
         ],
       },
       {
@@ -504,7 +504,7 @@ export const guidePages: EditorialPage[] = [
         title: 'Die Annahmen durch echte Daten ersetzen.',
         paragraphs: [
           'Nutze den Keyword-Planer mit deinem Zielgebiet und den passenden Suchthemen als Ausgangspunkt. Eine deutschlandweite Schätzung ist nicht automatisch auf eine einzelne Stadt übertragbar. Prognosen sind Schätzungen und ersetzen keine laufenden Kampagnendaten.',
-          'Halte Angebot und Suchabsicht eng zusammen: Wer nach einer Website zum Festpreis sucht, sollte auf der Zielseite Preis, Umfang, passende Projekte und einen einfachen Anfrageweg finden. Miss anschließend den tatsächlichen Anfrageeingang. Ein Klick auf den Kontaktbutton ist ein anderes Ereignis.',
+          'Halte Angebot und Suchabsicht eng zusammen: Wer nach den Kosten einer Website sucht, sollte auf der Zielseite Basispreise und einen verständlichen Anfrageweg finden. Miss anschließend den tatsächlichen Anfrageeingang. Ein Klick auf den Kontaktbutton ist ein anderes Ereignis.',
         ],
         links: [
           {

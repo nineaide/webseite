@@ -1,4 +1,5 @@
 /* oxlint-disable next/no-img-element */
+import './home-about.css';
 import {
   ArrowUpRight,
   Target,
@@ -36,7 +37,7 @@ export function Hero({
   title,
   lead,
   href,
-  label = 'Projekt starten',
+  label = 'Projekt anfragen',
 }: {
   kicker: string;
   title: string;
@@ -70,9 +71,6 @@ export function SolutionLinks() {
           href={'/' + s.slug}
           key={s.slug}
         >
-          <span className="n-index">
-            0{i + 1} / {s.pillar}
-          </span>
           <div>
             <h2>{s.label}</h2>
             <span className="n-arrow" aria-hidden="true">
@@ -89,7 +87,7 @@ export function Solutions() {
   return (
     <>
       <Hero
-        kicker="BUILD / AUTOMATE / SCALE"
+        kicker="UNSERE LEISTUNGEN"
         title="Was können wir für dich tun?"
         lead="Eine Website bauen, ein Kundenportal entwickeln, mit Google Werbung machen oder wiederkehrende Aufgaben automatisieren. Hier findest du den passenden Weg."
       />
@@ -100,22 +98,18 @@ export function Solutions() {
       <section className="n-section n-split">
         <div>
           <span className="n-kicker">ZUSAMMEN GEDACHT</span>
-          <h2>
-            Die Übergänge
-            <br />
-            machen den <em>Unterschied.</em>
-          </h2>
+          <h2>Wenn mehrere Systeme zusammenarbeiten</h2>
         </div>
         <div className="n-copy">
           <p>
-            Eine Kampagne braucht eine überzeugende Zielseite. Eine Buchung
-            braucht verlässliche Daten. Eine Automation braucht einen klaren
-            Prozess.
+            Wir prüfen auch, was hinter der sichtbaren Oberfläche passiert. Eine
+            Buchungsseite muss zum Beispiel freie Plätze mit der Verwaltung
+            abgleichen, damit keine widersprüchlichen Angaben entstehen.
           </p>
           <p>
-            Deshalb planen wir diese Verbindungen von Anfang an. Du startest mit
-            dem Bereich, der dich heute bremst. Die nächste Ausbaustufe bleibt
-            mitgedacht.
+            Welche Verbindungen dein Projekt braucht, klären wir anhand der
+            Programme, die du bereits nutzt. Du kannst mit einer einzelnen
+            Aufgabe beginnen und später erweitern.
           </p>
           <a className="n-text-link" href="/ueber-nine">
             So arbeitet Nine.ai{' '}
@@ -129,7 +123,7 @@ export function Solutions() {
           '/wissen/web-app-oder-standardsoftware',
           '/wissen/google-ads-budget-planen',
         ]}
-        title="Dein nächster Schritt lässt sich planen."
+        title="Planungshilfen für dein Vorhaben"
       />
       <FAQ />
     </>
@@ -313,8 +307,8 @@ export function Projects() {
           <em>zum Ansehen</em>
         </h1>
         <p>
-          Unterschiedliche Unternehmen. Unterschiedliche Aufgaben. Websites, Datenbanken und
-          eigene Systeme – hier kannst du unsere Arbeit ansehen.
+          Unterschiedliche Unternehmen. Unterschiedliche Aufgaben. Websites,
+          Datenbanken und eigene Systeme – hier kannst du unsere Arbeit ansehen.
         </p>
       </section>
       <ProjectGallery priorityFirst headingLevel={2} />
@@ -330,7 +324,7 @@ export function Parkesicher() {
         title="ParkeSicher. Vom Parkplatz zur Plattform."
         lead="Parkplätze finden und buchen. Ankünfte koordinieren, Preise pflegen und den Betrieb organisieren – in einem zusammenhängenden System."
         href="/projekt-starten?service=Plattform"
-        label="Ähnliches System planen"
+        label="Projekt anfragen"
       />
       <div className="n-case-facts">
         {[
@@ -422,8 +416,8 @@ export function About() {
         kicker="ÜBER NINE.AI"
         title="Du machst dein Geschäft. Wir kümmern uns um deinen Auftritt."
         lead="Wir planen und bauen Websites, schalten Google-Werbung und automatisieren Abläufe. Du bekommst einen klaren Plan und weißt, was als Nächstes passiert."
-        href="/website-erstellen-lassen?paket=unsicher#website-check"
-        label="Zusammenarbeit starten"
+        href="/projekt-starten"
+        label="Projekt anfragen"
       />
       <div className="n-about-visual">
         <img
@@ -446,7 +440,7 @@ export function About() {
         </div>
       </div>
       <section className="n-section n-split">
-        <TeamIntro />
+        <TeamIntro showLink={false} />
         <div className="n-copy">
           <h2>Was wir zusammenbringen.</h2>
           <p>
@@ -455,10 +449,10 @@ export function About() {
             ganz Deutschland.
           </p>
           <p>
-            Unsere Referenzen zeigen konkrete Arbeiten: Auftritte für
-            Handwerk und Dienstleister, die Fahrzeugdatenbank von MB Performance
-            sowie Buchung und Verwaltung bei ParkeSicher. Beim Café-Projekt
-            gehören auch Reservierung und ein eigenes Bestellsystem dazu.
+            Unsere Referenzen zeigen konkrete Arbeiten: Auftritte für Handwerk
+            und Dienstleister, die Fahrzeugdatenbank von MB Performance sowie
+            Buchung und Verwaltung bei ParkeSicher. Beim Café-Projekt gehören
+            auch Reservierung und ein eigenes Bestellsystem dazu.
           </p>
           <a href="/projekte" className="n-text-link">
             Unsere Kundenprojekte kennenlernen{' '}
@@ -466,70 +460,27 @@ export function About() {
           </a>
         </div>
       </section>
-      <section className="n-section">
-        <span className="n-kicker">KOMPETENZEN, DIE ZUSAMMENARBEITEN</span>
-        <h2>
-          Direkt mit denen,
-          <br />
-          die es <em>umsetzen.</em>
-        </h2>
-        <div className="n-feature-grid">
-          {[
-            [
-              'Strategie & Prozesse',
-              'Geschäftsziele, Anforderungen und Wirtschaftlichkeit bilden den Rahmen.',
-            ],
-            [
-              'UX & Webentwicklung',
-              'Komplexe Abläufe werden zu verständlichen, gut bedienbaren Interfaces.',
-            ],
-            [
-              'Backend & Integration',
-              'Daten, Rechte und Geschäftsregeln verbinden das Produkt mit dem Betrieb.',
-            ],
-            [
-              'Growth & Daten',
-              'Kampagnen und Conversion werden gemeinsam mit dem Produkt betrachtet.',
-            ],
-          ].map(([a, b], i) => (
-            <article key={a}>
-              <span className="n-index">0{i + 1}</span>
-              <h3>{a}</h3>
-              <p>{b}</p>
-            </article>
-          ))}
-        </div>
-      </section>
-      <section className="n-section n-split">
-        <h2>
-          Unsere Haltung
-          <br />
-          zeigt sich <em>im Ablauf.</em>
-        </h2>
-        <div className="n-number-list">
-          {[
-            [
-              'Klarheit vor Geschwindigkeit',
-              'Wir klären das Ziel und treffen bewusste Entscheidungen über den Umfang.',
-            ],
-            [
-              'Sichtbare Zwischenschritte',
-              'Prototypen, gemeinsame Reviews und klare Zuständigkeiten machen Fortschritt nachvollziehbar.',
-            ],
-            [
-              'Verantwortung über den Launch hinaus',
-              'Übergabe, Betrieb und Weiterentwicklung werden früh besprochen.',
-            ],
-          ].map(([a, b], i) => (
-            <div key={a}>
-              <span>0{i + 1}</span>
-              <div>
-                <h3>{a}</h3>
-                <p>{b}</p>
-              </div>
-            </div>
-          ))}
-        </div>
+      <section className="n-section about-work">
+        <span className="n-kicker">WAS WIR ÜBERNEHMEN</span>
+        <h2>Direkt mit denen, die es umsetzen.</h2>
+        <dl className="about-capabilities">
+          <div>
+            <dt>Websites und Anwendungen</dt>
+            <dd>
+              Wir gestalten deinen Auftritt und entwickeln die Funktionen, die
+              dein Unternehmen braucht. Du siehst die Zwischenergebnisse und
+              kannst uns direkt sagen, was angepasst werden soll.
+            </dd>
+          </div>
+          <div>
+            <dt>Werbung und Automatisierung</dt>
+            <dd>
+              Wir betreuen deine Google-Anzeigen und prüfen, welche Anfragen
+              daraus entstehen. Wiederkehrende Aufgaben betrachten wir mit
+              deinem Team, bevor wir eine Automatisierung vorschlagen.
+            </dd>
+          </div>
+        </dl>
       </section>
       <CaseTeaser />
     </>
@@ -539,103 +490,172 @@ export function Legal({ kind }: { kind: string }) {
   return (
     <>
       <Hero
-        kicker="INFORMATIONEN ZUM PROJEKTSTAND"
+        kicker="ANBIETER UND DATENSCHUTZ"
         title={kind}
-        lead="Diese Website ist öffentlich erreichbar. Die vollständigen Anbieter- und Rechtstexte für den Unternehmensauftritt werden noch ergänzt."
+        lead={
+          kind === 'Datenschutz'
+            ? 'Wie diese Website Anfragen und technische Verbindungsdaten verarbeitet.'
+            : kind === 'Impressum'
+              ? 'Angaben zum Anbieter und zu den veröffentlichten Projektansichten.'
+              : 'So fragen Sie ein Projekt bei Nine.ai an.'
+        }
       />
       <article className="n-legal n-copy">
         {kind === 'Impressum' ? (
           <>
             <h2>Anbieterangaben</h2>
             <p>
-              Firmierung, ladungsfähige Anschrift, vertretungsberechtigte Person
-              und gegebenenfalls Register- und Umsatzsteuerangaben liegen für
-              diese Vorschau noch nicht vor.
+              Die vollständige Firmierung mit Rechtsform, die ladungsfähige
+              Anschrift und die vertretungsberechtigte Person sind im Repository
+              noch nicht hinterlegt. Diese Angaben müssen vor dem endgültigen
+              Launch ergänzt werden. Registerangaben und
+              Umsatzsteuer-Identifikationsnummer sind zu ergänzen, soweit
+              vorhanden und einschlägig.
             </p>
             <p>
-              Geschäftlicher Kontakt:{' '}
-              <a href="mailto:anfrage@nineai.de">anfrage@nineai.de</a>.
+              Kontakt: <a href="mailto:anfrage@nineai.de">anfrage@nineai.de</a>.
             </p>
-            <h2>Bild- und Designmaterial</h2>
+            <h2>Projektansichten</h2>
             <p>
-              Die Projektgalerie zeigt freigegebene Kundenreferenzen. Website-
-              Aufnahmen stammen von den verlinkten Seiten; interne
-              Systemansichten wurden vom Auftraggeber bereitgestellt.
-              Personenbezogene Angaben in diesen Systemansichten wurden
-              anonymisiert. Die Aufnahmen dokumentieren den Stand vom 7.
-              September 2026 und belegen keine Umsatz- oder
-              Conversion-Steigerungen. Verbleibende Konzeptmotive sind als
-              solche gekennzeichnet. Das Nine.ai-Logo wurde vom Auftraggeber
-              bereitgestellt.
+              Die Referenzen zeigen freigegebene Kundenprojekte. Entwurf Energie
+              befindet sich aktuell in Entwicklung. Das ursprüngliche
+              Kundenlogo, sensible Unternehmensangaben und personenbezogene
+              Kontaktdaten werden nicht veröffentlicht; die gezeigten Angaben
+              wurden für die Präsentation ersetzt.
+            </p>
+            <p>
+              Website-Aufnahmen zeigen den jeweiligen Projektstand. Interne
+              Systemansichten wurden für die Veröffentlichung bereitgestellt und
+              personenbezogene Angaben ersetzt oder unkenntlich gemacht. Die
+              Ansichten belegen keine bestimmten Umsatz- oder Werbeergebnisse.
             </p>
           </>
         ) : kind === 'Datenschutz' ? (
           <>
-            <h2>Website-Anfragen</h2>
+            <h2>Verantwortlicher und Kontakt</h2>
             <p>
-              Wenn du den Website-Check auf /website-erstellen-lassen absendest,
-              werden dein gewähltes Vorhaben, der Paketeinstieg, Name, E-Mail
-              und freiwillig ergänzte Angaben auf dem Server gespeichert. Falls
-              der aufgerufene Link Kampagnenangaben enthält, werden diese der
-              Anfrage zugeordnet. Die Speicherung erfolgt in der zur Website
-              gehörenden Datenbank bei unserem Hostingdienst Sites auf
-              Cloudflare-Infrastruktur. Deine Angaben dienen der Bearbeitung
-              deiner Anfrage. Der Formularversand meldet erst nach erfolgreicher
-              Speicherung einen Empfang.
+              Die vollständigen Angaben zum verantwortlichen Unternehmen mit
+              Anschrift und vertretungsberechtigter Person müssen noch ergänzt
+              werden. Fragen zur Verarbeitung Ihrer Angaben können Sie an{' '}
+              <a href="mailto:anfrage@nineai.de">anfrage@nineai.de</a> richten.
+            </p>
+            <h2>Hosting und technische Verbindungsdaten</h2>
+            <p>
+              Die Website wird in der bestehenden Cloudflare-Bereitstellung über
+              Cloudflare Workers und den zugehörigen Dienst für statische
+              Dateien ausgeliefert. Beim Abruf verarbeitet die Infrastruktur
+              technisch erforderliche Verbindungsdaten, etwa IP-Adresse,
+              aufgerufene Adresse, Zeitpunkt und Angaben zum Browser. Ob und wie
+              lange zusätzliche Zugriffs- und Fehlerprotokolle gespeichert
+              werden, richtet sich nach der aktiven Cloudflare-Konfiguration und
+              muss für den produktiven Betrieb bestätigt werden.
             </p>
             <p>
-              Der E-Mail-Kontakt für diese Anfragen ist{' '}
-              <a href="mailto:anfrage@nineai.de">anfrage@nineai.de</a>. Ein
-              automatischer Benachrichtigungsdienst wird getrennt eingerichtet;
-              derzeit gibt es keine Newsletter-Anmeldung und keine Übertragung
-              deiner Eingaben an Google- oder Meta-Werbepixel.
+              Informationen des Anbieters:{' '}
+              <a
+                href="https://www.cloudflare.com/privacypolicy/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Datenschutzhinweise von Cloudflare
+              </a>
+              .
             </p>
-            <h2>Projektbriefing</h2>
+            <h2>Projekt- und Paketanfragen</h2>
             <p>
-              In den übrigen vorbereiteten Projekt- und Bestellformularen
-              bleiben deine Eingaben im geöffneten Browserfenster und werden
-              nicht an Nine.ai versendet. Du kannst eine Zusammenfassung als
-              Textdatei herunterladen. Nach Verlassen oder Neuladen der Seite
-              werden die Formulareingaben nicht wiederhergestellt.
+              Das Anfrageformular übermittelt das ausgewählte Interesse, Ihren
+              Namen, Ihre E-Mail-Adresse und Ihre Telefonnummer. Eine
+              Website-Adresse und eine Nachricht können Sie freiwillig ergänzen.
+              Die Angaben werden zur Bearbeitung Ihrer Anfrage in der
+              Cloudflare-D1-Datenbank dieser Website gespeichert. Hinzu kommen
+              der Eingangszeitpunkt, eine Anfragenummer und technische
+              Kennzeichen zur Vermeidung doppelter Einträge und zur Bearbeitung
+              von Benachrichtigungen.
             </p>
-            <h2>Bestätigung deiner Anfrage</h2>
             <p>
-              Nach erfolgreichem Anfrageeingang merkt sich dein Browser für die
-              aktuelle Sitzung ausschließlich, dass eine Anfrage abgeschickt
-              wurde. So zeigt der Footer eine Bestätigung. Namen,
-              E-Mail-Adressen oder Formularinhalte werden dafür nicht im Browser
+              Enthält die aufgerufene Adresse Kampagnenangaben, werden diese der
+              Anfrage zugeordnet. Dafür ist kein Analyse- oder Werbepixel
+              eingebunden. Der erfolgreiche Eingang wird erst nach Bestätigung
+              der Speicherung angezeigt. Eine Newsletter-Anmeldung ist mit dem
+              Formular nicht verbunden.
+            </p>
+            <h2>E-Mail-Benachrichtigungen</h2>
+            <p>
+              Für die Benachrichtigung über eingegangene Anfragen ist eine
+              optionale Anbindung an Resend vorbereitet. Sie wird nur verwendet,
+              wenn die dafür benötigten Zugangsdaten und die Absenderadresse auf
+              dem Server eingerichtet sind. In diesem Fall werden die
+              Anfrageangaben zum Versand an den konfigurierten Kontakt
+              übermittelt. Ob Resend im produktiven Betrieb aktiviert ist, muss
+              vor der abschließenden Veröffentlichung dieser Hinweise bestätigt
+              werden.
+            </p>
+            <p>
+              Informationen des vorgesehenen Dienstes:{' '}
+              <a
+                href="https://resend.com/legal/privacy-policy"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Datenschutzhinweise von Resend
+              </a>
+              .
+            </p>
+            <h2>Cookies und Speicherung im Browser</h2>
+            <p>
+              Im Anwendungscode sind keine Analyse- oder Marketing-Cookies
+              eingerichtet. Nach erfolgreichem Anfrageeingang speichert der
+              Browser für die aktuelle Sitzung lediglich eine
+              Bestätigungsmarkierung im Sitzungsspeicher. Diese enthält keine
+              Namen, Kontaktdaten oder Formularinhalte und dient der Anzeige
+              einer Bestätigung im Footer. Sie endet mit der Browsersitzung. Die
+              Formulareingaben selbst werden nicht dauerhaft im Browser
               gespeichert.
             </p>
-            <h2>Schriften und Tracking</h2>
+            <h2>Schriften, Bilder und externe Verweise</h2>
             <p>
-              Die verwendeten Schriften und Bilder werden mit der Website
-              ausgeliefert. Diese Vorschau bindet keine Marketing-Tracker,
-              Werbepixel oder Zahlungsdienste ein.
+              Schriften, Projektaufnahmen und die Standortgrafik werden mit der
+              Website ausgeliefert. Es sind keine externen Schriftendienste,
+              eingebetteten Karten, Videos oder Marketing-Tracker eingerichtet.
+              Links zu Kundenprojekten und Informationsangeboten öffnen die
+              jeweilige externe Website erst, wenn Sie den Link aufrufen. Für
+              diese Angebote gelten die Hinweise des jeweiligen Betreibers.
             </p>
-            <h2>Hosting</h2>
+            <h2>Noch zu ergänzende Angaben</h2>
             <p>
-              Die Vorschau wird über Sites bereitgestellt. Beim Abruf entstehen
-              technisch notwendige Verbindungsdaten beim Hostinganbieter. Die
-              vollständigen Angaben zu Verantwortlichem, Hosting,
-              Rechtsgrundlagen, Speicherdauer und Betroffenenrechten müssen vor
-              öffentlichem Betrieb konkret ergänzt werden.
+              Vor dem endgültigen Launch sind die Angaben zum Verantwortlichen,
+              die anwendbaren Rechtsgrundlagen und konkreten Speicher- und
+              Löschfristen zu ergänzen. Ebenso müssen die tatsächlich aktiven
+              Protokollierungs- und E-Mail-Dienste, die vertraglichen Regelungen
+              mit Auftragsverarbeitern und mögliche internationale
+              Datenübermittlungen bestätigt werden. Die Hinweise zu
+              Betroffenenrechten und der zuständigen Datenschutzaufsicht sind
+              auf Grundlage dieser echten Angaben zu vervollständigen.
             </p>
           </>
         ) : (
           <>
-            <h2>Keine Bestellung in der Vorschau</h2>
+            <h2>Unverbindliche Anfrage</h2>
             <p>
-              Die dargestellten Pakete erläutern geplante Leistungen und
-              Preisanker. Es wird kein kostenpflichtiger Auftrag ausgelöst,
-              keine Zahlung eingezogen und kein Starttermin verbindlich
-              reserviert.
+              Über diese Website können Sie ein Paket oder ein individuelles
+              Projekt anfragen. Wir besprechen Ihren Bedarf persönlich und
+              erstellen anschließend ein Angebot für den vereinbarten Umfang.
+              Das Absenden des Formulars ist unverbindlich.
             </p>
-            <h2>Vertragsgrundlagen</h2>
+            <h2>Preise und Leistungsumfang</h2>
             <p>
-              Leistungsbeschreibung, Zahlungsbedingungen, Nutzungsrechte und
-              allgemeine Geschäftsbedingungen werden mit der tatsächlichen
-              vertragsschließenden Gesellschaft finalisiert. Diese Seite enthält
-              keine fertigen Vertragsbedingungen.
+              Die angezeigten Preise sind Netto-Basispreise für den
+              beschriebenen Umfang. Je nach Anforderungen kann das individuelle
+              Angebot davon abweichen. Zusätzliche Leistungen und laufende
+              Kosten werden gesondert abgestimmt.
+            </p>
+            <h2>Zusammenarbeit</h2>
+            <p>
+              Die konkrete Leistungsbeschreibung, die Konditionen und die
+              Nutzungsrechte werden vor einer Beauftragung vereinbart.
+              Anbieterangaben und gegebenenfalls ergänzende Vertragsbedingungen
+              müssen mit dem tatsächlichen Vertragspartner vervollständigt
+              werden.
             </p>
           </>
         )}

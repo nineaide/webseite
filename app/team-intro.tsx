@@ -4,8 +4,10 @@ import { teamMembers } from './team-data';
 
 export function TeamIntro({
   eyebrow = 'PERSÖNLICH ZUSAMMENARBEITEN',
+  showLink = true,
 }: {
   eyebrow?: string;
+  showLink?: boolean;
 }) {
   return (
     <div className="team-intro">
@@ -16,8 +18,8 @@ export function TeamIntro({
         Direkt mit uns.
       </h2>
       <p>
-        Wir hören zu, gestalten und entwickeln. Du besprichst deine Ideen und
-        dein Feedback direkt mit Nine.
+        Du sprichst direkt mit uns über dein Vorhaben und die
+        Zwischenergebnisse. So können wir Rückfragen gemeinsam klären.
       </p>
       {teamMembers.length > 0 && (
         <div className="team-portraits">
@@ -38,9 +40,11 @@ export function TeamIntro({
           ))}
         </div>
       )}
-      <a className="c-inline-link" href="/ueber-nine">
-        Über 9.ai <ArrowUpRight size={18} />
-      </a>
+      {showLink && (
+        <a className="c-inline-link" href="/ueber-nine">
+          Über 9.ai <ArrowUpRight size={18} />
+        </a>
+      )}
     </div>
   );
 }

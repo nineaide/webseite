@@ -32,7 +32,7 @@ export type EditorialPage = {
   image: EditorialImage;
   implementation?: ProjectFeature[];
   mobileImage?: EditorialImage;
-  status?: 'Im Aufbau';
+  status?: 'Im Aufbau' | 'Aktuell in Entwicklung';
   highlights: string[];
   sections: EditorialSection[];
   faqs: string[][];

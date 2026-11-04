@@ -55,7 +55,7 @@ export const coreSeoPages: SeoPage[] = [
     label: 'Website erstellen lassen',
     title: 'Website erstellen lassen – ab 1.990 € netto | Nine.ai',
     description:
-      'Deine Website zum klaren Preis: Nine Start, Launch, Growth oder individuell. Sieh dir echte Kundenprojekte an und frage dein Angebot unverbindlich an.',
+      'Deine Website mit transparenten Basispreisen: Nine Start, Launch, Growth oder individuell. Sieh dir echte Kundenprojekte an und frage dein Angebot unverbindlich an.',
     kind: 'service',
     modified: '2026-09-08',
     image: '/project-images/entwurf-energie-desktop.webp',
@@ -116,7 +116,7 @@ export const coreSeoPages: SeoPage[] = [
     label: 'Pakete & Preise',
     title: 'Website-Pakete: 1.990 €, 6.900 € & 12.900 € | Nine.ai',
     description:
-      'Vergleiche Nine Start, Launch und Growth zum festen Nettopreis sowie Nine X auf Anfrage. Leistungen, Zusatzkosten und passende Projektbeispiele im Überblick.',
+      'Vergleiche Nine Start, Launch und Growth mit transparenten Netto-Basispreisen sowie Nine X auf Anfrage. Leistungen, Zusatzkosten und passende Projektbeispiele im Überblick.',
     kind: 'collection',
     modified: '2026-09-08',
   },

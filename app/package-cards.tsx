@@ -82,8 +82,9 @@ export function PackageCards({
               <strong>{money(p.price)}</strong>
             </div>
             <p className="c-package-unit">
-              {p.suffix.includes('Monat') ? 'pro Monat' : 'einmalig'} · netto
+              {p.suffix.includes('Monat') ? 'pro Monat' : 'einmalig'} · netto · Basispreis
             </p>
+            {slug === 'nine-scale' && <p className="c-package-boundary">Umfang, Laufzeit und Betreuung stimmen wir passend zu deinem Bedarf ab.</p>}
             <a
               className={
                 'c-button ' +
@@ -91,7 +92,7 @@ export function PackageCards({
               }
               href={'/checkout/' + slug}
             >
-              Paket ansehen
+              Unverbindlich anfragen
               <ArrowUpRight size={18} />
             </a>
             <ul>
@@ -122,9 +123,6 @@ export function PackageCards({
                 <p>
                   <strong>Nicht enthalten:</strong> {p.excludes}
                 </p>
-                <p>
-                  <strong>Zahlungsplan:</strong> {p.payment}
-                </p>
               </details>
             )}
           </article>
@@ -141,11 +139,10 @@ export function PackageOverview() {
         <h1>
           Deine neue Website.
           <br />
-          <em>Dein klarer Festpreis.</em>
+          <em>Ein passender Einstieg.</em>
         </h1>
         <p>
-          Individuelles Design, verständliche Leistungen und ein Preis, mit dem
-          du planen kannst. Wähle den passenden Umfang für dein Unternehmen.
+          Vergleiche die Basispreise und den beschriebenen Umfang. Was dein Projekt tatsächlich braucht, klären wir im Gespräch.
         </p>
       </header>
       <WebsitePackages detailed headingLevel={2} />
@@ -155,7 +152,7 @@ export function PackageOverview() {
         <p className="c-price-note">
           Web-Apps und Kundenportale, Automatisierung und laufende Werbung
           besprechen wir persönlich. Diese Leistungen sind keine
-          Website-Festpreispakete.
+          Website-Pakete.
         </p>
         <PackageCards
           slugs={['platform-discovery', 'custom-platform', 'nine-scale']}
@@ -175,9 +172,7 @@ export function PackageOverview() {
         </a>
       </div>
       <p className="c-price-note">
-        Website-Festpreise netto für den beschriebenen Umfang. Weitere
-        Leistungen nach Vereinbarung. Ein Bestellentwurf löst noch keine
-        Bestellung oder Zahlung aus.
+        Die Preise dienen als Orientierung für den beschriebenen Leistungsumfang. Je nach Anforderungen kann das individuelle Angebot davon abweichen.
       </p>
     </>
   );

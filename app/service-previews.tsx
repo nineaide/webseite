@@ -90,7 +90,7 @@ const proofs: Record<Kind, Proof> = {
         layout: 'mobile',
       },
     ],
-    note: 'Aufnahme der CRM-Demo. Namen und Kontakte sind fiktiv.',
+    note: 'Kundenprojekt in Entwicklung. Kontaktdaten für die Veröffentlichung ersetzt.',
   },
   automation: {
     project: 'un-petit-cafe',

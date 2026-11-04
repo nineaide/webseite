@@ -15,6 +15,7 @@ import { GlassSurface } from './project-showcase';
 /* oxlint-disable next/no-img-element */
 import { useState, useEffect } from 'react';
 import { usePathname } from 'next/navigation';
+import { inquiryHrefForPath } from '../lib/inquiry-options';
 import { projectTypes } from '../lib/project-routing';
 import { projectImageProps } from './project-image-props';
 import {
@@ -126,9 +127,9 @@ export function Header() {
         </nav>
         <a
           className="c-button c-button-blue header-cta"
-          href="/projekt-starten"
+          href={inquiryHrefForPath(path)}
         >
-          Projekt besprechen <ArrowUpRight size={17} />
+          Projekt anfragen <ArrowUpRight size={17} />
         </a>
         <button
           className="studio-menu-button"
@@ -164,7 +165,7 @@ export function Header() {
               {[
                 [
                   'Website-Pakete',
-                  'Drei Festpreise. Individuell mit Nine X.',
+                  'Basispreise und individuelle Angebote.',
                   '/pakete',
                   Globe2,
                 ],
@@ -249,8 +250,8 @@ export function Header() {
             <a href="/loesungen">
               Alle Leistungen <ArrowUpRight size={16} />
             </a>
-            <a href="/projekt-starten">
-              Vorhaben besprechen <ArrowUpRight size={16} />
+            <a href={inquiryHrefForPath(path)}>
+              Projekt anfragen <ArrowUpRight size={16} />
             </a>
           </div>
         </DialogContent>

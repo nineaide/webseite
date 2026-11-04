@@ -41,7 +41,7 @@ const details: Record<string, CaseDetail> = {
         id: 'entwurfsstand',
         title: 'Einblicke in den Entwurfsstand.',
         paragraphs: [
-          'Die Vorschauen zeigen die tatsächliche Startseite der verlinkten Website auf Desktop und Smartphone. Die Website kennzeichnet ihren Entwurfsstand und verwendet ersetzte Unternehmensangaben und Beispieldaten.',
+          'Die Vorschauen zeigen die tatsächliche Startseite der verlinkten Website auf Desktop und Smartphone. Das freigegebene Kundenprojekt ist aktuell in Entwicklung. Unternehmensangaben und Kontaktdaten sind für die Veröffentlichung ersetzt.',
         ],
       },
     ],

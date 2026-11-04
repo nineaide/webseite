@@ -3,6 +3,7 @@
 import { ArrowUpRight, ArrowDown, Check } from 'lucide-react';
 import { FAQAnswers } from './faq-answers';
 import { findSeoPage } from '../lib/seo-pages';
+import { inquiryHrefForPath } from '../lib/inquiry-options';
 import { referenceImage, referenceProjects } from './reference-data';
 import type { EditorialImage, EditorialPage } from './content/types';
 import './editorial.css';
@@ -171,7 +172,11 @@ export function EditorialPageView({ page }: { page: EditorialPage }) {
             </a>
             {project?.url && (
               <a
-                className={project.websiteLabel ? 'c-button c-button-blue' : 'c-inline-link'}
+                className={
+                  project.websiteLabel
+                    ? 'c-button c-button-blue'
+                    : 'c-inline-link'
+                }
                 href={project.url}
                 target="_blank"
                 rel="noopener noreferrer"
@@ -181,12 +186,8 @@ export function EditorialPageView({ page }: { page: EditorialPage }) {
               </a>
             )}
             {!project && (
-              <a
-                className="c-inline-link"
-                href="/website-erstellen-lassen?paket=unsicher#website-check"
-              >
-                Vorhaben besprechen{' '}
-                <ArrowUpRight size={18} aria-hidden="true" />
+              <a className="c-inline-link" href={inquiryHrefForPath(page.path)}>
+                Projekt anfragen <ArrowUpRight size={18} aria-hidden="true" />
               </a>
             )}
           </div>
@@ -207,9 +208,7 @@ export function EditorialPageView({ page }: { page: EditorialPage }) {
               : section.title}
           </a>
         ))}
-        {page.implementation && (
-          <a href="#umgesetzt">Einzelne Funktionen</a>
-        )}
+        {page.implementation && <a href="#umgesetzt">Einzelne Funktionen</a>}
         {page.mobileImage && <a href="#mobil">Desktop- und Mobilansicht</a>}
       </nav>
       <div className="editorial-body">
@@ -422,7 +421,7 @@ export function EditorialPageView({ page }: { page: EditorialPage }) {
         title={
           isArticle
             ? 'Von der Planung zum passenden nächsten Schritt.'
-            : 'Weiterdenken. Konkret werden.'
+            : 'Weitere Informationen'
         }
       />
       {isArticle && (

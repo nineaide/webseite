@@ -180,7 +180,7 @@ for (const path of [...indexPaths, ...noindexPaths]) {
   );
   check(
     html.includes('site-footer-links') &&
-      html.includes('Persönliches Angebot erhalten'),
+      html.includes('Projekt anfragen'),
     path + ': shared inquiry footer',
   );
   check(ids.has('top'), path + ': back-to-top target');

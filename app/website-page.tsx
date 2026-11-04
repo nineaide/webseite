@@ -32,10 +32,10 @@ export default function WebsitePage() {
               Website-Pakete vergleichen <ArrowUpRight size={19} />
             </a>
             <a
-              href="/website-erstellen-lassen?paket=unsicher#website-check"
+              href="/website-erstellen-lassen?service=Website#website-check"
               className="c-inline-link"
             >
-              Vorhaben besprechen <ArrowUpRight size={17} />
+              Projekt anfragen <ArrowUpRight size={17} />
             </a>
           </div>
         </div>
@@ -197,7 +197,7 @@ export default function WebsitePage() {
           items={[
             [
               'Was kostet eine professionelle Unternehmenswebsite bei Nine.ai?',
-              'Nine Start kostet 1.990 €, Nine Launch 6.900 € und Nine Growth 12.900 €, jeweils netto für die beschriebenen Leistungen. Nine X kalkulieren wir individuell. Hosting, Domain und Fremdlizenzen werden separat vereinbart. Bei Nine Growth sind Werbebudget und laufende Ads-Betreuung nicht enthalten.',
+              'Die Basispreise liegen bei 1.990 € für Nine Start, 6.900 € für Nine Launch und 12.900 € für Nine Growth, jeweils netto für den beschriebenen Umfang. Dein persönliches Angebot richtet sich nach den Anforderungen. Nine X kalkulieren wir individuell. Hosting, Domain und Fremdlizenzen werden separat vereinbart. Bei Nine Growth sind Werbebudget und laufende Ads-Betreuung nicht enthalten.',
             ],
             [
               'Überarbeitet ihr auch bestehende Websites?',
@@ -213,7 +213,7 @@ export default function WebsitePage() {
             ],
             [
               'Gehören ein Shop oder ein Kundenlogin zum Paket?',
-              'Nein. Shops, Kundenlogins und individuelle Daten- oder Schnittstellenlogik sind nicht Teil der Website-Festpreispakete. Solche Funktionen besprechen wir separat.',
+              'Nein. Shops, Kundenlogins und individuelle Daten- oder Schnittstellenlogik sind nicht Teil der Website-Pakete. Solche Funktionen besprechen wir separat.',
             ],
             [
               'Kann mein Team die Website selbst pflegen?',

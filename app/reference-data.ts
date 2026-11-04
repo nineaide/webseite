@@ -27,7 +27,7 @@ export type ReferenceProject = {
   tone: string;
   systemTitle?: string;
   screens?: ProjectScreen[];
-  status?: 'Im Aufbau';
+  status?: 'Im Aufbau' | 'Aktuell in Entwicklung';
   previewAvailable?: boolean;
   implementation?: ProjectFeature[];
 };
@@ -191,15 +191,28 @@ export const referenceProjects: ReferenceProject[] = [
     category: 'Energie',
     url: 'https://dghawss03.github.io/energie-entwurf/',
     websiteLabel: 'Live-Website',
+    status: 'Aktuell in Entwicklung',
     tone: '#eaf1e2',
     description:
       'Strom und Gas anfragen. Der Tarifrechner erfasst den Bedarf, das CRM führt die Anfragen zur Bearbeitung zusammen.',
     detail:
-      'Entwurf Energie verbindet die Tarifberatung für Strom und Gas mit einer digitalen Anfrageverwaltung und einem integrierten CRM. Die verlinkte Website ist ein Entwurf mit ersetzten Unternehmensangaben und Beispieldaten.',
+      'Entwurf Energie verbindet die Tarifberatung für Strom und Gas mit einer digitalen Anfrageverwaltung und einem integrierten CRM. Das freigegebene Kundenprojekt befindet sich aktuell in Entwicklung. Unternehmensangaben und Kontaktdaten wurden für die Veröffentlichung ersetzt.',
     systemTitle: 'Tarifanfragen im CRM bearbeiten',
     screens: [
-      screen('entwurf-energie-leads', 'Anfragen bearbeiten', 'Suche, Bearbeitungsstände und Zuordnung in der CRM-Demo. Alle Kontakte sind fiktiv.', 1440, 1000),
-      screen('entwurf-energie-crm-mobile', 'Anfragen unterwegs ansehen', 'Die mobile Anfragenliste desselben Entwurfsprojekts mit fiktiven Kontakten.', 390, 844),
+      screen(
+        'entwurf-energie-leads',
+        'Anfragen bearbeiten',
+        'Suche, Bearbeitungsstände und Zuordnung im CRM. Die angezeigten Kontaktdaten wurden ersetzt.',
+        1440,
+        1000,
+      ),
+      screen(
+        'entwurf-energie-crm-mobile',
+        'Anfragen unterwegs ansehen',
+        'Die mobile Anfragenliste desselben Kundenprojekts mit ersetzten Kontaktdaten.',
+        390,
+        844,
+      ),
     ],
     features: [
       'Interaktiver Tarifrechner',
@@ -275,7 +288,6 @@ export const referenceProjects: ReferenceProject[] = [
       'Anfrage und WhatsApp-Kontakt',
     ],
   },
-
 ];
 
 export const referenceImage = (id: string, mobile = false) =>

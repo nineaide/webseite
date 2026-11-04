@@ -252,8 +252,6 @@ export const packages = [
     ],
     excludes:
       'Shop, Login, komplexe Datenlogik, individuelle Schnittstellen sowie Hosting, Domain und Fremdlizenzen.',
-    payment:
-      '30 % nach Bestätigung des Leistungsumfangs, 40 % nach Designfreigabe, 30 % vor Go-live.',
     image: '38-897.png',
   },
   {
@@ -271,8 +269,6 @@ export const packages = [
     ],
     excludes:
       'Laufendes Mediabudget und Ads-Betreuung, komplexe Portale, mehrsprachige Speziallogik sowie Hosting, Domain und Fremdlizenzen.',
-    payment:
-      'Abstimmungsgespräch und verbindlicher Zahlungsplan vor Projektbeginn.',
     image: '38-895.png',
   },
   {
@@ -290,7 +286,6 @@ export const packages = [
     ],
     excludes:
       'Fertiges UI, Produktionscode oder ein rechtsverbindlicher Entwicklungspreis.',
-    payment: 'Geplant: vollständige Zahlung nach bestätigtem Leistungsumfang.',
     image: '38-898.png',
   },
   {
@@ -308,7 +303,6 @@ export const packages = [
     ],
     excludes:
       'Der genaue Umfang wird in der Discovery definiert; Fremdlizenzen und Betrieb werden separat vereinbart.',
-    payment: 'Individueller Meilensteinplan auf Basis der Discovery.',
     image: '38-902.png',
   },
   {
@@ -325,7 +319,6 @@ export const packages = [
       'Regelmäßige Berichte & Verbesserungen',
     ],
     excludes: 'Mediabudget, externe Lizenzen und größere Neuentwicklungen.',
-    payment: 'Monatliche Betreuung. Umfang und Laufzeit nach Bestandsaufnahme.',
     image: '38-904.png',
   },
 ];

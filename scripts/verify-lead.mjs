@@ -1,6 +1,5 @@
 import assert from 'node:assert/strict';
 import { randomUUID } from 'node:crypto';
-import { writeFileSync } from 'node:fs';
 
 // Integration fixtures are sent only to a local build with no mail credentials.
 const origin = process.argv[2] || 'http://localhost:3001';
@@ -16,7 +15,7 @@ const lead = {
   goal: 'relaunch',
   package: 'nine-start',
   website: 'example.test',
-  phone: '',
+  phone: '+49 170 1234567',
   message: 'Local verification only',
   fax: '',
   campaign: { utm_source: 'test' },
@@ -95,16 +94,18 @@ assert.match(
   html,
   /<link rel="canonical" href="https:\/\/nine-ai-studio.serhad1999.chatgpt.site\/website-erstellen-lassen"/,
 );
-assert.match(
-  html,
-  /value="nine-growth"[^>]*checked=""|checked=""[^>]*value="nine-growth"/,
-);
+assert.match(html, /<option value="nine-growth" selected=""/);
 assert.match(html, /mailto:anfrage@nineai.de/);
 assert.match(html, /1\.990/);
 assert.match(html, /6\.900/);
-assert.match(html, /Vorschau · Bewertungen folgen/);
-assert.match(html, /keine echte Bewertung/);
-assert.match(html, /parkesicher-live\.png/);
+assert.match(html, /name="phone"/);
+assert.match(html, /Anfrage senden/);
+assert.match(html, /Nachricht hinzufügen/);
+assert.doesNotMatch(
+  html,
+  /Bestellentwurf|Bestellschritte|Zahlung noch nicht freigeschaltet/,
+);
+assert.match(html, /parkesicher-desktop/);
 assert.match(html, /12\.900/);
 assert.equal(
   (html.match(/<div\b[^>]*data-slot="accordion-content"[^>]*>/g) || []).filter(
@@ -113,18 +114,44 @@ assert.equal(
   7,
   'All FAQ answers start collapsed',
 );
-for (const slug of ['nine-start', 'nine-launch']) {
+for (const slug of ['nine-start', 'nine-launch', 'nine-growth', 'unsicher']) {
   const selectedHtml = await (
     await fetch(origin + '/website-erstellen-lassen?paket=' + slug)
   ).text();
   assert.match(
     selectedHtml,
-    new RegExp(
-      'value="' + slug + '"[^>]*checked=""|checked=""[^>]*value="' + slug + '"',
-    ),
+    new RegExp('<option value="' + slug + '" selected=""'),
   );
 }
-writeFileSync('/tmp/nine-lead-local-fixture.json', JSON.stringify(lead));
+for (const phone of ['', 'not-a-phone', '123']) {
+  assert.equal(
+    (await send({ ...lead, phone })).status,
+    400,
+    'Phone is required and validated',
+  );
+}
+for (const [goal, pack] of [
+  ['crm', 'unsicher'],
+  ['plattform', 'platform-discovery'],
+  ['plattform', 'custom-platform'],
+  ['automation', 'automation-sprint'],
+  ['ads', 'nine-scale'],
+  ['individuell', 'unsicher'],
+]) {
+  assert.equal(
+    (
+      await send({
+        ...lead,
+        requestId: randomUUID(),
+        email: randomUUID() + '@example.test',
+        goal,
+        package: pack,
+      })
+    ).status,
+    201,
+    'Service and package inquiries use actual storage',
+  );
+}
 // Keep this last: Wrangler 4.92's local proxy corrupts its next pooled request
 // after a rejected upload, even when the Worker explicitly cancels that body.
 // Production must separately verify 413 followed by a normal validation error.
@@ -134,5 +161,5 @@ assert.equal(
   'Oversized body rejected',
 );
 console.log(
-  'PASS: Lead validation, durable receipt, idempotency, conflict handling, atomic rate limiting, SSR, package handoff and seven collapsed FAQs.',
+  'PASS: Lead validation, durable receipt, idempotency, conflict handling, atomic rate limiting, required phone, all service interests, SSR, package handoff and seven collapsed FAQs.',
 );

@@ -2,6 +2,7 @@
 /* oxlint-disable next/no-img-element */
 import { ArrowUp, ArrowUpRight, CheckCircle2 } from 'lucide-react';
 import { usePathname } from 'next/navigation';
+import { inquiryHrefForPath } from '../lib/inquiry-options';
 import { useInquiryStatus } from './use-inquiry-status';
 import { businessPhone } from './team-data';
 import './site-footer.css';
@@ -12,7 +13,7 @@ export function Footer() {
   const contactHref =
     path === '/website-erstellen-lassen'
       ? '#website-check'
-      : '/website-erstellen-lassen?paket=unsicher#website-check';
+      : inquiryHrefForPath(path);
   return (
     <footer className="site-footer">
       <div className="site-footer-inner">
@@ -53,7 +54,7 @@ export function Footer() {
           ) : (
             <>
               <a href={contactHref} className="c-button c-button-blue">
-                Persönliches Angebot erhalten{' '}
+                Projekt anfragen{' '}
                 <ArrowUpRight size={20} aria-hidden="true" />
               </a>
               <span>Unverbindlich. Gemeinsam den passenden Umfang finden.</span>

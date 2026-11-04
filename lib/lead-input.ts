@@ -1,11 +1,25 @@
 /* oxlint-disable no-control-regex */
 // Reject control characters in untrusted form input before storage or email.
-export const leadGoals = ['neu', 'relaunch', 'anfragen'] as const;
+import { isValidInquiryPhone } from './inquiry-options';
+export const leadGoals = [
+  'neu',
+  'relaunch',
+  'anfragen',
+  'plattform',
+  'crm',
+  'automation',
+  'ads',
+  'individuell',
+] as const;
 export const leadPackages = [
   'nine-start',
   'nine-launch',
   'nine-growth',
   'unsicher',
+  'platform-discovery',
+  'custom-platform',
+  'nine-scale',
+  'automation-sprint',
 ] as const;
 export const leadRecipient = 'anfrage@nineai.de';
 export type WebsiteLead = {
@@ -57,6 +71,9 @@ export function validateLead(input: unknown): WebsiteLead {
       'Bitte wähle dein Vorhaben und den passenden Einstieg aus.',
     );
   const name = field('name', 100, true);
+  const phone = field('phone', 40, true);
+  if (!isValidInquiryPhone(phone))
+    throw new Error('Bitte gib eine gültige Telefonnummer mit Vorwahl an.');
   const email = field('email', 200, true).toLowerCase();
   if (name.length < 2 || /[\r\n]/.test(name))
     throw new Error('Bitte ergänze deinen Namen.');
@@ -106,7 +123,7 @@ export function validateLead(input: unknown): WebsiteLead {
     name,
     email,
     website,
-    phone: field('phone', 40),
+    phone,
     message: field('message', 2000),
     campaign,
   };

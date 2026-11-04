@@ -11,9 +11,7 @@ export function KnowledgePage() {
         <div>
           <span className="eyebrow">WISSEN FÜR DEIN VORHABEN</span>
           <h1>
-            Gute Entscheidungen.
-            <br />
-            Ein klarer Start.
+            Planungshilfen für dein Projekt.
           </h1>
         </div>
         <div className="n-hero-lead">

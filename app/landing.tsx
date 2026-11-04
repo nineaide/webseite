@@ -1,8 +1,4 @@
-import {
-  ArrowDown,
-  ArrowUpRight,
-  Check,
-} from 'lucide-react';
+import { ArrowDown, ArrowUpRight, Check } from 'lucide-react';
 import { Header, Footer } from './site-chrome';
 import { HeroShowcase, HomeProjectShowcase } from './project-showcase';
 import { HomeServiceCards } from './home-service-cards';
@@ -30,23 +26,20 @@ export default function Landing() {
                 <em>für dich gewinnt.</em>
               </h1>
               <p>
-                Wir gestalten und entwickeln deine Website. Damit Besucher
-                deine Leistungen finden und dich direkt anfragen können.
+                Wir gestalten und entwickeln deine Website. Damit Besucher deine
+                Leistungen finden und dich direkt anfragen können.
               </p>
               <div className="hero-actions">
                 <a href="#pakete" className="c-button c-button-light">
                   Website-Pakete ansehen <ArrowDown size={19} />
                 </a>
-                <a
-                  href="/website-erstellen-lassen?paket=unsicher#website-check"
-                  className="c-inline-link"
-                >
-                  Erst einmal sprechen <ArrowUpRight size={18} />
+                <a href="/projekt-starten" className="c-inline-link">
+                  Kontakt aufnehmen <ArrowUpRight size={18} />
                 </a>
               </div>
               <div className="hero-reassurance">
                 <span>
-                  <Check size={16} /> Feste Website-Preise
+                  <Check size={16} /> Transparente Basispreise
                 </span>
                 <span>
                   <Check size={16} /> Design & Entwicklung
@@ -58,36 +51,68 @@ export default function Landing() {
             </div>
             <HeroShowcase />
           </section>
-          <section className="process-area home-about" aria-labelledby="home-about-title">
+          <section
+            className="process-area home-about"
+            aria-labelledby="home-about-title"
+          >
             <div className="wrap home-about-grid">
               <div className="home-about-copy">
                 <span className="eyebrow">WER WIR SIND</span>
-                <h2 id="home-about-title">Deine Idee.<br />Direkt mit uns umgesetzt.</h2>
-                <p>Bei Nine.ai sprichst du direkt mit den Menschen, die deine Website oder digitale Lösung entwickeln. Ohne unnötige Umwege.</p>
-                <a className="c-inline-link" href="/ueber-nine">Über 9.ai <ArrowUpRight size={18} /></a>
+                <h2 id="home-about-title">
+                  Deine Idee.
+                  <br />
+                  Direkt mit uns umgesetzt.
+                </h2>
+                <p>
+                  Bei Nine.ai sprichst du direkt mit den Menschen, die deine
+                  Website oder digitale Lösung entwickeln. Ohne unnötige Umwege.
+                </p>
+                <a className="c-inline-link" href="/ueber-nine">
+                  Über 9.ai <ArrowUpRight size={18} />
+                </a>
               </div>
-              <div className="home-about-process" aria-labelledby="home-about-process-title">
+              <div
+                className="home-about-process"
+                aria-labelledby="home-about-process-title"
+              >
                 <h3 id="home-about-process-title">SO ARBEITEN WIR</h3>
                 <div className="home-about-route">
-                  <svg className="home-about-route-line" viewBox="0 0 600 360" preserveAspectRatio="none" aria-hidden="true">
+                  <svg
+                    className="home-about-route-line"
+                    viewBox="0 0 600 360"
+                    preserveAspectRatio="none"
+                    aria-hidden="true"
+                  >
                     <path d="M 8 20 H 530 Q 582 20 582 72 V 148 Q 582 200 530 200 H 8" />
                     <circle cx="8" cy="20" r="4" />
                     <circle cx="326" cy="20" r="4" />
                     <circle cx="326" cy="200" r="4" />
-                    <path className="home-about-route-finish" d="m 20 192 -12 8 12 8" />
+                    <path
+                      className="home-about-route-finish"
+                      d="m 20 192 -12 8 12 8"
+                    />
                   </svg>
-                <ol>
-                  {[
-                    ['Kennenlernen', 'Wir sprechen über dein Vorhaben.'],
-                    ['Konzept & Design', 'Du siehst, wie deine Lösung aussehen kann.'],
-                    ['Entwicklung', 'Wir setzen um und stimmen uns mit dir ab.'],
-                    ['Livegang', 'Dein Projekt geht online.'],
-                  ].map(([title, description]) => (
-                    <li key={title}>
-                      <div><h4>{title}</h4><p>{description}</p></div>
-                    </li>
-                  ))}
-                </ol>
+                  <ol>
+                    {[
+                      ['Kennenlernen', 'Wir sprechen über dein Vorhaben.'],
+                      [
+                        'Konzept & Design',
+                        'Du siehst, wie deine Lösung aussehen kann.',
+                      ],
+                      [
+                        'Entwicklung',
+                        'Wir setzen um und stimmen uns mit dir ab.',
+                      ],
+                      ['Livegang', 'Dein Projekt geht online.'],
+                    ].map(([title, description]) => (
+                      <li key={title}>
+                        <div>
+                          <h4>{title}</h4>
+                          <p>{description}</p>
+                        </div>
+                      </li>
+                    ))}
+                  </ol>
                 </div>
               </div>
             </div>
@@ -96,7 +121,6 @@ export default function Landing() {
             <div className="wrap">
               <div className="section-heading home-services-heading">
                 <div>
-                  <span className="eyebrow">BUILD · AUTOMATE · SCALE</span>
                   <h2>Unsere Leistungen</h2>
                 </div>
               </div>
@@ -123,9 +147,7 @@ export default function Landing() {
             <div className="wrap">
               <div className="section-heading">
                 <div>
-                  <span className="eyebrow">
-                    DEINE WEBSITE. DEIN FESTPREIS.
-                  </span>
+                  <span className="eyebrow">WEBSITE-PAKETE & BASISPREISE</span>
                   <h2>
                     Was soll deine
                     <br />
@@ -147,40 +169,39 @@ export default function Landing() {
             <div className="wrap">
               <div className="section-heading">
                 <div>
-                  <span className="eyebrow">
-                    PERSÖNLICHE ZUSAMMENARBEIT
-                  </span>
-                  <h2>Gemeinsam von der Idee bis zum Launch.</h2>
+                  <span className="eyebrow">VOR DEM PROJEKTSTART</span>
+                  <h2>Was wir zum Projektstart von dir brauchen</h2>
                 </div>
                 <p>
-                  Du arbeitest direkt mit uns zusammen: Wir stimmen Ziele,
-                  Entwurf und Umsetzung Schritt für Schritt mit dir ab.
+                  Eine fertige Planung brauchst du nicht. Gemeinsam klären wir,
+                  was bereits vorhanden ist und wobei du Unterstützung möchtest.
                 </p>
               </div>
-              <div className="process-list">
-                {[
-                  [
-                    'Paket wählen. Gemeinsam loslegen.',
-                    'Wir klären Ziel, Umfang und Zeitplan. Du bringst dein Angebot und vorhandene Inhalte mit.',
-                  ],
-                  [
-                    'Entwurf ansehen. Feedback geben.',
-                    'Du siehst den Entwurf und gibst Feedback, bevor wir deine Website umsetzen.',
-                  ],
-                  [
-                    'Prüfen. Gemeinsam online gehen.',
-                    'Wir prüfen die Ansichten, übergeben die Website und erklären dir die vereinbarte Pflege.',
-                  ],
-                ].map(([title, text], i) => (
-                  <article key={title}>
-                    <span className="process-number">0{i + 1}</span>
-                    <div>
-                      <h3>{title}</h3>
-                      <p>{text}</p>
-                    </div>
-                  </article>
-                ))}
-              </div>
+              <dl className="home-project-preparation">
+                <div>
+                  <dt>Dein Vorhaben</dt>
+                  <dd>
+                    Was soll sich für dein Unternehmen oder deine Kunden
+                    verbessern? Beschreibe uns die Aufgabe so, wie du sie im
+                    Alltag erlebst.
+                  </dd>
+                </div>
+                <div>
+                  <dt>Vorhandene Inhalte</dt>
+                  <dd>
+                    Zeig uns deine Website und die Inhalte, die wir übernehmen
+                    können. Fehlende Texte oder Bilder besprechen wir separat.
+                  </dd>
+                </div>
+                <div>
+                  <dt>Bestehende Technik</dt>
+                  <dd>
+                    Welche Programme nutzt dein Team bereits? Benötigte Zugänge
+                    stimmen wir persönlich ab. Bitte sende keine Passwörter über
+                    das Anfrageformular.
+                  </dd>
+                </div>
+              </dl>
             </div>
           </section>
           <section
@@ -203,8 +224,8 @@ export default function Landing() {
                     'Nine Start für eine kompakte Landingpage. Nine Launch für deinen Unternehmensauftritt. Nine Growth für Website und Werbestart. Nine X für ein individuell geplantes Vorhaben.',
                   ],
                   [
-                    'Sind die Website-Preise fest?',
-                    'Ja. Nine Start: 1.990 €, Nine Launch: 6.900 €, Nine Growth: 12.900 €, jeweils netto für den beschriebenen Umfang. Nine X erhält einen individuellen Angebotspreis. Hosting, Domain, Fremdlizenzen, Werbebudget und zusätzliche Leistungen kommen separat dazu.',
+                    'Wie sind die Website-Preise zu verstehen?',
+                    'Nine Start beginnt bei 1.990 €, Nine Launch bei 6.900 € und Nine Growth bei 12.900 €, jeweils netto für den beschriebenen Umfang. Die Preise dienen als Orientierung. Dein persönliches Angebot richtet sich nach deinen Anforderungen. Betrieb, Werbebudget und zusätzliche Leistungen werden separat vereinbart.',
                   ],
                   [
                     'Was passiert mit meinen vorhandenen Inhalten?',
@@ -219,8 +240,8 @@ export default function Landing() {
                     'Bei Nine Launch und Nine Growth ist ein Bereich zur Inhaltspflege vorgesehen. Für Nine Start und Nine X stimmen wir die Pflege passend zum Umfang ab. Betrieb und Wartung besprechen wir separat.',
                   ],
                   [
-                    'Kann ich das Paket direkt bestellen?',
-                    'Du kannst jedes Paket unverbindlich anfragen. Für Nine Launch und Nine Growth kannst du zusätzlich einen Bestellentwurf vorbereiten. Ein verbindlicher Auftrag entsteht erst nach Vereinbarung; die Online-Zahlung ist noch nicht eingerichtet.',
+                    'Wie frage ich ein Paket an?',
+                    'Wähle dein Paket und ergänze deine Kontaktdaten. Wir besprechen deinen Bedarf und erstellen ein persönliches Angebot. Deine Anfrage ist unverbindlich.',
                   ],
                 ]}
               />

@@ -21,7 +21,7 @@ export const offers = [
     price: '6.900 €',
     unit: 'einmalig · netto',
     href: '/checkout/nine-launch',
-    cta: 'Website-Paket ansehen',
+    cta: 'Unverbindlich anfragen',
     items: [
       'Individuelles Design für dein Unternehmen',
       'Bis zu 6 Seitentypen, mobil optimiert',
@@ -43,7 +43,7 @@ export const offers = [
     price: 'ab 1.490 €',
     unit: 'pro Monat · netto',
     href: '/checkout/nine-scale',
-    cta: 'Werbepaket ansehen',
+    cta: 'Unverbindlich anfragen',
     items: [
       'Google-Werbung einrichten und betreuen',
       'Anfragen und Kampagnen auswerten',
@@ -65,7 +65,7 @@ export const offers = [
     price: '2.900 €',
     unit: 'einmalig · netto',
     href: '/checkout/platform-discovery',
-    cta: 'Planungs-Paket ansehen',
+    cta: 'Unverbindlich anfragen',
     items: [
       'Gemeinsame Workshops zu deiner Idee',
       'Funktionen und Nutzerabläufe festlegen',
@@ -87,7 +87,7 @@ export const offers = [
     price: 'ab 4.900 €',
     unit: 'je Projekt · netto',
     href: '/projekt-starten?service=KI%20%26%20Automation',
-    cta: 'Aufgabe beschreiben',
+    cta: 'Projekt anfragen',
     items: [
       'Deinen heutigen Ablauf verstehen',
       'Passende Programme und Daten verbinden',

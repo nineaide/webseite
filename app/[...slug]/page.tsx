@@ -12,9 +12,7 @@ import {
   Legal,
 } from '../subpages';
 import PackageRequest from '../package-request';
-import WebsiteCheckout from '../website-checkout';
 import WebsitePage from '../website-page';
-import { isWebsitePackage } from '../../lib/website-order';
 import { breadcrumbsFor, findSeoPage } from '../../lib/seo-pages';
 import { findEditorialPage } from '../content';
 import { EditorialPageView } from '../editorial-pages';
@@ -44,20 +42,20 @@ const pages: Record<string, [string, string]> = {
     'Strategie, Design, Backend und Growth gemeinsam gedacht. Lerne die Haltung und das Arbeitsmodell von Nine.ai kennen.',
   ],
   'projekt-starten': [
-    'Projekt starten',
+    'Projekt anfragen',
     'Beschreibe dein Vorhaben in wenigen Sätzen und bereite deine Nine.ai-Projektanfrage vor.',
   ],
   impressum: [
     'Impressum',
-    'Anbieter- und Designhinweise zur privaten Nine.ai-Projektvorschau.',
+    'Anbieterangaben und Hinweise zu veröffentlichten Kundenprojekten.',
   ],
   datenschutz: [
     'Datenschutz',
-    'Informationen zur lokalen Verarbeitung des Projektbriefings und zur privaten Nine.ai-Vorschau.',
+    'Informationen zu Cloudflare-Hosting, Anfrageformularen und der Verarbeitung von Kontaktdaten.',
   ],
   agb: [
-    'AGB',
-    'Informationen zum geplanten Vertrags- und Bestellprozess der Nine.ai-Vorschau.',
+    'Anfrage und Zusammenarbeit',
+    'Informationen zur unverbindlichen Anfrage und zur Zusammenarbeit mit Nine.ai.',
   ],
 };
 function info(key: string) {
@@ -69,14 +67,8 @@ function info(key: string) {
     const p = packages.find((p) => 'checkout/' + p.slug === key);
     if (p)
       return [
-        p.name +
-          (isWebsitePackage(p.slug)
-            ? ' – Website-Paket auswählen'
-            : ' – Paketdetails'),
-        p.goal +
-          (isWebsitePackage(p.slug)
-            ? ' Fester Nettopreis, Leistungen und vorbereiteter Bestellablauf.'
-            : ' Leistungsumfang, Preisorientierung und persönliches Projektbriefing.'),
+        p.name + ' unverbindlich anfragen',
+        p.goal + ' Basispreis, Leistungsumfang und persönliche Anfrage.',
       ];
   }
   return pages[key];
@@ -127,6 +119,14 @@ export default async function Page({
       'Plattform',
       'KI & Automation',
       'Growth',
+      'CRM',
+      'crm',
+      'website',
+      'relaunch',
+      'plattform',
+      'automation',
+      'ads',
+      'allgemein',
       'Noch unklar',
     ].includes(requested)
       ? requested
@@ -139,11 +139,7 @@ export default async function Page({
   else if (services.some((s) => s.slug === key))
     content = <ServicePage slug={key} />;
   else if (key.startsWith('checkout/'))
-    content = isWebsitePackage(key.split('/')[1]) ? (
-      <WebsiteCheckout key={key} slug={key.split('/')[1]} />
-    ) : (
-      <PackageRequest key={key} slug={key.split('/')[1]} />
-    );
+    content = <PackageRequest key={key} slug={key.split('/')[1]} />;
   else
     switch (key) {
       case 'wissen':
@@ -207,10 +203,7 @@ export default async function Page({
                 </>
               )}
               <span aria-current="page">
-                {key.startsWith('checkout/') &&
-                isWebsitePackage(key.split('/')[1])
-                  ? 'Website-Paket auswählen'
-                  : info(key)![0]}
+                {info(key)![0]}
               </span>
             </>
           )}

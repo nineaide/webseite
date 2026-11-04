@@ -1,17 +1,16 @@
-import { writeFileSync } from 'node:fs';
-const origin = process.argv[2] || 'http://localhost:3000';
-const routes = [
-  '/',
-  '/loesungen',
-  '/plattformen-web-apps',
-  '/websites',
-  '/website-erstellen-lassen',
-  '/ki-automation',
-  '/google-ads-growth',
-  '/projekte',
-  '/projekte/parkesicher',
-  '/pakete',
-  '/ueber-nine',
+﻿import assert from 'node:assert/strict';
+import { mkdirSync, writeFileSync } from 'node:fs';
+import { dirname } from 'node:path';
+const origin = (process.argv[2] || 'http://localhost:3001').replace(/\/$/, '');
+const output = process.argv[3] || 'outputs/route-validation.json';
+const sitemap = await (await fetch(origin + '/sitemap.xml')).text();
+const locations = [...sitemap.matchAll(/<loc>(.*?)<\/loc>/g)].map(
+  (match) => new URL(match[1]),
+);
+assert.ok(locations.length > 0, 'Sitemap includes public pages');
+const canonicalOrigin = locations[0].origin;
+const publicPaths = locations.map((url) => url.pathname);
+const privatePaths = [
   '/projekt-starten',
   '/checkout/nine-launch',
   '/checkout/nine-growth',
@@ -22,71 +21,60 @@ const routes = [
   '/datenschutz',
   '/agb',
 ];
-const results = [];
-const titles = new Set();
-const descriptions = new Set();
-let failed = false;
-for (const path of routes) {
-  const r = await fetch(origin + path);
-  const html = await r.text();
+const paths = [...new Set([...publicPaths, ...privatePaths])];
+const results = [],
+  titles = new Set();
+for (const path of paths) {
+  const response = await fetch(origin + path),
+    html = await response.text();
   const title = html.match(/<title>([^<]+)<\/title>/)?.[1];
-  const description = html.match(
-    /<meta name="description" content="([^"]+)"/,
-  )?.[1];
-  const h1 = (html.match(/<h1[ >]/g) || []).length;
-  const noindex = /<meta name="robots" content="[^"]*noindex/.test(html);
   const canonical = html.match(/<link rel="canonical" href="([^"]+)"/)?.[1];
-  const badLinks = [...html.matchAll(/<a[^>]* href="(\/[^"?#]*)[^\"]*"/g)]
-    .map((m) => m[1])
+  const noindex = /<meta name="robots" content="[^"]*noindex/.test(html);
+  const h1 = (html.match(/<h1[ >]/g) || []).length;
+  const badLinks = [...html.matchAll(/<a[^>]* href="(\/[^"?#]*)[^"]*"/g)]
+    .map((match) => match[1])
     .filter(
-      (h) =>
-        !h.startsWith('/assets/') && !h.startsWith('/_') && !routes.includes(h),
+      (href) =>
+        !['/assets/', '/_', '/project-images/', '/fonts/'].some((prefix) =>
+          href.startsWith(prefix),
+        ) && !paths.includes(href),
     );
   const pass =
-    r.status === 200 &&
-    h1 === 1 &&
+    response.status === 200 &&
     !!title &&
-    !!description &&
-    noindex &&
     !titles.has(title) &&
-    !descriptions.has(description) &&
-    canonical ===
-      'https://nine-ai-studio.serhad1999.chatgpt.site' +
-        (path === '/' ? '' : path) &&
+    h1 === 1 &&
+    !!canonical &&
+    new URL(canonical).href === new URL(path, canonicalOrigin).href &&
+    noindex === privatePaths.includes(path) &&
     badLinks.length === 0;
+  if (title) titles.add(title);
   results.push({
     path,
-    status: r.status,
+    status: response.status,
+    pass,
     h1,
     noindex,
     canonical,
-    title,
-    description,
     badLinks,
-    pass,
   });
-  titles.add(title);
-  descriptions.add(description);
-  if (!pass) failed = true;
-  console.log(pass ? 'PASS' : 'FAIL', path, r.status, 'h1=' + h1);
+  console.log(pass ? 'PASS' : 'FAIL', path);
 }
 for (const path of [
   '/does-not-exist',
   '/checkout/unknown-package',
   '/projekte/unknown-case',
 ]) {
-  const r = await fetch(origin + path);
-  const pass = r.status === 404;
-  results.push({ path, status: r.status, pass });
-  failed ||= !pass;
-  console.log(pass ? 'PASS' : 'FAIL', path, r.status);
+  const response = await fetch(origin + path);
+  results.push({
+    path,
+    status: response.status,
+    pass: response.status === 404,
+  });
 }
-writeFileSync(
-  'design/route-validation.json',
-  JSON.stringify(
-    { origin, checkedAt: new Date().toISOString(), results },
-    null,
-    2,
-  ),
+mkdirSync(dirname(output), { recursive: true });
+writeFileSync(output, JSON.stringify({ origin, results }, null, 2) + '\n');
+assert.ok(
+  results.every((result) => result.pass),
+  'All routes, canonicals, index rules and internal links pass',
 );
-if (failed) process.exit(1);

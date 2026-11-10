@@ -92,7 +92,7 @@ assert.equal(page.status, 200);
 assert.equal((html.match(/<h1\b/g) || []).length, 1);
 assert.match(
   html,
-  /<link rel="canonical" href="https:\/\/nine-ai-studio.serhad1999.chatgpt.site\/website-erstellen-lassen"/,
+  /<link rel="canonical" href="https:\/\/www\.nineai\.de\/website-erstellen-lassen"/,
 );
 assert.match(html, /<option value="nine-growth" selected=""/);
 assert.match(html, /mailto:anfrage@nineai.de/);

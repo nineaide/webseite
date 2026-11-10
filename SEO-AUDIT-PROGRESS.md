@@ -1,5 +1,11 @@
 # SEO-/GEO-Prüfung · 08.09.2026
 
+## Domainrelease – 10. November 2026
+
+Bestätigte Hauptadresse: `https://www.nineai.de`, mit permanenter Weiterleitung der Domain ohne www. Der Release-Build wurde lokal auf 39 indexierbaren und 9 nicht zu indexierenden Seiten geprüft. Canonicals, Open Graph, strukturierte Daten, Sitemap und robots.txt wurden mit der neuen Adresse ausgeliefert; die Projektprüfung umfasste 78 Crawler-Vergleiche und ergab keine Fehler. Dies ist noch kein öffentlicher DNS-/TLS- oder Redirect-Nachweis. Nach der Aktivierung gelten die Live-Prüfungen in [deployment/domain-launch.md](deployment/domain-launch.md).
+
+Die nachfolgenden Berichte und Bewertungen dokumentieren den früheren Sites-Stand.
+
 **Stand: v29 veröffentlicht; Live-HTML geprüft.**
 
 Abdeckung: **39/39 indexierbare Seiten**, zusätzlich **9/9 öffentliche noindex-Seiten**. Der Gesamtauftrag ist nicht abgeschlossen: echte Suchpositionen, vollständige Unternehmensidentität, eigene Hauptdomain und Messzugänge sind noch nicht nachgewiesen. Die zuletzt erneut geprüften externen Voraussetzungen stehen in `design/seo/external-prerequisites.json`.

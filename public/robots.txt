@@ -20,4 +20,4 @@ User-agent: CCBot
 User-agent: Meta-ExternalAgent
 Disallow: /
 
-Sitemap: https://nine-ai-studio.serhad1999.chatgpt.site/sitemap.xml
+Sitemap: https://www.nineai.de/sitemap.xml

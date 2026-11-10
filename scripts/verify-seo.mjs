@@ -4,7 +4,7 @@ import { createHash, randomInt } from 'node:crypto';
 
 const origin = (process.argv[2] || 'http://localhost:3001').replace(/\/$/, '');
 const output = process.argv[3] || 'design/seo/verified-local.json';
-const canonicalOrigin = 'https://nine-ai-studio.serhad1999.chatgpt.site';
+const canonicalOrigin = 'https://www.nineai.de';
 const noindexPaths = [
   '/projekt-starten',
   '/checkout/nine-launch',

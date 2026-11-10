@@ -17,7 +17,7 @@ The Tailwind source list in `app/globals.css` covers the application and its fiv
 
 React 19 / TypeScript / Vinext / Cloudflare Worker; D1 stores submitted website inquiries. `app/[...slug]/page.tsx` selects existing and editorial pages. `app/content` contains service details, case studies and guides. `lib/seo-pages.ts` is the public-index route registry; `app/sitemap.xml/route.ts` builds its XML sitemap.
 
-39 indexable pages and 9 public noindex pages are documented in `ROUTES-INVENTORY.md`. Unknown page patterns return real 404s. Canonicals use the existing working Sites origin in `lib/site-identity.ts`; change it only when the intended own domain is confirmed and connected, and update the sitemap URL in `public/robots.txt` at the same time. No own domain was configured at the last inspection.
+39 indexable pages and 9 public noindex pages are documented in `ROUTES-INVENTORY.md`. Unknown page patterns return real 404s. Canonical links, Open Graph URLs, structured data and sitemap locations use the chosen production origin `https://www.nineai.de` from `lib/site-identity.ts`; `public/robots.txt` advertises the same sitemap.
 
 Four local Cabinet Grotesk fonts use explicit preload, content-addressed WOFF2 routes and immutable caching. Native anchors preserve full server-rendered navigation. Editorial content requires no client JavaScript to read. Responsive rules retain a single-column mobile layout for long content and package cards.
 
@@ -46,13 +46,13 @@ Audit evidence and calculated readiness scores: `SEO-AUDIT-PROGRESS.md`, `design
 
 `/api/website-anfrage` accepts and stores website inquiries in private D1. The configured business recipient is anfrage@nineai.de. Automatic email delivery requires `LEAD_RESEND_API_KEY` and `LEAD_EMAIL_FROM`; hosting runtime values are managed through Sites and must never be committed. The other project/checkout forms remain local drafts; the owner explicitly deferred payment integration.
 
-No Google Ads/Meta pixels or active conversion tags are installed. A local custom event hook exists for later integration. Complete business/legal information, a verified main domain, Search Console/Bing ownership, genuine reviews and team photos remain owner inputs. The Google Partner badge stays hidden until an approved real badge/profile is supplied.
+No Google Ads/Meta pixels or active conversion tags are installed. A local custom event hook exists for later integration. Complete business/legal information, Search Console/Bing ownership, genuine reviews and team photos remain owner inputs. The Google Partner badge stays hidden until an approved real badge/profile is supplied.
 
 Publishing: build and verify, commit the exact source, push with a short-lived per-command credential, package using the Sites helper, save a version, deploy within the existing public audience, wait for success and re-fetch the live routes. Preserve the same Site and browser tab.
 
 ## Cloudflare deployment from GitHub
 
-Live deployment: [nineai-webseite.team-41d.workers.dev](https://nineai-webseite.team-41d.workers.dev/).
+Production domain: [www.nineai.de](https://www.nineai.de/). Direct Worker link: [nineai-webseite.team-41d.workers.dev](https://nineai-webseite.team-41d.workers.dev/).
 
 `wrangler.cloudflare.json` configures the independent `nineai-webseite` Worker and its D1 database. Use `npm run build:cloudflare` to build this target, then `npm run deploy:cloudflare` to deploy the generated Worker. The deploy command checks that the built Worker, account and database match the source configuration. The default `npm run build` still builds for the existing Sites hosting.
 
@@ -73,4 +73,4 @@ For a local production preview, initialize the local schema with `npx wrangler d
 
 Configure `LEAD_RESEND_API_KEY` and `LEAD_EMAIL_FROM` separately in the Worker's runtime settings; never commit their values. These email settings are currently missing here and in the existing Sites deployment. Without them, accepted inquiries remain stored in D1 with a pending notification instead of being emailed.
 
-This Worker provides an additional live link. Canonicals and the sitemap origin continue to point to `https://nine-ai-studio.serhad1999.chatgpt.site/`; do not change the primary origin merely to add this deployment.
+Domain cutover and verification: [deployment/domain-launch.md](deployment/domain-launch.md). The Worker URL stays enabled for diagnostics. The original Sites deployment is independent; publishing to Cloudflare does not change or redirect it.

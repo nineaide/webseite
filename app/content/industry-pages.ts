@@ -73,7 +73,7 @@ export const industryPages: EditorialPage[] = [
         id: 'preise',
         title: 'Der Umfang bestimmt das passende Paket.',
         paragraphs: [
-          'Nine Start bietet eine kompakte Landingpage für 1.990 € netto. Für einen Unternehmensauftritt mit mehreren Seitentypen gibt es Nine Launch für 6.900 € netto. Nine Growth für 12.900 € netto verbindet den größeren Auftritt mit dem vereinbarten Werbestart.',
+          'Nine Start bietet eine kompakte Landingpage für 1.990 €. Für einen Unternehmensauftritt mit mehreren Seitentypen gibt es Nine Launch für 6.900 €. Nine Growth für 12.900 € verbindet den größeren Auftritt mit dem vereinbarten Werbestart.',
           'Eigene Logins, Buchungssysteme und besondere Datenlogik werden als Nine X kalkuliert. Neue Inhalte, Fotografie, Hosting, Domain, Fremdlizenzen und Werbebudget werden gesondert betrachtet.',
         ],
         links: [
@@ -180,7 +180,7 @@ export const industryPages: EditorialPage[] = [
         id: 'umfang',
         title: 'Ein passender Rahmen für deinen Betrieb.',
         paragraphs: [
-          'Eine kompakte Landingpage beginnt mit Nine Start bei 1.990 € netto. Für mehrere Leistungsbereiche kommen Nine Launch oder Nine Growth infrage. Den enthaltenen Umfang, benötigte Bilder und die spätere Pflege stimmen wir vor Projektbeginn ab.',
+          'Eine kompakte Landingpage beginnt mit Nine Start bei 1.990 €. Für mehrere Leistungsbereiche kommen Nine Launch oder Nine Growth infrage. Den enthaltenen Umfang, benötigte Bilder und die spätere Pflege stimmen wir vor Projektbeginn ab.',
           'Eigene Kalkulatoren, Buchungsstrecken oder ein Kundenportal werden gesondert geplant. Dadurch bleibt erkennbar, was zur Unternehmenswebsite gehört und welche Funktionen einen eigenen Umfang brauchen.',
         ],
         links: [
@@ -285,7 +285,7 @@ export const industryPages: EditorialPage[] = [
         id: 'pflege',
         title: 'Mit der Website starten, Funktionen gezielt ergänzen.',
         paragraphs: [
-          'Nine Start ist der kompakte Einstieg für eine Landingpage mit vorhandenen Inhalten für 1.990 € netto. Für einen größeren Auftritt vergleichen wir die Website-Pakete und vereinbaren passende Inhaltsbereiche.',
+          'Nine Start ist der kompakte Einstieg für eine Landingpage mit vorhandenen Inhalten für 1.990 €. Für einen größeren Auftritt vergleichen wir die Website-Pakete und vereinbaren passende Inhaltsbereiche.',
           'Ein individuelles Reservierungssystem, Bestellabläufe, Zahlungsfunktionen oder besondere Integrationen sind zusätzliche Leistungen. Ebenso werden neue Fotografie, Inhaltserstellung und laufender Betrieb gesondert betrachtet.',
         ],
         links: [

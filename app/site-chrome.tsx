@@ -230,7 +230,7 @@ export function Header() {
               <GlassSurface>
                 <span>Deine neue Website</span>
                 <strong>
-                  6.900 € <small>netto</small>
+                  6.900 € <small>Basispreis</small>
                 </strong>
                 <a
                   className="c-button c-button-light"

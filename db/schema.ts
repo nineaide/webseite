@@ -18,8 +18,17 @@ export const websiteLeads = sqliteTable(
       .notNull()
       .default('pending'),
     notificationAttempts: integer('notification_attempts').notNull().default(0),
+    retentionStatus: text('retention_status', {
+      enum: ['unreviewed', 'no_contract', 'contract', 'legal_hold'],
+    })
+      .notNull()
+      .default('unreviewed'),
   },
   (table) => [
     index('idx_website_leads_email_created').on(table.email, table.createdAt),
+    index('idx_website_leads_retention_created').on(
+      table.retentionStatus,
+      table.createdAt,
+    ),
   ],
 );

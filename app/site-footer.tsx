@@ -5,6 +5,7 @@ import { usePathname } from 'next/navigation';
 import { inquiryHrefForPath } from '../lib/inquiry-options';
 import { useInquiryStatus } from './use-inquiry-status';
 import { businessPhone } from './team-data';
+import { basisPriceNotice, taxNotice } from '../lib/business-identity';
 import './site-footer.css';
 
 export function Footer() {
@@ -28,7 +29,7 @@ export function Footer() {
             <ArrowUp size={19} aria-hidden="true" />
           </a>
           <p>
-            Für Unternehmen.
+            Für Unternehmen und Privatkunden.
             <br />
             In ganz Deutschland.
           </p>
@@ -54,13 +55,15 @@ export function Footer() {
           ) : (
             <>
               <a href={contactHref} className="c-button c-button-blue">
-                Projekt anfragen{' '}
-                <ArrowUpRight size={20} aria-hidden="true" />
+                Projekt anfragen <ArrowUpRight size={20} aria-hidden="true" />
               </a>
               <span>Unverbindlich. Gemeinsam den passenden Umfang finden.</span>
             </>
           )}
         </div>
+        <p className="site-footer-price-note">
+          {basisPriceNotice} {taxNotice}
+        </p>
         <div className="site-footer-bottom">
           <span>© 2026 Nine.ai</span>
           <a href="/wissen">Wissen & Planung</a>

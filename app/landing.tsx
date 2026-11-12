@@ -46,7 +46,7 @@ export default function Landing() {
                 </span>
               </div>
               <p className="hero-price">
-                Deine Landingpage ab <strong>1.990 €</strong> netto
+                Deine Landingpage ab <strong>1.990 €</strong>
               </p>
             </div>
             <HeroShowcase />
@@ -225,7 +225,7 @@ export default function Landing() {
                   ],
                   [
                     'Wie sind die Website-Preise zu verstehen?',
-                    'Nine Start beginnt bei 1.990 €, Nine Launch bei 6.900 € und Nine Growth bei 12.900 €, jeweils netto für den beschriebenen Umfang. Die Preise dienen als Orientierung. Dein persönliches Angebot richtet sich nach deinen Anforderungen. Betrieb, Werbebudget und zusätzliche Leistungen werden separat vereinbart.',
+                    'Nine Start beginnt bei 1.990 €, Nine Launch bei 6.900 € und Nine Growth bei 12.900 €, jeweils als Basispreis für den beschriebenen Umfang. Die Preise dienen als Orientierung. Dein persönliches Angebot richtet sich nach deinen Anforderungen. Betrieb, Werbebudget und zusätzliche Leistungen werden separat vereinbart.',
                   ],
                   [
                     'Was passiert mit meinen vorhandenen Inhalten?',

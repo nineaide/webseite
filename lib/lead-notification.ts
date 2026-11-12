@@ -1,6 +1,20 @@
 import { env } from 'cloudflare:workers';
 import { leadRecipient, type WebsiteLead } from './lead-input';
 
+// Expose only the active configuration state to server-rendered privacy text,
+// never credentials or sender values to the browser.
+export function isLeadEmailConfigured() {
+  const settings = env as {
+    LEAD_RESEND_API_KEY?: string;
+    LEAD_EMAIL_FROM?: string;
+  };
+  return Boolean(
+    settings.LEAD_RESEND_API_KEY &&
+    settings.LEAD_EMAIL_FROM &&
+    !/[\r\n]/.test(settings.LEAD_EMAIL_FROM),
+  );
+}
+
 // Optional delivery adapter. Credentials and verified sender are server-only.
 // Leads remain in D1 if email is not configured or the provider is unavailable.
 export async function notifyLead(

@@ -35,7 +35,7 @@ const pages: Record<string, [string, string]> = {
   ],
   pakete: [
     'Pakete & Preise',
-    'Nine Start 1.990 €, Nine Launch 6.900 €, Nine Growth 12.900 € netto und Nine X auf Anfrage. Vergleiche Leistungen und passende Kundenprojekte.',
+    'Nine Start 1.990 €, Nine Launch 6.900 €, Nine Growth 12.900 € und Nine X auf Anfrage. Vergleiche Leistungen und passende Kundenprojekte.',
   ],
   'ueber-nine': [
     'Über Nine',
@@ -79,7 +79,8 @@ export async function generateMetadata({
   params: Promise<{ slug: string[] }>;
 }): Promise<Metadata> {
   const key = (await params).slug.join('/');
-  if (key === 'projekte/prime-energie') permanentRedirect('/projekte/entwurf-energie');
+  if (key === 'projekte/prime-energie')
+    permanentRedirect('/projekte/entwurf-energie');
   const seoPage = findSeoPage('/' + key);
   if (seoPage) return pageMetadata(seoPage);
   const d = info(key);
@@ -109,7 +110,8 @@ export default async function Page({
   searchParams: Promise<{ service?: string }>;
 }) {
   const key = (await params).slug.join('/');
-  if (key === 'projekte/prime-energie') permanentRedirect('/projekte/entwurf-energie');
+  if (key === 'projekte/prime-energie')
+    permanentRedirect('/projekte/entwurf-energie');
   if (!info(key)) notFound();
   const requested = (await searchParams).service;
   const initialService =
@@ -202,9 +204,7 @@ export default async function Page({
                   <span aria-hidden="true">/</span>
                 </>
               )}
-              <span aria-current="page">
-                {info(key)![0]}
-              </span>
+              <span aria-current="page">{info(key)![0]}</span>
             </>
           )}
         </nav>

@@ -19,7 +19,7 @@ export const offers = [
     description:
       'Wir gestalten und entwickeln deinen Unternehmensauftritt. Du bekommst eine fertige Website, die du selbst pflegen kannst.',
     price: '6.900 €',
-    unit: 'einmalig · netto',
+    unit: 'einmalig · Basispreis',
     href: '/checkout/nine-launch',
     cta: 'Unverbindlich anfragen',
     items: [
@@ -41,7 +41,7 @@ export const offers = [
     description:
       'Deine Website steht schon? Wir betreuen deine Werbung bei Google und prüfen, welche Anfragen daraus entstehen.',
     price: 'ab 1.490 €',
-    unit: 'pro Monat · netto',
+    unit: 'pro Monat · Basispreis',
     href: '/checkout/nine-scale',
     cta: 'Unverbindlich anfragen',
     items: [
@@ -63,7 +63,7 @@ export const offers = [
     description:
       'Kundenportal, Buchungsplattform oder Marktplatz: Wir klären zuerst, was gebraucht wird, wie es funktioniert und was die Entwicklung kostet.',
     price: '2.900 €',
-    unit: 'einmalig · netto',
+    unit: 'einmalig · Basispreis',
     href: '/checkout/platform-discovery',
     cta: 'Unverbindlich anfragen',
     items: [
@@ -85,7 +85,7 @@ export const offers = [
     description:
       'Zum Beispiel Anfragen vorsortieren, Dokumente auslesen oder Daten zwischen Programmen übertragen. Wir prüfen, was sich bei dir sinnvoll automatisieren lässt.',
     price: 'ab 4.900 €',
-    unit: 'je Projekt · netto',
+    unit: 'je Projekt · Basispreis',
     href: '/projekt-starten?service=KI%20%26%20Automation',
     cta: 'Projekt anfragen',
     items: [

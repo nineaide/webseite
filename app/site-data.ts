@@ -223,7 +223,7 @@ export const services = [
     faq: [
       [
         'Ist das Werbebudget enthalten?',
-        'Nein. Mediabudget und laufende Betreuung werden getrennt betrachtet. Das geplante Betreuungsangebot beginnt bei 1.490 € netto pro Monat; der konkrete Umfang wird individuell vereinbart.',
+        'Nein. Mediabudget und laufende Betreuung werden getrennt betrachtet. Das geplante Betreuungsangebot beginnt bei 1.490 € pro Monat; der konkrete Umfang wird individuell vereinbart.',
       ],
       [
         'Übernehmt ihr bestehende Kampagnen?',
@@ -331,7 +331,7 @@ export function money(n: number) {
 export const generalFaq = [
   [
     'Mit welchen Budgets arbeitet Nine.ai?',
-    'Kompakte Landingpages beginnen bei 1.990 €, Unternehmenswebsites bei 6.900 €, Automationsprojekte bei 4.900 € und individuelle Plattformen bei 30.000 € netto. Nine X wird individuell angeboten. Für komplexe Vorhaben ist Platform Discovery der erste Schritt.',
+    'Kompakte Landingpages beginnen bei 1.990 €, Unternehmenswebsites bei 6.900 €, Automationsprojekte bei 4.900 € und individuelle Plattformen bei 30.000 €. Nine X wird individuell angeboten. Für komplexe Vorhaben ist Platform Discovery der erste Schritt.',
   ],
   [
     'Wem gehören Code, Accounts und Daten?',

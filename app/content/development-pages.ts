@@ -88,7 +88,7 @@ export const developmentPages: EditorialPage[] = [
         id: 'umfang',
         title: 'Ein belastbares Angebot beginnt mit dem Umfang.',
         paragraphs: [
-          'Ein Buchungssystem gehört zu Nine X und wird individuell kalkuliert. Als abgegrenzter Planungseinstieg steht die Platform Discovery für 2.900 € netto zur Verfügung. Sie dient dazu, Nutzerrollen, Buchungsregeln und Integrationen konkret zu beschreiben; sie ist noch keine fertige Plattform.',
+          'Ein Buchungssystem gehört zu Nine X und wird individuell kalkuliert. Als abgegrenzter Planungseinstieg steht die Platform Discovery für 2.900 € zur Verfügung. Sie dient dazu, Nutzerrollen, Buchungsregeln und Integrationen konkret zu beschreiben; sie ist noch keine fertige Plattform.',
           'Entwicklung, Zahlungsanbindung, Datenübernahme und laufender Betrieb werden anschließend anhand des vereinbarten Umfangs angeboten. So lässt sich ein erster nutzbarer Ablauf von späteren Erweiterungen unterscheiden.',
         ],
         links: [

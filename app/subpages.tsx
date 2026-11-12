@@ -17,6 +17,7 @@ import { FAQAnswers } from './faq-answers';
 import { ProjectProofLinks, RelatedTopics } from './editorial-pages';
 import { TeamIntro } from './team-intro';
 import { projectImageProps } from './project-image-props';
+import { LegalContent } from './legal-content';
 export function FAQ({ items = generalFaq }: { items?: string[][] }) {
   return (
     <section className="n-section n-faq">
@@ -158,7 +159,7 @@ export function ServicePage({ slug }: { slug: string }) {
                 money(entryPackage.price) +
                 (entryPackage.suffix.includes('Monat') ? ' / Monat' : '')
               : 'ab 4.900 €'}{' '}
-            netto · Preisorientierung
+            Basispreis
           </p>
         </div>
         <a className="c-button c-button-light" href={href}>
@@ -494,171 +495,14 @@ export function Legal({ kind }: { kind: string }) {
         title={kind}
         lead={
           kind === 'Datenschutz'
-            ? 'Wie diese Website Anfragen und technische Verbindungsdaten verarbeitet.'
+            ? 'Informationen zur Verarbeitung Ihrer Daten auf dieser Website und bei Projektanfragen.'
             : kind === 'Impressum'
-              ? 'Angaben zum Anbieter und zu den veröffentlichten Projektansichten.'
+              ? 'Nine.ai ist ein Angebot von dghWeb – Dariush Ghawss.'
               : 'So fragen Sie ein Projekt bei Nine.ai an.'
         }
       />
       <article className="n-legal n-copy">
-        {kind === 'Impressum' ? (
-          <>
-            <h2>Anbieterangaben</h2>
-            <p>
-              Die vollständige Firmierung mit Rechtsform, die ladungsfähige
-              Anschrift und die vertretungsberechtigte Person sind im Repository
-              noch nicht hinterlegt. Diese Angaben müssen vor dem endgültigen
-              Launch ergänzt werden. Registerangaben und
-              Umsatzsteuer-Identifikationsnummer sind zu ergänzen, soweit
-              vorhanden und einschlägig.
-            </p>
-            <p>
-              Kontakt: <a href="mailto:anfrage@nineai.de">anfrage@nineai.de</a>.
-            </p>
-            <h2>Projektansichten</h2>
-            <p>
-              Die Referenzen zeigen freigegebene Kundenprojekte. Entwurf Energie
-              befindet sich aktuell in Entwicklung. Das ursprüngliche
-              Kundenlogo, sensible Unternehmensangaben und personenbezogene
-              Kontaktdaten werden nicht veröffentlicht; die gezeigten Angaben
-              wurden für die Präsentation ersetzt.
-            </p>
-            <p>
-              Website-Aufnahmen zeigen den jeweiligen Projektstand. Interne
-              Systemansichten wurden für die Veröffentlichung bereitgestellt und
-              personenbezogene Angaben ersetzt oder unkenntlich gemacht. Die
-              Ansichten belegen keine bestimmten Umsatz- oder Werbeergebnisse.
-            </p>
-          </>
-        ) : kind === 'Datenschutz' ? (
-          <>
-            <h2>Verantwortlicher und Kontakt</h2>
-            <p>
-              Die vollständigen Angaben zum verantwortlichen Unternehmen mit
-              Anschrift und vertretungsberechtigter Person müssen noch ergänzt
-              werden. Fragen zur Verarbeitung Ihrer Angaben können Sie an{' '}
-              <a href="mailto:anfrage@nineai.de">anfrage@nineai.de</a> richten.
-            </p>
-            <h2>Hosting und technische Verbindungsdaten</h2>
-            <p>
-              Die Website wird in der bestehenden Cloudflare-Bereitstellung über
-              Cloudflare Workers und den zugehörigen Dienst für statische
-              Dateien ausgeliefert. Beim Abruf verarbeitet die Infrastruktur
-              technisch erforderliche Verbindungsdaten, etwa IP-Adresse,
-              aufgerufene Adresse, Zeitpunkt und Angaben zum Browser. Ob und wie
-              lange zusätzliche Zugriffs- und Fehlerprotokolle gespeichert
-              werden, richtet sich nach der aktiven Cloudflare-Konfiguration und
-              muss für den produktiven Betrieb bestätigt werden.
-            </p>
-            <p>
-              Informationen des Anbieters:{' '}
-              <a
-                href="https://www.cloudflare.com/privacypolicy/"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                Datenschutzhinweise von Cloudflare
-              </a>
-              .
-            </p>
-            <h2>Projekt- und Paketanfragen</h2>
-            <p>
-              Das Anfrageformular übermittelt das ausgewählte Interesse, Ihren
-              Namen, Ihre E-Mail-Adresse und Ihre Telefonnummer. Eine
-              Website-Adresse und eine Nachricht können Sie freiwillig ergänzen.
-              Die Angaben werden zur Bearbeitung Ihrer Anfrage in der
-              Cloudflare-D1-Datenbank dieser Website gespeichert. Hinzu kommen
-              der Eingangszeitpunkt, eine Anfragenummer und technische
-              Kennzeichen zur Vermeidung doppelter Einträge und zur Bearbeitung
-              von Benachrichtigungen.
-            </p>
-            <p>
-              Enthält die aufgerufene Adresse Kampagnenangaben, werden diese der
-              Anfrage zugeordnet. Dafür ist kein Analyse- oder Werbepixel
-              eingebunden. Der erfolgreiche Eingang wird erst nach Bestätigung
-              der Speicherung angezeigt. Eine Newsletter-Anmeldung ist mit dem
-              Formular nicht verbunden.
-            </p>
-            <h2>E-Mail-Benachrichtigungen</h2>
-            <p>
-              Für die Benachrichtigung über eingegangene Anfragen ist eine
-              optionale Anbindung an Resend vorbereitet. Sie wird nur verwendet,
-              wenn die dafür benötigten Zugangsdaten und die Absenderadresse auf
-              dem Server eingerichtet sind. In diesem Fall werden die
-              Anfrageangaben zum Versand an den konfigurierten Kontakt
-              übermittelt. Ob Resend im produktiven Betrieb aktiviert ist, muss
-              vor der abschließenden Veröffentlichung dieser Hinweise bestätigt
-              werden.
-            </p>
-            <p>
-              Informationen des vorgesehenen Dienstes:{' '}
-              <a
-                href="https://resend.com/legal/privacy-policy"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                Datenschutzhinweise von Resend
-              </a>
-              .
-            </p>
-            <h2>Cookies und Speicherung im Browser</h2>
-            <p>
-              Im Anwendungscode sind keine Analyse- oder Marketing-Cookies
-              eingerichtet. Nach erfolgreichem Anfrageeingang speichert der
-              Browser für die aktuelle Sitzung lediglich eine
-              Bestätigungsmarkierung im Sitzungsspeicher. Diese enthält keine
-              Namen, Kontaktdaten oder Formularinhalte und dient der Anzeige
-              einer Bestätigung im Footer. Sie endet mit der Browsersitzung. Die
-              Formulareingaben selbst werden nicht dauerhaft im Browser
-              gespeichert.
-            </p>
-            <h2>Schriften, Bilder und externe Verweise</h2>
-            <p>
-              Schriften, Projektaufnahmen und die Standortgrafik werden mit der
-              Website ausgeliefert. Es sind keine externen Schriftendienste,
-              eingebetteten Karten, Videos oder Marketing-Tracker eingerichtet.
-              Links zu Kundenprojekten und Informationsangeboten öffnen die
-              jeweilige externe Website erst, wenn Sie den Link aufrufen. Für
-              diese Angebote gelten die Hinweise des jeweiligen Betreibers.
-            </p>
-            <h2>Noch zu ergänzende Angaben</h2>
-            <p>
-              Vor dem endgültigen Launch sind die Angaben zum Verantwortlichen,
-              die anwendbaren Rechtsgrundlagen und konkreten Speicher- und
-              Löschfristen zu ergänzen. Ebenso müssen die tatsächlich aktiven
-              Protokollierungs- und E-Mail-Dienste, die vertraglichen Regelungen
-              mit Auftragsverarbeitern und mögliche internationale
-              Datenübermittlungen bestätigt werden. Die Hinweise zu
-              Betroffenenrechten und der zuständigen Datenschutzaufsicht sind
-              auf Grundlage dieser echten Angaben zu vervollständigen.
-            </p>
-          </>
-        ) : (
-          <>
-            <h2>Unverbindliche Anfrage</h2>
-            <p>
-              Über diese Website können Sie ein Paket oder ein individuelles
-              Projekt anfragen. Wir besprechen Ihren Bedarf persönlich und
-              erstellen anschließend ein Angebot für den vereinbarten Umfang.
-              Das Absenden des Formulars ist unverbindlich.
-            </p>
-            <h2>Preise und Leistungsumfang</h2>
-            <p>
-              Die angezeigten Preise sind Netto-Basispreise für den
-              beschriebenen Umfang. Je nach Anforderungen kann das individuelle
-              Angebot davon abweichen. Zusätzliche Leistungen und laufende
-              Kosten werden gesondert abgestimmt.
-            </p>
-            <h2>Zusammenarbeit</h2>
-            <p>
-              Die konkrete Leistungsbeschreibung, die Konditionen und die
-              Nutzungsrechte werden vor einer Beauftragung vereinbart.
-              Anbieterangaben und gegebenenfalls ergänzende Vertragsbedingungen
-              müssen mit dem tatsächlichen Vertragspartner vervollständigt
-              werden.
-            </p>
-          </>
-        )}
+        <LegalContent kind={kind} />
       </article>
     </>
   );

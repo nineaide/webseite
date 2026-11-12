@@ -51,7 +51,7 @@ export function LeadMobileAction() {
       aria-label="Website anfragen"
     >
       <span>
-        Deine neue Website<strong>ab {money(leadOffers[0].price)} netto</strong>
+        Deine neue Website<strong>ab {money(leadOffers[0].price)}</strong>
       </span>
       <a href="#website-check" className="c-button c-button-blue">
         Unverbindlich anfragen <ArrowUpRight size={18} aria-hidden="true" />

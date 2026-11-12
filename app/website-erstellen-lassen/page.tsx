@@ -38,7 +38,7 @@ const faqs = [
   ],
   [
     'Wie sind die Paketpreise zu verstehen?',
-    'Nine Start beginnt bei 1.990 €, Nine Launch bei 6.900 € und Nine Growth bei 12.900 €, jeweils netto für den beschriebenen Umfang. Die Preise dienen als Orientierung; das persönliche Angebot richtet sich nach deinen Anforderungen. Hosting, Domain, zusätzliche Inhalte und laufende Betreuung kommen separat hinzu.',
+    'Nine Start beginnt bei 1.990 €, Nine Launch bei 6.900 € und Nine Growth bei 12.900 €, jeweils als Basispreis für den beschriebenen Umfang. Die Preise dienen als Orientierung; das persönliche Angebot richtet sich nach deinen Anforderungen. Hosting, Domain, zusätzliche Inhalte und laufende Betreuung kommen separat hinzu.',
   ],
   [
     'Was bedeutet „Seitenlayouts“?',
@@ -97,7 +97,7 @@ export default async function WebsiteLeadPage({
                 <ArrowUpRight size={20} aria-hidden="true" />
               </a>
               <a href="#preise" className="lead-price-link">
-                Ab <strong>{money(leadOffers[0].price)}</strong> netto{' '}
+                Ab <strong>{money(leadOffers[0].price)}</strong>{' '}
                 <ArrowRight size={18} aria-hidden="true" />
               </a>
             </div>
@@ -155,7 +155,7 @@ export default async function WebsiteLeadPage({
                     </span>
                     <b>
                       {money(offer.price)}
-                      <small>einmalig · netto</small>
+                      <small>einmalig · Basispreis</small>
                     </b>
                     <ArrowUpRight size={18} aria-hidden="true" />
                   </a>

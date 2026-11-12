@@ -292,13 +292,14 @@ export function InquiryForm({
                 </label>
               </div>
               <p className="inquiry-privacy">
-                Wir verwenden deine Angaben zur Bearbeitung deiner Anfrage.{' '}
+                Informationen zur Verarbeitung deiner Daten findest du in
+                unserer{' '}
                 <a
                   href="/datenschutz"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  Datenschutzhinweise
+                  Datenschutzerklärung
                 </a>
               </p>
               {error && (
@@ -328,7 +329,10 @@ export function InquiryForm({
                 )}
               </button>
             </fieldset>
-            <p className="inquiry-note">Deine Anfrage ist unverbindlich.</p>
+            <p className="inquiry-note">
+              Deine Anfrage ist unverbindlich. Es entsteht kein Vertrag und
+              keine Zahlungspflicht.
+            </p>
           </form>
           <noscript>
             <p>

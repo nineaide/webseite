@@ -82,7 +82,7 @@ export const adsAutomationPages: EditorialPage[] = [
         title: 'Was zur laufenden Betreuung gehört.',
         paragraphs: [
           'Zum vereinbarten Umfang können die Prüfung von Suchbegriffen, Anzeigen, Budgetverteilung, Zielseiten und Conversion-Daten gehören. Entscheidend ist, ob aus den Anfragen passende Geschäftsmöglichkeiten entstehen. Dafür wird die Rückmeldung aus deinem Vertrieb mitbetrachtet.',
-          'Nine Scale beginnt bei 1.490 € netto pro Monat für den vereinbarten Betreuungsumfang. Das Google-Werbebudget, ein möglicher Neuaufbau der Zielseite und zusätzliche Integrationen werden separat geplant.',
+          'Nine Scale beginnt bei 1.490 € pro Monat für den vereinbarten Betreuungsumfang. Das Google-Werbebudget, ein möglicher Neuaufbau der Zielseite und zusätzliche Integrationen werden separat geplant.',
         ],
         links: [
           {
@@ -122,7 +122,7 @@ export const adsAutomationPages: EditorialPage[] = [
     label: 'Landingpages für Google Ads',
     title: 'Landingpage für Google Ads erstellen lassen | Nine.ai',
     description:
-      'Eine passende Zielseite für deine Google-Anzeigen: klare Botschaft, echte Referenzen und ein kurzer Anfrageweg. Gestaltung und Umsetzung ab 1.990 € netto.',
+      'Eine passende Zielseite für deine Google-Anzeigen: klare Botschaft, echte Referenzen und ein kurzer Anfrageweg. Gestaltung und Umsetzung ab 1.990 €.',
     kicker: 'LANDINGPAGES FÜR GOOGLE ADS',
     heading: 'Ein Klick.\nEin klares Angebot.',
     intro:
@@ -186,7 +186,7 @@ export const adsAutomationPages: EditorialPage[] = [
         id: 'paket',
         title: 'Der kompakte Einstieg: Nine Start.',
         paragraphs: [
-          'Nine Start kostet 1.990 € netto und umfasst eine Landingpage in einer Sprache mit vorhandenen Texten und Bildern, Kontaktformular, mobiler Gestaltung und einer Korrekturrunde. Neue Texte, Fotografie, Hosting, Domain und zusätzliche Integrationen werden separat vereinbart.',
+          'Nine Start kostet 1.990 € und umfasst eine Landingpage in einer Sprache mit vorhandenen Texten und Bildern, Kontaktformular, mobiler Gestaltung und einer Korrekturrunde. Neue Texte, Fotografie, Hosting, Domain und zusätzliche Integrationen werden separat vereinbart.',
           'Wenn mehrere Angebote eigene Seitentypen brauchen, vergleichen wir Nine Launch oder Nine Growth mit einem individuellen Umfang. Werbekampagne und Werbebudget sind von der Erstellung der Seite getrennte Leistungen.',
         ],
         links: [
@@ -423,7 +423,7 @@ export const adsAutomationPages: EditorialPage[] = [
         title: 'Vorher und nachher dieselbe Aufgabe betrachten.',
         paragraphs: [
           'Vor dem Start halten wir fest, wie der gewählte Vorgang heute bearbeitet wird. Danach lässt sich anhand derselben Aufgabe prüfen, ob Übertragungen, Rückfragen oder manuelle Schritte reduziert wurden. Eine pauschale Stundenersparnis lässt sich ohne diese Ausgangsdaten nicht seriös nennen.',
-          'Der Umfang kann als abgegrenzter Automation Sprint geplant werden. Die bestehende Preisorientierung beginnt bei 4.900 € netto; benötigte Integrationen, Datenaufbereitung und Betrieb werden konkret vereinbart.',
+          'Der Umfang kann als abgegrenzter Automation Sprint geplant werden. Die bestehende Preisorientierung beginnt bei 4.900 €; benötigte Integrationen, Datenaufbereitung und Betrieb werden konkret vereinbart.',
         ],
         links: [
           {

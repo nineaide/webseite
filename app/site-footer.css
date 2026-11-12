@@ -81,6 +81,13 @@
   background: #102e57;
   border-radius: 18px;
 }
+.site-footer .site-footer-price-note {
+  grid-column: 1 / -1;
+  margin: 0;
+  color: #b8c8df;
+  font-size: 0.875rem;
+  line-height: 1.6;
+}
 .site-footer-thanks svg {
   color: #9fc9ff;
   flex-shrink: 0;

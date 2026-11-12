@@ -197,7 +197,7 @@ export default function WebsitePage() {
           items={[
             [
               'Was kostet eine professionelle Unternehmenswebsite bei Nine.ai?',
-              'Die Basispreise liegen bei 1.990 € für Nine Start, 6.900 € für Nine Launch und 12.900 € für Nine Growth, jeweils netto für den beschriebenen Umfang. Dein persönliches Angebot richtet sich nach den Anforderungen. Nine X kalkulieren wir individuell. Hosting, Domain und Fremdlizenzen werden separat vereinbart. Bei Nine Growth sind Werbebudget und laufende Ads-Betreuung nicht enthalten.',
+              'Die Basispreise liegen bei 1.990 € für Nine Start, 6.900 € für Nine Launch und 12.900 € für Nine Growth, jeweils als Basispreis für den beschriebenen Umfang. Dein persönliches Angebot richtet sich nach den Anforderungen. Nine X kalkulieren wir individuell. Hosting, Domain und Fremdlizenzen werden separat vereinbart. Bei Nine Growth sind Werbebudget und laufende Ads-Betreuung nicht enthalten.',
             ],
             [
               'Überarbeitet ihr auch bestehende Websites?',

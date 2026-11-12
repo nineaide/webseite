@@ -5,6 +5,7 @@ import { packages, money } from './site-data';
 import { websiteOffers } from './website-offers';
 import { InquiryForm } from './inquiry-form';
 import { resolveInquiryInterest } from '../lib/inquiry-options';
+import { taxNotice } from '../lib/business-identity';
 
 export default function PackageRequest({
   slug,
@@ -37,7 +38,7 @@ export default function PackageRequest({
               {'suffix' in offer && offer.suffix.includes('Monat')
                 ? 'pro Monat'
                 : 'einmalig'}{' '}
-              · netto · Basispreis
+              · Basispreis
             </span>
             <ul>
               {offer.includes.map((item) => (
@@ -50,7 +51,7 @@ export default function PackageRequest({
             <p className="c-request-note">
               Basispreis für den beschriebenen Leistungsumfang. Dein
               persönliches Angebot richtet sich nach den vereinbarten
-              Anforderungen.
+              Anforderungen. {taxNotice}
             </p>
             {interest === 'nine-scale' && (
               <p>

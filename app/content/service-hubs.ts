@@ -62,16 +62,14 @@ export const serviceHubPages: EditorialPage[] = [
           caption:
             'Un Petit Café / Toastclub · Bestellungen im Service aufnehmen',
         },
-        links: [
-          { label: 'Alle Projekte ansehen', href: '/projekte' },
-        ],
+        links: [{ label: 'Alle Projekte ansehen', href: '/projekte' }],
       },
       {
         id: 'planung',
         title: 'Ein klarer erster Umfang.',
         paragraphs: [
           'Wir legen einen vollständigen ersten Ablauf fest. Dazu gehören Nutzerrollen, notwendige Daten, Fehlerfälle und die wichtigsten Integrationen. Der Entwurf macht die Lösung bedienbar, bevor der gesamte Funktionsumfang entwickelt wird.',
-          'Die Platform Discovery für 2.900 € netto ist ein abgegrenzter Planungseinstieg. Die individuelle Entwicklung wird anschließend angeboten. Die bestehende Orientierung für umfangreichere Plattformprojekte beginnt bei 30.000 € netto; dein konkretes Vorhaben kann einen anderen Umfang benötigen.',
+          'Die Platform Discovery für 2.900 € ist ein abgegrenzter Planungseinstieg. Die individuelle Entwicklung wird anschließend angeboten. Die bestehende Orientierung für umfangreichere Plattformprojekte beginnt bei 30.000 €; dein konkretes Vorhaben kann einen anderen Umfang benötigen.',
         ],
         links: [
           {
@@ -161,7 +159,8 @@ export const serviceHubPages: EditorialPage[] = [
           width: 390,
           height: 844,
           alt: 'Mobile Website von Entwurf Energie mit Anfrageeinstieg',
-          caption: 'Entwurf Energie · die Anfrage auch mobil verständlich machen',
+          caption:
+            'Entwurf Energie · die Anfrage auch mobil verständlich machen',
         },
         links: [
           {
@@ -174,7 +173,7 @@ export const serviceHubPages: EditorialPage[] = [
         id: 'kosten',
         title: 'Betreuung und Werbebudget klar trennen.',
         paragraphs: [
-          'Nine Scale beginnt bei 1.490 € netto pro Monat für den individuell vereinbarten Betreuungsumfang. Das Budget für die Ausspielung der Anzeigen wird separat an Google gezahlt. Eine neue Landingpage, besondere Messintegrationen und weitere Leistungen werden gesondert angeboten.',
+          'Nine Scale beginnt bei 1.490 € pro Monat für den individuell vereinbarten Betreuungsumfang. Das Budget für die Ausspielung der Anzeigen wird separat an Google gezahlt. Eine neue Landingpage, besondere Messintegrationen und weitere Leistungen werden gesondert angeboten.',
           'Das passende Testbudget ergibt sich aus Zielgebiet, Suchbegriffen, Angebot und den verfügbaren Kontodaten. Eine pauschale Anzahl von Leads oder ein fester Klickpreis lässt sich vorab nicht garantieren.',
         ],
         links: [
@@ -298,7 +297,7 @@ export const serviceHubPages: EditorialPage[] = [
         id: 'sprint',
         title: 'Abgegrenzt planen und überprüfen.',
         paragraphs: [
-          'Ein Automation Sprint kann eine einzelne Aufgabe untersuchen und umsetzen. Die bestehende Preisorientierung beginnt bei 4.900 € netto; der genaue Umfang richtet sich nach Daten, Integrationen und Prüfbedarf.',
+          'Ein Automation Sprint kann eine einzelne Aufgabe untersuchen und umsetzen. Die bestehende Preisorientierung beginnt bei 4.900 €; der genaue Umfang richtet sich nach Daten, Integrationen und Prüfbedarf.',
           'Vor dem Start wird festgehalten, woran eine brauchbare Lösung erkannt wird. Externe Anbietergebühren, laufende Nutzung und Betreuung werden separat betrachtet.',
         ],
       },

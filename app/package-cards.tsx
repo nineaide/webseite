@@ -82,9 +82,15 @@ export function PackageCards({
               <strong>{money(p.price)}</strong>
             </div>
             <p className="c-package-unit">
-              {p.suffix.includes('Monat') ? 'pro Monat' : 'einmalig'} · netto · Basispreis
+              {p.suffix.includes('Monat') ? 'pro Monat' : 'einmalig'} ·
+              Basispreis
             </p>
-            {slug === 'nine-scale' && <p className="c-package-boundary">Umfang, Laufzeit und Betreuung stimmen wir passend zu deinem Bedarf ab.</p>}
+            {slug === 'nine-scale' && (
+              <p className="c-package-boundary">
+                Umfang, Laufzeit und Betreuung stimmen wir passend zu deinem
+                Bedarf ab.
+              </p>
+            )}
             <a
               className={
                 'c-button ' +
@@ -142,7 +148,8 @@ export function PackageOverview() {
           <em>Ein passender Einstieg.</em>
         </h1>
         <p>
-          Vergleiche die Basispreise und den beschriebenen Umfang. Was dein Projekt tatsächlich braucht, klären wir im Gespräch.
+          Vergleiche die Basispreise und den beschriebenen Umfang. Was dein
+          Projekt tatsächlich braucht, klären wir im Gespräch.
         </p>
       </header>
       <WebsitePackages detailed headingLevel={2} />
@@ -151,8 +158,7 @@ export function PackageOverview() {
         <h2>Mehr als eine Website geplant?</h2>
         <p className="c-price-note">
           Web-Apps und Kundenportale, Automatisierung und laufende Werbung
-          besprechen wir persönlich. Diese Leistungen sind keine
-          Website-Pakete.
+          besprechen wir persönlich. Diese Leistungen sind keine Website-Pakete.
         </p>
         <PackageCards
           slugs={['platform-discovery', 'custom-platform', 'nine-scale']}
@@ -164,7 +170,7 @@ export function PackageOverview() {
           <h3>Du möchtest Abläufe automatisieren?</h3>
           <p>
             Anfragen sortieren, Dokumente auslesen oder Daten übertragen.
-            Individuelle Projekte ab 4.900 € netto.
+            Individuelle Projekte ab 4.900 €.
           </p>
         </div>
         <a className="c-button c-button-dark" href="/ki-automation">
@@ -172,7 +178,9 @@ export function PackageOverview() {
         </a>
       </div>
       <p className="c-price-note">
-        Die Preise dienen als Orientierung für den beschriebenen Leistungsumfang. Je nach Anforderungen kann das individuelle Angebot davon abweichen.
+        Die Preise dienen als Orientierung für den beschriebenen
+        Leistungsumfang. Je nach Anforderungen kann das individuelle Angebot
+        davon abweichen.
       </p>
     </>
   );

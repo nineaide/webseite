@@ -26,7 +26,7 @@ export const coreSeoPages: SeoPage[] = [
     label: 'Startseite',
     title: 'Nine.ai – Webdesign, Webentwicklung & Google Ads',
     description:
-      'Websites ab 1.990 € netto, eigene Web-Apps und Google Ads für Unternehmen. Entdecke unsere Projekte und frage dein Vorhaben persönlich an.',
+      'Websites ab 1.990 €, eigene Web-Apps und Google Ads für Unternehmen. Entdecke unsere Projekte und frage dein Vorhaben persönlich an.',
     kind: 'page',
     modified: '2026-09-08',
   },
@@ -53,7 +53,7 @@ export const coreSeoPages: SeoPage[] = [
   {
     path: '/website-erstellen-lassen',
     label: 'Website erstellen lassen',
-    title: 'Website erstellen lassen – ab 1.990 € netto | Nine.ai',
+    title: 'Website erstellen lassen – ab 1.990 € | Nine.ai',
     description:
       'Deine Website mit transparenten Basispreisen: Nine Start, Launch, Growth oder individuell. Sieh dir echte Kundenprojekte an und frage dein Angebot unverbindlich an.',
     kind: 'service',
@@ -116,7 +116,7 @@ export const coreSeoPages: SeoPage[] = [
     label: 'Pakete & Preise',
     title: 'Website-Pakete: 1.990 €, 6.900 € & 12.900 € | Nine.ai',
     description:
-      'Vergleiche Nine Start, Launch und Growth mit transparenten Netto-Basispreisen sowie Nine X auf Anfrage. Leistungen, Zusatzkosten und passende Projektbeispiele im Überblick.',
+      'Vergleiche Nine Start, Launch und Growth mit transparenten Basispreisen sowie Nine X auf Anfrage. Leistungen, Zusatzkosten und passende Projektbeispiele im Überblick.',
     kind: 'collection',
     modified: '2026-09-08',
   },

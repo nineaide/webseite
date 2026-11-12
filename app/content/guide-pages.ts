@@ -15,10 +15,10 @@ export const guidePages: EditorialPage[] = [
     label: 'Was kostet eine Website?',
     title: 'Was kostet eine Website? Pakete & Zusatzkosten | Nine.ai',
     description:
-      'Website-Kosten verständlich vergleichen: 1.990 €, 6.900 € oder 12.900 € netto bei Nine.ai. Welche Leistungen enthalten sind und was separat hinzukommt.',
+      'Website-Kosten verständlich vergleichen: 1.990 €, 6.900 € oder 12.900 € bei Nine.ai. Welche Leistungen enthalten sind und was separat hinzukommt.',
     heading: 'Was kostet deine\nneue Website?',
     intro:
-      'Bei Nine.ai beginnt eine kompakte Landingpage bei 1.990 € netto. Entscheidend für den passenden Preis sind die Inhalte, die unterschiedlichen Seitentypen und die Funktionen, die dein Unternehmen braucht.',
+      'Bei Nine.ai beginnt eine kompakte Landingpage bei 1.990 €. Entscheidend für den passenden Preis sind die Inhalte, die unterschiedlichen Seitentypen und die Funktionen, die dein Unternehmen braucht.',
     image: desktopImage(
       'meister-lorenz',
       'Meister Lorenz: Unternehmenswebsite als Beispiel für einen eigenständigen Firmenauftritt',
@@ -32,7 +32,7 @@ export const guidePages: EditorialPage[] = [
           'Vergleiche Angebote zuerst nach dem Ergebnis: Eine einzelne Seite für eine bestimmte Leistung hat einen anderen Umfang als ein Unternehmensauftritt mit mehreren Seitentypen. Ein Buchungsportal bringt zusätzlich Daten, Nutzerrechte und Geschäftsregeln mit.',
         ],
         table: {
-          headings: ['Angebot', 'Nettopreis', 'Passt zu'],
+          headings: ['Angebot', 'Basispreis', 'Passt zu'],
           rows: [
             [
               'Nine Start',
@@ -113,8 +113,8 @@ export const guidePages: EditorialPage[] = [
     ],
     faqs: [
       [
-        'Sind die Preise brutto oder netto?',
-        'Alle hier genannten Nine.ai-Paketpreise sind Nettopreise. Die jeweils anfallende Umsatzsteuer kommt hinzu.',
+        'Muss ich noch Umsatzsteuer hinzurechnen?',
+        'Nein. Aufgrund der Kleinunternehmerregelung gemäß § 19 UStG wird keine Umsatzsteuer ausgewiesen. Die angegebenen Beträge sind Basispreise für den beschriebenen Umfang. Das persönliche Angebot richtet sich nach den vereinbarten Anforderungen.',
       ],
       [
         'Kann ich später erweitern?',
@@ -312,7 +312,7 @@ export const guidePages: EditorialPage[] = [
         title: 'Halte die erste Version bewusst überschaubar.',
         paragraphs: [
           'Trenne unverzichtbare Abläufe von späteren Erweiterungen. Lege messbare Abnahmekriterien fest, zum Beispiel: Eine berechtigte Person kann einen Zeitraum sperren, und der Zeitraum wird anschließend nicht mehr angeboten.',
-          'Für ein individuelles Vorhaben beginnt Nine.ai mit einer gemeinsamen Planung. Platform Discovery kostet 2.900 € netto und dient der Klärung von Umfang, Abläufen und Umsetzung. Die anschließende Entwicklung wird gesondert angeboten.',
+          'Für ein individuelles Vorhaben beginnt Nine.ai mit einer gemeinsamen Planung. Platform Discovery kostet 2.900 € und dient der Klärung von Umfang, Abläufen und Umsetzung. Die anschließende Entwicklung wird gesondert angeboten.',
         ],
         links: [
           {
@@ -466,7 +466,7 @@ export const guidePages: EditorialPage[] = [
         title: 'Drei Kostenbereiche sauber trennen.',
         paragraphs: [
           'Dein Anzeigenbudget bezahlt die Ausspielung bei Google. Die Betreuung umfasst die vereinbarten Arbeiten an Kampagnen und Auswertung. Eine neue Landingpage, zusätzliche Inhalte oder eine neue Messung können eigene Projektleistungen sein.',
-          'Nine Scale wird mit 1.490 € netto pro Monat für den beschriebenen Betreuungsumfang angeboten. Das Google-Werbebudget ist nicht enthalten. Eine kompakte Website-Landingpage ist mit Nine Start für 1.990 € netto im definierten Umfang möglich. Welche Kombination passt, hängt von deinem Bestand ab.',
+          'Nine Scale wird mit 1.490 € pro Monat für den beschriebenen Betreuungsumfang angeboten. Das Google-Werbebudget ist nicht enthalten. Eine kompakte Website-Landingpage ist mit Nine Start für 1.990 € im definierten Umfang möglich. Welche Kombination passt, hängt von deinem Bestand ab.',
         ],
         links: [
           { label: 'Google-Ads-Betreuung ansehen', href: '/google-ads-growth' },

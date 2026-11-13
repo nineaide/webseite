@@ -202,7 +202,7 @@ export function ServicePreview({ kind }: { kind: Kind }) {
               project.name +
               ': ' +
               view.label +
-              ' – tatsächliche Projektaufnahme'
+              ': tatsächliche Projektaufnahme'
             }
             width={view.width}
             height={view.height}

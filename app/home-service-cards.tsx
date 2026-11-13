@@ -102,7 +102,7 @@ export function HomeServiceCards() {
       <section
         className="home-service-preview"
         id="home-service-panel"
-        aria-label={activeService.title + ' – Vorschau'}
+        aria-label={activeService.title + ': Vorschau'}
       >
         <div className="home-service-preview-window">
           <div

@@ -19,7 +19,7 @@ export function Footer() {
     <footer className="site-footer">
       <div className="site-footer-inner">
         <div className="site-footer-brand">
-          <a href="#top" aria-label="9.ai – zurück zum Seitenanfang">
+          <a href="#top" aria-label="9.ai: zurück zum Seitenanfang">
             <img
               src="/assets/brand/NineAI-dark.svg"
               alt="9.ai"

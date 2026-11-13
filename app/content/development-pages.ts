@@ -6,7 +6,7 @@ export const developmentPages: EditorialPage[] = [
     parent: '/plattformen-web-apps',
     kind: 'service',
     label: 'Buchungssysteme',
-    title: 'Buchungssystem entwickeln lassen – individuell | Nine.ai',
+    title: 'Buchungssystem entwickeln lassen: individuell | Nine.ai',
     description:
       'Ein eigenes Buchungssystem für Zeiträume, Kapazitäten und Preise. Entdecke ParkeSicher und erfahre, welche Regeln vor der Entwicklung geklärt werden.',
     kicker: 'INDIVIDUELLE BUCHUNGSSYSTEME',
@@ -130,7 +130,7 @@ export const developmentPages: EditorialPage[] = [
     parent: '/plattformen-web-apps',
     kind: 'service',
     label: 'Kundenportale',
-    title: 'Kundenportal entwickeln lassen – Rollen & Abläufe | Nine.ai',
+    title: 'Kundenportal entwickeln lassen: Rollen & Abläufe | Nine.ai',
     description:
       'Ein eigenes Kunden- oder Partnerportal für Buchungen, Daten und Status. Wir planen Nutzerrollen, Zugriffe und die Verbindung zu deinen bestehenden Systemen.',
     kicker: 'KUNDEN- UND PARTNERPORTALE',
@@ -259,7 +259,7 @@ export const developmentPages: EditorialPage[] = [
     kicker: 'DIGITALE ABLÄUFE IN DER GASTRONOMIE',
     heading: 'Vom Tisch zur Küche.\nMit allem, was dazugehört.',
     intro:
-      'Wir entwickeln Bestellsysteme für den konkreten Ablauf deines Betriebs. Tisch, Gericht, Menge, Extras und Küchenhinweise bleiben zusammen – auf einer Oberfläche, die dein Service im Alltag bedienen kann.',
+      'Wir entwickeln Bestellsysteme für den konkreten Ablauf deines Betriebs. Tisch, Gericht, Menge, Extras und Küchenhinweise bleiben auf einer Oberfläche zusammen, die dein Service im Alltag bedienen kann.',
     image: {
       src: '/project-images/cafe-order.webp',
       width: 867,
@@ -373,7 +373,7 @@ export const developmentPages: EditorialPage[] = [
     parent: '/plattformen-web-apps',
     kind: 'service',
     label: 'Konfiguratoren & Datenbanken',
-    title: 'Konfigurator programmieren lassen – mit Datenbank | Nine.ai',
+    title: 'Konfigurator programmieren lassen: mit Datenbank | Nine.ai',
     description:
       'Produkte und Leistungen passend auswählen: individuelle Konfiguratoren mit eigener Datenlogik. Referenz MB Performance mit Hersteller-, Modell- und Motorauswahl.',
     kicker: 'KONFIGURATOREN & DATENBANKEN',

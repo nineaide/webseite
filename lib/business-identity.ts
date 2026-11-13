@@ -1,6 +1,6 @@
 // Operator details and tax status supplied by the owner on 12 November 2026.
 export const businessIdentity = {
-  legalName: 'dghWeb – Dariush Ghawss',
+  legalName: 'dghWeb, Dariush Ghawss',
   owner: 'Dariush Ghawss',
   legalForm: 'Einzelunternehmen',
   street: 'Christoph-Rapparini-Bogen 17',

@@ -150,7 +150,7 @@ export function ReferencePreview({
       )}
       alt={
         project.name +
-        ' – ' +
+        ': ' +
         (mobile ? 'mobile Website-Ansicht' : 'Desktop-Ansicht der Website')
       }
       width={mobile ? 390 : 1440}
@@ -289,7 +289,7 @@ export function ProjectScreens({ project }: { project: ReferenceProject }) {
                   project.name +
                   ': ' +
                   screen.title +
-                  ' – anonymisierte Systemansicht'
+                  ': anonymisierte Systemansicht'
                 }
                 width={screen.width}
                 height={screen.height}

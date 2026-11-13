@@ -24,7 +24,7 @@ export const coreSeoPages: SeoPage[] = [
   {
     path: '/',
     label: 'Startseite',
-    title: 'Nine.ai – Webdesign, Webentwicklung & Google Ads',
+    title: 'Nine.ai: Webdesign, Webentwicklung & Google Ads',
     description:
       'Websites ab 1.990 €, eigene Web-Apps und Google Ads für Unternehmen. Entdecke unsere Projekte und frage dein Vorhaben persönlich an.',
     kind: 'page',
@@ -42,7 +42,7 @@ export const coreSeoPages: SeoPage[] = [
   {
     path: '/websites',
     label: 'Webdesign',
-    title: 'Webdesign für Unternehmen – Pakete & Referenzen | Nine.ai',
+    title: 'Webdesign für Unternehmen: Pakete & Referenzen | Nine.ai',
     description:
       'Individuelles Webdesign für Dienstleister und Handwerk: verständliche Inhalte, mobile Ansichten und ein klarer Anfrageweg. Vier Angebote im Vergleich.',
     kind: 'service',
@@ -53,7 +53,7 @@ export const coreSeoPages: SeoPage[] = [
   {
     path: '/website-erstellen-lassen',
     label: 'Website erstellen lassen',
-    title: 'Website erstellen lassen – ab 1.990 € | Nine.ai',
+    title: 'Website erstellen lassen: ab 1.990 € | Nine.ai',
     description:
       'Deine Website mit transparenten Basispreisen: Nine Start, Launch, Growth oder individuell. Sieh dir echte Kundenprojekte an und frage dein Angebot unverbindlich an.',
     kind: 'service',
@@ -123,7 +123,7 @@ export const coreSeoPages: SeoPage[] = [
   {
     path: '/ueber-nine',
     label: 'Über Nine.ai',
-    title: 'Über Nine.ai – Design, Entwicklung & Zusammenarbeit',
+    title: 'Über Nine.ai: Design, Entwicklung & Zusammenarbeit',
     description:
       'So arbeitet Nine.ai: Anforderungen klären, Entwürfe gemeinsam prüfen und digitale Lösungen übergeben. Lerne Leistungen, Arbeitsweise und Kundenprojekte kennen.',
     kind: 'about',

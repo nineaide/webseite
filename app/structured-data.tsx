@@ -115,7 +115,7 @@ export function PageStructuredData({ path }: { path: string }) {
     graph.push({
       '@type': 'CreativeWork',
       '@id': url + '#project-story',
-      name: page.label + ' – Projekteinblick',
+      name: page.label + ': Projekteinblick',
       description: page.description,
       url,
       creator: { '@id': absoluteUrl('/#organization') },

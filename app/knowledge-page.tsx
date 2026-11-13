@@ -16,7 +16,7 @@ export function KnowledgePage() {
         <div className="n-hero-lead">
           <p>
             Was kostet die Website? Wann lohnt sich ein eigenes System? Hier
-            findest du konkrete Planungshilfen – mit Beispielen aus unseren
+            findest du konkrete Planungshilfen mit Beispielen aus unseren
             Projekten.
           </p>
         </div>

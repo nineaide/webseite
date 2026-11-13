@@ -63,7 +63,7 @@ export const services = [
     label: 'Websites für Unternehmen',
     pillar: 'BUILD',
     title: 'Eine neue Website für dein Unternehmen.',
-    lead: 'Wir gestalten und entwickeln deinen Auftritt – damit Besucher sofort verstehen, was du anbietest, und dich leicht kontaktieren können.',
+    lead: 'Wir gestalten und entwickeln deinen Auftritt, damit Besucher sofort verstehen, was du anbietest, und dich leicht kontaktieren können.',
     cta: 'Website-Paket ansehen',
     project: 'Website',
     price: '6.900 €',

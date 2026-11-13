@@ -234,7 +234,7 @@ export default async function WebsiteLeadPage({
                       </a>
                     </strong>
                     <small>
-                      Web-Apps, Kundenportale und Schnittstellen – passend zu
+                      Web-Apps, Kundenportale und Schnittstellen passend zu
                       deinen Abläufen, als eigenes Projekt geplant.
                     </small>
                   </span>

@@ -417,7 +417,7 @@ export const guidePages: EditorialPage[] = [
         id: 'startumfang',
         title: 'Mit einer prüfbaren ersten Version starten.',
         paragraphs: [
-          'Eine erste Version könnte einen Standort, eine Preislogik und einen klar definierten Buchungsablauf abdecken. Entscheidend ist, dass dieser Ablauf vollständig funktioniert – einschließlich Fehlerfällen, Benachrichtigung und Verwaltung.',
+          'Eine erste Version könnte einen Standort, eine Preislogik und einen klar definierten Buchungsablauf abdecken. Entscheidend ist, dass dieser Ablauf vollständig funktioniert, einschließlich Fehlerfällen, Benachrichtigung und Verwaltung.',
           'Vereinbare vor dem Start, wer Bestandsdaten liefert, Regeln freigibt und Sonderfälle entscheidet. Notiere außerdem, wie Daten exportiert werden, wer den laufenden Betrieb betreut und wie Ausfälle bemerkt werden. So lässt sich der Entwicklungsumfang konkreter anbieten.',
         ],
         links: [

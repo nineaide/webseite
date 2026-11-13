@@ -260,7 +260,7 @@ export function EditorialPageView({ page }: { page: EditorialPage }) {
               {section.table && (
                 <section
                   className="editorial-table-scroll"
-                  aria-label={section.title + ' – Vergleich'}
+                  aria-label={section.title + ': Vergleich'}
                   tabIndex={0}
                 >
                   <table>
@@ -354,7 +354,7 @@ export function EditorialPageView({ page }: { page: EditorialPage }) {
                   href={screen.src}
                   target="_blank"
                   rel="noopener noreferrer"
-                  aria-label={screen.title + ' – Aufnahme vollständig öffnen'}
+                  aria-label={screen.title + ': Aufnahme vollständig öffnen'}
                 >
                   <img
                     {...projectImageProps(

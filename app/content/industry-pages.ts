@@ -112,7 +112,7 @@ export const industryPages: EditorialPage[] = [
     parent: '/websites',
     kind: 'service',
     label: 'Websites für Handwerk',
-    title: 'Website für Handwerker – Webdesign mit Referenzen | Nine.ai',
+    title: 'Website für Handwerker: Webdesign mit Referenzen | Nine.ai',
     description:
       'Websites für Handwerksbetriebe: Arbeiten zeigen, Leistungen erklären und konkrete Anfragen ermöglichen. Mit Beispielen von Meister Lorenz und Loni GalaBau.',
     kicker: 'WEBDESIGN FÜR HANDWERKSBETRIEBE',

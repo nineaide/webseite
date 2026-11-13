@@ -30,7 +30,7 @@ const pages: Record<string, [string, string]> = {
     'Ausgewählte Projekte: Websites für Dienstleister, eine Fahrzeugdatenbank sowie eigene Buchungs-, Reservierungs- und Bestellsysteme. Desktop- und Mobilansichten ansehen.',
   ],
   'projekte/parkesicher': [
-    'ParkeSicher – Projekt',
+    'ParkeSicher: Projekt',
     'Flughafen auswählen, Angebote vergleichen und Parkplätze buchen. Einblicke in die Produkt- und Systemperspektive von ParkeSicher.',
   ],
   pakete: [

@@ -259,7 +259,7 @@ export function Projects() {
         <h1>Gute Arbeit zum Ansehen</h1>
         <p>
           Unterschiedliche Unternehmen. Unterschiedliche Aufgaben. Websites,
-          Datenbanken und eigene Systeme – hier kannst du unsere Arbeit ansehen.
+          Datenbanken und eigene Systeme. Hier kannst du unsere Arbeit ansehen.
         </p>
       </section>
       <ProjectGallery priorityFirst headingLevel={2} />
@@ -273,7 +273,7 @@ export function Parkesicher() {
       <Hero
         kicker="KUNDENPROJEKT / PLATTFORM & ANBIETERSYSTEM"
         title="ParkeSicher. Vom Parkplatz zur Plattform."
-        lead="Parkplätze finden und buchen. Ankünfte koordinieren, Preise pflegen und den Betrieb organisieren – in einem zusammenhängenden System."
+        lead="Parkplätze finden und buchen. Ankünfte koordinieren, Preise pflegen und den Betrieb in einem zusammenhängenden System organisieren."
         href="/projekt-starten?service=Plattform"
         label="Projekt anfragen"
       />
@@ -444,7 +444,7 @@ export function Legal({ kind }: { kind: string }) {
           kind === 'Datenschutz'
             ? 'Informationen zur Verarbeitung Ihrer Daten auf dieser Website und bei Projektanfragen.'
             : kind === 'Impressum'
-              ? 'Nine.ai ist ein Angebot von dghWeb – Dariush Ghawss.'
+              ? 'Nine.ai ist ein Angebot von dghWeb, Dariush Ghawss.'
               : 'So fragen Sie ein Projekt bei Nine.ai an.'
         }
       />

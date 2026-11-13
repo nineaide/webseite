@@ -160,7 +160,7 @@ export const referenceProjects: ReferenceProject[] = [
     description:
       'Hersteller, Modell und Motor auswählen und die passenden Tuningwerte nachsehen. Mit eigener Fahrzeugdatenbank.',
     detail:
-      'Besucher wählen Hersteller, Modell und Motor. Dahinter ordnet eine eigene Datenbank die passenden Fahrzeuge und Leistungswerte in PS und kW zu – als Grundlage für eine konkrete Anfrage.',
+      'Besucher wählen Hersteller, Modell und Motor. Dahinter ordnet eine eigene Datenbank die passenden Fahrzeuge und Leistungswerte in PS und kW zu. Das bildet die Grundlage für eine konkrete Anfrage.',
     features: [
       'Hersteller, Modell & Motor wählen',
       'Eigene Fahrzeugdatenbank',
@@ -264,7 +264,7 @@ export const referenceProjects: ReferenceProject[] = [
     description:
       'Pflasterarbeiten, Naturstein und Gartengestaltung: Leistungen und Bilder der Arbeit vor der Kontaktaufnahme ansehen.',
     detail:
-      'Der Auftritt verbindet Gartenbilder mit verständlichen Leistungsseiten – von Naturstein- und Pflasterarbeiten bis zur Gartengestaltung. Ein nachvollziehbarer Ablauf führt zur Kontaktaufnahme.',
+      'Der Auftritt verbindet Gartenbilder mit verständlichen Leistungsseiten zu Naturstein- und Pflasterarbeiten sowie zur Gartengestaltung. Ein nachvollziehbarer Ablauf führt zur Kontaktaufnahme.',
     features: [
       'Bildstarke Projektpräsentation',
       'Detaillierte Leistungsseiten',

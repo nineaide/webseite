@@ -61,18 +61,24 @@ export function validateLead(input: unknown): WebsiteLead {
     )
   )
     throw new Error('Bitte lade das Formular neu und versuche es noch einmal.');
-  const goal = field('goal', 20, true);
-  const selectedPackage = field('package', 30, true);
+  const contact = body.kind === 'contact';
+  const goal = contact ? 'kontakt' : field('goal', 20, true);
+  const selectedPackage = contact ? 'kein' : field('package', 30, true);
   if (
-    !(leadGoals as readonly string[]).includes(goal) ||
-    !(leadPackages as readonly string[]).includes(selectedPackage)
+    !contact &&
+    (!(leadGoals as readonly string[]).includes(goal) ||
+      !(leadPackages as readonly string[]).includes(selectedPackage))
   )
     throw new Error(
       'Bitte wähle dein Vorhaben und den passenden Einstieg aus.',
     );
-  const name = field('name', 100, true);
-  const phone = field('phone', 40, true);
-  if (!isValidInquiryPhone(phone))
+  if (contact && typeof body.callback !== 'boolean')
+    throw new Error('Bitte prüfe deinen Rückrufwunsch.');
+  const name = contact
+    ? `${field('firstName', 49, true)} ${field('lastName', 49, true)}`
+    : field('name', 100, true);
+  const phone = field('phone', 40, !contact || body.callback === true);
+  if ((!contact || phone) && !isValidInquiryPhone(phone))
     throw new Error('Bitte gib eine gültige Telefonnummer mit Vorwahl an.');
   const email = field('email', 200, true).toLowerCase();
   if (name.length < 2 || /[\r\n]/.test(name))
@@ -116,6 +122,20 @@ export function validateLead(input: unknown): WebsiteLead {
         .replace(/[\u0000-\u001f]/g, '')
         .slice(0, 160);
   }
+  let message = field('message', 2000, contact);
+  if (contact) {
+    const company = field('company', 150);
+    if (/[\r\n]/.test(company)) throw new Error('Bitte prüfe den Firmennamen.');
+    // Keep contact details in the existing message column and mail body.
+    // No package selection or database migration is needed for general questions.
+    message = [
+      'Allgemeine Kontaktanfrage',
+      `Firma: ${company || 'Nicht angegeben'}`,
+      `Rückruf gewünscht: ${body.callback ? 'Ja' : 'Nein'}`,
+      '',
+      message,
+    ].join('\n');
+  }
   return {
     requestId,
     goal,
@@ -124,7 +144,7 @@ export function validateLead(input: unknown): WebsiteLead {
     email,
     website,
     phone,
-    message: field('message', 2000),
+    message,
     campaign,
   };
 }

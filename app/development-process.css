@@ -1,0 +1,169 @@
+.process-story {
+  --process-distance: 300svh;
+  height: calc(100svh + var(--process-distance));
+  scroll-margin-top: 0;
+}
+.process-story .process-scene {
+  position: sticky;
+  top: 0;
+  min-height: 100svh;
+  display: grid;
+  align-items: center;
+  padding-block: 20px;
+}
+.process-story .process-composition {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+  align-items: center;
+  gap: 28px clamp(36px, 6vw, 88px);
+  width: 100%;
+}
+.process-story .process-copy {
+  min-width: 0;
+}
+.process-story .process-eyebrow {
+  margin: 0 0 28px;
+  color: var(--muted);
+  font-size: 1rem;
+}
+.process-story .process-panels {
+  display: grid;
+}
+.process-story .process-panel {
+  grid-area: 1 / 1;
+  align-self: start;
+  pointer-events: none;
+  will-change: opacity, transform;
+}
+.process-story .process-count {
+  margin: 0 0 18px;
+  font-size: 0.875rem;
+  color: var(--muted);
+  font-variant-numeric: tabular-nums;
+}
+.process-story .process-panel h2 {
+  margin: 0 0 24px;
+  font-size: clamp(2rem, 4.4vw, 4rem);
+  letter-spacing: -0.035em;
+  line-height: 1.08;
+}
+.process-story .process-description {
+  margin: 0;
+  max-width: 45ch;
+  font-size: 1.125rem;
+  line-height: 1.7;
+  color: var(--ink);
+}
+.process-story .process-aside {
+  margin: 26px 0 0;
+  padding-top: 18px;
+  border-top: 1px solid #bdcce0;
+  max-width: 45ch;
+  color: var(--muted);
+  font-size: 1rem;
+  line-height: 1.65;
+}
+.process-story .process-ring {
+  width: 100%;
+  max-width: 500px;
+  margin: 0;
+  justify-self: center;
+}
+.process-story .process-ring figcaption {
+  margin: 18px auto 0;
+  max-width: 32ch;
+  color: var(--muted);
+  text-align: center;
+  font-size: 0.9375rem;
+  line-height: 1.5;
+}
+.process-story .development-ring-phase :is(path, text) {
+  transition: none;
+}
+.process-story .process-controls {
+  grid-column: 1/-1;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 22px;
+}
+.process-story .process-controls button {
+  min-height: 44px;
+  padding: 8px 4px;
+  background: transparent;
+  border: 0;
+  color: #0a4fd8;
+  font: inherit;
+  cursor: pointer;
+}
+.process-story .process-controls button:disabled {
+  color: #63728a;
+  cursor: default;
+}
+.process-story .process-controls button:focus-visible {
+  outline: 2px solid #0a4fd8;
+  outline-offset: 4px;
+}
+.process-story .process-controls span {
+  font-size: 0.875rem;
+  color: var(--muted);
+  font-variant-numeric: tabular-nums;
+}
+.process-story[data-fits='false'] {
+  height: auto;
+}
+.process-story[data-fits='false'] .process-scene {
+  position: relative;
+  min-height: 0;
+}
+.process-story[data-fits='false'] .process-ring {
+  max-width: 300px;
+}
+@media (max-width: 800px) {
+  .process-story {
+    --process-distance: 230svh;
+  }
+  .process-story .process-composition {
+    grid-template-columns: minmax(0, 1fr);
+    gap: 18px;
+  }
+  .process-story .process-copy {
+    width: 100%;
+    max-width: 530px;
+    justify-self: center;
+  }
+  .process-story .process-eyebrow {
+    margin-bottom: 14px;
+    font-size: 0.875rem;
+  }
+  .process-story .process-count {
+    margin-bottom: 10px;
+  }
+  .process-story .process-panel h2 {
+    margin-bottom: 14px;
+    font-size: clamp(1.8rem, 5vw, 2.5rem);
+  }
+  .process-story .process-description {
+    font-size: 1rem;
+    line-height: 1.6;
+  }
+  .process-story .process-aside {
+    display: none;
+  }
+  .process-story .process-ring {
+    max-width: min(300px, 34svh);
+  }
+  .process-story .process-ring figcaption {
+    margin-top: 8px;
+    font-size: 0.8125rem;
+  }
+  .process-story .process-controls {
+    justify-content: center;
+  }
+}
+@media (prefers-reduced-motion: reduce) {
+  .process-story .process-panel {
+    will-change: auto;
+    transform: none !important;
+  }
+}

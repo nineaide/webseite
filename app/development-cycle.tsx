@@ -1,110 +1,170 @@
-﻿const phases = [
-  { label: 'Anforderungen', color: '#101b31', text: '#ffffff', size: 23 },
-  { label: 'Planung', color: '#0a4fd8', text: '#ffffff', size: 25 },
-  { label: 'Umsetzung', color: '#315b8c', text: '#ffffff', size: 24 },
-  { label: 'Test', color: '#386aab', text: '#ffffff', size: 25 },
-  { label: 'Livegang', color: '#aac3e5', text: '#101b31', size: 25 },
-  { label: 'Verbesserung', color: '#d9e6f7', text: '#101b31', size: 21 },
+﻿import './development-cycle.css';
+
+export const developmentPhases = [
+  {
+    id: 'anforderungen',
+    label: 'Anforderungen',
+    summary: 'Verstehen, was dein Projekt leisten soll.',
+    text: 'Wir sprechen über deine Ziele, die Menschen, die deine Lösung nutzen, und die vorhandenen Inhalte. Gemeinsam klären wir auch Budget, Zeitrahmen und offene Fragen.',
+    result: 'Ein gemeinsames Bild der Aufgabe.',
+  },
+  {
+    id: 'planung',
+    label: 'Planung',
+    summary: 'Struktur und Prioritäten festlegen.',
+    text: 'Wir ordnen Inhalte und Funktionen und legen fest, was zuerst entsteht. Du siehst einen Entwurf und kannst früh beurteilen, ob Aufbau und Richtung zu deinem Vorhaben passen.',
+    result: 'Ein abgestimmter Entwurf und die nächsten Etappen.',
+  },
+  {
+    id: 'umsetzung',
+    label: 'Umsetzung',
+    summary: 'Aus dem Entwurf wird eine nutzbare Lösung.',
+    text: 'Wir arbeiten Design und Technik aus und zeigen dir regelmäßig den aktuellen Stand. Dein Feedback fließt direkt ein. Ändern sich Anforderungen, stimmen wir Umfang und Zeitplan gemeinsam neu ab.',
+    result: 'Eine Lösung, die du selbst ausprobieren kannst.',
+  },
+  {
+    id: 'test',
+    label: 'Test',
+    summary: 'Prüfen, ob alles im Alltag funktioniert.',
+    text: 'Wir testen Inhalte, Formulare und Funktionen auf verschiedenen Geräten. Gemeinsam gehen wir typische Nutzungssituationen durch und beheben offene Punkte vor der Veröffentlichung.',
+    result: 'Ein geprüfter Stand für den Livegang.',
+  },
+  {
+    id: 'livegang',
+    label: 'Livegang',
+    summary: 'Veröffentlichen und die Übergabe vorbereiten.',
+    text: 'Wir stimmen den Veröffentlichungstermin ab, begleiten den Start und erklären dir die Bedienung. Neue Erfahrungen aus dem Betrieb können zu neuen Anforderungen werden. Dann beginnt die nächste Runde.',
+    result:
+      'Dein Projekt ist online. Die weitere Zusammenarbeit stimmen wir nach Bedarf ab.',
+  },
 ] as const;
 
-function point(radius: number, degrees: number) {
-  const angle = (degrees * Math.PI) / 180;
-  return {
-    x: 300 + radius * Math.cos(angle),
-    y: 300 + radius * Math.sin(angle),
-  };
-}
-
 function coordinates(radius: number, degrees: number) {
-  const { x, y } = point(radius, degrees);
-  return `${x.toFixed(2)} ${y.toFixed(2)}`;
+  const angle = (degrees * Math.PI) / 180;
+  return `${(300 + radius * Math.cos(angle)).toFixed(2)} ${(300 + radius * Math.sin(angle)).toFixed(2)}`;
 }
-
-/** Six editable, flat sectors with the small chevron joins of a slide diagram. */
 function sector(index: number) {
-  const start = -150 + index * 60 + 0.7;
-  const end = -150 + (index + 1) * 60 - 0.7;
-  return [
-    `M ${coordinates(276, start)}`,
-    `A 276 276 0 0 1 ${coordinates(276, end)}`,
-    `L ${coordinates(210, end + 5)}`,
-    `L ${coordinates(144, end)}`,
-    `A 144 144 0 0 0 ${coordinates(144, start)}`,
-    `L ${coordinates(210, start + 5)} Z`,
-  ].join(' ');
+  const start = -126 + index * 72 + 1;
+  const end = start + 70;
+  return `M ${coordinates(276, start)} A 276 276 0 0 1 ${coordinates(276, end)} L ${coordinates(158, end)} A 158 158 0 0 0 ${coordinates(158, start)} Z`;
 }
-
-/* oxlint-disable jsx-a11y/prefer-tag-over-role -- This inline SVG is one labelled image. */
+/* oxlint-disable jsx-a11y/prefer-tag-over-role -- The SVG is one accessible, labelled image. */
+export function DevelopmentRing({
+  active,
+  progress,
+  detailed = false,
+}: {
+  active?: number;
+  progress?: number;
+  detailed?: boolean;
+}) {
+  return (
+    <svg
+      className="development-ring"
+      viewBox="0 0 600 600"
+      width={600}
+      height={600}
+      role="img"
+      aria-label={`Unser Kreislauf: Anforderungen, Planung, Umsetzung, Test und Livegang. Danach können neue Anforderungen folgen.${active === undefined ? '' : ` Aktuelle Phase: ${developmentPhases[active].label}.`}`}
+    >
+      {developmentPhases.map((phase, index) => {
+        const angle = ((-90 + index * 72) * Math.PI) / 180;
+        const x = 300 + 216 * Math.cos(angle);
+        const y = 300 + 216 * Math.sin(angle);
+        return (
+          <g
+            key={phase.id}
+            className={`development-ring-phase${active === index ? ' is-active' : ''}`}
+            aria-hidden="true"
+          >
+            <path
+              d={sector(index)}
+              style={
+                progress === undefined
+                  ? undefined
+                  : { fill: ringColor(index, progress) }
+              }
+            />
+            <foreignObject x={x - 110} y={y - 38} width={220} height={76}>
+              <div
+                className="development-ring-annotation"
+                style={
+                  progress === undefined
+                    ? undefined
+                    : { color: ringTextColor(index, progress) }
+                }
+              >
+                <span className="development-ring-number">{index + 1}</span>
+                <span className="development-ring-label">{phase.label}</span>
+              </div>
+            </foreignObject>
+          </g>
+        );
+      })}
+      <text
+        x={300}
+        y={286}
+        textAnchor="middle"
+        className="development-ring-center"
+        aria-hidden="true"
+      >
+        {detailed ? (
+          <>
+            <tspan x={300} dy={-20}>
+              Ihre Seite
+            </tspan>
+            <tspan x={300} dy={38}>
+              entwickelt
+            </tspan>
+            <tspan x={300} dy={38}>
+              sich weiter
+            </tspan>
+          </>
+        ) : (
+          <>
+            <tspan x={300}>Gemeinsam</tspan>
+            <tspan x={300} dy={38}>
+              entwickeln
+            </tspan>
+          </>
+        )}
+      </text>
+    </svg>
+  );
+}
+function ringColor(index: number, progress: number) {
+  return `rgb(${ringChannels(index, progress).join(',')})`;
+}
+function ringTextColor(index: number, progress: number) {
+  const channels = ringChannels(index, progress).map((value) => {
+    const normalized = value / 255;
+    return normalized <= 0.04045
+      ? normalized / 12.92
+      : ((normalized + 0.055) / 1.055) ** 2.4;
+  });
+  return channels[0] * 0.2126 + channels[1] * 0.7152 + channels[2] * 0.0722 <=
+    0.179
+    ? '#ffffff'
+    : '#000000';
+}
+function ringChannels(index: number, progress: number) {
+  const current = Math.floor(progress);
+  const mix = progress - current;
+  const light = [220, 231, 246],
+    done = [155, 186, 225],
+    dark = [18, 75, 180];
+  const from = index < current ? done : index === current ? dark : light;
+  const to = index <= current ? done : index === current + 1 ? dark : light;
+  return from.map((value, i) => Math.round(value + (to[i] - value) * mix));
+}
 export function DevelopmentCycle() {
   return (
     <figure className="about-agile-visual">
-      <svg
-        className="agile-cycle-graphic"
-        viewBox="0 0 600 600"
-        width={600}
-        height={600}
-        role="img"
-        aria-labelledby="agile-cycle-title agile-cycle-description"
-      >
-        <title id="agile-cycle-title">Agile Entwicklung</title>
-        <desc id="agile-cycle-description">
-          Anforderungen, Planung, Umsetzung, Test, Livegang und Verbesserung
-          bilden einen wiederkehrenden Kreislauf.
-        </desc>
-        {phases.map((phase, index) => {
-          const center = point(210, -120 + index * 60);
-          return (
-            <g key={phase.label} aria-hidden="true">
-              <path
-                d={sector(index)}
-                fill={phase.color}
-                stroke="#ffffff"
-                strokeWidth={6}
-                strokeLinejoin="round"
-              />
-              <text
-                x={center.x}
-                y={center.y - 14}
-                textAnchor="middle"
-                fill={phase.text}
-                fontSize={27}
-                fontWeight={700}
-              >
-                {index + 1}.
-              </text>
-              <text
-                x={center.x}
-                y={center.y + 17}
-                textAnchor="middle"
-                fill={phase.text}
-                fontSize={phase.size}
-                fontWeight={700}
-              >
-                {phase.label}
-              </text>
-            </g>
-          );
-        })}
-        <text
-          className="agile-cycle-center"
-          x={300}
-          y={291}
-          textAnchor="middle"
-          fill="#101b31"
-          fontSize={36}
-          fontWeight={700}
-        >
-          <tspan x={300}>Agile</tspan>
-          <tspan x={300} dy={40}>
-            Entwicklung
-          </tspan>
-        </text>
-      </svg>
+      <DevelopmentRing />
       <figcaption>
-        <h3>Wir arbeiten agil.</h3>
         <p>
-          Ändert sich dein Vorhaben, stimmen wir die nächsten Schritte gemeinsam
-          ab. Dein Feedback fließt in Gestaltung und Entwicklung ein.
+          Nach dem Livegang können neue Anforderungen entstehen. Wir greifen sie
+          gemeinsam auf und beginnen die nächste Runde.
         </p>
       </figcaption>
     </figure>

@@ -8,6 +8,7 @@ import './home-about.css';
 import { Locations } from './locations';
 import { PageStructuredData } from './structured-data';
 import { DevelopmentCycle } from './development-cycle';
+import { HomeContact } from './home-contact';
 
 export default function Landing() {
   return (
@@ -48,24 +49,23 @@ export default function Landing() {
           </section>
           <section
             className="process-area home-about"
+            id="zusammenarbeit"
             aria-labelledby="home-about-title"
           >
             <div className="wrap home-about-grid">
               <div className="home-about-copy">
-                <span className="eyebrow">Wer wir sind</span>
+                <span className="eyebrow">Unsere Zusammenarbeit</span>
                 <h2 id="home-about-title">
-                  Deine Idee. Direkt mit uns umgesetzt.
+                  So entsteht dein Projekt.
                 </h2>
                 <p>
-                  Bei Nine.ai sprichst du direkt mit den Menschen, die deine
-                  Website oder Anwendung entwickeln. Wir klären die
-                  Anforderungen gemeinsam und setzen dein Projekt in
-                  überschaubaren Etappen um. Du siehst früh Zwischenergebnisse
-                  und gibst Feedback, das wir direkt in den nächsten Stand
-                  einarbeiten.
+                  Wir klären gemeinsam, was deine Website oder Anwendung leisten
+                  soll, und setzen sie in überschaubaren Etappen um. Du siehst
+                  früh Zwischenergebnisse und gibst Feedback, das direkt in
+                  Planung und Umsetzung einfließt.
                 </p>
-                <a className="c-inline-link" href="/ueber-nine">
-                  Über 9.ai <ArrowUpRight size={18} />
+                <a className="c-inline-link" href="/ueber-nine#zusammenarbeit">
+                  So arbeiten wir bei Nine.ai <ArrowUpRight size={18} />
                 </a>
               </div>
               <DevelopmentCycle />
@@ -191,6 +191,7 @@ export default function Landing() {
               />
             </div>
           </section>
+          <HomeContact />
         </main>
       </div>
       <Footer />

@@ -27,13 +27,15 @@ export async function notifyLead(
   if (!settings.LEAD_RESEND_API_KEY || !settings.LEAD_EMAIL_FROM)
     return 'pending';
   if (/[\r\n]/.test(settings.LEAD_EMAIL_FROM)) return 'failed';
+  const contact = lead.goal === 'kontakt';
   const text = [
-    'Neue Website-Anfrage über Nine.ai',
+    contact
+      ? 'Neue Kontaktanfrage über Nine.ai'
+      : 'Neue Website-Anfrage über Nine.ai',
     `Referenz: ${lead.requestId}`,
     `Name: ${lead.name}`,
     `E-Mail: ${lead.email}`,
-    `Vorhaben: ${lead.goal}`,
-    `Paket: ${lead.package}`,
+    ...(contact ? [] : [`Vorhaben: ${lead.goal}`, `Paket: ${lead.package}`]),
     `Website: ${lead.website || 'Nicht angegeben'}`,
     `Telefon: ${lead.phone || 'Nicht angegeben'}`,
     '',
@@ -54,7 +56,9 @@ export async function notifyLead(
         from: settings.LEAD_EMAIL_FROM,
         to: [leadRecipient],
         reply_to: lead.email,
-        subject: 'Neue Website-Anfrage · ' + lead.package,
+        subject: contact
+          ? 'Neue Kontaktanfrage · Nine.ai'
+          : 'Neue Website-Anfrage · ' + lead.package,
         text,
       }),
       signal: AbortSignal.timeout(7000),

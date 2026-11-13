@@ -11,6 +11,7 @@ import { ProjectProofLinks, RelatedTopics } from './editorial-pages';
 import { TeamIntro } from './team-intro';
 import { projectImageProps } from './project-image-props';
 import { LegalContent } from './legal-content';
+import { DevelopmentProcess } from './development-process';
 export function FAQ({ items = generalFaq }: { items?: string[][] }) {
   return (
     <section className="n-section n-faq">
@@ -407,6 +408,7 @@ export function About() {
           </a>
         </div>
       </section>
+      <DevelopmentProcess />
       <section className="n-section about-work">
         <h2>Websites, Anwendungen und die Abläufe dahinter.</h2>
         <dl className="about-capabilities">

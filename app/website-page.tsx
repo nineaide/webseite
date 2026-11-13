@@ -16,12 +16,8 @@ export default function WebsitePage() {
     <>
       <section className="website-service-hero">
         <div>
-          <span className="eyebrow">WEBSITES FÜR UNTERNEHMEN</span>
-          <h1>
-            Dein Angebot ist gut.
-            <br />
-            <em>Zeigen wir es.</em>
-          </h1>
+          <span className="eyebrow">Websites für Unternehmen</span>
+          <h1>Dein Angebot ist gut. Zeigen wir es.</h1>
           <p>
             Wir gestalten und entwickeln deine Unternehmenswebsite. Damit
             Besucher schnell verstehen, was du anbietest, Vertrauen aufbauen und
@@ -68,12 +64,7 @@ export default function WebsitePage() {
       <section className="n-section" id="leistungen">
         <div className="section-heading">
           <div>
-            <span className="eyebrow">VOM AUFBAU BIS ZUR FERTIGEN SEITE</span>
-            <h2>
-              Eine Website, die
-              <br />
-              zu deinem Betrieb passt.
-            </h2>
+            <h2>Eine Website, die zu deinem Betrieb passt.</h2>
           </div>
           <p>
             Für Dienstleister, Handwerk und mittelständische Unternehmen. Mit
@@ -109,12 +100,7 @@ export default function WebsitePage() {
       <section className="website-service-pricing" id="website-pakete">
         <div className="section-heading">
           <div>
-            <span className="eyebrow">DU KENNST DEN PREIS VOR DEM START.</span>
-            <h2>
-              Vier Möglichkeiten.
-              <br />
-              Dein passender Einstieg.
-            </h2>
+            <h2>Vier Website-Pakete im Vergleich</h2>
           </div>
           <p>
             Kompakt mit Nine Start, umfassender mit Launch oder Growth. Nine X
@@ -126,12 +112,7 @@ export default function WebsitePage() {
       <section className="n-section" id="website-beispiele">
         <div className="section-heading">
           <div>
-            <span className="eyebrow">IDEEN FÜR DEINEN AUFTRITT</span>
-            <h2>
-              So unterschiedlich
-              <br />
-              kann eine Website sein.
-            </h2>
+            <h2>Websites für unterschiedliche Aufgaben</h2>
           </div>
           <p>
             Echte Kundenprojekte aus Handwerk und Dienstleistung. Jeder Auftritt
@@ -145,12 +126,7 @@ export default function WebsitePage() {
       </section>
       <section className="website-collaboration n-section" id="zusammenarbeit">
         <div>
-          <span className="eyebrow">DEIN AUFWAND BLEIBT ÜBERSCHAUBAR</span>
-          <h2>
-            Du kennst dein Geschäft.
-            <br />
-            Wir stellen die richtigen Fragen.
-          </h2>
+          <h2>Du kennst dein Geschäft. Wir stellen die richtigen Fragen.</h2>
           <p>
             Eine neue Website muss nicht dein nächstes Vollzeitprojekt werden.
             Wir geben dir eine klare Reihenfolge für Inhalte, Feedback und

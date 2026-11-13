@@ -142,11 +142,7 @@ export function PackageOverview() {
     <>
       <header className="c-packages-heading">
         <span className="c-eyebrow">WEBSITE-PAKETE & PREISE</span>
-        <h1>
-          Deine neue Website.
-          <br />
-          <em>Ein passender Einstieg.</em>
-        </h1>
+        <h1>Deine neue Website. Ein passender Einstieg.</h1>
         <p>
           Vergleiche die Basispreise und den beschriebenen Umfang. Was dein
           Projekt tatsächlich braucht, klären wir im Gespräch.

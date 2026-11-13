@@ -7,6 +7,7 @@ import { FAQAnswers } from './faq-answers';
 import './home-about.css';
 import { Locations } from './locations';
 import { PageStructuredData } from './structured-data';
+import { DevelopmentCycle } from './development-cycle';
 
 export default function Landing() {
   return (
@@ -17,14 +18,8 @@ export default function Landing() {
         <main id="main">
           <section className="wrap sales-hero">
             <div className="sales-hero-copy">
-              <span className="eyebrow">WEBDESIGN FÜR UNTERNEHMEN</span>
-              <h1>
-                Eine Website,
-                <br />
-                die Kunden
-                <br />
-                <em>für dich gewinnt.</em>
-              </h1>
+              <span className="eyebrow">Webdesign für Unternehmen</span>
+              <h1>Eine Website, die Kunden für dich gewinnt.</h1>
               <p>
                 Wir gestalten und entwickeln deine Website. Damit Besucher deine
                 Leistungen finden und dich direkt anfragen können.
@@ -57,64 +52,23 @@ export default function Landing() {
           >
             <div className="wrap home-about-grid">
               <div className="home-about-copy">
-                <span className="eyebrow">WER WIR SIND</span>
+                <span className="eyebrow">Wer wir sind</span>
                 <h2 id="home-about-title">
-                  Deine Idee.
-                  <br />
-                  Direkt mit uns umgesetzt.
+                  Deine Idee. Direkt mit uns umgesetzt.
                 </h2>
                 <p>
                   Bei Nine.ai sprichst du direkt mit den Menschen, die deine
-                  Website oder digitale Lösung entwickeln. Ohne unnötige Umwege.
+                  Website oder Anwendung entwickeln. Wir klären die
+                  Anforderungen gemeinsam und setzen dein Projekt in
+                  überschaubaren Etappen um. Du siehst früh Zwischenergebnisse
+                  und gibst Feedback, das wir direkt in den nächsten Stand
+                  einarbeiten.
                 </p>
                 <a className="c-inline-link" href="/ueber-nine">
                   Über 9.ai <ArrowUpRight size={18} />
                 </a>
               </div>
-              <div
-                className="home-about-process"
-                aria-labelledby="home-about-process-title"
-              >
-                <h3 id="home-about-process-title">SO ARBEITEN WIR</h3>
-                <div className="home-about-route">
-                  <svg
-                    className="home-about-route-line"
-                    viewBox="0 0 600 360"
-                    preserveAspectRatio="none"
-                    aria-hidden="true"
-                  >
-                    <path d="M 8 20 H 530 Q 582 20 582 72 V 148 Q 582 200 530 200 H 8" />
-                    <circle cx="8" cy="20" r="4" />
-                    <circle cx="326" cy="20" r="4" />
-                    <circle cx="326" cy="200" r="4" />
-                    <path
-                      className="home-about-route-finish"
-                      d="m 20 192 -12 8 12 8"
-                    />
-                  </svg>
-                  <ol>
-                    {[
-                      ['Kennenlernen', 'Wir sprechen über dein Vorhaben.'],
-                      [
-                        'Konzept & Design',
-                        'Du siehst, wie deine Lösung aussehen kann.',
-                      ],
-                      [
-                        'Entwicklung',
-                        'Wir setzen um und stimmen uns mit dir ab.',
-                      ],
-                      ['Livegang', 'Dein Projekt geht online.'],
-                    ].map(([title, description]) => (
-                      <li key={title}>
-                        <div>
-                          <h4>{title}</h4>
-                          <p>{description}</p>
-                        </div>
-                      </li>
-                    ))}
-                  </ol>
-                </div>
-              </div>
+              <DevelopmentCycle />
             </div>
           </section>
           <section className="package-area home-services" id="leistungen">
@@ -131,7 +85,7 @@ export default function Landing() {
             <div className="wrap">
               <div className="section-heading home-work-heading">
                 <div>
-                  <span className="eyebrow">BRANCHEN & WEBSITE-BEISPIELE</span>
+                  <span className="eyebrow">Branchen & Website-Beispiele</span>
                   <h2>Einblicke in unsere Arbeit</h2>
                 </div>
               </div>
@@ -147,12 +101,8 @@ export default function Landing() {
             <div className="wrap">
               <div className="section-heading">
                 <div>
-                  <span className="eyebrow">WEBSITE-PAKETE & BASISPREISE</span>
-                  <h2>
-                    Was soll deine
-                    <br />
-                    Website für dich tun?
-                  </h2>
+                  <span className="eyebrow">Website-Pakete & Basispreise</span>
+                  <h2>Was soll deine Website für dich tun?</h2>
                 </div>
                 <p>
                   Von der kompakten Landingpage bis zur individuellen Lösung.
@@ -165,11 +115,10 @@ export default function Landing() {
           <section className="work-area home-locations" id="standorte">
             <Locations className="wrap" />
           </section>
-          <section className="process-area" id="ablauf">
-            <div className="wrap">
+          <section className="process-area home-preparation" id="ablauf">
+            <div className="wrap home-preparation-layout">
               <div className="section-heading">
                 <div>
-                  <span className="eyebrow">VOR DEM PROJEKTSTART</span>
                   <h2>Was wir zum Projektstart von dir brauchen</h2>
                 </div>
                 <p>
@@ -210,12 +159,7 @@ export default function Landing() {
           >
             <div className="wrap n-faq">
               <div className="home-answers-heading">
-                <span className="eyebrow">GUT ZU WISSEN</span>
-                <h2 id="home-answers-title">
-                  Deine Fragen.
-                  <br />
-                  Direkt beantwortet.
-                </h2>
+                <h2 id="home-answers-title">Fragen vor dem Projektstart</h2>
               </div>
               <FAQAnswers
                 items={[

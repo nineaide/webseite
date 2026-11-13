@@ -1,13 +1,6 @@
 /* oxlint-disable next/no-img-element */
 import './home-about.css';
-import {
-  ArrowUpRight,
-  Target,
-  Command,
-  MoveHorizontal,
-  CornerDownRight,
-  Plus,
-} from 'lucide-react';
+import { ArrowUpRight } from 'lucide-react';
 import { services, packages, money, generalFaq } from './site-data';
 import { packagePresentation } from './package-cards';
 import { PackageOverview } from './package-cards';
@@ -22,12 +15,7 @@ export function FAQ({ items = generalFaq }: { items?: string[][] }) {
   return (
     <section className="n-section n-faq">
       <div>
-        <span className="n-kicker">GUT ZU WISSEN</span>
-        <h2>
-          Klare Fragen.
-          <br />
-          <em>Klare Antworten.</em>
-        </h2>
+        <h2>Häufige Fragen</h2>
       </div>
       <FAQAnswers items={items} />
     </section>
@@ -66,12 +54,8 @@ export function Hero({
 export function SolutionLinks() {
   return (
     <div className="n-solution-grid">
-      {services.map((s, i) => (
-        <a
-          className={'n-solution ' + (i === 0 ? 'n-blue' : '')}
-          href={'/' + s.slug}
-          key={s.slug}
-        >
+      {services.map((s) => (
+        <a className="n-solution" href={'/' + s.slug} key={s.slug}>
           <div>
             <h2>{s.label}</h2>
             <span className="n-arrow" aria-hidden="true">
@@ -168,58 +152,31 @@ export function ServicePage({ slug }: { slug: string }) {
         </a>
       </section>
       <section className="n-section n-split">
-        <h2>
-          Kommt dir das
-          <br />
-          <em>bekannt vor?</em>
-        </h2>
-        <div className="n-number-list">
-          {s.situations.map((text, i) => (
-            <div key={text}>
-              <span>0{i + 1}</span>
-              <p>{text}</p>
-            </div>
+        <h2>Welche Aufgabe soll die Anwendung lösen?</h2>
+        <ul className="service-situations">
+          {s.situations.map((text) => (
+            <li key={text}>{text}</li>
           ))}
-        </div>
+        </ul>
       </section>
       <section className="n-section">
         <div className="n-section-heading">
-          <span className="n-kicker">KONKRET UMGESETZT</span>
-          <h2>
-            Das setzen wir <em>für dich um.</em>
-          </h2>
+          <h2>Das gehört zur Umsetzung</h2>
         </div>
-        <div className="n-feature-grid">
-          {s.features.map(([title, text], i) => {
-            const Icon = [
-              ArrowUpRight,
-              Target,
-              Command,
-              MoveHorizontal,
-              CornerDownRight,
-              Plus,
-            ][i % 6];
-            return (
-              <article key={title} className={i === 0 ? 'n-blue' : ''}>
-                <span className="n-feature-icon" aria-hidden="true">
-                  <Icon className="text-arrow" />
-                </span>
-                <h3>{title}</h3>
-                <p>{text}</p>
-              </article>
-            );
-          })}
-        </div>
+        <dl className="service-capabilities">
+          {s.features.map(([title, text]) => (
+            <div key={title}>
+              <dt>{title}</dt>
+              <dd>{text}</dd>
+            </div>
+          ))}
+        </dl>
       </section>
       {s.slug === 'plattformen-web-apps' ? (
         <CaseTeaser />
       ) : (
         <section className="n-section n-split">
-          <h2>
-            Erst verstehen.
-            <br />
-            Dann <em>umsetzen.</em>
-          </h2>
+          <h2>Erst verstehen. Dann umsetzen.</h2>
           <div className="n-number-list">
             {[
               ['Discover', 'Ziele, Ausgangslage und Umfang gemeinsam klären.'],
@@ -256,7 +213,7 @@ export function CaseTeaser() {
     <section className="n-case-teaser n-section s-case">
       <a href="/projekte/parkesicher" aria-label="Projekt ParkeSicher ansehen">
         <div className="s-case-meta">
-          <span>01 / PARKESICHER</span>
+          <span>ParkeSicher</span>
           <span>Plattform · Suche & Buchung</span>
         </div>
         <div className="s-case-visual">
@@ -277,11 +234,7 @@ export function CaseTeaser() {
           </span>
         </div>
         <div className="s-case-caption">
-          <h2>
-            Einfach parken.
-            <br />
-            <em>Entspannt abheben.</em>
-          </h2>
+          <h2>Flughafenparkplätze finden und buchen</h2>
           <div>
             <p>
               Flughafenparkplätze finden, vergleichen und buchen. Eine klare
@@ -301,12 +254,8 @@ export function Projects() {
   return (
     <>
       <section className="s-project-intro">
-        <span className="n-kicker">KUNDENPROJEKTE</span>
-        <h1>
-          Gute Arbeit
-          <br />
-          <em>zum Ansehen</em>
-        </h1>
+        <span className="n-kicker">Kundenprojekte</span>
+        <h1>Gute Arbeit zum Ansehen</h1>
         <p>
           Unterschiedliche Unternehmen. Unterschiedliche Aufgaben. Websites,
           Datenbanken und eigene Systeme – hier kannst du unsere Arbeit ansehen.
@@ -348,11 +297,7 @@ export function Parkesicher() {
       <section className="n-section n-split">
         <div>
           <span className="n-kicker">VON DER SUCHE BIS ZUM BETRIEB</span>
-          <h2>
-            Einfach buchen.
-            <br />
-            <em>Den Alltag steuern.</em>
-          </h2>
+          <h2>Buchung und Betrieb verbinden</h2>
         </div>
         <div className="n-copy">
           <p>
@@ -415,12 +360,12 @@ export function About() {
     <>
       <Hero
         kicker="ÜBER NINE.AI"
-        title="Du machst dein Geschäft. Wir kümmern uns um deinen Auftritt."
+        title="Direkt mit den Menschen, die dein Projekt entwickeln."
         lead="Wir planen und bauen Websites, schalten Google-Werbung und automatisieren Abläufe. Du bekommst einen klaren Plan und weißt, was als Nächstes passiert."
         href="/projekt-starten"
         label="Projekt anfragen"
       />
-      <div className="n-about-visual">
+      <figure className="n-about-visual">
         <img
           {...projectImageProps(
             '/project-images/parkesicher-desktop.webp',
@@ -430,16 +375,17 @@ export function About() {
           width="1440"
           height="1000"
         />
-        <div className="n-blue">
-          <span className="n-kicker">UNSERE ARBEIT · PARKESICHER</span>
+        <figcaption>
+          <h2>Eine Buchungsplattform, die auch den Betrieb verbindet.</h2>
           <p>
-            Vom ersten Auftritt bis zum System für <em>deinen Betrieb.</em>
+            ParkeSicher verbindet die Parkplatzsuche mit Buchung und
+            Anbieterbereich.
           </p>
-          <span aria-hidden="true">
-            <ArrowUpRight className="text-arrow" />
-          </span>
-        </div>
-      </div>
+          <a href="/projekte/parkesicher" className="c-inline-link">
+            ParkeSicher entdecken <ArrowUpRight size={18} aria-hidden="true" />
+          </a>
+        </figcaption>
+      </figure>
       <section className="n-section n-split">
         <TeamIntro showLink={false} />
         <div className="n-copy">
@@ -462,8 +408,7 @@ export function About() {
         </div>
       </section>
       <section className="n-section about-work">
-        <span className="n-kicker">WAS WIR ÜBERNEHMEN</span>
-        <h2>Direkt mit denen, die es umsetzen.</h2>
+        <h2>Websites, Anwendungen und die Abläufe dahinter.</h2>
         <dl className="about-capabilities">
           <div>
             <dt>Websites und Anwendungen</dt>
@@ -483,7 +428,7 @@ export function About() {
           </div>
         </dl>
       </section>
-      <CaseTeaser />
+      <ProjectProofLinks ids={['entwurf-energie', 'un-petit-cafe']} />
     </>
   );
 }

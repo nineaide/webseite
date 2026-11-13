@@ -72,34 +72,8 @@ export function MotionEnhancements() {
       },
       { signal: lifecycle.signal },
     );
-    const observer = new IntersectionObserver(
-      (entries) => {
-        for (const entry of entries) {
-          if (!entry.isIntersecting) continue;
-          observer.unobserve(entry.target);
-          if (preference.matches || root.dataset.motionInput === 'keyboard')
-            continue;
-          const animation = entry.target.animate(
-            [
-              { opacity: 0.65, transform: 'translateY(14px)' },
-              { opacity: 1, transform: 'translateY(0)' },
-            ],
-            { duration: 460, easing: 'cubic-bezier(.22,1,.36,1)' },
-          );
-          running.add(animation);
-          animation.onfinish = () => running.delete(animation);
-        }
-      },
-      { threshold: 0.1, rootMargin: '0px 0px -30px 0px' },
-    );
-    document
-      .querySelectorAll(
-        '.section-heading,.gallery-item,.reason-columns article,.process-list article,.n-feature-grid article',
-      )
-      .forEach((element) => observer.observe(element));
     return () => {
       lifecycle.abort();
-      observer.disconnect();
       stopAnimations();
       delete root.dataset.motionInput;
     };

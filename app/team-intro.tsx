@@ -3,7 +3,7 @@ import { ArrowUpRight } from 'lucide-react';
 import { teamMembers } from './team-data';
 
 export function TeamIntro({
-  eyebrow = 'PERSÖNLICH ZUSAMMENARBEITEN',
+  eyebrow = 'Persönlich zusammenarbeiten',
   showLink = true,
 }: {
   eyebrow?: string;
@@ -12,11 +12,7 @@ export function TeamIntro({
   return (
     <div className="team-intro">
       <span className="eyebrow">{eyebrow}</span>
-      <h2>
-        Dein Vorhaben.
-        <br />
-        Direkt mit uns.
-      </h2>
+      <h2>Dein Vorhaben. Direkt mit uns.</h2>
       <p>
         Du sprichst direkt mit uns über dein Vorhaben und die
         Zwischenergebnisse. So können wir Rückfragen gemeinsam klären.

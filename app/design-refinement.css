@@ -1,0 +1,640 @@
+/* Content-led refinement of the existing Nine.ai system. Selectors target
+   marketing components; legal content and inquiry controls retain their styles. */
+.figma-site
+  :is(
+    .sales-hero,
+    .home-about,
+    .home-work-heading,
+    .package-area,
+    .locations-heading,
+    .editorial-page,
+    .knowledge-page
+  )
+  .eyebrow {
+  letter-spacing: 0.015em;
+  font-size: 0.875rem;
+  font-weight: 500;
+}
+.n-main:not(:has(.n-legal)) :is(.n-kicker, .eyebrow) {
+  letter-spacing: 0.025em;
+  font-weight: 500;
+}
+.figma-site .sales-hero {
+  background: var(--navy);
+  gap: clamp(32px, 4vw, 64px);
+  padding-block: 64px 80px;
+}
+.figma-site .sales-hero h1 {
+  max-width: 13ch;
+  font-size: clamp(2.5rem, 4.8vw, 4.4rem);
+  line-height: 1.06;
+  letter-spacing: -0.045em;
+}
+.figma-site .sales-hero h1 em {
+  color: inherit;
+  background: none;
+  -webkit-text-fill-color: currentColor;
+  white-space: normal;
+}
+.figma-site .hero-selector.liquid-surface {
+  padding: 0;
+  border: 0;
+  border-radius: 0;
+  background: transparent;
+  box-shadow: none;
+  backdrop-filter: none;
+  -webkit-backdrop-filter: none;
+}
+.figma-site .hero-selector > .liquid-sheen,
+.figma-site .hero-selector > span:not(.liquid-sheen) {
+  display: none;
+}
+.figma-site .hero-selector fieldset {
+  gap: 6px;
+}
+.figma-site .hero-selector button {
+  min-height: 44px;
+  padding: 10px 17px;
+  border-radius: 8px;
+  font-size: 0.875rem;
+  font-weight: 500;
+}
+.figma-site .reference-hero-home .hero-display {
+  padding: 6px;
+  background: #29364c;
+}
+.figma-site .reference-hero-home .display-foot {
+  letter-spacing: 0;
+  font-size: 0.75rem;
+}
+.c-home .home-about {
+  background: #fff;
+  padding-block: 88px;
+}
+.c-home .home-services {
+  padding-block: 64px 72px;
+}
+.figma-site .home-services-showcase {
+  grid-template-columns: minmax(0, 0.8fr) minmax(0, 1.2fr);
+  gap: clamp(28px, 4vw, 60px);
+}
+.figma-site .home-service-option {
+  padding: 16px;
+  overflow-wrap: anywhere;
+}
+.figma-site .home-service-option-title > strong {
+  line-height: 1.3;
+}
+.figma-site .home-service-option-description {
+  font-size: 0.9375rem;
+  color: var(--muted);
+  line-height: 1.55;
+}
+.figma-site .home-service-option[aria-pressed='true'] {
+  background: #e7edf7;
+}
+.figma-site .home-service-preview {
+  padding-top: 6px;
+}
+.figma-site .service-proof-image-desktop {
+  height: auto;
+  aspect-ratio: auto;
+}
+.figma-site .service-proof-image-desktop img {
+  width: 100%;
+  height: auto;
+  object-fit: contain;
+  object-position: top center;
+}
+.c-home #beispiele {
+  padding-block: 88px 72px;
+}
+.figma-site .home-project-showcase {
+  overflow: visible;
+  border: 0;
+  border-radius: 0;
+  background: transparent;
+  gap: 36px;
+}
+.figma-site .home-project-visual {
+  padding: 0;
+}
+.figma-site .home-project-stage {
+  padding: clamp(16px, 2vw, 28px);
+  border-radius: 12px;
+}
+.figma-site .home-project-information {
+  padding: 68px 0 0;
+}
+.figma-site .home-project-screen-desktop {
+  box-shadow: 0 8px 24px #10264012;
+}
+.figma-site .home-project-view-switch {
+  background: transparent;
+  padding: 0;
+}
+.figma-site .home-project-links a:first-child {
+  border-radius: 8px;
+}
+.figma-site .website-offer,
+.figma-site .c-package-card {
+  border-radius: 14px;
+  box-shadow: none;
+}
+.figma-site .website-offer-label {
+  letter-spacing: 0.015em;
+}
+.figma-site .website-offer-price strong {
+  font-variant-numeric: tabular-nums;
+}
+.c-home .home-locations {
+  padding-block: 36px;
+}
+.figma-site .locations-area {
+  margin-top: 0;
+}
+.figma-site .locations-label {
+  box-shadow: none;
+}
+.figma-site .locations-dot {
+  box-shadow: 0 0 0 3px #fff;
+}
+.c-home .home-preparation {
+  padding-block: 64px;
+  background: #fff;
+}
+.c-home .home-answers {
+  padding-block: 64px;
+  background: var(--ice);
+}
+.figma-site .n-faq h2 {
+  max-width: 19ch;
+  font-size: clamp(1.65rem, 2.5vw, 2.4rem);
+}
+.figma-site .n-faq .faq-item,
+.figma-site .n-faq .faq-item[data-open] {
+  background: transparent;
+  border: 0;
+  border-bottom: 1px solid #ccd7e6;
+  border-radius: 0;
+  color: var(--ink);
+  padding: 0;
+  margin: 0;
+}
+.figma-site .n-faq .faq-trigger {
+  min-height: 64px;
+  padding-block: 18px;
+  font-size: 1.0625rem;
+  line-height: 1.4;
+}
+.figma-site .n-faq .faq-trigger:hover,
+.figma-site .n-faq .faq-trigger[aria-expanded='true'] {
+  color: var(--blue);
+}
+.figma-site .n-faq .faq-plus,
+.figma-site .n-faq .faq-trigger[aria-expanded='true'] .faq-plus {
+  color: var(--blue);
+}
+.figma-site .n-faq .faq-trigger:focus-visible {
+  outline-color: var(--blue);
+}
+.figma-site .n-faq .faq-answer p {
+  color: var(--muted);
+  font-size: 1rem;
+}
+.n-main:not(:has(.n-legal)) :is(.n-hero, .s-project-intro) {
+  padding-block: 36px 56px;
+  gap: clamp(28px, 5vw, 72px);
+}
+.n-main:not(:has(.n-legal)) :is(.n-hero, .s-project-intro) h1 {
+  font-size: clamp(2.4rem, 4.3vw, 4rem);
+  line-height: 1.08;
+}
+.n-main:not(:has(.n-legal)) .n-hero h1 {
+  white-space: normal;
+}
+.figma-site .c-packages-heading h1 {
+  font-size: clamp(2rem, 4.3vw, 4rem);
+  line-height: 1.08;
+}
+.figma-site .n-solution-grid {
+  display: block;
+}
+.figma-site .n-solution {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+  align-items: start;
+  gap: 48px;
+  padding: 26px 0;
+  border-radius: 0;
+  background: transparent;
+}
+.figma-site .n-solution h2 {
+  font-size: clamp(1.45rem, 2.4vw, 2rem);
+}
+.figma-site .n-solution > div {
+  align-items: center;
+  gap: 24px;
+}
+.figma-site .n-solution p {
+  margin: 0;
+  max-width: 60ch;
+  color: var(--muted);
+}
+.figma-site .n-solution:hover h2,
+.figma-site .n-solution:focus-visible h2 {
+  color: var(--blue);
+}
+.service-situations {
+  margin: 0;
+  padding: 0 0 0 20px;
+  color: var(--muted);
+}
+.service-situations li {
+  padding-left: 8px;
+  line-height: 1.65;
+}
+.service-situations li + li {
+  margin-top: 18px;
+}
+.service-capabilities {
+  margin: 0;
+}
+.service-capabilities > div {
+  display: grid;
+  grid-template-columns: minmax(0, 0.8fr) minmax(0, 1.2fr);
+  gap: 48px;
+  padding: 22px 0;
+}
+.service-capabilities dt {
+  font-size: 1.25rem;
+  font-weight: 600;
+}
+.service-capabilities dd {
+  margin: 0;
+  color: var(--muted);
+  max-width: 65ch;
+}
+.figma-site .n-about-visual {
+  display: grid;
+  grid-template-columns: minmax(0, 1.3fr) minmax(0, 0.7fr);
+  gap: 40px;
+  align-items: center;
+  margin: 0 0 72px;
+  padding: 0;
+  background: transparent;
+  border-radius: 0;
+}
+.figma-site .n-about-visual > img {
+  display: block;
+  width: 100%;
+  height: auto;
+  border-radius: 12px;
+}
+.figma-site .n-about-visual figcaption h2 {
+  font-size: clamp(1.5rem, 2.5vw, 2.25rem);
+}
+.figma-site .n-about-visual figcaption p {
+  margin: 18px 0;
+  color: var(--muted);
+  font-size: 1.0625rem;
+  line-height: 1.65;
+  letter-spacing: 0;
+}
+.figma-site .n-about-visual figcaption a {
+  color: var(--blue);
+}
+.figma-site .website-service-image {
+  aspect-ratio: auto;
+  background: transparent;
+  border-radius: 12px;
+}
+.figma-site .website-service-image > img {
+  display: block;
+  width: 100%;
+  height: auto;
+  object-fit: contain;
+}
+.figma-site .website-service-image > span {
+  position: static;
+  display: block;
+  margin-top: 12px;
+  padding: 0;
+  background: transparent;
+  color: var(--muted);
+}
+.figma-site .website-collaboration p,
+.figma-site .gallery-caption > div > span:first-child {
+  color: var(--muted);
+}
+/* A reading index and a featured guide, rather than six repeated image cards. */
+.figma-site .knowledge-grid {
+  grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+  gap: clamp(32px, 6vw, 80px);
+  align-items: start;
+}
+.figma-site .knowledge-grid article > a {
+  padding: 0;
+  background: transparent;
+  border-radius: 0;
+}
+.figma-site .knowledge-feature > a > div {
+  padding: 24px 0 0;
+}
+.figma-site .knowledge-index article + article {
+  margin-top: 28px;
+}
+.figma-site .knowledge-index h2 {
+  margin: 0 0 10px;
+  font-size: 1.45rem;
+}
+.figma-site .knowledge-index p {
+  font-size: 1rem;
+}
+.figma-site .knowledge-index-link {
+  display: inline-flex;
+  gap: 8px;
+  align-items: center;
+  min-height: 44px;
+  margin-top: 8px;
+  color: var(--blue);
+  font-weight: 600;
+}
+.figma-site .editorial-hero h1 {
+  white-space: normal;
+}
+.figma-site .editorial-image-surface {
+  padding: 12px;
+  border-radius: 12px;
+  background: #e6edf7;
+}
+.figma-site .editorial-image-surface img {
+  border-radius: 6px;
+  box-shadow: none;
+}
+.figma-site .editorial-figure-portrait .editorial-image-surface {
+  padding: 22px;
+  background: #e6edf7;
+}
+.figma-site .editorial-section {
+  padding-block: 40px;
+}
+.figma-site .editorial-copy {
+  max-width: 70ch;
+}
+.figma-site .editorial-copy > p {
+  font-size: 1.0625rem;
+  line-height: 1.75;
+}
+.figma-site .editorial-points {
+  gap: 22px;
+}
+.figma-site .editorial-points li {
+  padding: 0;
+  background: transparent;
+  border-radius: 0;
+}
+.figma-site .editorial-points h3 {
+  font-size: 1.2rem;
+}
+.figma-site .editorial-related-grid {
+  display: block;
+}
+.figma-site .editorial-related-grid > a {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(0, 1.2fr) 24px;
+  gap: 24px;
+  align-items: start;
+  padding: 18px 0;
+  background: transparent;
+  border-radius: 0;
+}
+.figma-site .editorial-related-grid > a > span {
+  display: none;
+}
+.figma-site .editorial-related-grid h3 {
+  margin: 0;
+  font-size: 1.25rem;
+  line-height: 1.35;
+}
+.figma-site .editorial-related-grid p {
+  margin: 0;
+  max-width: 62ch;
+  line-height: 1.65;
+}
+.figma-site .editorial-related-grid svg {
+  margin: 0;
+}
+.figma-site .editorial-related-grid > a:hover h3 {
+  color: var(--blue);
+}
+.figma-site .editorial-proof {
+  border-radius: 12px;
+}
+.figma-site .editorial-proof-grid {
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 28px;
+}
+.figma-site .editorial-proof-grid > a {
+  display: block;
+}
+.figma-site .editorial-proof-grid > a:only-child {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+  gap: 32px;
+}
+.figma-site .editorial-proof-grid:has(> a:first-child:nth-last-child(2)) {
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+.figma-site .editorial-proof-grid img {
+  display: block;
+  border-radius: 6px;
+}
+.figma-site .editorial-proof-grid > a > div {
+  padding-top: 18px;
+}
+.figma-site .editorial-proof-grid > a:only-child > div {
+  padding: 0;
+}
+.figma-site .editorial-proof-grid h3 {
+  font-size: 1.6rem;
+}
+.figma-site .editorial-proof-grid > a > div > span:first-child {
+  font-size: 0.875rem;
+}
+.figma-site .editorial-proof-grid p {
+  font-size: 0.9375rem;
+}
+.figma-site .case-implementation-item {
+  border-radius: 12px;
+  background: transparent;
+}
+.figma-site .case-implementation-copy {
+  padding: 20px 0;
+}
+.figma-site .lead-hero h1 {
+  max-width: 15ch;
+  font-size: clamp(2.5rem, 4.7vw, 4.4rem);
+  line-height: 1.08;
+}
+.figma-site.lead-page h2 {
+  line-height: 1.1;
+}
+.lead-page :is(.lead-contact-copy, .lead-section-heading, .lead-craft-copy) h2 {
+  font-size: clamp(2rem, 3.2vw, 3rem);
+}
+.lead-page .eyebrow {
+  letter-spacing: 0.015em;
+  font-size: 0.875rem;
+  font-weight: 500;
+}
+.lead-craft-project {
+  margin: 0;
+  min-width: 0;
+}
+.lead-craft-project > img {
+  display: block;
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+.lead-craft-project figcaption {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 8px 20px;
+  margin-top: 14px;
+  color: #bdc9df;
+  font-size: 0.9375rem;
+}
+.lead-craft-project a {
+  display: inline-flex;
+  align-items: center;
+  min-height: 44px;
+  gap: 8px;
+  color: #fff;
+}
+@media (max-width: 1100px) {
+  .figma-site .sales-hero {
+    padding-block: 48px 64px;
+  }
+  .figma-site .home-project-showcase {
+    gap: 28px;
+  }
+}
+@media (max-width: 900px) {
+  .figma-site .home-services-showcase {
+    grid-template-columns: minmax(0, 1fr);
+    gap: 32px;
+  }
+  .figma-site .editorial-proof-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+@media (max-width: 760px) {
+  .c-home .home-about {
+    padding-block: 56px;
+  }
+  .figma-site .home-project-showcase {
+    grid-template-columns: minmax(0, 1fr);
+    gap: 24px;
+  }
+  .figma-site .home-project-information {
+    padding: 0;
+  }
+  .figma-site .n-solution {
+    grid-template-columns: minmax(0, 1fr);
+    gap: 12px;
+    padding-block: 20px;
+  }
+  .service-capabilities > div {
+    grid-template-columns: minmax(0, 1fr);
+    gap: 10px;
+  }
+  .figma-site .n-about-visual {
+    grid-template-columns: minmax(0, 1fr);
+    gap: 24px;
+    margin-bottom: 48px;
+  }
+  .figma-site .knowledge-grid {
+    grid-template-columns: minmax(0, 1fr);
+  }
+  .figma-site .editorial-related-grid > a {
+    grid-template-columns: minmax(0, 1fr) 24px;
+    gap: 10px 20px;
+  }
+  .figma-site .editorial-related-grid p {
+    grid-column: 1;
+  }
+  .figma-site .editorial-related-grid svg {
+    grid-column: 2;
+    grid-row: 1;
+  }
+  .figma-site .editorial-proof-grid,
+  .figma-site .editorial-proof-grid:has(> a:first-child:nth-last-child(2)) {
+    grid-template-columns: minmax(0, 1fr);
+  }
+  .figma-site .editorial-proof-grid > a:only-child {
+    display: block;
+  }
+  .figma-site .editorial-proof-grid > a:only-child > div {
+    padding-top: 18px;
+  }
+}
+@media (max-width: 650px) {
+  .figma-site .sales-hero {
+    padding-block: 36px 48px;
+    gap: 36px;
+  }
+  .figma-site .sales-hero h1 {
+    max-width: 16ch;
+    font-size: clamp(2.25rem, 9vw, 3rem);
+  }
+  .figma-site .hero-selector button {
+    padding-inline: 14px;
+  }
+  .c-home .home-services,
+  .c-home #beispiele {
+    padding-block: 48px;
+  }
+  .figma-site .home-service-option {
+    padding: 14px 12px;
+  }
+  .figma-site .home-service-option-title > strong {
+    font-size: 1.125rem;
+  }
+  .figma-site .home-service-preview {
+    padding-top: 0;
+  }
+  .figma-site .home-project-stage {
+    min-height: 280px;
+    padding: 18px;
+  }
+  .c-home .home-locations {
+    padding-block: 24px;
+  }
+  .c-home .home-preparation,
+  .c-home .home-answers {
+    padding-block: 48px;
+  }
+  .n-main:not(:has(.n-legal)) :is(.n-hero, .s-project-intro) {
+    padding-block: 24px 36px;
+    gap: 24px;
+  }
+  .n-main:not(:has(.n-legal)) :is(.n-hero, .s-project-intro) h1 {
+    font-size: clamp(2rem, 8.8vw, 2.8rem);
+  }
+  .figma-site .editorial-section {
+    padding-block: 28px;
+  }
+  .figma-site .editorial-proof {
+    padding: 22px;
+  }
+  .figma-site .editorial-copy > p {
+    font-size: 1rem;
+  }
+  .figma-site .n-faq .faq-trigger {
+    font-size: 1rem;
+  }
+}

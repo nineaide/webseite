@@ -18,7 +18,7 @@ export function Locations({ className = '' }: { className?: string }) {
     >
       <div className="locations-card">
         <div className="locations-heading">
-          <span className="eyebrow">UNSERE STANDORTE</span>
+          <span className="eyebrow">Unsere Standorte</span>
           <h2 id="locations-title">
             <span>Frankfurt.</span> <span>München.</span>
           </h2>

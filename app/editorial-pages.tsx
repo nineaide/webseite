@@ -406,12 +406,7 @@ export function EditorialPageView({ page }: { page: EditorialPage }) {
       {page.faqs.length > 0 && (
         <section className="n-section n-faq editorial-faq">
           <div>
-            <span className="eyebrow">GUT ZU WISSEN</span>
-            <h2>
-              Deine Fragen.
-              <br />
-              Direkt beantwortet.
-            </h2>
+            <h2>Fragen zu diesem Thema</h2>
           </div>
           <FAQAnswers items={page.faqs} />
         </section>

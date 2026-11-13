@@ -3,7 +3,6 @@ import {
   ArrowUpRight,
   ArrowRight,
   Check,
-  Sparkles,
   PenTool,
   Code2,
   Target,
@@ -12,12 +11,8 @@ import { FAQAnswers } from '../faq-answers';
 import { Footer } from '../site-footer';
 import { Header } from '../site-chrome';
 import { LeadForm, LeadMobileAction } from './website-lead';
-import {
-  HeroShowcase,
-  GlassSurface,
-  ProjectGallery,
-} from '../project-showcase';
-import { LiquidMark } from '../liquid-mark';
+import { HeroShowcase, ProjectGallery } from '../project-showcase';
+import { projectImageProps } from '../project-image-props';
 import { Locations } from '../locations';
 import { GooglePartnerBadge } from '../google-partner-badge';
 import { leadOffers } from './lead-offers';
@@ -83,10 +78,8 @@ export default async function WebsiteLeadPage({
       <main id="main">
         <section className="lead-hero lead-wrap" aria-labelledby="lead-title">
           <div className="lead-hero-copy">
-            <span className="eyebrow">WEBDESIGN FÜR DEIN UNTERNEHMEN</span>
-            <h1 id="lead-title">
-              Eine Website für <em>dein Unternehmen.</em>
-            </h1>
+            <span className="eyebrow">Webdesign für dein Unternehmen</span>
+            <h1 id="lead-title">Eine Website für dein Unternehmen.</h1>
             <p>
               Wir gestalten und entwickeln deinen Auftritt. Gemeinsam klären
               wir, welche Inhalte und Funktionen du brauchst.
@@ -124,14 +117,11 @@ export default async function WebsiteLeadPage({
         >
           <div className="lead-wrap lead-contact-layout">
             <div className="lead-contact-copy">
-              <span className="eyebrow">DEINE ANFRAGE</span>
-              <h2 id="lead-contact-title">
-                Deine Idee.
-                <br />
-                <em>Unser nächstes Projekt.</em>
-              </h2>
+              <span className="eyebrow">Deine Anfrage</span>
+              <h2 id="lead-contact-title">Erzähl uns von deinem Vorhaben.</h2>
               <p>
-                Was hast du vor? Drei kurze Schritte bringen uns ins Gespräch.
+                Beschreibe kurz dein Vorhaben. Die Details klären wir im
+                Gespräch.
               </p>
               <div
                 className="lead-offer-summary"
@@ -194,11 +184,8 @@ export default async function WebsiteLeadPage({
           <div className="lead-wrap">
             <div className="lead-section-heading">
               <div>
-                <span className="eyebrow">AUSGEWÄHLTE KUNDENPROJEKTE</span>
                 <h2 id="lead-work-title">
-                  Drei Kundenprojekte.
-                  <br />
-                  <em>Unterschiedliche Aufgaben.</em>
+                  Websites und Anwendungen im Einsatz
                 </h2>
               </div>
               <a href="/projekte" className="lead-text-link">
@@ -220,11 +207,8 @@ export default async function WebsiteLeadPage({
         >
           <div className="lead-wrap lead-craft-layout">
             <div className="lead-craft-copy">
-              <span className="eyebrow">DESIGN, ENTWICKLUNG & GOOGLE ADS</span>
               <h2 id="lead-craft-title">
-                Kleine Details.
-                <br />
-                <em>Großer Unterschied.</em>
+                Design und Funktionen gehören zusammen.
               </h2>
               <p>
                 Wir gestalten deine Website und prüfen, ob Besucher ihre
@@ -271,13 +255,25 @@ export default async function WebsiteLeadPage({
                 </div>
               </div>
             </div>
-            <div className="lead-liquid-exhibit">
-              <LiquidMark />
-              <GlassSurface className="lead-liquid-caption">
-                <Sparkles size={18} aria-hidden="true" />
-                <span>Unsere Handschrift. Bis ins Detail.</span>
-              </GlassSurface>
-            </div>
+            <figure className="lead-craft-project">
+              <img
+                {...projectImageProps(
+                  '/project-images/gardentime-desktop.webp',
+                  '(max-width: 700px) calc(100vw - 48px), 600px',
+                )}
+                alt="Garden Time Frankfurt: Gartenpflege und Facility Management mit direkter Projektanfrage"
+                width={1440}
+                height={1000}
+                loading="lazy"
+                decoding="async"
+              />
+              <figcaption>
+                <span>Garden Time Frankfurt</span>
+                <a href="/projekte/gardentime">
+                  Projekt ansehen <ArrowUpRight size={18} aria-hidden="true" />
+                </a>
+              </figcaption>
+            </figure>
           </div>
         </section>
         <section
@@ -286,12 +282,7 @@ export default async function WebsiteLeadPage({
         >
           <div className="lead-wrap n-faq">
             <div>
-              <span className="eyebrow">GUT ZU WISSEN</span>
-              <h2 id="lead-faq-title">
-                Noch Fragen?
-                <br />
-                <em>Gern.</em>
-              </h2>
+              <h2 id="lead-faq-title">Fragen zur Zusammenarbeit</h2>
             </div>
             <FAQAnswers items={faqs} />
           </div>

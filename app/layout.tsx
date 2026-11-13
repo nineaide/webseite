@@ -1,6 +1,7 @@
 import type { Metadata } from 'next';
 import './globals.css';
 import './studio.css';
+import './design-refinement.css';
 import { MotionEnhancements } from './motion';
 import { cabinet } from './fonts';
 import { siteOrigin } from '../lib/site-identity';
